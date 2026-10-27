@@ -1,0 +1,302 @@
+[
+  {
+    "task": "move_playingcard_away",
+    "clean": 9,
+    "randomized": 2,
+    "drop": 7
+  },
+  {
+    "task": "open_laptop",
+    "clean": 9,
+    "randomized": 2,
+    "drop": 7
+  },
+  {
+    "task": "place_bread_skillet",
+    "clean": 8,
+    "randomized": 1,
+    "drop": 7
+  },
+  {
+    "task": "place_object_scale",
+    "clean": 8,
+    "randomized": 1,
+    "drop": 7
+  },
+  {
+    "task": "place_can_basket",
+    "clean": 7,
+    "randomized": 0,
+    "drop": 7
+  },
+  {
+    "task": "handover_mic",
+    "clean": 9,
+    "randomized": 4,
+    "drop": 5
+  },
+  {
+    "task": "place_object_basket",
+    "clean": 9,
+    "randomized": 4,
+    "drop": 5
+  },
+  {
+    "task": "place_bread_basket",
+    "clean": 10,
+    "randomized": 6,
+    "drop": 4
+  },
+  {
+    "task": "stack_bowls_two",
+    "clean": 7,
+    "randomized": 3,
+    "drop": 4
+  },
+  {
+    "task": "beat_block_hammer",
+    "clean": 6,
+    "randomized": 2,
+    "drop": 4
+  },
+  {
+    "task": "stack_bowls_three",
+    "clean": 6,
+    "randomized": 2,
+    "drop": 4
+  },
+  {
+    "task": "shake_bottle",
+    "clean": 10,
+    "randomized": 7,
+    "drop": 3
+  },
+  {
+    "task": "place_burger_fries",
+    "clean": 9,
+    "randomized": 6,
+    "drop": 3
+  },
+  {
+    "task": "hanging_mug",
+    "clean": 4,
+    "randomized": 1,
+    "drop": 3
+  },
+  {
+    "task": "lift_pot",
+    "clean": 4,
+    "randomized": 1,
+    "drop": 3
+  },
+  {
+    "task": "press_stapler",
+    "clean": 4,
+    "randomized": 1,
+    "drop": 3
+  },
+  {
+    "task": "scan_object",
+    "clean": 4,
+    "randomized": 1,
+    "drop": 3
+  },
+  {
+    "task": "stamp_seal",
+    "clean": 3,
+    "randomized": 0,
+    "drop": 3
+  },
+  {
+    "task": "turn_switch",
+    "clean": 9,
+    "randomized": 7,
+    "drop": 2
+  },
+  {
+    "task": "place_a2b_right",
+    "clean": 7,
+    "randomized": 5,
+    "drop": 2
+  },
+  {
+    "task": "click_alarmclock",
+    "clean": 6,
+    "randomized": 4,
+    "drop": 2
+  },
+  {
+    "task": "rotate_qrcode",
+    "clean": 5,
+    "randomized": 3,
+    "drop": 2
+  },
+  {
+    "task": "move_pillbottle_pad",
+    "clean": 3,
+    "randomized": 1,
+    "drop": 2
+  },
+  {
+    "task": "place_phone_stand",
+    "clean": 3,
+    "randomized": 1,
+    "drop": 2
+  },
+  {
+    "task": "grab_roller",
+    "clean": 10,
+    "randomized": 9,
+    "drop": 1
+  },
+  {
+    "task": "shake_bottle_horizontally",
+    "clean": 10,
+    "randomized": 9,
+    "drop": 1
+  },
+  {
+    "task": "place_empty_cup",
+    "clean": 9,
+    "randomized": 8,
+    "drop": 1
+  },
+  {
+    "task": "blocks_ranking_rgb",
+    "clean": 6,
+    "randomized": 5,
+    "drop": 1
+  },
+  {
+    "task": "click_bell",
+    "clean": 6,
+    "randomized": 5,
+    "drop": 1
+  },
+  {
+    "task": "place_fan",
+    "clean": 3,
+    "randomized": 2,
+    "drop": 1
+  },
+  {
+    "task": "move_stapler_pad",
+    "clean": 2,
+    "randomized": 1,
+    "drop": 1
+  },
+  {
+    "task": "place_mouse_pad",
+    "clean": 1,
+    "randomized": 0,
+    "drop": 1
+  },
+  {
+    "task": "put_object_cabinet",
+    "clean": 1,
+    "randomized": 0,
+    "drop": 1
+  },
+  {
+    "task": "adjust_bottle",
+    "clean": 9,
+    "randomized": 9,
+    "drop": 0
+  },
+  {
+    "task": "pick_diverse_bottles",
+    "clean": 3,
+    "randomized": 3,
+    "drop": 0
+  },
+  {
+    "task": "blocks_ranking_size",
+    "clean": 2,
+    "randomized": 2,
+    "drop": 0
+  },
+  {
+    "task": "move_can_pot",
+    "clean": 1,
+    "randomized": 1,
+    "drop": 0
+  },
+  {
+    "task": "stack_blocks_three",
+    "clean": 0,
+    "randomized": 0,
+    "drop": 0
+  },
+  {
+    "task": "place_container_plate",
+    "clean": 8,
+    "randomized": 9,
+    "drop": -1
+  },
+  {
+    "task": "place_a2b_left",
+    "clean": 5,
+    "randomized": 6,
+    "drop": -1
+  },
+  {
+    "task": "stack_blocks_two",
+    "clean": 5,
+    "randomized": 6,
+    "drop": -1
+  },
+  {
+    "task": "pick_dual_bottles",
+    "clean": 4,
+    "randomized": 5,
+    "drop": -1
+  },
+  {
+    "task": "place_cans_plasticbox",
+    "clean": 3,
+    "randomized": 4,
+    "drop": -1
+  },
+  {
+    "task": "place_shoe",
+    "clean": 3,
+    "randomized": 4,
+    "drop": -1
+  },
+  {
+    "task": "open_microwave",
+    "clean": 1,
+    "randomized": 2,
+    "drop": -1
+  },
+  {
+    "task": "handover_block",
+    "clean": 0,
+    "randomized": 1,
+    "drop": -1
+  },
+  {
+    "task": "place_dual_shoes",
+    "clean": 0,
+    "randomized": 1,
+    "drop": -1
+  },
+  {
+    "task": "dump_bin_bigbin",
+    "clean": 7,
+    "randomized": 9,
+    "drop": -2
+  },
+  {
+    "task": "place_object_stand",
+    "clean": 5,
+    "randomized": 8,
+    "drop": -3
+  },
+  {
+    "task": "put_bottles_dustbin",
+    "clean": 0,
+    "randomized": 3,
+    "drop": -3
+  }
+]

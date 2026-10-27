@@ -1,0 +1,58 @@
+{
+  "run_name": "official_robotwin_weak5_bf16_10x_20261004",
+  "run_path": "/workspace/runtime/outputs/official_robotwin_weak5_bf16_10x_20261004",
+  "snapshot_utc": "2026-10-03T18:24:18.354258+00:00",
+  "tasks": [
+    {
+      "task": "put_object_cabinet",
+      "selection_method": "final_result_path_only",
+      "result_path": null,
+      "directory": null,
+      "mp4_count": 0,
+      "mp4_bytes": 0,
+      "files": [],
+      "warnings": []
+    },
+    {
+      "task": "stack_blocks_three",
+      "selection_method": "final_result_path_only",
+      "result_path": null,
+      "directory": null,
+      "mp4_count": 0,
+      "mp4_bytes": 0,
+      "files": [],
+      "warnings": []
+    },
+    {
+      "task": "handover_block",
+      "selection_method": "final_result_path_only",
+      "result_path": null,
+      "directory": null,
+      "mp4_count": 0,
+      "mp4_bytes": 0,
+      "files": [],
+      "warnings": []
+    },
+    {
+      "task": "move_stapler_pad",
+      "selection_method": "final_result_path_only",
+      "result_path": null,
+      "directory": null,
+      "mp4_count": 0,
+      "mp4_bytes": 0,
+      "files": [],
+      "warnings": []
+    },
+    {
+      "task": "pick_dual_bottles",
+      "selection_method": "final_result_path_only",
+      "result_path": null,
+      "directory": null,
+      "mp4_count": 0,
+      "mp4_bytes": 0,
+      "files": [],
+      "warnings": []
+    }
+  ],
+  "notes": "Only exact final result paths logged by this run; no directory fallback. Videos remain on server."
+}

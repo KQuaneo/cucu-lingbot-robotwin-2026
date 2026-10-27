@@ -1,0 +1,116 @@
+[
+  {
+    "batch_size": 1,
+    "repeat": 0,
+    "wall_ms": 23396.935386001132,
+    "server_infer_ms": 23393.97225898574,
+    "action_shape": [
+      25,
+      14
+    ],
+    "env_steps_per_s": 1.0685160080818967,
+    "action_chunks_per_s": 0.04274064032327587
+  },
+  {
+    "batch_size": 1,
+    "repeat": 1,
+    "wall_ms": 913.7525170226581,
+    "server_infer_ms": 910.667171003297,
+    "action_shape": [
+      25,
+      14
+    ],
+    "env_steps_per_s": 27.359705756498705,
+    "action_chunks_per_s": 1.0943882302599481
+  },
+  {
+    "batch_size": 1,
+    "repeat": 2,
+    "wall_ms": 1938.0958559922874,
+    "server_infer_ms": 1936.6459019947797,
+    "action_shape": [
+      25,
+      14
+    ],
+    "env_steps_per_s": 12.899258786764305,
+    "action_chunks_per_s": 0.5159703514705722
+  },
+  {
+    "batch_size": 2,
+    "repeat": 0,
+    "wall_ms": 29747.79146601213,
+    "server_infer_ms": 29743.706948007457,
+    "action_shape": [
+      2,
+      25,
+      14
+    ],
+    "env_steps_per_s": 1.6807970452907979,
+    "action_chunks_per_s": 0.06723188181163191
+  },
+  {
+    "batch_size": 2,
+    "repeat": 1,
+    "wall_ms": 19873.250692995498,
+    "server_infer_ms": 19869.851302006282,
+    "action_shape": [
+      2,
+      25,
+      14
+    ],
+    "env_steps_per_s": 2.515944712438159,
+    "action_chunks_per_s": 0.10063778849752636
+  },
+  {
+    "batch_size": 2,
+    "repeat": 2,
+    "wall_ms": 2517.168288992252,
+    "server_infer_ms": 2513.8277870137244,
+    "action_shape": [
+      2,
+      25,
+      14
+    ],
+    "env_steps_per_s": 19.863590455454805,
+    "action_chunks_per_s": 0.7945436182181922
+  },
+  {
+    "batch_size": 4,
+    "repeat": 0,
+    "wall_ms": 71680.17490301281,
+    "server_infer_ms": 71671.97806300828,
+    "action_shape": [
+      4,
+      25,
+      14
+    ],
+    "env_steps_per_s": 1.395085881630527,
+    "action_chunks_per_s": 0.05580343526522108
+  },
+  {
+    "batch_size": 4,
+    "repeat": 1,
+    "wall_ms": 1376.9127870036755,
+    "server_infer_ms": 1371.241781016579,
+    "action_shape": [
+      4,
+      25,
+      14
+    ],
+    "env_steps_per_s": 72.62624106905986,
+    "action_chunks_per_s": 2.905049642762394
+  },
+  {
+    "batch_size": 4,
+    "repeat": 2,
+    "wall_ms": 11305.181196017656,
+    "server_infer_ms": 11300.885117001599,
+    "action_shape": [
+      4,
+      25,
+      14
+    ],
+    "env_steps_per_s": 8.845501745272852,
+    "action_chunks_per_s": 0.3538200698109141
+  }
+]

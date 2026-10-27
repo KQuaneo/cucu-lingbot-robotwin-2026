@@ -1,0 +1,14 @@
+{
+  "captured_utc": "2026-10-26T10:37:30.094829+00:00",
+  "run_name": "full_sft_6000_randomized50x10_fp32_8gpu_video_20261026",
+  "completed_tasks": 50,
+  "all_logged_rollouts": 500,
+  "completed_task_successes": 177,
+  "completed_task_rollouts": 500,
+  "videos_verified": 500,
+  "finalized_videos_expected": 500,
+  "benchmark_complete": true,
+  "backup_complete": true,
+  "exit_code": 0,
+  "issues": []
+}

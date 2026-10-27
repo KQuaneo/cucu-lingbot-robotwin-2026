@@ -1,0 +1,10 @@
+{
+  "run_name": "full_sft_6000_clean50x10_fp32_8gpu_video_20261004",
+  "pid": 2966541,
+  "started_utc": "2026-10-03T18:21:40.677746+00:00",
+  "launch_log": "/workspace/runtime/outputs/logs/full_sft_6000_clean50x10_fp32_8gpu_video_20261004.launch.log",
+  "precision": "FP32",
+  "task_count": 50,
+  "episodes_per_task": 10,
+  "gpu_count": 8
+}

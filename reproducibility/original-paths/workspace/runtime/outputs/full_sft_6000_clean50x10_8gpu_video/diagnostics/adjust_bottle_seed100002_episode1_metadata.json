@@ -1,0 +1,21 @@
+{
+  "task": "adjust_bottle",
+  "seed": 100002,
+  "episode": 1,
+  "result": "failure",
+  "video": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_401657/episode1.mp4",
+  "duration_seconds": 40.0,
+  "timestamps": [
+    0,
+    4.0,
+    8.0,
+    12.0,
+    18.0,
+    24.0,
+    32.0,
+    39.6
+  ],
+  "sheet": "/workspace/runtime/outputs/full_sft_6000_clean50x10_8gpu_video/diagnostics/adjust_bottle_seed100002_episode1_contact_sheet.jpg",
+  "frame_per_action": 1,
+  "fps": 10
+}

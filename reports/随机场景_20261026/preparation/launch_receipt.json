@@ -1,0 +1,11 @@
+{
+  "pid": 433,
+  "remote_preparation": "/workspace/runtime/experiments/randomized_fp32_20261026",
+  "run_name": "full_sft_6000_randomized50x10_fp32_8gpu_video_20261026",
+  "precision": "FP32",
+  "task_config": "demo_randomized",
+  "episodes_per_task": 10,
+  "gpu_count": 8,
+  "model_verification_then_benchmark": true,
+  "launched_from_mac_utc": "2026-10-26T03:56:54.812482+00:00"
+}

@@ -1,0 +1,5 @@
+2026-10-04 06:45:08 Preparing closed videos for 17 tasks
+2026-10-04 06:45:09 Remote archive ready: 45875200 bytes, 170 videos
+2026-10-04 06:45:16 Progress 100.0%, 6.15 MiB/s
+2026-10-04 06:45:16 SHA256 VERIFIED archive
+2026-10-04 06:45:17 COMPLETE {"complete": true, "completed_unix": 1791067517.024545, "snapshot": "fp32_04", "closed_tasks": 17, "video_count": 170, "verified_files": 187, "archive_bytes": 45875200, "archive_sha256": "30475ac66d4664a88b1571b978e9b9022a3351614ef5bb1cd26b73bcd210cec2", "archive_path": "/path/to/project/硬盘/录像/FP32全任务/压缩包/video_snapshot_fp32_04.tar", "extracted_path": "/path/to/project/硬盘/录像/FP32全任务/任务录像", "seconds": 7.26}

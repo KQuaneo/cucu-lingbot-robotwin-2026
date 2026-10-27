@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETED",
+  "task": "click_bell",
+  "setting": "demo_clean",
+  "train_rollouts": 8,
+  "train_successes": 5,
+  "post_update_rollouts": 8,
+  "post_update_successes": 7,
+  "updates": 1,
+  "parameter_change_norm": 0.1579699315468952,
+  "latent_KL": 0.012477249636465376,
+  "base_model_updated": false,
+  "performance_improvement_claim": false,
+  "finished_utc": "2026-10-26T11:13:14.765484+00:00"
+}

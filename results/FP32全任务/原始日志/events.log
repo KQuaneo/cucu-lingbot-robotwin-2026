@@ -1,0 +1,100 @@
+2026-10-03T18:23:28.377721+00:00 gpu=0 config=demo_clean task=put_bottles_dustbin start
+2026-10-03T18:23:28.378265+00:00 gpu=1 config=demo_clean task=move_can_pot start
+2026-10-03T18:23:28.378557+00:00 gpu=2 config=demo_clean task=move_pillbottle_pad start
+2026-10-03T18:23:28.378730+00:00 gpu=3 config=demo_clean task=place_can_basket start
+2026-10-03T18:23:28.378918+00:00 gpu=4 config=demo_clean task=pick_dual_bottles start
+2026-10-03T18:23:28.379069+00:00 gpu=5 config=demo_clean task=place_cans_plasticbox start
+2026-10-03T18:23:28.379212+00:00 gpu=6 config=demo_clean task=pick_diverse_bottles start
+2026-10-03T18:23:28.379358+00:00 gpu=7 config=demo_clean task=open_microwave start
+2026-10-03T19:25:55.553043+00:00 gpu=6 config=demo_clean task=pick_diverse_bottles elapsed=3747s status=0
+2026-10-03T19:25:55.557246+00:00 gpu=6 config=demo_clean task=handover_block start
+2026-10-03T19:31:25.072400+00:00 gpu=7 config=demo_clean task=open_microwave elapsed=4076s status=0
+2026-10-03T19:31:25.077417+00:00 gpu=7 config=demo_clean task=hanging_mug start
+2026-10-03T19:36:59.489067+00:00 gpu=5 config=demo_clean task=place_cans_plasticbox elapsed=4411s status=0
+2026-10-03T19:36:59.493643+00:00 gpu=5 config=demo_clean task=stack_blocks_three start
+2026-10-03T19:39:07.721863+00:00 gpu=4 config=demo_clean task=pick_dual_bottles elapsed=4539s status=0
+2026-10-03T19:39:07.725651+00:00 gpu=4 config=demo_clean task=blocks_ranking_size start
+2026-10-03T19:53:30.185151+00:00 gpu=3 config=demo_clean task=place_can_basket elapsed=5401s status=0
+2026-10-03T19:53:30.189178+00:00 gpu=3 config=demo_clean task=stack_bowls_three start
+2026-10-03T19:57:18.211243+00:00 gpu=2 config=demo_clean task=move_pillbottle_pad elapsed=5629s status=0
+2026-10-03T19:57:18.214765+00:00 gpu=2 config=demo_clean task=adjust_bottle start
+2026-10-03T20:10:05.752507+00:00 gpu=1 config=demo_clean task=move_can_pot elapsed=6397s status=0
+2026-10-03T20:10:05.756828+00:00 gpu=1 config=demo_clean task=scan_object start
+2026-10-03T20:13:28.776869+00:00 gpu=7 config=demo_clean task=hanging_mug elapsed=2523s status=0
+2026-10-03T20:13:28.781303+00:00 gpu=7 config=demo_clean task=blocks_ranking_rgb start
+2026-10-03T20:17:20.700088+00:00 gpu=5 config=demo_clean task=stack_blocks_three elapsed=2421s status=0
+2026-10-03T20:17:20.704118+00:00 gpu=5 config=demo_clean task=put_object_cabinet start
+2026-10-03T20:20:16.261150+00:00 gpu=4 config=demo_clean task=blocks_ranking_size elapsed=2468s status=0
+2026-10-03T20:20:16.264920+00:00 gpu=4 config=demo_clean task=stack_blocks_two start
+2026-10-03T20:20:44.086921+00:00 gpu=6 config=demo_clean task=handover_block elapsed=3288s status=0
+2026-10-03T20:20:44.090952+00:00 gpu=6 config=demo_clean task=place_dual_shoes start
+2026-10-03T20:27:06.678149+00:00 gpu=2 config=demo_clean task=adjust_bottle elapsed=1788s status=0
+2026-10-03T20:27:06.680985+00:00 gpu=2 config=demo_clean task=stamp_seal start
+2026-10-03T20:30:08.954168+00:00 gpu=3 config=demo_clean task=stack_bowls_three elapsed=2198s status=0
+2026-10-03T20:30:08.958584+00:00 gpu=3 config=demo_clean task=place_object_basket start
+2026-10-03T20:38:13.029506+00:00 gpu=1 config=demo_clean task=scan_object elapsed=1687s status=0
+2026-10-03T20:38:13.033336+00:00 gpu=1 config=demo_clean task=place_a2b_left start
+2026-10-03T20:40:42.952694+00:00 gpu=7 config=demo_clean task=blocks_ranking_rgb elapsed=1634s status=0
+2026-10-03T20:40:42.956762+00:00 gpu=7 config=demo_clean task=place_a2b_right start
+2026-10-03T20:43:29.750465+00:00 gpu=4 config=demo_clean task=stack_blocks_two elapsed=1393s status=0
+2026-10-03T20:43:29.753556+00:00 gpu=4 config=demo_clean task=stack_bowls_two start
+2026-10-03T20:43:45.020138+00:00 gpu=5 config=demo_clean task=put_object_cabinet elapsed=1584s status=0
+2026-10-03T20:43:45.023697+00:00 gpu=5 config=demo_clean task=move_stapler_pad start
+2026-10-03T20:50:49.214425+00:00 gpu=2 config=demo_clean task=stamp_seal elapsed=1422s status=0
+2026-10-03T20:50:49.218392+00:00 gpu=2 config=demo_clean task=turn_switch start
+2026-10-03T20:51:19.096177+00:00 gpu=3 config=demo_clean task=place_object_basket elapsed=1270s status=0
+2026-10-03T20:51:19.100048+00:00 gpu=3 config=demo_clean task=lift_pot start
+2026-10-03T20:53:11.223979+00:00 gpu=6 config=demo_clean task=place_dual_shoes elapsed=1947s status=0
+2026-10-03T20:53:11.227577+00:00 gpu=6 config=demo_clean task=shake_bottle_horizontally start
+2026-10-03T20:57:03.400952+00:00 gpu=1 config=demo_clean task=place_a2b_left elapsed=1130s status=0
+2026-10-03T20:57:03.404781+00:00 gpu=1 config=demo_clean task=shake_bottle start
+2026-10-03T20:57:46.284569+00:00 gpu=0 config=demo_clean task=put_bottles_dustbin elapsed=9257s status=0
+2026-10-03T20:57:46.290040+00:00 gpu=0 config=demo_clean task=place_bread_basket start
+2026-10-03T21:01:51.681100+00:00 gpu=4 config=demo_clean task=stack_bowls_two elapsed=1101s status=0
+2026-10-03T21:01:51.685062+00:00 gpu=4 config=demo_clean task=handover_mic start
+2026-10-03T21:02:40.951387+00:00 gpu=5 config=demo_clean task=move_stapler_pad elapsed=1135s status=0
+2026-10-03T21:02:40.954988+00:00 gpu=5 config=demo_clean task=place_fan start
+2026-10-03T21:02:50.255620+00:00 gpu=7 config=demo_clean task=place_a2b_right elapsed=1327s status=0
+2026-10-03T21:02:50.259081+00:00 gpu=7 config=demo_clean task=place_burger_fries start
+2026-10-03T21:03:47.554330+00:00 gpu=3 config=demo_clean task=lift_pot elapsed=748s status=0
+2026-10-03T21:03:47.557874+00:00 gpu=3 config=demo_clean task=dump_bin_bigbin start
+2026-10-03T21:07:37.368527+00:00 gpu=2 config=demo_clean task=turn_switch elapsed=1008s status=0
+2026-10-03T21:07:37.371923+00:00 gpu=2 config=demo_clean task=open_laptop start
+2026-10-03T21:11:04.850413+00:00 gpu=6 config=demo_clean task=shake_bottle_horizontally elapsed=1073s status=0
+2026-10-03T21:11:04.853932+00:00 gpu=6 config=demo_clean task=place_bread_skillet start
+2026-10-03T21:16:06.548035+00:00 gpu=1 config=demo_clean task=shake_bottle elapsed=1143s status=0
+2026-10-03T21:16:06.551514+00:00 gpu=1 config=demo_clean task=place_object_stand start
+2026-10-03T21:16:29.364254+00:00 gpu=0 config=demo_clean task=place_bread_basket elapsed=1123s status=0
+2026-10-03T21:16:29.366845+00:00 gpu=0 config=demo_clean task=place_mouse_pad start
+2026-10-03T21:18:06.600532+00:00 gpu=4 config=demo_clean task=handover_mic elapsed=974s status=0
+2026-10-03T21:18:06.603960+00:00 gpu=4 config=demo_clean task=place_shoe start
+2026-10-03T21:18:08.419935+00:00 gpu=3 config=demo_clean task=dump_bin_bigbin elapsed=860s status=0
+2026-10-03T21:18:08.423015+00:00 gpu=3 config=demo_clean task=press_stapler start
+2026-10-03T21:18:51.423959+00:00 gpu=5 config=demo_clean task=place_fan elapsed=970s status=0
+2026-10-03T21:18:51.428270+00:00 gpu=5 config=demo_clean task=move_playingcard_away start
+2026-10-03T21:19:47.773370+00:00 gpu=2 config=demo_clean task=open_laptop elapsed=730s status=0
+2026-10-03T21:19:47.776429+00:00 gpu=2 config=demo_clean task=place_object_scale start
+2026-10-03T21:22:14.818794+00:00 gpu=7 config=demo_clean task=place_burger_fries elapsed=1164s status=0
+2026-10-03T21:22:14.822341+00:00 gpu=7 config=demo_clean task=place_container_plate start
+2026-10-03T21:26:43.441402+00:00 gpu=6 config=demo_clean task=place_bread_skillet elapsed=938s status=0
+2026-10-03T21:26:43.444779+00:00 gpu=6 config=demo_clean task=grab_roller start
+2026-10-03T21:28:45.131930+00:00 gpu=1 config=demo_clean task=place_object_stand elapsed=758s status=0
+2026-10-03T21:28:45.136613+00:00 gpu=1 config=demo_clean task=click_alarmclock start
+2026-10-03T21:30:19.479093+00:00 gpu=7 config=demo_clean task=place_container_plate elapsed=484s status=0
+2026-10-03T21:30:19.484843+00:00 gpu=7 config=demo_clean task=place_phone_stand start
+2026-10-03T21:30:23.431863+00:00 gpu=5 config=demo_clean task=move_playingcard_away elapsed=692s status=0
+2026-10-03T21:30:23.435518+00:00 gpu=5 config=demo_clean task=rotate_qrcode start
+2026-10-03T21:31:46.478354+00:00 gpu=3 config=demo_clean task=press_stapler elapsed=818s status=0
+2026-10-03T21:31:46.482342+00:00 gpu=3 config=demo_clean task=beat_block_hammer start
+2026-10-03T21:33:33.190074+00:00 gpu=2 config=demo_clean task=place_object_scale elapsed=825s status=0
+2026-10-03T21:33:33.193296+00:00 gpu=2 config=demo_clean task=place_empty_cup start
+2026-10-03T21:34:04.493451+00:00 gpu=4 config=demo_clean task=place_shoe elapsed=957s status=0
+2026-10-03T21:34:04.496967+00:00 gpu=4 config=demo_clean task=click_bell start
+2026-10-03T21:35:29.979193+00:00 gpu=6 config=demo_clean task=grab_roller elapsed=526s status=0
+2026-10-03T21:36:04.003544+00:00 gpu=0 config=demo_clean task=place_mouse_pad elapsed=1174s status=0
+2026-10-03T21:37:58.518524+00:00 gpu=1 config=demo_clean task=click_alarmclock elapsed=553s status=0
+2026-10-03T21:41:35.435442+00:00 gpu=5 config=demo_clean task=rotate_qrcode elapsed=671s status=0
+2026-10-03T21:42:05.139404+00:00 gpu=3 config=demo_clean task=beat_block_hammer elapsed=618s status=0
+2026-10-03T21:42:08.566558+00:00 gpu=2 config=demo_clean task=place_empty_cup elapsed=515s status=0
+2026-10-03T21:42:40.909812+00:00 gpu=4 config=demo_clean task=click_bell elapsed=516s status=0
+2026-10-03T21:42:44.257086+00:00 gpu=7 config=demo_clean task=place_phone_stand elapsed=744s status=0

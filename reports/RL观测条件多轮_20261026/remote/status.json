@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETED",
+  "conditional": true,
+  "task": "click_bell",
+  "round_results": [
+    {
+      "round": 0,
+      "episodes": 4,
+      "successes": 4,
+      "version_before": 0,
+      "version_after": 1,
+      "parameter_change_norm": 0.0,
+      "nonzero_update": false,
+      "conditional_feature_probe_difference": 0.0
+    },
+    {
+      "round": 1,
+      "episodes": 4,
+      "successes": 3,
+      "version_before": 1,
+      "version_after": 2,
+      "parameter_change_norm": 0.05137837955016401,
+      "nonzero_update": true,
+      "conditional_feature_probe_difference": 2.4924877848496105e-05
+    },
+    {
+      "round": 2,
+      "episodes": 4,
+      "successes": 2,
+      "version_before": 2,
+      "version_after": 3,
+      "parameter_change_norm": 0.09343776825791045,
+      "nonzero_update": true,
+      "conditional_feature_probe_difference": 4.9353943186981886e-05
+    }
+  ],
+  "fresh_online_episodes": 12,
+  "validation_episodes": 4,
+  "validation_successes": 1,
+  "nonzero_updates": 2,
+  "base_model_updated": false,
+  "performance_improvement_claim": false,
+  "finished_utc": "2026-10-26T12:06:48.278370+00:00"
+}

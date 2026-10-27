@@ -1,0 +1,8 @@
+{
+  "status": "cancelled_by_user",
+  "time_utc": "2026-10-03T18:20:33.926291+00:00",
+  "local_monitor_pids_stopped": [
+    6058,
+    6059
+  ]
+}

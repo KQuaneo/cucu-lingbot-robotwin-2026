@@ -1,0 +1,74 @@
+[
+  {
+    "worker": 0,
+    "seed": 410000,
+    "instruction_equal": true,
+    "seed_equal": true,
+    "noise_equal": true,
+    "control_success": true,
+    "after_success": true
+  },
+  {
+    "worker": 1,
+    "seed": 410100,
+    "instruction_equal": true,
+    "seed_equal": true,
+    "noise_equal": true,
+    "control_success": true,
+    "after_success": true
+  },
+  {
+    "worker": 2,
+    "seed": 410200,
+    "instruction_equal": true,
+    "seed_equal": true,
+    "noise_equal": true,
+    "control_success": false,
+    "after_success": false
+  },
+  {
+    "worker": 3,
+    "seed": 410300,
+    "instruction_equal": true,
+    "seed_equal": true,
+    "noise_equal": true,
+    "control_success": true,
+    "after_success": true
+  },
+  {
+    "worker": 4,
+    "seed": 410400,
+    "instruction_equal": true,
+    "seed_equal": true,
+    "noise_equal": true,
+    "control_success": false,
+    "after_success": false
+  },
+  {
+    "worker": 5,
+    "seed": 410500,
+    "instruction_equal": true,
+    "seed_equal": true,
+    "noise_equal": true,
+    "control_success": false,
+    "after_success": false
+  },
+  {
+    "worker": 6,
+    "seed": 410600,
+    "instruction_equal": true,
+    "seed_equal": true,
+    "noise_equal": true,
+    "control_success": false,
+    "after_success": true
+  },
+  {
+    "worker": 7,
+    "seed": 410700,
+    "instruction_equal": true,
+    "seed_equal": true,
+    "noise_equal": true,
+    "control_success": true,
+    "after_success": false
+  }
+]

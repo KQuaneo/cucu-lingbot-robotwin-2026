@@ -1,0 +1,14 @@
+{
+  "completed_unix": 1791047142.9444292,
+  "path": "/path/to/project/硬盘/模型/full_sft_6000",
+  "verified_files": 15,
+  "total_bytes": 12768180523,
+  "index_weights": 1708,
+  "shards": [
+    "model-00001-of-00003.safetensors",
+    "model-00002-of-00003.safetensors",
+    "model-00003-of-00003.safetensors"
+  ],
+  "complete": true,
+  "seconds": 928.7756590843201
+}

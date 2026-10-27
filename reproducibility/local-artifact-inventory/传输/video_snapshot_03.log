@@ -1,0 +1,9 @@
+2026-10-04 01:51:01 Preparing closed videos for 1 tasks
+2026-10-04 01:51:03 Remote archive ready: 14725120 bytes, 10 videos
+2026-10-04 01:51:26 Retry chunk 0, attempt 1: Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 01:51:33 Progress 57.4%, 0.27 MiB/s
+2026-10-04 01:52:03 Progress 85.2%, 0.13 MiB/s
+2026-10-04 01:52:12 Progress 100.0%, 0.24 MiB/s
+2026-10-04 01:52:12 SHA256 VERIFIED archive
+2026-10-04 01:52:12 COMPLETE {"complete": true, "completed_unix": 1791049932.486568, "snapshot": "03", "closed_tasks": 1, "video_count": 10, "verified_files": 11, "archive_bytes": 14725120, "archive_sha256": "33943e71528f654ccff13434a7c9764090dae010bd86cf4f2d4922ac5e2e4daf", "archive_path": "/path/to/project/硬盘/录像/压缩包/video_snapshot_03.tar", "extracted_path": "/path/to/project/硬盘/录像/全任务测评", "seconds": 68.54}

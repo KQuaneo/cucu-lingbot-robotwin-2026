@@ -1,0 +1,14 @@
+{
+  "path": "/path/to/project/硬盘/训练存档/global_step_6000",
+  "verified_files": 266,
+  "total_bytes": 76588586630,
+  "verification": "all inventory paths present and file sizes match; not a fresh full SHA256 audit",
+  "model_bytes": 25528215886,
+  "optimizer_bytes": 51060309384,
+  "extra_state_files": 8,
+  "extra_state_rank_0_observed_keys": ["global_step", "lr_scheduler", "train_dataloader", "environ_meter", "torch_rng_state"],
+  "global_step": 6000,
+  "scheduler_last_epoch": 6000,
+  "scheduler_step_count": 6001,
+  "current_colab_initialization": "HF 6k model weights only; new optimizer; original 8-rank DCP not transferred or restored"
+}

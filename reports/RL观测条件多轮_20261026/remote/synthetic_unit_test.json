@@ -1,0 +1,10 @@
+{
+  "synthetic_only": true,
+  "not_counted_as_online_rollouts": true,
+  "passed": true,
+  "features_dim": 171,
+  "trainable_parameters": 5900,
+  "nonzero_gradient_update": true,
+  "conditional_probe_difference": 3.677341945665727e-05,
+  "optimizer_persisted": true
+}

@@ -1,0 +1,20 @@
+{
+  "created_hong_kong": "2026-10-26T13:07:57.035091+08:00",
+  "team_id": "1382038",
+  "schema_matches_downloaded_official_template": true,
+  "draft": true,
+  "counts": {
+    "clean": {
+      "tasks": 50,
+      "attempts": 500,
+      "successes": 263
+    },
+    "randomized": {
+      "tasks": 50,
+      "attempts": 58,
+      "successes": 13
+    }
+  },
+  "path": "/path/to/project/硬盘/提交/cucu_初赛提交材料/01_评测结果/results_draft.json",
+  "all_trials_are_actual_policy_outcomes": true
+}

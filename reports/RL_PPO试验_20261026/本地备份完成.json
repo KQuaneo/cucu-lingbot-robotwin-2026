@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "archive": "/path/to/project/硬盘/分享/RL_PPO方法对照_20261026.zip",
+  "bytes": 94875935,
+  "sha256": "81110f02c391f39813fbea73908051cdef292f18b8cc6bc210764fdceff0b448",
+  "new_videos": 24,
+  "remote_files_sha_verified": 415,
+  "zip_crc_verified": true,
+  "task_results": [
+    {
+      "task": "beat_block_hammer",
+      "control_successes": 4,
+      "reinforce_successes": 4,
+      "ppo_successes": 4,
+      "validation_rollouts_per_policy": 8,
+      "all_pairs_matched": true,
+      "mean_change_norm": 0.2,
+      "latent_KL": 0.020000000000000007,
+      "ppo_epochs": 4,
+      "new_training_rollouts": 0,
+      "base_model_updated": false
+    },
+    {
+      "task": "rotate_qrcode",
+      "control_successes": 4,
+      "reinforce_successes": 4,
+      "ppo_successes": 3,
+      "validation_rollouts_per_policy": 8,
+      "all_pairs_matched": true,
+      "mean_change_norm": 0.20000000000000007,
+      "latent_KL": 0.02000000000000001,
+      "ppo_epochs": 4,
+      "new_training_rollouts": 0,
+      "base_model_updated": false
+    },
+    {
+      "task": "press_stapler",
+      "control_successes": 5,
+      "reinforce_successes": 5,
+      "ppo_successes": 5,
+      "validation_rollouts_per_policy": 8,
+      "all_pairs_matched": true,
+      "mean_change_norm": 0.20000000000000004,
+      "latent_KL": 0.020000000000000007,
+      "ppo_epochs": 4,
+      "new_training_rollouts": 0,
+      "base_model_updated": false
+    }
+  ]
+}

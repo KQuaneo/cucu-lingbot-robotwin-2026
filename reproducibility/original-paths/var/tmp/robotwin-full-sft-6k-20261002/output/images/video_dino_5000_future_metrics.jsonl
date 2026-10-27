@@ -1,0 +1,16 @@
+{"cosine_distance": 0.08418357372283936, "mse": 0.00672933179885149, "sample_idx": 0}
+{"cosine_distance": 0.08289244025945663, "mse": 0.006004706025123596, "sample_idx": 1}
+{"cosine_distance": 0.07670222967863083, "mse": 0.005785283632576466, "sample_idx": 2}
+{"cosine_distance": 0.07795526087284088, "mse": 0.006017335690557957, "sample_idx": 3}
+{"cosine_distance": 0.08024477958679199, "mse": 0.006003773771226406, "sample_idx": 4}
+{"cosine_distance": 0.07866819202899933, "mse": 0.005606756545603275, "sample_idx": 5}
+{"cosine_distance": 0.09849091619253159, "mse": 0.007191969081759453, "sample_idx": 6}
+{"cosine_distance": 0.10336741805076599, "mse": 0.008613142184913158, "sample_idx": 7}
+{"cosine_distance": 0.11605101823806763, "mse": 0.007683567237108946, "sample_idx": 8}
+{"cosine_distance": 0.07407873123884201, "mse": 0.006133758928626776, "sample_idx": 9}
+{"cosine_distance": 0.0762525126338005, "mse": 0.005966098513454199, "sample_idx": 10}
+{"cosine_distance": 0.10592059791088104, "mse": 0.0071258763782680035, "sample_idx": 11}
+{"cosine_distance": 0.08806106448173523, "mse": 0.007195569574832916, "sample_idx": 12}
+{"cosine_distance": 0.08620613068342209, "mse": 0.006105539854615927, "sample_idx": 13}
+{"cosine_distance": 0.08671613037586212, "mse": 0.005892968270927668, "sample_idx": 14}
+{"cosine_distance": 0.11092451214790344, "mse": 0.008624684065580368, "sample_idx": 15}

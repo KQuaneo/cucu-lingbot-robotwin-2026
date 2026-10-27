@@ -1,0 +1,8 @@
+{
+  "status": "partial",
+  "snapshot_hong_kong": "2026-10-04T02:24:18.354258+08:00",
+  "completed_tasks": 0,
+  "run_name": "official_robotwin_weak5_bf16_10x_20261004",
+  "deadline": "2026-10-04T08:45:00+08:00",
+  "watch": false
+}

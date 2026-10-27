@@ -1,0 +1,70 @@
+[aiter] Triton ops only: CK and HIP ops (and their JIT build) are skipped.
+Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+WARNING:datasets.features.features:Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+[INFO][lingbotvla.models.vla.lingbot_vla.qwen3vl_in_vla:114] 10/26/2026 11:08:25 >> apply Qwen3-VL Lingbot patch
+loading model from: /workspace/runtime/models/full_sft_6000
+✅ Merged Qwen3-VL text: intermediate_size = 9728
+✅ Merged Qwen3-VL text: num_hidden_layers = 36
+✅ Merged Qwen3-VL text: hidden_act = silu
+✅ Merged Qwen3-VL text: rms_norm_eps = 1e-06
+✅ Merged Qwen3-VL text: hidden_size = 2560
+✅ Merged Qwen3-VL text: max_position_embeddings = 262144
+✅ Merged Qwen3-VL text: num_key_value_heads = 8
+✅ Merged Qwen3-VL text: rope_theta = 5000000
+✅ Merged Qwen3-VL text: vocab_size = 151936
+✅ Merged Qwen3-VL text: num_attention_heads = 32
+✅ Merged Qwen3-VL text: tie_word_embeddings = True
+Initializing model ... 
+=====Action Expert V2 init 36 Layers, hidden=768, q_heads=32, kv_heads=8, head_dim=128.=====
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+=====Using Eager Attn=====
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 80.69it/s]
+Model initialized ... 
+BASE_FROZEN_FP32_READY
+INFO:websockets.server:server listening on 127.0.0.1:13927
+INFO:websockets.server:connection open
+/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/source/lingbot-vla-v2/deploy/lingbot_vla_v2_policy.py:419: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:206.)
+  image = torch.as_tensor(observation[image_feature]).permute(2, 0, 1).contiguous()
+Denoise 10 steps
+sample_actions batch=1 cost 2.8540031909942627 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5239548683166504 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.6404914855957031 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5940656661987305 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5616028308868408 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 1.559938669204712 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.986671209335327 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.618929386138916 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.040454626083374 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.4187912940979004 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.0814688205718994 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4339449405670166 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4315547943115234 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.3741772174835205 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.76318097114563 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4279367923736572 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5027976036071777 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5423636436462402 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.9060781002044678 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5618700981140137 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4316492080688477 s

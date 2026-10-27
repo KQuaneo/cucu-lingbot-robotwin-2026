@@ -1,0 +1,1 @@
+{"task_name": "rotate_qrcode", "task_config": "demo_clean", "seed": 320400, "plan_success": false, "task_success": false, "info": {"{A}": "070_paymentsign/base3", "{a}": "left"}, "episode_info": {"cluttered_table_info": [], "texture_info": {"wall_texture": null, "table_texture": null}, "info": {"{A}": "070_paymentsign/base3", "{a}": "left"}}}

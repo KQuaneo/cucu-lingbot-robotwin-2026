@@ -1,0 +1,124 @@
+{
+  "remote_archive": "/var/tmp/robotwin-6k-fp32-20261004/video_backup/video_snapshot_fp32_01.tar",
+  "archive_bytes": 3799040,
+  "archive_sha256": "a8633a11b2c98d5ec13faf013c6277e35b0ec6bc530c658252d0e4fa79d8d9c7",
+  "manifest": {
+    "created_utc": "2026-10-03T19:30:09.862775+00:00",
+    "run": "/workspace/runtime/outputs/full_sft_6000_clean50x10_fp32_8gpu_video_20261004",
+    "source_snapshot_utc": "2026-10-03T19:29:51.171450+00:00",
+    "closed_tasks": 1,
+    "video_count": 10,
+    "files": [
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode0.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode0.mp4",
+        "bytes": 169369,
+        "sha256": "7acd4910ae9ede6cbe5d6b421fab28bb2372c6dd579de279d46c37963b6b8900",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode1.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode1.mp4",
+        "bytes": 475192,
+        "sha256": "4f3d25c619564c27ab53ed6142b7b659554a80c87b19953eb7dfad254b158fb5",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode2.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode2.mp4",
+        "bytes": 477276,
+        "sha256": "c5755313cac295d9ca94785e007b4bdb29c00e9d4564e24999b75c037eb24633",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode3.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode3.mp4",
+        "bytes": 465992,
+        "sha256": "2c107907ddd9f40df5af6bb222f01430077c0337d001b7b3ff5e3b195ced19bf",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode4.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode4.mp4",
+        "bytes": 453794,
+        "sha256": "7f184efa81b17b7c1913e5a301340884307ae8dcff4cec7bfc9913cee94b3c5a",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode5.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode5.mp4",
+        "bytes": 163263,
+        "sha256": "0997a903d1af8738b240c7f889013fdc0e79ab4bab5adc343802240fc4a3640d",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode6.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode6.mp4",
+        "bytes": 469700,
+        "sha256": "0c0410b6f1fc812e35d5c0a50c745d43db5dbeb966c95ec97c1ce3ba3cfc0ffb",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode7.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode7.mp4",
+        "bytes": 460779,
+        "sha256": "35e5a98e5a0d8c7dcc0ce89f11a28f71630afad40caafd54455eb14bd5fe47ce",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode8.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode8.mp4",
+        "bytes": 161887,
+        "sha256": "4980ce720bb6566789ac68f2aa87dab708ecb16db328be5d03abccb7e38b0c5a",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "episode9.mp4",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/episode9.mp4",
+        "bytes": 470862,
+        "sha256": "529c02092001a645835dc70470a93aa2d456a06382499c933194d946966df42d",
+        "kind": "video"
+      },
+      {
+        "task": "pick_diverse_bottles",
+        "timestamp": "2026-10-03_18-23-32_501931",
+        "file": "_result.txt",
+        "archive_path": "pick_diverse_bottles/2026-10-03_18-23-32_501931/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_501931/_result.txt",
+        "bytes": 66,
+        "sha256": "64fa456a8bdd7d3173f87d13a34a66cc4e68b5994f1aa011d9679dcfc5dca291",
+        "kind": "result"
+      }
+    ]
+  }
+}

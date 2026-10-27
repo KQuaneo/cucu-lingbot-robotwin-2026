@@ -1,0 +1,3064 @@
+[aiter] Triton ops only: CK and HIP ops (and their JIT build) are skipped.
+Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+WARNING:datasets.features.features:Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+[INFO][lingbotvla.models.vla.lingbot_vla.qwen3vl_in_vla:114] 10/03/2026 13:58:45 >> apply Qwen3-VL Lingbot patch
+loading model from: /workspace/runtime/models/full_sft_6000
+✅ Merged Qwen3-VL text: rope_theta = 5000000
+✅ Merged Qwen3-VL text: tie_word_embeddings = True
+✅ Merged Qwen3-VL text: intermediate_size = 9728
+✅ Merged Qwen3-VL text: hidden_act = silu
+✅ Merged Qwen3-VL text: num_hidden_layers = 36
+✅ Merged Qwen3-VL text: hidden_size = 2560
+✅ Merged Qwen3-VL text: num_attention_heads = 32
+✅ Merged Qwen3-VL text: num_key_value_heads = 8
+✅ Merged Qwen3-VL text: rms_norm_eps = 1e-06
+✅ Merged Qwen3-VL text: max_position_embeddings = 262144
+✅ Merged Qwen3-VL text: vocab_size = 151936
+Initializing model ... 
+=====Action Expert V2 init 36 Layers, hidden=768, q_heads=32, kv_heads=8, head_dim=128.=====
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+=====Using Eager Attn=====
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 77.43it/s]
+Model initialized ... 
+INFO:websockets.server:server listening on 0.0.0.0:13425
+INFO:websockets.server:connection rejected (200 OK)
+INFO:websockets.server:connection open
+/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/source/lingbot-vla-v2/deploy/lingbot_vla_v2_policy.py:419: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:206.)
+  image = torch.as_tensor(observation[image_feature]).permute(2, 0, 1).contiguous()
+Denoise 10 steps
+sample_actions batch=1 cost 2.490583896636963 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.846545934677124 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8351507186889648 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8843536376953125 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.2657337188720703 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7815935611724854 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.790172815322876 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8518693447113037 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8208627700805664 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4359211921691895 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8612701892852783 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8469762802124023 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7553958892822266 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7617301940917969 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7292730808258057 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7306132316589355 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.219057321548462 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8136909008026123 s
+Denoise 10 steps
+sample_actions batch=1 cost 8.076128005981445 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7318124771118164 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.711425542831421 s
+Denoise 10 steps
+sample_actions batch=1 cost 5.34840202331543 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.6359052658081055 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7275421619415283 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.725196123123169 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2318201065063477 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7375516891479492 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.842047691345215 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.112261533737183 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8769471645355225 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9428105354309082 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.657860040664673 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7891974449157715 s
+Denoise 10 steps
+sample_actions batch=1 cost 8.122780561447144 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8019084930419922 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3597469329833984 s
+Denoise 10 steps
+sample_actions batch=1 cost 7.111638307571411 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.765944242477417 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8328955173492432 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.282546043395996 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8138418197631836 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7939727306365967 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7834980487823486 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.3349416255950928 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.544579267501831 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7304031848907471 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7325136661529541 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7523186206817627 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2407588958740234 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3269901275634766 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.381359577178955 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7394318580627441 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7562730312347412 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.7176604270935059 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1441171169281006 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.277975082397461 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8499128818511963 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2262656688690186 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7727799415588379 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7296450138092041 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 0.7580773830413818 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7426102161407471 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7255237102508545 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7435102462768555 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7560288906097412 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7591683864593506 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7562477588653564 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.755687952041626 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7527883052825928 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7523064613342285 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7515063285827637 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7543110847473145 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7736799716949463 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7311697006225586 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7534325122833252 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7631969451904297 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7555062770843506 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7565643787384033 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7569663524627686 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7536482810974121 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7555751800537109 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7582166194915771 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7633190155029297 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7425777912139893 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7287626266479492 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7285876274108887 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7266578674316406 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7287487983703613 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7313575744628906 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7889680862426758 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7856736183166504 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7852709293365479 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7644338607788086 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7582640647888184 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.787104606628418 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7878556251525879 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7605676651000977 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7310245037078857 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7255611419677734 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2172842025756836 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8048272132873535 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7256600856781006 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7433748245239258 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5269126892089844 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7486014366149902 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.0991294384002686 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.368520736694336 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.774832010269165 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.72525954246521 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7496087551116943 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8066184520721436 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8053686618804932 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8025124073028564 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7571079730987549 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.753648042678833 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7692999839782715 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7977092266082764 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9028644561767578 s
+Denoise 10 steps
+sample_actions batch=1 cost 17.29796862602234 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1057438850402832 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.648275375366211 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.7792787551879883 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.785290002822876 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5390100479125977 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8461976051330566 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8563463687896729 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7666029930114746 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7587039470672607 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8672866821289062 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4194669723510742 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8897655010223389 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2966837882995605 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.838951826095581 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7512197494506836 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7575328350067139 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8211801052093506 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7538812160491943 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7788951396942139 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.22950005531311 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8173527717590332 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8481452465057373 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8593223094940186 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7942464351654053 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7605047225952148 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7594952583312988 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.761134147644043 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7573282718658447 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7619991302490234 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7635605335235596 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7651894092559814 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7621867656707764 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7636396884918213 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7703287601470947 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7603590488433838 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7608380317687988 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7672245502471924 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7759032249450684 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7633810043334961 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7737517356872559 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7757833003997803 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7337143421173096 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7763593196868896 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7677783966064453 s
+Denoise 10 steps
+sample_actions batch=1 cost 5.76911473274231 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7306320667266846 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7307147979736328 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7752683162689209 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2520842552185059 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.8170692920684814 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8049376010894775 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8813583850860596 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2010271549224854 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7654330730438232 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.767141580581665 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7627763748168945 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.768028974533081 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7671816349029541 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.76888108253479 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7752237319946289 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.769761323928833 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7698979377746582 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.763911247253418 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7652950286865234 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7663004398345947 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7636220455169678 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7266104221343994 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7632503509521484 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7620944976806641 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7653613090515137 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.77120041847229 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7650465965270996 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7733941078186035 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7293679714202881 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7285890579223633 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7665538787841797 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7643256187438965 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7630710601806641 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7646784782409668 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7629625797271729 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7681477069854736 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7680850028991699 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7646133899688721 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7684359550476074 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7639756202697754 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.762178897857666 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7640581130981445 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7973265647888184 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8006720542907715 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4122154712677002 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.4351046085357666 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8452150821685791 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3942046165466309 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.842353105545044 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.242408275604248 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.9222159385681152 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8924548625946045 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.074099540710449 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7595071792602539 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.754791259765625 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.756511926651001 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.754936695098877 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7542901039123535 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7513837814331055 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7541618347167969 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7549386024475098 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.815645694732666 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3331067562103271 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3610084056854248 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8752467632293701 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8095395565032959 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2807257175445557 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8012959957122803 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7857306003570557 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.78952956199646 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7261941432952881 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7276320457458496 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7250669002532959 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7271237373352051 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7273919582366943 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7531435489654541 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.752955436706543 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.755897045135498 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7532389163970947 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7560997009277344 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7286505699157715 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7347614765167236 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2976155281066895 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7613039016723633 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.808905839920044 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7813167572021484 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7561514377593994 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8804094791412354 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7892336845397949 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3008830547332764 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7990655899047852 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8322041034698486 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2645683288574219 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8313553333282471 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7898380756378174 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7550356388092041 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.751788854598999 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7564923763275146 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.753448486328125 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7535037994384766 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7554690837860107 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7607748508453369 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7600247859954834 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7572076320648193 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7552480697631836 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7313697338104248 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7251205444335938 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7268848419189453 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.727175235748291 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7545366287231445 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7536542415618896 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7535247802734375 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7553384304046631 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7536258697509766 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7663323879241943 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7497131824493408 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7532413005828857 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7511663436889648 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7519826889038086 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7538597583770752 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7553517818450928 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7519435882568359 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7701351642608643 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7992687225341797 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7590405941009521 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7873787879943848 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8220860958099365 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7264492511749268 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7584576606750488 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.850008487701416 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7520177364349365 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.771686315536499 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8270347118377686 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7291581630706787 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2246227264404297 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7318830490112305 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.301375150680542 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8091180324554443 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7522177696228027 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7532196044921875 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7259769439697266 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7488009929656982 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7513763904571533 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7726900577545166 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.8426856994628906 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8212780952453613 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7508037090301514 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7919661998748779 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.491673231124878 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7909932136535645 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7542369365692139 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.787186861038208 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7516798973083496 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3995041847229004 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7518784999847412 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7776980400085449 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8183588981628418 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7514843940734863 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7550265789031982 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7584331035614014 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7519667148590088 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7524001598358154 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7510466575622559 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7529363632202148 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.75943922996521 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7535228729248047 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7539803981781006 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7526466846466064 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7538337707519531 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7540562152862549 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7549564838409424 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7531304359436035 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7572088241577148 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7529304027557373 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7552618980407715 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7542312145233154 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7545380592346191 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7537758350372314 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7272183895111084 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7258822917938232 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7266993522644043 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7262988090515137 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7261581420898438 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7243866920471191 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7243404388427734 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7250573635101318 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7236578464508057 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7247672080993652 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7295041084289551 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7263059616088867 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7236392498016357 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.73042893409729 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7271497249603271 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7241175174713135 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7269740104675293 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7281494140625 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 0.756798267364502 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7584784030914307 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7535903453826904 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7541704177856445 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.752737283706665 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7537031173706055 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.757683277130127 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7516069412231445 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.753969669342041 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7531003952026367 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7303779125213623 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7282042503356934 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7258014678955078 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7316281795501709 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7417488098144531 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7290358543395996 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7261905670166016 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7259116172790527 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7257063388824463 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.725233793258667 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7263872623443604 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7259671688079834 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7590575218200684 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7590227127075195 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7554781436920166 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7557580471038818 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7542867660522461 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7538871765136719 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7529599666595459 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7550690174102783 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7543115615844727 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7301464080810547 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7272913455963135 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7281429767608643 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7269248962402344 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7268984317779541 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7263913154602051 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7269892692565918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7562241554260254 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.754828691482544 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7273399829864502 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7281067371368408 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7327795028686523 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7606453895568848 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7590575218200684 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7550880908966064 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7553491592407227 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7588973045349121 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7253952026367188 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7259268760681152 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7273385524749756 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7247800827026367 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7262859344482422 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7261710166931152 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7276816368103027 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7243924140930176 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7302024364471436 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7284162044525146 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7247674465179443 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7260692119598389 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7548227310180664 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7542669773101807 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7543597221374512 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7582902908325195 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7536122798919678 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7537016868591309 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7278804779052734 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.754406213760376 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7531416416168213 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7528195381164551 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.752600908279419 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.753028154373169 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7534327507019043 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7575979232788086 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7522106170654297 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7612195014953613 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7540762424468994 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7536442279815674 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7542135715484619 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7538447380065918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7541472911834717 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7571427822113037 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7593779563903809 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7556946277618408 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7553958892822266 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7556853294372559 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7556853294372559 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7536790370941162 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7570531368255615 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7534942626953125 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7535481452941895 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7533633708953857 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7630949020385742 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.753706693649292 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7537317276000977 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7541804313659668 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7538714408874512 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7543847560882568 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7264037132263184 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7262930870056152 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7849915027618408 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7870862483978271 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7777588367462158 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.760371208190918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7580287456512451 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7586812973022461 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7569985389709473 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7505350112915039 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.785959005355835 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7861101627349854 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7868690490722656 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7869687080383301 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7887725830078125 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7870299816131592 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7844085693359375 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7902755737304688 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7860736846923828 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7941417694091797 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7857270240783691 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7844617366790771 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7913467884063721 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7855095863342285 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7846431732177734 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7850284576416016 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7909951210021973 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7875230312347412 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 0.7885961532592773 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7843356132507324 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7826685905456543 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7815525531768799 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7861971855163574 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7866389751434326 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7872202396392822 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7861371040344238 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7839856147766113 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7876203060150146 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.791858434677124 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7881157398223877 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7869298458099365 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7864623069763184 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7874729633331299 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.785637617111206 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7898473739624023 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7846646308898926 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.787940263748169 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.787606954574585 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7858092784881592 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7864542007446289 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7874796390533447 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7849993705749512 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7854456901550293 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7844264507293701 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.792881965637207 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7881457805633545 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7841567993164062 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.783621072769165 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7844257354736328 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7853856086730957 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7848243713378906 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7843172550201416 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7827146053314209 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7842226028442383 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7921712398529053 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8092503547668457 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7590863704681396 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.786712646484375 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7817885875701904 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7883741855621338 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7911429405212402 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7883267402648926 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7846090793609619 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7920947074890137 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.797213077545166 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7563400268554688 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7377212047576904 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.756075382232666 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7345149517059326 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7260730266571045 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7330837249755859 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.726050853729248 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7256336212158203 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7278492450714111 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7305974960327148 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7293922901153564 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7272777557373047 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7273409366607666 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7284469604492188 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7280402183532715 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.728980302810669 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7851910591125488 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7849078178405762 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7909836769104004 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7893118858337402 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7882981300354004 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7905759811401367 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7868289947509766 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7848889827728271 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.787651538848877 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7827563285827637 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7850911617279053 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7854130268096924 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7823188304901123 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7844202518463135 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7868258953094482 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7862823009490967 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7878389358520508 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7850496768951416 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7545676231384277 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7578022480010986 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7410216331481934 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7578105926513672 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7327671051025391 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7266464233398438 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7270026206970215 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7266693115234375 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7293152809143066 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7257289886474609 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7286458015441895 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7242159843444824 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7249679565429688 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7255356311798096 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7451698780059814 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7406225204467773 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7368080615997314 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7238759994506836 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8031103610992432 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7305946350097656 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7339189052581787 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7333903312683105 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7246100902557373 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.728825569152832 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 0.7304966449737549 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7313134670257568 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7565097808837891 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7584657669067383 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7584879398345947 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7566244602203369 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7585880756378174 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7556562423706055 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7578058242797852 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7563934326171875 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7566123008728027 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7570502758026123 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.784700870513916 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7271072864532471 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.8776254653930664 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8079853057861328 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.7738425731658936 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.81247878074646 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7424867153167725 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8359787464141846 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7535326480865479 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7536959648132324 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7564122676849365 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7561240196228027 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1540131568908691 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8158981800079346 s
+Denoise 10 steps
+sample_actions batch=1 cost 9.275811910629272 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2245423793792725 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.776789665222168 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.858259916305542 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.829766035079956 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.474171161651611 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8256049156188965 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.7270970344543457 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.3756296634674072 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.338902235031128 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.754483699798584 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.754589319229126 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7555842399597168 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7279937267303467 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7301199436187744 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7276182174682617 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7308471202850342 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7562692165374756 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7581653594970703 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7581851482391357 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7590038776397705 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.757805347442627 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7599270343780518 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7585229873657227 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7581624984741211 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7565813064575195 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.755568265914917 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7586178779602051 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.755739688873291 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7548682689666748 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7550837993621826 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7548215389251709 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7566640377044678 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7559692859649658 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7560708522796631 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7535393238067627 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7552826404571533 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7537508010864258 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7554259300231934 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7616829872131348 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7558228969573975 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7564935684204102 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7550773620605469 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7575318813323975 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7577970027923584 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7573451995849609 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.760540246963501 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7579047679901123 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7574863433837891 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7648739814758301 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.733323335647583 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7292509078979492 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7274713516235352 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7288284301757812 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7295072078704834 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7301890850067139 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7291927337646484 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7308428287506104 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7284622192382812 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7548918724060059 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7555899620056152 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7557885646820068 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7563886642456055 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7573440074920654 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.75634765625 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7559812068939209 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7559993267059326 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.75447678565979 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7540454864501953 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7332563400268555 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7436559200286865 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7612354755401611 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.794640302658081 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7642505168914795 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7332015037536621 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7358200550079346 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7297797203063965 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7270331382751465 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7312679290771484 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7301239967346191 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7333290576934814 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7291092872619629 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7313122749328613 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7274036407470703 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7448990345001221 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7308955192565918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.878058671951294 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8377056121826172 s
+Denoise 10 steps
+sample_actions batch=1 cost 6.644222974777222 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8093326091766357 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7742776870727539 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.448296308517456 s
+Denoise 10 steps
+sample_actions batch=1 cost 6.78416633605957 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.727724552154541 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.735288143157959 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7272975444793701 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7297413349151611 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7289295196533203 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7301492691040039 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1972949504852295 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7742486000061035 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8067023754119873 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4555637836456299 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7905545234680176 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7704100608825684 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7536122798919678 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8403441905975342 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2291367053985596 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7318363189697266 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2381689548492432 s
+Denoise 10 steps
+sample_actions batch=1 cost 14.867895364761353 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7603476047515869 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.7840402126312256 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.765005350112915 s
+Denoise 10 steps
+sample_actions batch=1 cost 6.6963605880737305 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.4771175384521484 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7590985298156738 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7554941177368164 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7573308944702148 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.755620002746582 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.754244327545166 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7603235244750977 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7532026767730713 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7593529224395752 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.757178783416748 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7522203922271729 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7545344829559326 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.75455641746521 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7681806087493896 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9329380989074707 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3661017417907715 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8136239051818848 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8121836185455322 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8198792934417725 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7637941837310791 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2757155895233154 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3088839054107666 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.780085563659668 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7603368759155273 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1116316318511963 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7256345748901367 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7278482913970947 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7976424694061279 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7845666408538818 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7881624698638916 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7354240417480469 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.727358341217041 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7299139499664307 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7285134792327881 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7258906364440918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7261314392089844 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7251884937286377 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1755340099334717 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.334627628326416 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.4176406860351562 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4395687580108643 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8616564273834229 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.7406628131866455 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.3418374061584473 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2934772968292236 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7745029926300049 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7708420753479004 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7709476947784424 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7704074382781982 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.770756721496582 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7712326049804688 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.726433515548706 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7281527519226074 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7310400009155273 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7255003452301025 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7270348072052002 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 0.7361898422241211 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7347640991210938 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7460379600524902 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7341904640197754 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7360115051269531 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7379450798034668 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7780358791351318 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7765583992004395 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7738082408905029 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7742810249328613 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7759990692138672 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7769134044647217 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7692868709564209 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7320001125335693 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7333686351776123 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7338676452636719 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.732276439666748 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7732787132263184 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7782790660858154 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7316293716430664 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7367603778839111 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7298479080200195 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7351174354553223 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.734980583190918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7295534610748291 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7287051677703857 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.729572057723999 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7971351146697998 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7891454696655273 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.789435625076294 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7917799949645996 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7857060432434082 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7864317893981934 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7871582508087158 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7940468788146973 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7877383232116699 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7876238822937012 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7889580726623535 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7877447605133057 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7887647151947021 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7861685752868652 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7842154502868652 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.796400785446167 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7895946502685547 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8148849010467529 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7843372821807861 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7883303165435791 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7941908836364746 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7893047332763672 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7892324924468994 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7895383834838867 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.790398120880127 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7897605895996094 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7896008491516113 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7883577346801758 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7897460460662842 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7915380001068115 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.788642406463623 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7921473979949951 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7825071811676025 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7859232425689697 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7837615013122559 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7871346473693848 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7888150215148926 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7879312038421631 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7848019599914551 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7969174385070801 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7855291366577148 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7833013534545898 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7927734851837158 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.783327579498291 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7854158878326416 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7862050533294678 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.78556227684021 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7847559452056885 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7852013111114502 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7862632274627686 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7335813045501709 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7369050979614258 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.736255407333374 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7320206165313721 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7385246753692627 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7294995784759521 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7745134830474854 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7899570465087891 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7771172523498535 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7782585620880127 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7810533046722412 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7714004516601562 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7739167213439941 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7736027240753174 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7835428714752197 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7739157676696777 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7749629020690918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.773038387298584 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.773421049118042 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7647643089294434 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7292652130126953 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7303333282470703 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7287673950195312 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7355086803436279 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7391989231109619 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7938497066497803 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7884674072265625 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7869424819946289 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7888472080230713 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7894949913024902 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7888915538787842 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7876715660095215 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7870891094207764 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7852294445037842 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7867939472198486 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7898268699645996 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7962145805358887 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7854275703430176 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7909693717956543 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7966089248657227 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.787163496017456 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7961313724517822 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7891852855682373 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7868750095367432 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7858121395111084 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7863492965698242 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7852978706359863 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7881042957305908 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7882411479949951 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7855737209320068 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7885751724243164 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7841646671295166 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7860944271087646 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.786252498626709 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7858419418334961 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7985808849334717 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.597667694091797 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.0993854999542236 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7556030750274658 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7548785209655762 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 0.7607872486114502 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8371906280517578 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8464553356170654 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8129885196685791 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8509972095489502 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8240935802459717 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7876682281494141 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3105690479278564 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7653100490570068 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7291123867034912 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7278239727020264 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7575376033782959 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7545545101165771 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7619132995605469 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7545866966247559 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7550995349884033 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7290034294128418 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7370870113372803 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7278375625610352 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7253098487854004 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7295680046081543 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7560622692108154 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7527494430541992 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7529428005218506 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7535924911499023 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.752699613571167 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7528750896453857 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7537801265716553 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.759516716003418 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7584059238433838 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7558515071868896 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7574989795684814 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7570140361785889 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.753833532333374 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7541296482086182 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7714731693267822 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8258445262908936 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8376264572143555 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.892967939376831 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8260071277618408 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.305988073348999 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3707339763641357 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7575948238372803 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.755894660949707 s
+Denoise 10 steps
+sample_actions batch=1 cost 15.9836585521698 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7600533962249756 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.1431305408477783 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.694005727767944 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8634054660797119 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7951042652130127 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7533271312713623 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.755789041519165 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7547166347503662 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8024623394012451 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8021090030670166 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7829115390777588 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.50722074508667 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8050620555877686 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7942190170288086 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8235106468200684 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.7106308937072754 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7778971195220947 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7762911319732666 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7759478092193604 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7784373760223389 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7785360813140869 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7725749015808105 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7737298011779785 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7763626575469971 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.802356481552124 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8648128509521484 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8124277591705322 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8371829986572266 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7961668968200684 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7849836349487305 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7643423080444336 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7380251884460449 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7390046119689941 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3252861499786377 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.6042330265045166 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7576851844787598 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7300827503204346 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7307913303375244 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7613532543182373 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7711682319641113 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7634398937225342 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7634217739105225 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7603962421417236 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7676630020141602 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7645878791809082 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7614924907684326 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7623624801635742 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7619376182556152 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7668600082397461 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7664792537689209 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7615742683410645 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.767906904220581 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7689142227172852 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7639994621276855 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7622301578521729 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7624411582946777 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7614526748657227 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7608740329742432 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.764808177947998 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7632403373718262 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7607674598693848 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7606837749481201 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7592015266418457 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7613692283630371 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7607605457305908 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 0.7662472724914551 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7634847164154053 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7640194892883301 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.763779878616333 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7649745941162109 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.764674186706543 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7655224800109863 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7640182971954346 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7673852443695068 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7664844989776611 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7664027214050293 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7627215385437012 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7652244567871094 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7621471881866455 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7633285522460938 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7631504535675049 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7638375759124756 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7613770961761475 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.76133131980896 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.761284351348877 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7623565196990967 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7620031833648682 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.761481523513794 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7614970207214355 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7629294395446777 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7611711025238037 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7631025314331055 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7614412307739258 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7621119022369385 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7611713409423828 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7624177932739258 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7615096569061279 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7640607357025146 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7618858814239502 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7618865966796875 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.764568567276001 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7646265029907227 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7629084587097168 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7629392147064209 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7622158527374268 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7639474868774414 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7662630081176758 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7665960788726807 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7278523445129395 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7290980815887451 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.725217342376709 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.728722333908081 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7260289192199707 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7305619716644287 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7310521602630615 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.727200984954834 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7287275791168213 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7266464233398438 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7307155132293701 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7266619205474854 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7263028621673584 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7256412506103516 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7251462936401367 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7261691093444824 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7254166603088379 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7248287200927734 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.724623441696167 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7285761833190918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.727726936340332 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7241263389587402 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.724052906036377 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7276372909545898 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7278454303741455 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7278392314910889 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7249546051025391 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7273666858673096 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7265212535858154 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7262129783630371 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7665693759918213 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7282242774963379 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7261605262756348 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7280349731445312 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7257275581359863 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.725928544998169 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7251358032226562 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7308719158172607 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7267217636108398 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7610599994659424 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7616896629333496 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7613592147827148 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7600774765014648 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7619645595550537 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7610905170440674 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7630167007446289 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7630267143249512 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7621712684631348 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7640419006347656 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7594835758209229 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7643539905548096 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7599701881408691 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7606008052825928 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7686138153076172 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7615325450897217 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7607979774475098 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7601814270019531 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7618377208709717 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7629380226135254 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7628114223480225 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7623076438903809 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7654891014099121 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.761359691619873 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.763221025466919 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7617790699005127 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7636182308197021 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7625610828399658 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7632424831390381 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7495336532592773 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7625129222869873 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7647628784179688 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7660529613494873 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7632420063018799 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7631142139434814 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7615606784820557 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.765066385269165 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7639386653900146 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7644031047821045 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7638645172119141 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.762129545211792 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7624983787536621 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7618892192840576 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7646043300628662 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.764246940612793 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7268359661102295 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7289564609527588 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7272167205810547 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7281680107116699 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7284502983093262 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7634692192077637 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7627897262573242 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7634689807891846 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7628540992736816 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7635955810546875 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7620182037353516 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7630753517150879 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7620267868041992 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7628328800201416 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.764704704284668 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7616229057312012 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7625720500946045 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7790319919586182 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7621259689331055 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7634913921356201 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.736729621887207 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7652854919433594 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7645914554595947 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7660341262817383 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7626662254333496 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7277090549468994 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7265865802764893 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7330822944641113 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7678110599517822 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.771461009979248 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7652549743652344 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7618124485015869 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7289328575134277 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7295687198638916 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7250308990478516 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7249903678894043 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7275471687316895 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7263689041137695 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7262184619903564 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7247874736785889 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7250161170959473 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7302868366241455 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7614471912384033 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7612695693969727 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7627229690551758 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.763787031173706 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7343757152557373 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.728651762008667 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7356784343719482 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.72847580909729 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7279930114746094 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7269198894500732 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7325649261474609 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.732262134552002 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7296156883239746 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.729130744934082 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7628459930419922 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7653100490570068 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7828018665313721 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7719199657440186 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7631478309631348 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7670776844024658 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.768512487411499 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.76596999168396 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7689733505249023 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7706403732299805 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7834146022796631 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7633628845214844 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7661333084106445 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7635073661804199 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7695374488830566 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7306768894195557 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7323627471923828 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7323238849639893 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7328794002532959 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7334489822387695 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7337095737457275 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7333986759185791 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7277917861938477 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7265894412994385 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7294414043426514 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7265489101409912 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7272067070007324 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7273356914520264 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7665905952453613 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7289423942565918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7364332675933838 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7291598320007324 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.729142427444458 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7698869705200195 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7626087665557861 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7630648612976074 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7860634326934814 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7700169086456299 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8039040565490723 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8039207458496094 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8036661148071289 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8037419319152832 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8028652667999268 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8047902584075928 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8016443252563477 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8060605525970459 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8132343292236328 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8017196655273438 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8069226741790771 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7986197471618652 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8042964935302734 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8039915561676025 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8039681911468506 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8009321689605713 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8024008274078369 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8040370941162109 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8003149032592773 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.807220458984375 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8060750961303711 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8118534088134766 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8154947757720947 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8035016059875488 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8022661209106445 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8054637908935547 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.806602954864502 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7986879348754883 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7965717315673828 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7987246513366699 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7969875335693359 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7915222644805908 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7619013786315918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7943093776702881 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7956132888793945 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8091111183166504 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8057553768157959 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8021552562713623 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.801037073135376 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8065297603607178 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8023579120635986 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7796437740325928 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8604533672332764 s
+Denoise 10 steps
+sample_actions batch=1 cost 14.118060827255249 s
+Denoise 10 steps
+sample_actions batch=1 cost 8.388391494750977 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8177506923675537 s
+Denoise 10 steps
+sample_actions batch=1 cost 12.91894268989563 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7577929496765137 s
+Denoise 10 steps
+sample_actions batch=1 cost 9.582246541976929 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7712173461914062 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.174121141433716 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7738082408905029 s
+Denoise 10 steps
+sample_actions batch=1 cost 6.604844331741333 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.778064489364624 s
+Denoise 10 steps
+sample_actions batch=1 cost 10.773595333099365 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7691004276275635 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.880936861038208 s
+Denoise 10 steps
+sample_actions batch=1 cost 19.153889894485474 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8036034107208252 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.8572657108306885 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7907471656799316 s
+Denoise 10 steps
+sample_actions batch=1 cost 16.399959325790405 s
+Denoise 10 steps
+sample_actions batch=1 cost 6.3662192821502686 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8495728969573975 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7833008766174316 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7725887298583984 s
+Denoise 10 steps
+sample_actions batch=1 cost 15.52035403251648 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7645008563995361 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7644946575164795 s
+Denoise 10 steps
+sample_actions batch=1 cost 5.876505374908447 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8188049793243408 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8129429817199707 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.7808563709259033 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.895087718963623 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.855778694152832 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.1437387466430664 s
+Denoise 10 steps
+sample_actions batch=1 cost 9.977867841720581 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8085823059082031 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9165811538696289 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.0192601680755615 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8010997772216797 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8231029510498047 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8800609111785889 s
+Denoise 10 steps
+sample_actions batch=1 cost 5.258886814117432 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.5043985843658447 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8019225597381592 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8095145225524902 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8032827377319336 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8071424961090088 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8058326244354248 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8290543556213379 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8022017478942871 s
+Denoise 10 steps
+sample_actions batch=1 cost 6.287241458892822 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9013066291809082 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8039534091949463 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8260729312896729 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8009853363037109 s
+Denoise 10 steps
+sample_actions batch=1 cost 5.975568771362305 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8968875408172607 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8031861782073975 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8017213344573975 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8018887042999268 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8012382984161377 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8031222820281982 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8194060325622559 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8014023303985596 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.801666259765625 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8302457332611084 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7995858192443848 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8395073413848877 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8529698848724365 s
+Denoise 10 steps
+sample_actions batch=1 cost 5.1316821575164795 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8517584800720215 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4006621837615967 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8032634258270264 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8033692836761475 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7425246238708496 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7478480339050293 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7454946041107178 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7480576038360596 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7468407154083252 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7529125213623047 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7434344291687012 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7773382663726807 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7809402942657471 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7764992713928223 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7780356407165527 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7762680053710938 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7763168811798096 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7742984294891357 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7836549282073975 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7742795944213867 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7740802764892578 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7719476222991943 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7715470790863037 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7799649238586426 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.768582820892334 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7723314762115479 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7756390571594238 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7954702377319336 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.961287498474121 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.026479482650757 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8261959552764893 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8887360095977783 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7696619033813477 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7690386772155762 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7713406085968018 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7748410701751709 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.770681619644165 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7701129913330078 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7716295719146729 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7943031787872314 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.775355339050293 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7948977947235107 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.23661470413208 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3475444316864014 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5613658428192139 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8161458969116211 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8103680610656738 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2715940475463867 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.6034767627716064 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8545670509338379 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7990732192993164 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7751405239105225 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.767918586730957 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7715110778808594 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7706215381622314 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7728159427642822 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7709834575653076 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7692961692810059 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7702102661132812 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7707018852233887 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7718455791473389 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7733244895935059 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7706141471862793 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.773186445236206 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7745153903961182 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7720112800598145 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7692792415618896 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7718744277954102 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7729804515838623 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7704157829284668 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7730011940002441 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7708320617675781 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1685819625854492 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8366119861602783 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2612743377685547 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3596994876861572 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4555039405822754 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8028037548065186 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7720909118652344 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7985820770263672 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1708118915557861 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.76719069480896 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7785966396331787 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8544189929962158 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7733206748962402 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7743210792541504 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8683912754058838 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7851574420928955 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7712540626525879 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7713954448699951 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7438967227935791 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7724103927612305 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7735323905944824 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7752406597137451 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7730090618133545 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.743966817855835 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7721846103668213 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7756531238555908 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7765631675720215 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7867579460144043 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7746567726135254 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7842328548431396 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7723441123962402 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.773047924041748 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7734172344207764 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7717082500457764 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.771507740020752 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7728400230407715 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7758593559265137 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.768700361251831 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7714939117431641 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.773545503616333 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7695207595825195 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7766873836517334 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7740705013275146 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7753126621246338 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8184709548950195 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7715363502502441 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7741303443908691 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7694625854492188 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7709221839904785 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7423818111419678 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7428665161132812 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7437806129455566 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.775198221206665 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7708399295806885 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7701964378356934 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7721483707427979 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7772829532623291 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7738211154937744 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.2753667831420898 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.778001070022583 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7717633247375488 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8095521926879883 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7912108898162842 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3926351070404053 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.402050495147705 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8183319568634033 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8393785953521729 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7654528617858887 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7692415714263916 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.825430154800415 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7416908740997314 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7923998832702637 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8176524639129639 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7427372932434082 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7994861602783203 s

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "clipping_both_advantage_signs_correct": true,
+  "first_epoch_gradient_analytic": true,
+  "equal_rewards_zero_update": true,
+  "KL_bound": true
+}

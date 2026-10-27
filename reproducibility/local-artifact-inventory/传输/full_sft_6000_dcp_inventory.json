@@ -1,0 +1,1071 @@
+{
+  "checkpoint": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_6000",
+  "utc": "2026-10-03T16:36:44.290271+00:00",
+  "files": [
+    {
+      "file": "extra_state/extra_state_rank_0.pt",
+      "bytes": 7670
+    },
+    {
+      "file": "extra_state/extra_state_rank_1.pt",
+      "bytes": 7670
+    },
+    {
+      "file": "extra_state/extra_state_rank_2.pt",
+      "bytes": 7670
+    },
+    {
+      "file": "extra_state/extra_state_rank_3.pt",
+      "bytes": 7670
+    },
+    {
+      "file": "extra_state/extra_state_rank_4.pt",
+      "bytes": 7670
+    },
+    {
+      "file": "extra_state/extra_state_rank_5.pt",
+      "bytes": 7670
+    },
+    {
+      "file": "extra_state/extra_state_rank_6.pt",
+      "bytes": 7670
+    },
+    {
+      "file": "extra_state/extra_state_rank_7.pt",
+      "bytes": 7670
+    },
+    {
+      "file": "model/.metadata",
+      "bytes": 3435338
+    },
+    {
+      "file": "model/__0_0.distcp",
+      "bytes": 199380422
+    },
+    {
+      "file": "model/__0_1.distcp",
+      "bytes": 199405654
+    },
+    {
+      "file": "model/__0_10.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__0_11.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__0_12.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__0_13.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__0_14.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__0_15.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__0_2.distcp",
+      "bytes": 199450194
+    },
+    {
+      "file": "model/__0_3.distcp",
+      "bytes": 199454541
+    },
+    {
+      "file": "model/__0_4.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__0_5.distcp",
+      "bytes": 199445015
+    },
+    {
+      "file": "model/__0_6.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__0_7.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__0_8.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__0_9.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__1_0.distcp",
+      "bytes": 199380422
+    },
+    {
+      "file": "model/__1_1.distcp",
+      "bytes": 199405654
+    },
+    {
+      "file": "model/__1_10.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__1_11.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__1_12.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__1_13.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__1_14.distcp",
+      "bytes": 199418334
+    },
+    {
+      "file": "model/__1_15.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__1_2.distcp",
+      "bytes": 199450194
+    },
+    {
+      "file": "model/__1_3.distcp",
+      "bytes": 199454541
+    },
+    {
+      "file": "model/__1_4.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__1_5.distcp",
+      "bytes": 199446720
+    },
+    {
+      "file": "model/__1_6.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__1_7.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__1_8.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__1_9.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__2_0.distcp",
+      "bytes": 199380422
+    },
+    {
+      "file": "model/__2_1.distcp",
+      "bytes": 199405654
+    },
+    {
+      "file": "model/__2_10.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__2_11.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__2_12.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__2_13.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__2_14.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__2_15.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__2_2.distcp",
+      "bytes": 199450194
+    },
+    {
+      "file": "model/__2_3.distcp",
+      "bytes": 199454541
+    },
+    {
+      "file": "model/__2_4.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__2_5.distcp",
+      "bytes": 199446720
+    },
+    {
+      "file": "model/__2_6.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__2_7.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__2_8.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__2_9.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__3_0.distcp",
+      "bytes": 199380422
+    },
+    {
+      "file": "model/__3_1.distcp",
+      "bytes": 199405654
+    },
+    {
+      "file": "model/__3_10.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__3_11.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__3_12.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__3_13.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__3_14.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__3_15.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__3_2.distcp",
+      "bytes": 199450194
+    },
+    {
+      "file": "model/__3_3.distcp",
+      "bytes": 199454541
+    },
+    {
+      "file": "model/__3_4.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__3_5.distcp",
+      "bytes": 199446720
+    },
+    {
+      "file": "model/__3_6.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__3_7.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__3_8.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__3_9.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__4_0.distcp",
+      "bytes": 199380422
+    },
+    {
+      "file": "model/__4_1.distcp",
+      "bytes": 199405654
+    },
+    {
+      "file": "model/__4_10.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__4_11.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__4_12.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__4_13.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__4_14.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__4_15.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__4_2.distcp",
+      "bytes": 199450194
+    },
+    {
+      "file": "model/__4_3.distcp",
+      "bytes": 199454541
+    },
+    {
+      "file": "model/__4_4.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__4_5.distcp",
+      "bytes": 199446720
+    },
+    {
+      "file": "model/__4_6.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__4_7.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__4_8.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__4_9.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__5_0.distcp",
+      "bytes": 199380422
+    },
+    {
+      "file": "model/__5_1.distcp",
+      "bytes": 199405654
+    },
+    {
+      "file": "model/__5_10.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__5_11.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__5_12.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__5_13.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__5_14.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__5_15.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__5_2.distcp",
+      "bytes": 199450194
+    },
+    {
+      "file": "model/__5_3.distcp",
+      "bytes": 199454541
+    },
+    {
+      "file": "model/__5_4.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__5_5.distcp",
+      "bytes": 199446720
+    },
+    {
+      "file": "model/__5_6.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__5_7.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__5_8.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__5_9.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__6_0.distcp",
+      "bytes": 199380422
+    },
+    {
+      "file": "model/__6_1.distcp",
+      "bytes": 199405654
+    },
+    {
+      "file": "model/__6_10.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__6_11.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__6_12.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__6_13.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__6_14.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__6_15.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__6_2.distcp",
+      "bytes": 199450194
+    },
+    {
+      "file": "model/__6_3.distcp",
+      "bytes": 199454541
+    },
+    {
+      "file": "model/__6_4.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__6_5.distcp",
+      "bytes": 199446720
+    },
+    {
+      "file": "model/__6_6.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__6_7.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__6_8.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__6_9.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__7_0.distcp",
+      "bytes": 199380422
+    },
+    {
+      "file": "model/__7_1.distcp",
+      "bytes": 199405654
+    },
+    {
+      "file": "model/__7_10.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__7_11.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__7_12.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__7_13.distcp",
+      "bytes": 199448297
+    },
+    {
+      "file": "model/__7_14.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__7_15.distcp",
+      "bytes": 199416629
+    },
+    {
+      "file": "model/__7_2.distcp",
+      "bytes": 199447122
+    },
+    {
+      "file": "model/__7_3.distcp",
+      "bytes": 199454541
+    },
+    {
+      "file": "model/__7_4.distcp",
+      "bytes": 199446592
+    },
+    {
+      "file": "model/__7_5.distcp",
+      "bytes": 199446720
+    },
+    {
+      "file": "model/__7_6.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__7_7.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__7_8.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "model/__7_9.distcp",
+      "bytes": 199347059
+    },
+    {
+      "file": "optimizer/.metadata",
+      "bytes": 8056622
+    },
+    {
+      "file": "optimizer/__0_0.distcp",
+      "bytes": 398814275
+    },
+    {
+      "file": "optimizer/__0_1.distcp",
+      "bytes": 398814275
+    },
+    {
+      "file": "optimizer/__0_10.distcp",
+      "bytes": 398817429
+    },
+    {
+      "file": "optimizer/__0_11.distcp",
+      "bytes": 398817429
+    },
+    {
+      "file": "optimizer/__0_12.distcp",
+      "bytes": 398843045
+    },
+    {
+      "file": "optimizer/__0_13.distcp",
+      "bytes": 398843045
+    },
+    {
+      "file": "optimizer/__0_14.distcp",
+      "bytes": 398834776
+    },
+    {
+      "file": "optimizer/__0_15.distcp",
+      "bytes": 398834776
+    },
+    {
+      "file": "optimizer/__0_2.distcp",
+      "bytes": 398831622
+    },
+    {
+      "file": "optimizer/__0_3.distcp",
+      "bytes": 398830045
+    },
+    {
+      "file": "optimizer/__0_4.distcp",
+      "bytes": 398806390
+    },
+    {
+      "file": "optimizer/__0_5.distcp",
+      "bytes": 398806390
+    },
+    {
+      "file": "optimizer/__0_6.distcp",
+      "bytes": 398825314
+    },
+    {
+      "file": "optimizer/__0_7.distcp",
+      "bytes": 398825314
+    },
+    {
+      "file": "optimizer/__0_8.distcp",
+      "bytes": 398819006
+    },
+    {
+      "file": "optimizer/__0_9.distcp",
+      "bytes": 398819006
+    },
+    {
+      "file": "optimizer/__1_0.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__1_1.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__1_10.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__1_11.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__1_12.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__1_13.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__1_14.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__1_15.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__1_2.distcp",
+      "bytes": 398859692
+    },
+    {
+      "file": "optimizer/__1_3.distcp",
+      "bytes": 398856854
+    },
+    {
+      "file": "optimizer/__1_4.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__1_5.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__1_6.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__1_7.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__1_8.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__1_9.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__2_0.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__2_1.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__2_10.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__2_11.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__2_12.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__2_13.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__2_14.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__2_15.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__2_2.distcp",
+      "bytes": 398859692
+    },
+    {
+      "file": "optimizer/__2_3.distcp",
+      "bytes": 398856854
+    },
+    {
+      "file": "optimizer/__2_4.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__2_5.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__2_6.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__2_7.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__2_8.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__2_9.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__3_0.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__3_1.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__3_10.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__3_11.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__3_12.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__3_13.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__3_14.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__3_15.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__3_2.distcp",
+      "bytes": 398859692
+    },
+    {
+      "file": "optimizer/__3_3.distcp",
+      "bytes": 398856854
+    },
+    {
+      "file": "optimizer/__3_4.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__3_5.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__3_6.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__3_7.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__3_8.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__3_9.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__4_0.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__4_1.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__4_10.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__4_11.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__4_12.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__4_13.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__4_14.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__4_15.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__4_2.distcp",
+      "bytes": 398868332
+    },
+    {
+      "file": "optimizer/__4_3.distcp",
+      "bytes": 398856854
+    },
+    {
+      "file": "optimizer/__4_4.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__4_5.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__4_6.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__4_7.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__4_8.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__4_9.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__5_0.distcp",
+      "bytes": 398951792
+    },
+    {
+      "file": "optimizer/__5_1.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__5_10.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__5_11.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__5_12.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__5_13.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__5_14.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__5_15.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__5_2.distcp",
+      "bytes": 398858431
+    },
+    {
+      "file": "optimizer/__5_3.distcp",
+      "bytes": 398856854
+    },
+    {
+      "file": "optimizer/__5_4.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__5_5.distcp",
+      "bytes": 398833199
+    },
+    {
+      "file": "optimizer/__5_6.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__5_7.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__5_8.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__5_9.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__6_0.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__6_1.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__6_10.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__6_11.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__6_12.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__6_13.distcp",
+      "bytes": 398869854
+    },
+    {
+      "file": "optimizer/__6_14.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__6_15.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__6_2.distcp",
+      "bytes": 398858115
+    },
+    {
+      "file": "optimizer/__6_3.distcp",
+      "bytes": 398858115
+    },
+    {
+      "file": "optimizer/__6_4.distcp",
+      "bytes": 398834460
+    },
+    {
+      "file": "optimizer/__6_5.distcp",
+      "bytes": 398834460
+    },
+    {
+      "file": "optimizer/__6_6.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__6_7.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__6_8.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__6_9.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__7_0.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__7_1.distcp",
+      "bytes": 398815536
+    },
+    {
+      "file": "optimizer/__7_10.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__7_11.distcp",
+      "bytes": 398844238
+    },
+    {
+      "file": "optimizer/__7_12.distcp",
+      "bytes": 398866782
+    },
+    {
+      "file": "optimizer/__7_13.distcp",
+      "bytes": 398866782
+    },
+    {
+      "file": "optimizer/__7_14.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__7_15.distcp",
+      "bytes": 398861585
+    },
+    {
+      "file": "optimizer/__7_2.distcp",
+      "bytes": 398858115
+    },
+    {
+      "file": "optimizer/__7_3.distcp",
+      "bytes": 398858115
+    },
+    {
+      "file": "optimizer/__7_4.distcp",
+      "bytes": 398834460
+    },
+    {
+      "file": "optimizer/__7_5.distcp",
+      "bytes": 398834460
+    },
+    {
+      "file": "optimizer/__7_6.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__7_7.distcp",
+      "bytes": 398852123
+    },
+    {
+      "file": "optimizer/__7_8.distcp",
+      "bytes": 398845815
+    },
+    {
+      "file": "optimizer/__7_9.distcp",
+      "bytes": 398845815
+    }
+  ],
+  "total_bytes": 76588586630
+}

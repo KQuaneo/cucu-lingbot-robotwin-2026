@@ -1,0 +1,16 @@
+{
+  "task_name": "click_bell",
+  "seed": 510200,
+  "instruction": "Click the top center of the rounded bell with flat black part on table.",
+  "phase": "online_round0",
+  "worker": 2,
+  "policy_version": 0,
+  "chunks": 3,
+  "terminal": true,
+  "base_frozen": true,
+  "conditional": true,
+  "std": 0.25,
+  "scale": 0.02,
+  "success": true,
+  "reward": 1.0
+}

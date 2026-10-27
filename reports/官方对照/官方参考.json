@@ -1,0 +1,26 @@
+{
+  "model": "robbyant/lingbot-vla-v2-6b-robotwin",
+  "source_checked_date": "2026-10-04",
+  "published_clean_percent": {
+    "put_object_cabinet": 92,
+    "stack_blocks_three": 100,
+    "handover_block": 99,
+    "move_stapler_pad": 84,
+    "pick_dual_bottles": 96
+  },
+  "published_validation_precision": "FP32",
+  "official_deployment_evaluation_episodes_per_task": 100,
+  "official_deployment_robotwin_revision": "13c3c47ff4312dd62484bcd51be034af55c062d1",
+  "sources": {
+    "scores": "https://huggingface.co/robbyant/lingbot-vla-v2-6b-robotwin",
+    "precision": "https://github.com/Robbyant/lingbot-vla-v2#robotwin-deployment",
+    "episode_count_and_pinned_revision": "https://github.com/Robbyant/lingbot-vla-v2/blob/main/experiment/robotwin/README.md"
+  },
+  "comparison_limits": [
+    "Official deployment documentation specifies 100 episodes per task; local diagnostic uses 10 episodes, so each local success changes the rate by 10 percentage points.",
+    "BF16 may produce materially different success rates from the published FP32 release validation.",
+    "The local RoboTwin checkout revision 266f3aadf505a4f7fe9af0faa41a20f5f47cd123 differs from the revision pinned in the official deployment guide.",
+    "Use matched local seeds, episode admission, instructions and inference settings for the official checkpoint versus the 6k checkpoint.",
+    "Strong local official-checkpoint scores would support prioritizing training changes, but would not prove that all environment effects are absent."
+  ]
+}

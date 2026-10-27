@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "positive_reward_moves_mean_towards_success": true,
+  "equal_rewards_do_not_fake_update": true
+}

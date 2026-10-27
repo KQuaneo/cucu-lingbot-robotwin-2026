@@ -1,0 +1,9 @@
+{
+  "run_name": "full_sft_6000_clean50x10_fp32_8gpu_video_20261004",
+  "complete": true,
+  "status": "completed",
+  "exit_code": 0,
+  "snapshot_utc": "2026-10-03T22:43:29.340109+00:00",
+  "archive": "/path/to/project/硬盘/结果/FP32全任务/最终原始快照.tar.gz",
+  "archive_sha256": "3c03a7565efe7b6090485d139084a580d55db5c05e3c77f34851e8d05482a318"
+}

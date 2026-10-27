@@ -1,0 +1,21 @@
+2026-10-04 00:37:10 Preparing closed videos for 44 tasks
+2026-10-04 00:37:13 Remote archive ready: 176455680 bytes, 440 videos
+2026-10-04 00:37:43 Progress 19.9%, 1.12 MiB/s
+2026-10-04 00:38:13 Progress 38.0%, 1.02 MiB/s
+2026-10-04 00:38:43 Progress 47.1%, 0.51 MiB/s
+2026-10-04 00:39:13 Progress 56.0%, 0.49 MiB/s
+2026-10-04 00:39:43 Progress 60.6%, 0.26 MiB/s
+2026-10-04 00:40:13 Progress 69.8%, 0.52 MiB/s
+2026-10-04 00:40:43 Progress 80.2%, 0.58 MiB/s
+2026-10-04 00:41:13 Progress 87.2%, 0.39 MiB/s
+2026-10-04 00:41:42 Retry chunk 9, attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry chunk 8, attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:43 Progress 89.7%, 0.14 MiB/s
+2026-10-04 00:42:13 Progress 96.4%, 0.38 MiB/s
+2026-10-04 00:42:38 Progress 100.0%, 0.25 MiB/s
+2026-10-04 00:42:38 SHA256 VERIFIED archive
+2026-10-04 00:42:38 COMPLETE {"complete": true, "completed_unix": 1791045758.3929129, "snapshot": "01", "closed_tasks": 44, "video_count": 440, "verified_files": 484, "archive_bytes": 176455680, "archive_sha256": "6434dcbfc5f515166569d56895bf8b1188f2783852b17967845d9b1e43c58785", "archive_path": "/path/to/project/硬盘/录像/压缩包/video_snapshot_01.tar", "extracted_path": "/path/to/project/硬盘/录像/全任务测评", "seconds": 324.5}

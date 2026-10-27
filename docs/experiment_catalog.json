@@ -1,0 +1,871 @@
+{
+  "schema_version": 1,
+  "catalog_as_of_hong_kong": "2026-10-27",
+  "scope": "本地保存的比赛实验、取消/准备记录及正式提交证据；未访问远端或重测。",
+  "entry_count": 19,
+  "sample_accounting": [
+    "各实验独立列举，不把报告副本、分享包、提交包副本当新实验。",
+    "复用训练样本与新增真实回合分开；推理调用、CPU单元测试、合成测试、expert预检查不当policy rollout。",
+    "没有跨实验汇总成功率。",
+    "完整验证规模仍是每任务10次；官方发布参考分数与本地结果分开。"
+  ],
+  "publication_scope": {
+    "included": [
+      "结果表与原始结果日志",
+      "运行代码和复现配置",
+      "报告与审计",
+      "录像及轻量RL证据附件"
+    ],
+    "excluded": [
+      "大模型权重",
+      "完整DCP及大优化器存档",
+      "原始训练数据",
+      "凭据和账号私密信息",
+      "含大权重的原始提交ZIP"
+    ]
+  },
+  "path_convention": {
+    "paths": "证据path为公开仓库或Release归档中的相对路径，不含个人绝对路径。",
+    "git": "可在仓库查阅的结果与代码；确切导出落点以归档manifest为准。",
+    "release": "大体积录像、NPZ及轻量RL checkpoint等在Release证据附件，同样保留相对路径前缀。"
+  },
+  "experiments": [
+    {
+      "id": "sft-full-6000",
+      "title": "Full-SFT 正式训练 6000 步",
+      "category": "training",
+      "status": "COMPLETED",
+      "verification_level": "saved_training_log_and_metrics",
+      "metrics": {
+        "optimizer_steps": 6000,
+        "gpus": 8,
+        "optimizer": "AdamW",
+        "micro_batch_size": 16,
+        "global_batch_size": 256,
+        "last_total_loss": 0.0283,
+        "last_vla_loss": 0.0243,
+        "approx_wall_time": "31h57m",
+        "vision_encoder_frozen": false,
+        "teacher_mode": "full"
+      },
+      "evidence": [
+        {
+          "path": "training/full_sft_8gpu_6000steps_20261002.log",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "training/training_metrics_6000steps.csv",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "training/loss_curve_6000steps.png",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "submission/code/configs/实际训练配置.yaml",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "训练 loss 不等同闭环成功率。",
+        "本仓库按发布范围排除大模型权重和完整 DCP；清单与复现配置保留。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sft-smoke-10",
+      "title": "AMD Full-SFT 10 步及推理冒烟",
+      "category": "smoke",
+      "status": "COMPLETED",
+      "verification_level": "saved_training_and_inference_logs",
+      "metrics": {
+        "optimizer_steps": 10,
+        "inference_calls": 6,
+        "inference_batches": [
+          1,
+          2
+        ],
+        "inference_actions_finite": true,
+        "action_shape_single": [
+          25,
+          14
+        ],
+        "action_shape_batch2": [
+          2,
+          25,
+          14
+        ]
+      },
+      "evidence": [
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/logs/full_sft_8gpu_10steps_20261002.log",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/logs/full_sft_10step_inference_smoke.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "六次是推理调用，不是六个闭环机器人回合。",
+        "冒烟 checkpoint 不作为正式 6k 模型或性能结果。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "sft-6000-adjust-bottle",
+      "title": "6k Full-SFT 独立 adjust_bottle 评测",
+      "category": "evaluation",
+      "status": "COMPLETED",
+      "verification_level": "saved_final_policy_log",
+      "metrics": {
+        "task": "adjust_bottle",
+        "successes": 8,
+        "attempts": 10
+      },
+      "evidence": [
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/logs/full_sft_6000_adjust_bottle_valid10.log",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "与全任务评测中该任务的 9/10 是不同运行，不合并。",
+        "已保存的实际种子序列与 BF16 全任务该任务相同；不能以种子不同解释差异，指令/策略噪声也未被严格控制。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "clean-bf16-50x10",
+      "title": "6k clean 全任务 BF16",
+      "category": "evaluation",
+      "status": "COMPLETED",
+      "verification_level": "saved_result_raw_logs_and_video_audit",
+      "metrics": {
+        "tasks": 50,
+        "attempts_per_task": 10,
+        "successes": 276,
+        "attempts": 500,
+        "success_rate": 0.552,
+        "precision": "BF16",
+        "setting": "demo_clean",
+        "instruction_type": "seen",
+        "videos": 500
+      },
+      "evidence": [
+        {
+          "path": "reports/实验结果.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/per_task_results.csv",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/实验报告.md",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "results/full_sft_6000_clean50x10_8gpu_video/task_times.tsv",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/最终审计/评测录像审计.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "每任务实际 10 次，不是官方完整要求的 100 次。",
+        "策略噪声与指令抽样未完全固定，不将 BF16/FP32 差异解释为严格精度因果效应。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "clean-fp32-50x10",
+      "title": "6k clean 全任务 FP32",
+      "category": "evaluation",
+      "status": "COMPLETED",
+      "verification_level": "saved_result_raw_logs_and_video_audit",
+      "metrics": {
+        "tasks": 50,
+        "attempts_per_task": 10,
+        "successes": 263,
+        "attempts": 500,
+        "success_rate": 0.526,
+        "precision": "FP32",
+        "setting": "demo_clean",
+        "instruction_type": "seen",
+        "videos": 500,
+        "exit_code": 0
+      },
+      "evidence": [
+        {
+          "path": "reports/FP32全任务/结果.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/FP32全任务/per_task_fp32_vs_bf16.csv",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/FP32全任务/评测报告.md",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "results/FP32全任务/原始日志/task_times.tsv",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "转为 FP32 推理不会恢复导出权重时已舍入丢失的精度。",
+        "与 BF16 为两个真实运行，不重复累计或冒称 100 次/任务。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "randomized-fp32-50x10",
+      "title": "6k randomized 全任务 FP32",
+      "category": "evaluation",
+      "status": "COMPLETED",
+      "verification_level": "saved_result_and_verified_500_video_transfer",
+      "metrics": {
+        "tasks": 50,
+        "attempts_per_task": 10,
+        "successes": 177,
+        "attempts": 500,
+        "success_rate": 0.354,
+        "precision": "FP32",
+        "setting": "demo_randomized",
+        "instruction_type": "unseen",
+        "videos_sha_verified": 500,
+        "exit_code": 0
+      },
+      "evidence": [
+        {
+          "path": "reports/随机场景_20261026/采集状态.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/随机场景_20261026/snapshot.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/随机场景_20261026/逐任务结果.csv",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/随机场景_20261026/video_manifest.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "与 clean 除视觉场景变化外还存在 seen/unseen 指令条件差异，不能将全部下降归因于视觉随机化。",
+        "每任务 10 次小样本。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "official-robotwin-adjust-bottle",
+      "title": "官方 RoboTwin 后训练模型 adjust_bottle 复现",
+      "category": "evaluation",
+      "status": "COMPLETED_WITH_PREPATCH_DIAGNOSTIC",
+      "verification_level": "saved_final_policy_logs",
+      "metrics": {
+        "validated_run": {
+          "task": "adjust_bottle",
+          "successes": 10,
+          "attempts": 10
+        },
+        "prepatch_diagnostic": {
+          "reported_final_successes": 5,
+          "reported_final_denominator": 10,
+          "actual_logged_successes": 5,
+          "actual_logged_policy_rollouts": 5,
+          "admissible_as_5_of_10_policy_result": false
+        }
+      },
+      "evidence": [
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/logs/robotwin_checkpoint_adjust_bottle_valid10.log",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/logs/robotwin_checkpoint_adjust_bottle.log",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "早期结果包含有效回合准入/分母问题，不当作可靠 5/10。",
+        "修复后的 10/10 仅是该任务复现，不是基础模型或官方模型全任务成绩。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "official-weak5-bf16",
+      "title": "官方模型低分五任务 BF16 对照",
+      "category": "evaluation",
+      "status": "CANCELLED_BY_USER",
+      "verification_level": "saved_cancellation_status_and_partial_logs",
+      "metrics": {
+        "planned_tasks": 5,
+        "planned_attempts_per_task": 10,
+        "completed_tasks": 0,
+        "completed_task_attempts": 0,
+        "complete_success_rate": null
+      },
+      "evidence": [
+        {
+          "path": "reports/官方对照/对照结果.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/官方对照/对照报告.md",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "results/官方对照/已取消.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "部分进行中回合不能充当五任务最终成绩。",
+        "官方已发布的 FP32/100 次参考成绩是外部参考，不是本地复测结果。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "lora-local-10000",
+      "title": "本项目 LoRA 10000 步训练",
+      "category": "training",
+      "status": "COMPLETED",
+      "verification_level": "saved_training_completion_log",
+      "metrics": {
+        "optimizer_steps": 10000,
+        "approx_wall_time": "8h21m49s",
+        "last_total_loss": 0.324,
+        "last_vla_loss": 0.322,
+        "distributed_checkpoint_saved": true
+      },
+      "evidence": [
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/logs/lora_10000steps_8gpu.log",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/logs/merge_lora_10000steps.log",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/logs/lora_10000steps_8gpu_failed_tmpfs.log",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "早期失败尝试与最终完成训练分别保留，失败日志不是另一个成功模型。",
+        "不得将队友 PB 运行的 0/10 评测归到这个不同名称的训练。",
+        "LoRA 大权重按用户此前要求未备份，本仓库不声称提供完整 LoRA checkpoint。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "lora-pb-1001-adjust-bottle",
+      "title": "队友 lora_10k_PB_1001 的 adjust_bottle 评测",
+      "category": "evaluation",
+      "status": "EVALUATION_COMPLETED",
+      "verification_level": "saved_final_policy_log",
+      "metrics": {
+        "task": "adjust_bottle",
+        "successes": 0,
+        "attempts": 10,
+        "reported_checkpoint_step": 10000,
+        "training_completion_independently_reaudited": false
+      },
+      "evidence": [
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/logs/lora_10k_PB_1001_adjust_bottle_valid10_retry1.log",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reproducibility/original-paths/workspace/runtime/outputs/lora_10k_PB_1001/lingbotvla_cli.yaml",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "仅核实该 checkpoint 的保存配置和这次闭环结果，训练完成过程没有重新逐步审计。",
+        "该名称与本项目 lora_10000steps_8gpu 训练分开记录。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "augmentation-plan-oct26",
+      "title": "颜色增强与对照配置准备",
+      "category": "preparation",
+      "status": "PREPARED_NOT_RUN",
+      "verification_level": "saved_explicit_not_run_status_and_yaml_parse_check",
+      "metrics": {
+        "training_started": false,
+        "evaluation_started": false,
+        "yaml_configs": 4,
+        "planned_smoke_steps": 10,
+        "planned_pilot_steps": 200
+      },
+      "evidence": [
+        {
+          "path": "reports/数据增强与RL方案_20261026/状态.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/数据增强与RL方案_20261026/增强与RL实验方案.md",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/数据增强与RL方案_20261026/环境与配置核对.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "只核对配置解析及数据元信息；未运行训练、存档、HF 导出或增强后评测。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "cabinet-augmentation-audit",
+      "title": "柜子任务左右重采集增强审计",
+      "category": "analysis",
+      "status": "STATIC_ANALYSIS_ONLY",
+      "verification_level": "saved_code_and_existing_record_audit",
+      "metrics": {
+        "new_simulation_run": false,
+        "new_augmented_closed_loop_result": null,
+        "existing_baseline": {
+          "bf16_successes": 0,
+          "fp32_successes": 1,
+          "attempts_each": 10
+        }
+      },
+      "evidence": [
+        {
+          "path": "development/cabinet_augmentation_audit/审计结论.md",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "development/cabinet_augmentation_audit/evidence_hashes.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "现存材料支持静态代码分析，不证明增强数据生成、物理回放、转换或增强训练成功。",
+        "已有 0/10 和 1/10 是原模型诊断结果，不是增强后成绩。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "colab-migration-oct10",
+      "title": "Colab 迁移、FP32 Full-SFT 冒烟与暂停",
+      "category": "migration",
+      "status": "PAUSED_BY_USER",
+      "verification_level": "saved_migration_status_record",
+      "metrics": {
+        "verified_dataset_tasks": 50,
+        "verified_dataset_episodes": 2500,
+        "verified_dataset_frames": 549787,
+        "full_sft_smoke_steps_passed": 2,
+        "resume_step3_verified": true,
+        "formal_optimizer_steps_completed": 0,
+        "target_cumulative_steps": 10000,
+        "target_achieved": false
+      },
+      "evidence": [
+        {
+          "path": "development/colab-migration/migration_status.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "development/colab-migration/迁移状态.md",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "2 步冒烟及第 3 步恢复记录不能写成正式 10k 训练完成。",
+        "正式训练在完成第一个 optimizer step 前被用户暂停；状态文件内部旧的浏览器活动描述不覆盖最终暂停状态。",
+        "迁移权重分块/重建包大多与原 6k 权重或公共数据重复，本发布排除权重与训练数据。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rlinf-v2-stage1-oct17",
+      "title": "RLinf V2 接口核查与第一阶段准备",
+      "category": "preparation",
+      "status": "CPU_PREPARATION_ONLY",
+      "verification_level": "saved_cpu_verification_record_and_static_audit",
+      "metrics": {
+        "cpu_tests_reported_passed": 13,
+        "python_files_syntax_checked": 4,
+        "real_fixture_observations": 2,
+        "checkpoint_header_tensors": 1708,
+        "gpu_inference_run": false,
+        "rl_training_implemented": false
+      },
+      "evidence": [
+        {
+          "path": "development/lingbot_v2_rl_stage1/verification.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "development/lingbot_v2_rl_stage1/README.md",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "development/lingbot_v2_rl_stage1/local_audit.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "两帧 fixture 用于接口一致性准备，不是新 RL 经验。",
+        "没有完成 GPU 数值等价、随机 flow 链、概率重算或真实策略更新。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rl-fixed-first",
+      "title": "固定残差 REINFORCE 首次闭环",
+      "category": "reinforcement_learning",
+      "status": "COMPLETED",
+      "verification_level": "saved_episode_gradient_transfer_audit",
+      "metrics": {
+        "task": "click_bell",
+        "training_attempts": 8,
+        "training_successes": 5,
+        "post_update_attempts": 8,
+        "post_update_successes": 7,
+        "fresh_policy_episodes": 16,
+        "nonzero_updates": 1,
+        "trainable_residual_means": 12,
+        "base_model_updated": false,
+        "videos": 16
+      },
+      "evidence": [
+        {
+          "path": "reports/RL首次试验_20261026/首次RL试验结果.md",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL首次试验_20261026/remote/status.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL首次试验_20261026/remote/final_audit.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "更新前后使用不同种子且各仅 8 次，5/8→7/8 不构成可靠提升证据。",
+        "只训练固定的 episode-level 12 维残差均值，不是 6B 主模型 RL 微调。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rl-fixed-multitask",
+      "title": "固定残差 REINFORCE 三任务对照",
+      "category": "reinforcement_learning",
+      "status": "COMPLETED",
+      "verification_level": "saved_paired_validation_and_gradient_audit",
+      "metrics": {
+        "tasks": [
+          {
+            "task": "beat_block_hammer",
+            "training_successes": 6,
+            "training_attempts": 8,
+            "control_successes": 4,
+            "updated_successes": 4,
+            "validation_attempts_per_policy": 8
+          },
+          {
+            "task": "rotate_qrcode",
+            "training_successes": 3,
+            "training_attempts": 8,
+            "control_successes": 4,
+            "updated_successes": 4,
+            "validation_attempts_per_policy": 8
+          },
+          {
+            "task": "press_stapler",
+            "training_successes": 4,
+            "training_attempts": 8,
+            "control_successes": 5,
+            "updated_successes": 5,
+            "validation_attempts_per_policy": 8
+          }
+        ],
+        "fresh_policy_episodes": 72,
+        "nonzero_updates": 3,
+        "base_model_updated": false,
+        "videos": 72
+      },
+      "evidence": [
+        {
+          "path": "reports/RL多任务试验_20261026/多任务RL试验结果.md",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL多任务试验_20261026/remote/status.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL多任务试验_20261026/remote/final_audit.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "每任务从独立初始残差分布训练一次，三个 checkpoint 不合并成一个多任务策略。",
+        "control 为未训练的随机残差策略，不是完全无残差的原 6k。",
+        "配对验证成功数无净增加；小样本不证明所有 RL 无效。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rl-fixed-ppo",
+      "title": "固定残差 PPO 裁剪目标方法对照",
+      "category": "reinforcement_learning",
+      "status": "COMPLETED",
+      "verification_level": "saved_old_probability_and_paired_validation_audit",
+      "metrics": {
+        "tasks": [
+          {
+            "task": "beat_block_hammer",
+            "control_successes": 4,
+            "reinforce_successes": 4,
+            "ppo_successes": 4,
+            "attempts_per_policy": 8
+          },
+          {
+            "task": "rotate_qrcode",
+            "control_successes": 4,
+            "reinforce_successes": 4,
+            "ppo_successes": 3,
+            "attempts_per_policy": 8
+          },
+          {
+            "task": "press_stapler",
+            "control_successes": 5,
+            "reinforce_successes": 5,
+            "ppo_successes": 5,
+            "attempts_per_policy": 8
+          }
+        ],
+        "reused_training_episodes": 24,
+        "fresh_training_episodes": 0,
+        "fresh_validation_episodes": 24,
+        "optimization_epochs_per_task": 4,
+        "base_model_updated": false,
+        "videos": 24
+      },
+      "evidence": [
+        {
+          "path": "reports/RL_PPO试验_20261026/PPO方法对照结果.md",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL_PPO试验_20261026/remote/status.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL_PPO试验_20261026/remote/final_audit.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL_PPO试验_20261026/remote/training_provenance.json",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "复用的 24 个训练回合不重复计为新采样；4 个优化 epoch 不等于4轮在线训练。",
+        "PPO 与 REINFORCE 也有优化器、学习率和 epoch 数差异，不单独归因于 clipping。",
+        "本批样本未观察到收益，非大模型完整 PPO 或 ReinFlow 实现。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "rl-conditional-online",
+      "title": "观测条件残差网络三轮在线采样",
+      "category": "reinforcement_learning",
+      "status": "COMPLETED_RECORDED_SUPPLEMENT_UNVERIFIED",
+      "verification_level": "saved_training_status_and_partial_transfer_manifest",
+      "metrics": {
+        "task": "click_bell",
+        "trainable_parameters": 5900,
+        "input_features": 171,
+        "rounds": [
+          {
+            "round": 0,
+            "successes": 4,
+            "attempts": 4,
+            "nonzero_update": false
+          },
+          {
+            "round": 1,
+            "successes": 3,
+            "attempts": 4,
+            "nonzero_update": true,
+            "parameter_change_norm": 0.05137837955016401
+          },
+          {
+            "round": 2,
+            "successes": 2,
+            "attempts": 4,
+            "nonzero_update": true,
+            "parameter_change_norm": 0.09343776825791045
+          }
+        ],
+        "fresh_online_training_episodes": 12,
+        "nonzero_updates": 2,
+        "post_training_validation_successes": 1,
+        "post_training_validation_attempts": 4,
+        "locally_saved_closed_policy_episodes": 16,
+        "locally_saved_videos": 16,
+        "base_model_updated": false,
+        "supplement_control": {
+          "status": "SCRIPT_PRESENT_COMPLETION_UNVERIFIED",
+          "planned_attempts": 4,
+          "verified_attempts": null,
+          "included_in_counts": false,
+          "missing_evidence": [
+            "remote/supplement_status.json",
+            "remote/conditional_paired_validation.json",
+            "remote/final_audit.json"
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "path": "reports/RL观测条件多轮_20261026/remote/status.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL观测条件多轮_20261026/remote/round_results.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL观测条件多轮_20261026/transfer_manifest.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/RL观测条件多轮_20261026/README_实验定义.md",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "现存本地 status 记录三轮结束，235 条 transfer manifest 保存约43.96MB证据；本次盘点未访问远端重新补齐。",
+        "第一轮回报全同，真实零更新；版本号增加不能冒称非零训练更新。",
+        "训练轮次种子不同，不能把 4/4→3/4→2/4 解释为性能趋势；最后1/4也缺已核验同种子初始策略对照。",
+        "补充control只有脚本，缺完成状态和最终独立审计；不将计划4回合写成已完成。",
+        "这是有观测条件的小残差网络，不是动作专家或6B主模型微调。"
+      ],
+      "notes": []
+    },
+    {
+      "id": "tianchi-submission",
+      "title": "天池初赛提交回执",
+      "category": "submission",
+      "status": "ACCEPTED_PENDING_EVALUATION_AT_SAVED_RECEIPT",
+      "verification_level": "saved_platform_receipt_and_screenshot",
+      "metrics": {
+        "team": "cucu",
+        "submission_time_hong_kong": "2026-10-26 18:51:41",
+        "platform_status_at_saved_receipt": "待评测",
+        "clean": {
+          "successes": 263,
+          "attempts": 500,
+          "tasks": 50
+        },
+        "randomized": {
+          "successes": 177,
+          "attempts": 500,
+          "tasks": 50
+        },
+        "attempts_per_task_per_setting": 10,
+        "contains_new_evaluation": false,
+        "original_zip_bytes": 13295262916,
+        "original_zip_sha256": "2411196824e39fc2ac473dfe2e589fc16199775abebefa9a10a90f045045d7d2"
+      },
+      "evidence": [
+        {
+          "path": "submission/evaluation/results.json",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/随机场景_20261026/天池提交成功_待评测.jpg",
+          "role": "primary",
+          "storage": "git"
+        },
+        {
+          "path": "reports/随机场景_20261026/天池提交成功_页面记录.txt",
+          "role": "primary",
+          "storage": "git"
+        }
+      ],
+      "limitations": [
+        "回执仅证明平台接收，待评测不等于审核通过、得分或晋级。",
+        "提交重用既有clean/randomized结果，不是额外1000个回合。",
+        "实际每任务每setting 10次，没有达到完整100次规模；按真实 attempts/successes 填报。",
+        "原13.3GB ZIP含大权重，本次公开发布范围排除该原包及模型/DCP。"
+      ],
+      "notes": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "checked_hong_kong": "2026-10-04T20:11:12.895000+08:00",
+  "fp32_tasks": 50,
+  "fp32_rollouts": 500,
+  "fp32_successes": 263,
+  "fp32_rate": 0.526,
+  "bf16_successes": 276,
+  "bf16_rate": 0.552,
+  "fp32_videos_verified": 500,
+  "bf16_videos_verified": 500,
+  "dcp_files_verified": 266,
+  "mac_staging_complete": true,
+  "external_drive_copy_complete": false,
+  "external_mount_visible": false,
+  "core_experiment_backup_verified": true,
+  "supplemental_source_backup_verified": true,
+  "converted_training_data_complete": false,
+  "converted_training_data_downloaded_bytes": 2390556672,
+  "five_k_and_lora_excluded_by_user": true,
+  "server_ssh_accessible": false
+}

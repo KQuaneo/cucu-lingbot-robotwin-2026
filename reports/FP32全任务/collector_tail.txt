@@ -1,0 +1,121 @@
+
+BASELINE = {}
+with (BACKUP_ROOT / '报告/per_task_results.csv').open(encoding='utf-8-sig') as handle:
+    for row in csv.DictReader(handle):
+        seeds = [int(x) for x in row['actual_seeds'].split(';') if x]
+        failed = {int(x) for x in row['failed_seeds'].split(';') if x}
+        BASELINE[row['task']] = {'successes': int(row['successes']), 'episodes': 10,
+                                'actual_seeds': seeds, 'outcomes': {seed: seed not in failed for seed in seeds}}
+
+def render(snapshot):
+    rows = [parse_task(task, snapshot) for task in TASKS]
+    for row in rows:
+        baseline = BASELINE[row['task']]
+        row['bf16_baseline'] = baseline
+        row['matched_seeds'] = [{'seed': e['seed'], 'bf16_success': baseline['outcomes'][e['seed']],
+                                 'fp32_success': e['success']} for e in row['episodes']
+                                if e['seed'] in baseline['outcomes'] and e['success'] is not None]
+        row['final_difference_percentage_points'] = ((row['successes'] - baseline['successes']) * 10
+                                                      if row['completed'] else None)
+    finished = [r for r in rows if r['completed']]
+    successes = sum(r['successes'] for r in finished)
+    episodes = sum(r['policy_rollouts'] for r in finished)
+    exit_text = snapshot['files'].get('preparation/exit_code', '').strip()
+    exit_code = int(exit_text) if re.fullmatch(r'-?\d+', exit_text) else None
+    complete = len(finished) == 50 and episodes == 500 and exit_code == 0
+    ended = complete or exit_code is not None
+    state = 'completed' if complete else 'ended_incomplete' if ended else 'running'
+    report = {'run_name': RUN_NAME, 'status': state, 'complete': complete,
+              'snapshot_utc': snapshot['snapshot_utc'], 'snapshot_hong_kong': snapshot['snapshot_hong_kong'],
+              'completed_tasks': len(finished), 'planned_tasks': 50, 'completed_task_successes': successes,
+              'completed_task_rollouts': episodes, 'all_logged_rollouts': sum(r['policy_rollouts'] for r in rows),
+              'success_rate': successes / episodes if episodes else None,
+              'bf16_on_completed_tasks': {'successes': sum(BASELINE[r['task']]['successes'] for r in finished), 'episodes': episodes},
+              'original_bf16_all_tasks': {'successes': 276, 'episodes': 500, 'rate': 0.552},
+              'precision': 'FP32', 'exit_code': exit_code, 'tasks': rows,
+              'conditions': 'same 6k HF checkpoint/config, demo_clean, seen, seed arg0, valid retry, 10/task, expert+accept info, video, eager, use_length25, no compile',
+              'limits': ['Actual valid seeds can differ after setup retries; preserve them and compare overlapping seeds.',
+                         'Instruction sampling and policy noise were not fixed in the prior BF16 run.',
+                         'FP32 casts the existing exported checkpoint; it cannot recover precision previously lost when saving weights.',
+                         'Ten episodes per task; descriptive results do not prove causality.'],
+              'server_anomalies': {name: {key: content.count(key) for key in ['Traceback (most recent call last)', 'OutOfMemoryError', 'CUDA out of memory']}
+                                   for name, content in snapshot['files'].items() if name.startswith('logs/server_gpu')}}
+    save_json(HERE / '结果.json', report)
+    columns = ['task', 'status', 'bf16_successes', 'fp32_successes', 'fp32_rollouts', 'final_difference_percentage_points', 'actual_seeds', 'bf16_actual_seeds']
+    output = io.StringIO(); writer = csv.DictWriter(output, fieldnames=columns); writer.writeheader()
+    table = []
+    for row in rows:
+        writer.writerow({'task': row['task'], 'status': row['status'], 'bf16_successes': BASELINE[row['task']]['successes'],
+                         'fp32_successes': row['successes'] if row['successes'] is not None else '',
+                         'fp32_rollouts': row['policy_rollouts'], 'final_difference_percentage_points': row['final_difference_percentage_points'],
+                         'actual_seeds': ';'.join(map(str, row['actual_seeds'])), 'bf16_actual_seeds': ';'.join(map(str, BASELINE[row['task']]['actual_seeds']))})
+        score = f"{row['successes']}/{row['policy_rollouts']}" if row['policy_rollouts'] else '—'
+        table.append(f"| {row['task']} | {BASELINE[row['task']]['successes']}/10 | {score} | {'完成' if row['completed'] else '等待' if row['status']=='waiting_for_task' else '部分结果'} |")
+    atomic_text(HERE / 'per_task_fp32_vs_bf16.csv', '\ufeff' + output.getvalue())
+    rate = f'{successes/episodes*100:.2f}%' if episodes else '尚无完整任务'
+    text = f'''# 6k 模型 FP32 全任务评测
+
+更新时间：{snapshot['snapshot_hong_kong']}。状态：{state}。完整任务 **{len(finished)}/50**；完整任务合计 **{successes}/{episodes}（{rate}）**。全部已记录回合 {report['all_logged_rollouts']}/500。退出码：{exit_code}。
+
+原 BF16 全任务：276/500，55.20%。进行中的分数仍会变化；未完成任务不作为0分。比较总体成绩需要两轮都完整结束。
+
+| 任务 | 原 BF16 | 当前 FP32 | 状态 |
+|---|---:|---:|---|
+{chr(10).join(table)}
+
+## 条件与限制
+
+使用同一6k导出checkpoint和模型配置，仅将推理设置改为FP32；50个demo_clean任务，各10个有效回合，seen指令、seed参数0、expert预检与失败信息接纳、valid retry patch、录像、eager、use_length25、不编译。优先执行原BF16耗时最长的任务。
+
+实际有效种子可能因初始化重试不同；逐任务CSV及JSON保留两轮种子与重叠种子结果。指令抽样、策略噪声和规划随机性可能不同。FP32转换已有权重无法恢复保存时损失的精度。每项仅10次，暂不做显著性或因果判断。
+
+原始日志和本次准确录像目录位于 ../../结果/FP32全任务/。录像按已完成任务持续备份到 ../../录像/FP32全任务/。旧BF16结果与录像保留。
+
+服务器预计10:10回收，评测设置09:35（香港时间）截止，给最终备份预留时间；提前完成则正常退出。未完成时明确记录部分结果。
+
+## Material Passport
+
+- Origin Skill: experiment-agent
+- Origin Mode: run
+- Origin Date: 2026-10-04
+- Verification Status: {'VERIFIED (execution/log consistency only)' if complete else 'UNVERIFIED'}
+- Version Label: full-sft-6000-fp32-clean50x10-v1
+
+## ExperimentResult
+
+- ID: {RUN_NAME}
+- Status: {state}
+- Working Directory: /RoboTwin
+- Exit Code: {exit_code}
+- Output: 本报告、结果.json、CSV、原始日志、已闭合录像。
+'''
+    atomic_text(HERE / '评测报告.md', text)
+    return report, ended
+
+def main():
+    parser = argparse.ArgumentParser(); parser.add_argument('--watch', action='store_true'); parser.add_argument('--interval', type=int, default=180)
+    args = parser.parse_args()
+    RESULTS.mkdir(parents=True, exist_ok=True)
+    deadline = dt.datetime.fromisoformat('2026-10-04T10:00:00+08:00')
+    with (RESULTS / '监控.lock').open('a') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        while dt.datetime.now(dt.timezone.utc) < deadline:
+            try:
+                snapshot = capture(); report, ended = render(snapshot)
+                print(json.dumps({k: report[k] for k in ['status', 'completed_tasks', 'all_logged_rollouts', 'completed_task_successes', 'completed_task_rollouts', 'snapshot_hong_kong']}, ensure_ascii=False), flush=True)
+                if ended:
+                    archive = RESULTS / '最终原始快照.tar.gz'
+                    with tarfile.open(archive, 'w:gz') as handle:
+                        for p in [RESULTS / '原始日志', RESULTS / '录像目录清单.json', RESULTS / '原始快照.json.gz']:
+                            handle.add(p, arcname=p.name)
+                    save_json(RESULTS / '已结束.json', {'run_name': RUN_NAME, 'complete': report['complete'], 'status': report['status'], 'exit_code': report['exit_code'], 'snapshot_utc': report['snapshot_utc'], 'archive': str(archive), 'archive_sha256': hashlib.sha256(archive.read_bytes()).hexdigest()})
+                    if report['complete']: save_json(RESULTS / '采集完成.json', report)
+                    return
+            except Exception as exc:
+                print('Capture error: ' + repr(exc), flush=True)
+                save_json(RESULTS / '采集错误.json', {'time_utc': dt.datetime.now(dt.timezone.utc).isoformat(), 'error': repr(exc)})
+            if not args.watch: return
+            time.sleep(min(args.interval, max(1, (deadline - dt.datetime.now(dt.timezone.utc)).total_seconds())))
+        save_json(RESULTS / '监控截止.json', {'status': 'deadline_reached', 'time_hong_kong': dt.datetime.now(HK).isoformat()})
+
+if __name__ == '__main__': main()

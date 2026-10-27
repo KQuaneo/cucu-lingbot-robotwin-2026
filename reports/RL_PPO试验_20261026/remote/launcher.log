@@ -1,0 +1,3 @@
+beat_block_hammer_ppo_after reward 4.0 / 8
+rotate_qrcode_ppo_after reward 3.0 / 8
+press_stapler_ppo_after reward 5.0 / 8

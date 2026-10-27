@@ -1,0 +1,62 @@
+{
+  "verified_utc": "2026-10-26T11:52:15.004076+00:00",
+  "task_audits": [
+    {
+      "task": "beat_block_hammer",
+      "matched_pairs": 8,
+      "initial_state_exact_matches": 8,
+      "initial_images_exact_matches": 8,
+      "improved_pairs": 2,
+      "regressed_pairs": 2,
+      "old_logprob_verified": true,
+      "clip_fractions": [
+        0.25,
+        0.5,
+        0.375,
+        0.375
+      ]
+    },
+    {
+      "task": "rotate_qrcode",
+      "matched_pairs": 8,
+      "initial_state_exact_matches": 8,
+      "initial_images_exact_matches": 8,
+      "improved_pairs": 0,
+      "regressed_pairs": 1,
+      "old_logprob_verified": true,
+      "clip_fractions": [
+        0.25,
+        0.375,
+        0.5,
+        0.625
+      ]
+    },
+    {
+      "task": "press_stapler",
+      "matched_pairs": 8,
+      "initial_state_exact_matches": 8,
+      "initial_images_exact_matches": 8,
+      "improved_pairs": 0,
+      "regressed_pairs": 0,
+      "old_logprob_verified": true,
+      "clip_fractions": [
+        0.0,
+        0.375,
+        0.5,
+        0.375
+      ]
+    }
+  ],
+  "new_validation_episodes": 24,
+  "reused_training_episodes": 24,
+  "new_training_episodes": 0,
+  "chunks": 258,
+  "actual_executed_steps": 6287,
+  "videos": 24,
+  "max_joint_residual_radians": 0.003988504409790039,
+  "all_rewards_match_environment_logs": true,
+  "base_frozen": true,
+  "original_eval_script_unchanged": true,
+  "trial_processes_running": [],
+  "exit_code": 0
+}

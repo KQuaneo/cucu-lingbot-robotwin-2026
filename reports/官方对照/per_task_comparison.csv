@@ -1,0 +1,6 @@
+﻿task,status,ours_successes,ours_rollouts,official_bf16_successes,official_bf16_rollouts,official_bf16_percent,final_difference_percentage_points,official_published_clean_fp32_percent,actual_seeds,same_final_seed_sequence,ours_failed_official_succeeded,both_failed,official_failed_ours_succeeded,both_succeeded
+put_object_cabinet,running_or_partial,0,10,2,4,50.0,,92,100000;100001;100002;100003,,2,2,0,0
+stack_blocks_three,running_or_partial,0,10,1,4,25.0,,100,100000;100001;100002;100003,,1,3,0,0
+handover_block,running_or_partial,1,10,2,2,100.0,,99,100000;100001,,2,0,0,0
+move_stapler_pad,running_or_partial,1,10,1,4,25.0,,84,100000;100001;100002;100003,,1,2,1,0
+pick_dual_bottles,running_or_partial,1,10,,0,,,96,,,0,0,0,0

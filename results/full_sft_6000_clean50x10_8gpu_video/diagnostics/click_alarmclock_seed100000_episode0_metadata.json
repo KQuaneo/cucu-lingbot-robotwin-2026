@@ -1,0 +1,21 @@
+{
+  "task": "click_alarmclock",
+  "seed": 100000,
+  "episode": 0,
+  "result": "failure",
+  "video": "/workspace/runtime/eval_result/click_alarmclock/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_305566/episode0.mp4",
+  "duration_seconds": 40.0,
+  "timestamps": [
+    0,
+    4.0,
+    8.0,
+    12.0,
+    18.0,
+    24.0,
+    32.0,
+    39.6
+  ],
+  "sheet": "/workspace/runtime/outputs/full_sft_6000_clean50x10_8gpu_video/diagnostics/click_alarmclock_seed100000_episode0_contact_sheet.jpg",
+  "frame_per_action": 1,
+  "fps": 10
+}

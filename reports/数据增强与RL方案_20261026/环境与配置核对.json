@@ -1,0 +1,336 @@
+{
+  "utc": "2026-10-26T10:59:43.912575+00:00",
+  "training_started": false,
+  "validated_configs": [
+    {
+      "name": "对照_10步_未运行.yaml",
+      "steps": 10,
+      "augment": false,
+      "output": "/var/tmp/cucu_control_10_20261026/output",
+      "yaml_parse": true
+    },
+    {
+      "name": "增强_10步_未运行.yaml",
+      "steps": 10,
+      "augment": true,
+      "output": "/var/tmp/cucu_aug_10_20261026/output",
+      "yaml_parse": true
+    },
+    {
+      "name": "对照_200步_未运行.yaml",
+      "steps": 200,
+      "augment": false,
+      "output": "/var/tmp/cucu_control_200_20261026/output",
+      "yaml_parse": true
+    },
+    {
+      "name": "增强_200步_未运行.yaml",
+      "steps": 200,
+      "augment": true,
+      "output": "/var/tmp/cucu_aug_200_20261026/output",
+      "yaml_parse": true
+    }
+  ],
+  "datasets": [
+    {
+      "dataset": "adjust_bottle_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7188
+    },
+    {
+      "dataset": "beat_block_hammer_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 5682
+    },
+    {
+      "dataset": "blocks_ranking_rgb_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 23041
+    },
+    {
+      "dataset": "blocks_ranking_size_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 23170
+    },
+    {
+      "dataset": "click_alarmclock_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 4252
+    },
+    {
+      "dataset": "click_bell_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 3855
+    },
+    {
+      "dataset": "dump_bin_bigbin_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 12122
+    },
+    {
+      "dataset": "grab_roller_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 4728
+    },
+    {
+      "dataset": "handover_block_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 14084
+    },
+    {
+      "dataset": "handover_mic_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 11092
+    },
+    {
+      "dataset": "hanging_mug_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 16889
+    },
+    {
+      "dataset": "lift_pot_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 5554
+    },
+    {
+      "dataset": "move_can_pot_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7568
+    },
+    {
+      "dataset": "move_pillbottle_pad_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7345
+    },
+    {
+      "dataset": "move_playingcard_away_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 5884
+    },
+    {
+      "dataset": "move_stapler_pad_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7749
+    },
+    {
+      "dataset": "open_laptop_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 10412
+    },
+    {
+      "dataset": "open_microwave_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 24333
+    },
+    {
+      "dataset": "pick_diverse_bottles_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 6060
+    },
+    {
+      "dataset": "pick_dual_bottles_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 6129
+    },
+    {
+      "dataset": "place_a2b_left_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7451
+    },
+    {
+      "dataset": "place_a2b_right_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7349
+    },
+    {
+      "dataset": "place_bread_basket_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 11956
+    },
+    {
+      "dataset": "place_bread_skillet_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 8277
+    },
+    {
+      "dataset": "place_burger_fries_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 12046
+    },
+    {
+      "dataset": "place_can_basket_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 12618
+    },
+    {
+      "dataset": "place_cans_plasticbox_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 14375
+    },
+    {
+      "dataset": "place_container_plate_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7934
+    },
+    {
+      "dataset": "place_dual_shoes_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 11510
+    },
+    {
+      "dataset": "place_empty_cup_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 8617
+    },
+    {
+      "dataset": "place_fan_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7358
+    },
+    {
+      "dataset": "place_mouse_pad_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7531
+    },
+    {
+      "dataset": "place_object_basket_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 12298
+    },
+    {
+      "dataset": "place_object_scale_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7266
+    },
+    {
+      "dataset": "place_object_stand_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 6952
+    },
+    {
+      "dataset": "place_phone_stand_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 6357
+    },
+    {
+      "dataset": "place_shoe_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 8982
+    },
+    {
+      "dataset": "press_stapler_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 5953
+    },
+    {
+      "dataset": "put_bottles_dustbin_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 31231
+    },
+    {
+      "dataset": "put_object_cabinet_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 13460
+    },
+    {
+      "dataset": "rotate_qrcode_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7724
+    },
+    {
+      "dataset": "scan_object_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 8463
+    },
+    {
+      "dataset": "shake_bottle_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 12436
+    },
+    {
+      "dataset": "shake_bottle_horizontally_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 13911
+    },
+    {
+      "dataset": "stack_blocks_three_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 23619
+    },
+    {
+      "dataset": "stack_blocks_two_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 15647
+    },
+    {
+      "dataset": "stack_bowls_three_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 23550
+    },
+    {
+      "dataset": "stack_bowls_two_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 15637
+    },
+    {
+      "dataset": "stamp_seal_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 7279
+    },
+    {
+      "dataset": "turn_switch_joint_v30",
+      "exists": true,
+      "episodes": 50,
+      "frames": 4863
+    }
+  ]
+}

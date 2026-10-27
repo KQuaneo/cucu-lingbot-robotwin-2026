@@ -1,0 +1,4001 @@
+{
+  "schema_version": 1,
+  "audit_time_hong_kong": "2026-10-04T09:10:35.727072+08:00",
+  "scope": "Recovery dependencies and code entry points; full checksum audits owned by separate audit reports. No GPU restore was executed.",
+  "commits": {
+    "/RoboTwin": "266f3aadf505a4f7fe9af0faa41a20f5f47cd123",
+    "/RoboTwin/XPolicyLab": "c37109c500be67d0dea6b36bf7337bbd26e763cd",
+    "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/source/lingbot-vla-v2": "951475ae1b1d87553e7dc47c97b53a3d695c0d13"
+  },
+  "source_recipe": {
+    "url": "https://github.com/ZiguanWang/Robotwin-radeon-cloud",
+    "guide": "https://github.com/ZiguanWang/Robotwin-radeon-cloud/blob/main/Reproduce_Guide.md",
+    "base_image": "rocm/pytorch:rocm7.2.1_ubuntu24.04_py3.12_pytorch_release_2.9.1",
+    "cloud_image_tag_from_guide": "robotwin-lingbot-vla-v2:rocm7.2.1_ubuntu24.04_py3.12_pytorch_release_2.9.1-external-data",
+    "actual_running_image_digest_verified": false
+  },
+  "data": {
+    "manifest_path": "/workspace/runtime/robotwin_demo_clean_joint_v30.txt",
+    "manifest_sha256": "8f72665ba1794072c6c894e4294e0b52be1ba9f77196a95374164fe16b638d11",
+    "tasks": 50,
+    "episodes": 2500,
+    "frames": 549787,
+    "metadata_bytes": 16254124,
+    "full_data_local_backup": false,
+    "source": "Radeon Cloud Devzone read-only /models; guide documents fixed-revision TianxingChen/RoboTwin2.0 clean zips converted to LeRobot v3 using repository recipe",
+    "datasets": [
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/adjust_bottle_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/adjust_bottle_joint_v30",
+        "episodes": 50,
+        "frames": 7188,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "ec598cf7366527324e3f7b2a588e42fc8d176704231ce05f7d49a9a5f3e81575"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3732,
+            "sha256": "05b1d77fa1a580a2668dc88792392ed969cf4ce42df9256b1c626baa8c8066a6"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20691,
+            "sha256": "ad0ff0da4f1f2f3e943d03e87db9a6b8a50cb9553f381556e7739ff7bb6a9710"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 278192,
+            "sha256": "9e07de70e0cbe9e4092e5212e0de95a92c0f111258d6cf7bb0dbd37135139af6"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/beat_block_hammer_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/beat_block_hammer_joint_v30",
+        "episodes": 50,
+        "frames": 5682,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "5bc07fe36528e2a4045c772f26f4d669560759e0f5c224e6bf6b51bd3ca491ea"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3629,
+            "sha256": "de3f52551899dd60abf310dcdfddefb34b9ea53777574c904bca706fdf04e888"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20529,
+            "sha256": "520763e4063eaae40df93ef16509ed00f6c6e31bbc79ee0d3e7fce58e76b77c0"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 270089,
+            "sha256": "a30c2d5490e17641a569a246a401ea362b14bcf767b33630f11572fff150cfff"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/blocks_ranking_rgb_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/blocks_ranking_rgb_joint_v30",
+        "episodes": 50,
+        "frames": 23041,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "3964a0dbe9b8706a837465d59cc27807a320c42cfde8e28389db7bcbe4b0919e"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4321,
+            "sha256": "f786df08f798d58a876b804ec66ca11dabccdcc2dd90712a1a01ab972fb1276c"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20882,
+            "sha256": "1f37b838506447a354ffb787f28e09bb1094d53207f2bd267fc1461f80afa76b"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 315790,
+            "sha256": "c5e50db82946d01c7d3dead68c88246c44c84bf0d2fe4e0b89d6faf3112c5f34"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/blocks_ranking_size_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/blocks_ranking_size_joint_v30",
+        "episodes": 50,
+        "frames": 23170,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "ef53e7a2d5b968e3197d105454fe8264849cb95039d7469b4f197416e494524e"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3576,
+            "sha256": "4b1ffea12639f07313ae27fa7ad2b685ee77826dcac0f1470c4723552f50024b"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20916,
+            "sha256": "84ae20dd6b29d1017ce60dcbf9a0d204b3dec4eec8d70fb84eb2d52ac55db282"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 317707,
+            "sha256": "ca0e575ea75d59fa7c59e609f29db1795694b520a6442a0c012da3c0aee0ab8a"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/click_alarmclock_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/click_alarmclock_joint_v30",
+        "episodes": 50,
+        "frames": 4252,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "b4e1b4c40544a9aab31cabbc1610bd7e9e980a93fc263f46dbc6b429fd1094df"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3714,
+            "sha256": "6b5618acbc7c26b1e01fabe9dba19b05f4d8de913cac0f59be9999db6472a661"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20791,
+            "sha256": "c08f25754ca090343dbd22d8d177d662f6e878ea3d580f0791b01455d9950d06"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 277205,
+            "sha256": "7253aded4a4fd99099205fa8f91c8e286430885126bbaaf71b06a570c9603c6c"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/click_bell_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/click_bell_joint_v30",
+        "episodes": 50,
+        "frames": 3855,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "5fcfe3ec916e3f9fd1d8a61f3a7ea7184de7894fdefb1b32a7f763cc41bb8a2f"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3701,
+            "sha256": "e2834651f5d4b93a62957362e08270b3dd7fc529f0b6ac0f1990a9b7975a93d7"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20698,
+            "sha256": "cd16a872dd9e06008ba039b42e1a9499ce6b47ef0b1e3ffb1a97b064d08945f3"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 273450,
+            "sha256": "41c05b5517c97446edfd6d4b62bc027708b7750bc47ba7a2bd12f87a1d5eaab0"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/dump_bin_bigbin_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/dump_bin_bigbin_joint_v30",
+        "episodes": 50,
+        "frames": 12122,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "824095254bc7c2a7e9ac5090a23731b9a90bdfffb65783dd9dfda8738bb87809"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3700,
+            "sha256": "89c2f79de03269ec642cc4fa97538e7c87eaa23f69fb972544dae2a97363e76f"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20748,
+            "sha256": "9041803e8e72db86c28da16c7b65a183b842a14820ee5d505e98759bf0419ea6"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 298190,
+            "sha256": "b99bbd8dfe9a89e9491e270c09218d9730cf47137abfe43f936140f9ab6ffe62"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/grab_roller_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/grab_roller_joint_v30",
+        "episodes": 50,
+        "frames": 4728,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "d6083a525c373de872a2579eeac229279f8cb3fe7462f095936fc4c5d5ee4a81"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3535,
+            "sha256": "857a13435d59556d31fde9f00927e5ff65ce6e606de9fe607435a7accdc101ea"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20617,
+            "sha256": "0c81b23d682aedffa08bc42e4f4e795d013bd356f7659804d93a2d51e7710ae7"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 310025,
+            "sha256": "6a9bae875d964132e8faf83a217067ec8d4a78c96e45890f959eff0d5278e662"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/handover_block_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/handover_block_joint_v30",
+        "episodes": 50,
+        "frames": 14084,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "94668c9948b6be5e24813f10036fdd85ce7bfab6dabdd9bcfbe16e2f270326af"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3295,
+            "sha256": "495120f13d83723c163cdba16ccd2420859d3d84b22908f0055c3fecd5dfee07"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20827,
+            "sha256": "247fc293aa95ae3766e6a8a3b45aef3975761858c82e41a39786b0132222df54"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 303971,
+            "sha256": "1f9af813332161365c0f8f218d42af3627ea3a2dfc5b7f0b6083da37dfdcb2ea"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/handover_mic_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/handover_mic_joint_v30",
+        "episodes": 50,
+        "frames": 11092,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "87b16bf5efb55eed2a525b1598852dac050a4f2b68c548dd1404a0df41a0e6b9"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4040,
+            "sha256": "9f479011fe5aba96b5fdfe97c56a734561bd4385702413b2d13900a000a605b4"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20737,
+            "sha256": "ad8a6741ef4eaeec1d816be9e6477266e4edd3a766909577791a26d072452e53"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 304637,
+            "sha256": "a141c020979f5a757312e78bdc24919a412b1a0b7fcfd71ffbffdfa935bfa3bd"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/hanging_mug_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/hanging_mug_joint_v30",
+        "episodes": 50,
+        "frames": 16889,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "c5bd4b37c18e3e7bbaf8c20b32d0bc89b9d7a8c2e44814c903877993881a504f"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4731,
+            "sha256": "4ad5a79cf0fd6147ab5f70a1e51731f4c2ee1aedb661d3e08bebe39e82c9f8b1"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20813,
+            "sha256": "4a48103311624990e80831f4536ca24c07c08de03724c7b52d72832d6722b035"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 318861,
+            "sha256": "9670a9811571b01126861bf7137c989ab4c96f9f28dc03bb50f9d0de7e4faebe"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/lift_pot_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/lift_pot_joint_v30",
+        "episodes": 50,
+        "frames": 5554,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "6d9bf99d925fc1f6917c7149bd7e49bd6f60591316043457c503d9758c5a285a"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3393,
+            "sha256": "07ec15a0f260a3929c817da1d20887421cadecbd922d4d77d3925dfd2a5b63b5"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20800,
+            "sha256": "4febfaffdac9f862904ad888e9e744b251a6171fe7d5d563cc5136042325971d"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 302841,
+            "sha256": "5fe28216854da8e5534ad6b60cea2ddeee7c4bae7e6884ca659c0b1b9c281337"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/move_can_pot_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/move_can_pot_joint_v30",
+        "episodes": 50,
+        "frames": 7568,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "65fb89d0e951ad7272764b4f00084a0b4dab3ecdd2db2aa98908c0b6a4c92d69"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4534,
+            "sha256": "4075eb8efd7de2d1e333d4fe441962d70310236c47000daf6c7428e24d05b982"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20745,
+            "sha256": "5fe24c03483107022b63f54c1afc6128758dfd696aac05d5de43a469e5fb78bb"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 281631,
+            "sha256": "b89d277aecc6f00e4a2359d60cf2d8ec0daf40a2eb08638166764335a30cc878"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/move_pillbottle_pad_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/move_pillbottle_pad_joint_v30",
+        "episodes": 50,
+        "frames": 7345,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "fa87391c355a195c473a9ef00e1d4008ccf75cc41a1d8aebc575939b9e0487fb"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4047,
+            "sha256": "f5081c2346ab2a2c9384f47a66ea7d68af463c2a7c7b9c28329f07bb80205620"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20660,
+            "sha256": "bfe76851714bb9223ad0073c7dcddd6582aad65a9e7c0bb74f383d3b7b4c8c8b"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 280520,
+            "sha256": "d4eabe7272eff4dedcab1011b3fd7b0a44926713f730df8cf86e965b1f6005c6"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/move_playingcard_away_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/move_playingcard_away_joint_v30",
+        "episodes": 50,
+        "frames": 5884,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "7741bf3d9ef6fd600abd204adc0f4439eff9329e59969321ad79d1f7bb31c86b"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3836,
+            "sha256": "7a7e6fbb117a0db7fbbc7cb12e51aefd4b50b34c39cf121860851dfb67fa2bb7"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20688,
+            "sha256": "a9dfc30b5fe418179ea62223a53560f8245adaec0c38a53ce56a6456eb294c72"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 277604,
+            "sha256": "fa2540648c29707a3f8b184f94646589d796d3446beef617d757e95deda5af61"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/move_stapler_pad_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/move_stapler_pad_joint_v30",
+        "episodes": 50,
+        "frames": 7749,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "efcd6ea5dbf5639ef81ac59398aee937f14a083ffc3378d5a0b6cad2a3e6939f"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4012,
+            "sha256": "28c2a3f32dd765d596885fa2ac8035ebe8199e2e2635adc9a6dc2ef5b372693c"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20598,
+            "sha256": "f5b81d7b11c5fa8c983841bc4ef75d281b15f80cb2d0439955f74f3f0b40418f"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 280050,
+            "sha256": "542327bfd6c203b3c6f3cdafdb3bd50ca40fe28ca52487ab62f81ac139ee0e4d"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/open_laptop_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/open_laptop_joint_v30",
+        "episodes": 50,
+        "frames": 10412,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "158e0c0bfa611f67207c47ede1a161f1c098305a6259fc0641a7e6056c827e94"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3769,
+            "sha256": "94e46fc50cef88502dd370b3c3d4d88da77322576f93d2dc8a6b34d374ff1224"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20586,
+            "sha256": "5635a6579e4cc3ad1c5d11a453d2212f5127fd7733d4d14ac42309267aeef524"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 279952,
+            "sha256": "b2179fb97974ab1a67b13c111d6f832b6f27b1fa9245d0d8f3f761079eda4f3d"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/open_microwave_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/open_microwave_joint_v30",
+        "episodes": 50,
+        "frames": 24333,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "91ff86810c566faac26c6543a16dd852f71b7efd5537276bf339d1ee214230ca"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3500,
+            "sha256": "344e37560afce820f843b00f31c75e475f91de6e517db6678fe3eaf69584a63f"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 19975,
+            "sha256": "42380948ee42103bf7f6bef21f1f0e7e4ba52525a1bc3f4adde1b45d6e62ac9a"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 281474,
+            "sha256": "a114002f8a2f31694d0685e69f0a81608f3a3585ffc1c477ebd8e7548ead5f9d"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/pick_diverse_bottles_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/pick_diverse_bottles_joint_v30",
+        "episodes": 50,
+        "frames": 6060,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "6a8d07372c8aaa0cb14f6c0f39c7701cc6e7a69271d565f298dd7cf5d169791a"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4508,
+            "sha256": "f39710d07c66299c16f16241244f3c793921cea37541ccf4a048ec6388f9a4d4"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20651,
+            "sha256": "29fb03722c3d4d1760a66eac220a1c22e639d7dac57bbde498eaeae997770543"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 311934,
+            "sha256": "c35cc22d0d604b7181e3e8c1f30be251cd471a9df06f108e3bace2b14066e08e"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/pick_dual_bottles_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/pick_dual_bottles_joint_v30",
+        "episodes": 50,
+        "frames": 6129,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "10ecfce69dc3a8875698799c1b5894694415be1b3376ce2b0b9c1dfe71575a8f"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4083,
+            "sha256": "1c876c598333ed5b96112f06b7d449411169f062516fbcf6097432c1253bfbb8"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20674,
+            "sha256": "edb490e9d004b9e77a644e75085d30445d57a71c7883ca8fc18ec5ee103e8f17"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 310187,
+            "sha256": "70bceb4a145aa207675de6e1b8daa2c64327125098938713e562953a9b9cac00"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_a2b_left_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_a2b_left_joint_v30",
+        "episodes": 50,
+        "frames": 7451,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "1690e2d5a2b4b47e6d95ccaeda82d96ce365f953beb0dd80870b1f53c25e772b"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4905,
+            "sha256": "f10f2bb35c6bcc92721861da12146b2490387ff9490e018e718d39a3a9458b99"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20636,
+            "sha256": "852857522df4adff9f21e531a1367dc12e03bcc6b430f228c1d3ef06ac7f9221"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 281115,
+            "sha256": "06326b453586c8d45b97c0ef7f27d23555d44047fe11b763b44b7ba94b74187d"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_a2b_right_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_a2b_right_joint_v30",
+        "episodes": 50,
+        "frames": 7349,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "c55e09c8d22e9f9c435924efbc881741eeb6d8a4869df57c07ef7be5a8231b83"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4915,
+            "sha256": "4539aa64b69c4bb7f02a877ab48668cd1db18f82e01ca2ad719607b60f2d485a"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20657,
+            "sha256": "2acf3be7afdb05272f01fa14bcb62afa2780767240028c87b8318cfecbbc43d3"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 281639,
+            "sha256": "2012e54d6c7be6518b078ddcbd0e16ed98fcbea2bd496d2ccf0ccd15afa71214"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_bread_basket_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_bread_basket_joint_v30",
+        "episodes": 50,
+        "frames": 11956,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "131bafd9779fbb58f1b5439d4d6e6ee227d10772c143daca04eab46b55de02fb"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4791,
+            "sha256": "645ab816afb6d36e1b9bad07ef38ea653d453289debbb89bbd3f566495b716b0"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20772,
+            "sha256": "5060266a800bc371b324b3ce371308ee224655f5d13ef69d6499d14751ed5a7a"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 306663,
+            "sha256": "25de99194752242e70c11334d68cc875aa6a20a7d4d1eccd71513c23ea9a69ae"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_bread_skillet_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_bread_skillet_joint_v30",
+        "episodes": 50,
+        "frames": 8277,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "e0e64fe141575dda9f6c0c8a9882b22c8520936b2dbae2d670e1fadecce27b67"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4397,
+            "sha256": "133737326b6421e1e615362c2a5406517f0c4f8785afebca91c3ee1282ac72a1"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20687,
+            "sha256": "9664e6613777e0ec342fb497407cb619f2842257b31367e392dcc7579602693b"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 317775,
+            "sha256": "fd58a1ba9dbf8bfd5b1b98f5ca3f3368f80b67eefc4f5516400a2d1da4890038"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_burger_fries_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_burger_fries_joint_v30",
+        "episodes": 50,
+        "frames": 12046,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "ef6a3b1d4072122f71561b774e1c63e41b7d004a7b95a4c83fe15f9e28b5faf1"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 5120,
+            "sha256": "131e6e2823640a3917e45c584fcabb7853426f3fb719e67abb0f535025103aa9"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20757,
+            "sha256": "6f1b786cae79cfd3408df543a8c80bd878fd636295d34238a3cdb3b05b78bd3c"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 314345,
+            "sha256": "6eeb1b85446a79f903e8a5cfbeb1324d0393a7918248e7c1166fc2f64940eb68"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_can_basket_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_can_basket_joint_v30",
+        "episodes": 50,
+        "frames": 12618,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "7e658d2ea6b8ef4b353df086f89ed321ec060c83bf97d8da3ce6af44a8fabd25"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 5009,
+            "sha256": "bc37a285a481bf02a2944f6a58efc3e30e90e142f0fe73bb280f2451e4692b2b"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20939,
+            "sha256": "e381fabee0b21c211ad0106578882f75fd4ab5793fb8f3a0a50cf3a38419e91f"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 315463,
+            "sha256": "07c96187a1e519f1f86d393800cd3598b063da3ee0875fe82d6b45609bb05e20"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_cans_plasticbox_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_cans_plasticbox_joint_v30",
+        "episodes": 50,
+        "frames": 14375,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "3520aa2c37b8b5d9a0242a9580727425cf6fd5ba23004083982891781360ee4f"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 5345,
+            "sha256": "b2a33ba11d8f7e6b41e078c089375cf1d13871bbe28bf76d159d194cfe8bf7d9"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20941,
+            "sha256": "437aec637327e637eb2fb5ef9eb26410e6d9e7ce19ccc1a953afa849e426dc8c"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 317266,
+            "sha256": "cb512b68c4361d0477a65cac69241e2bd8193161e520d34e75eb99748b0326f5"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_container_plate_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_container_plate_joint_v30",
+        "episodes": 50,
+        "frames": 7934,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "b45a9c47a6ead870da21d0ac5549dcf23a996476c95f85779e6a9fbccf78cf55"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4187,
+            "sha256": "f7ebc65a7f8f6a50bb264517f899a50f8c9cb4d67172772007decd3af25a7f81"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20739,
+            "sha256": "2107adb05676657d421691ed09c35b1b3e05334f4fb8de86b03e6b7becbf66b0"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 279133,
+            "sha256": "710026cbf6405157305ae7a811609db161e000281f5a0282b5d5e5695821a61c"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_dual_shoes_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_dual_shoes_joint_v30",
+        "episodes": 50,
+        "frames": 11510,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "e0917bc0e0337c4390dbb240c509af62d93d0bb6652e0feb8742503e3e49e6a2"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4718,
+            "sha256": "5aeb14612a3677fdd9340fbf84158eff6a835ba60713ce51112e4f4752079e4b"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20781,
+            "sha256": "4be3ebd44fd59abfeab5824f483882f130e9594854bd7f2342762be2265a810e"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 321984,
+            "sha256": "0c7fec1920000ef72ce6bdbbb57c8d5a875c39b608e465b16af4a948b579ce69"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_empty_cup_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_empty_cup_joint_v30",
+        "episodes": 50,
+        "frames": 8617,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "e58290007a71f0ccd7e36ca59c0800b534a630be3342eecd679b3814d027656f"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4070,
+            "sha256": "72098056ecb6e03a7a45a08628620677906880a9361405139cf2e0bb31d531db"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20832,
+            "sha256": "813fcd3aa9f1d2a7c84cdf59dc16de822e843f6040ae27ad710af3e1a66cc601"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 278102,
+            "sha256": "81a817a4b0edceecfd229ca3c090a7ec73f863b27bfa257bf981653dfff8fd22"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_fan_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_fan_joint_v30",
+        "episodes": 50,
+        "frames": 7358,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "ee5635eb87d953e027a8602a0e96a3734149ccfc9f26bed34c7b7ae5d8240589"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4368,
+            "sha256": "aabd51fbc3f3db79e02bf2d41938fc5b81e0a3deacf458b37e5f19ee5a36cd09"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20578,
+            "sha256": "624521328f219e81b2f4ec9d203c2f35a672deb035b29e26671f6db70096ca3d"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 281167,
+            "sha256": "1f7916a77813ee23809f27d871cb33e27d7744a76c99569675869c790f2a723d"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_mouse_pad_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_mouse_pad_joint_v30",
+        "episodes": 50,
+        "frames": 7531,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "41cfadd1070cb884a97e09c23da3d455c0cf2dd5edb5305b5b44fb5421561d5b"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4057,
+            "sha256": "e230be31ccafe59a2c98979b0a35a14ababd956f2e460eb1a37f06388eddc419"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20604,
+            "sha256": "3e05b1c80edb9e25fb9597dea12045c3c1a45ee40e5a8a08b8ba45f864f422f6"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 279998,
+            "sha256": "f9fe917c5afa72e86dfcc962c3fa106c58c726329b14fc9703e13dadf7b59dc1"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_object_basket_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_object_basket_joint_v30",
+        "episodes": 50,
+        "frames": 12298,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "a3b0f2ece3813affacc731cd328df36dae278d52e1163c9971c8e828e14e3487"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4779,
+            "sha256": "fc1814ed9db3299b9d46f09b1c608898cfe4cdb33294351b96d7bb9f62faf81a"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20869,
+            "sha256": "5f8489e6294f606f0b985f6151f164f63700f7e578c9bdeada1d7ffe41e4c0af"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 315315,
+            "sha256": "58d01e00fe4e01d99655a59be61d3b0d47bc55097db444b8ff706ed08589fc96"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_object_scale_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_object_scale_joint_v30",
+        "episodes": 50,
+        "frames": 7266,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "d64db2348f136391300335ea507d1d01044ae61410ed5368e66bd9e213f2b49c"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4676,
+            "sha256": "88e3d53a719039337a2628482779f1d3ea4c48cf878e05af144a7e0f8a873d2a"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20606,
+            "sha256": "f5b5189e8c75c28deab3cd2f2504abcfc234a5f2d1955f3cd9e531895a338c4c"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 280738,
+            "sha256": "4659ce11c67e96d87a46eccb9805c6875adf0a8abc877e773250c5152fbf221a"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_object_stand_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_object_stand_joint_v30",
+        "episodes": 50,
+        "frames": 6952,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "12281db22ec141cc5651db24694af719071142906114c6265eaef9ad475b5b45"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4643,
+            "sha256": "b7cd84b8f0785b33133928afc8350ace425ead301ebbec7f4099f22304775d2a"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20646,
+            "sha256": "342fd1d727bacfae4e804a57fdcfa16351feceefe62fb01ebb2271b7040f4aa5"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 277549,
+            "sha256": "0da5401b73e01901d6e043dbd903277305340809d0b4ad19c64e4827336f985f"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_phone_stand_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_phone_stand_joint_v30",
+        "episodes": 50,
+        "frames": 6357,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "ae61d7fbe12d98aae033f4adf13d640d158594cc3cf6458d3f9bfb8c5fee98f6"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3820,
+            "sha256": "1a7636fe059e8c6fb3583604910f2ce792ab1954312fa10a58c2754c37e7fe8c"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20743,
+            "sha256": "5570479a2b81e93de8ffbd953c7a77934bb4ce5e86f3c68d4d17fcc78e0d2c4a"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 277092,
+            "sha256": "385e7be2ea55236c9aa9905ed5a75a3487748f3e8798e336e4a44827f30b1dbc"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/place_shoe_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/place_shoe_joint_v30",
+        "episodes": 50,
+        "frames": 8982,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "2edc157091fbf97ddc8d7403aafafce5b1bc67e49fb8712b58a953962c2c49ef"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4036,
+            "sha256": "1aac20b42642b4147b1ac4ce9c6e5b755a0f3efcfafde00eee8ec80e97f09806"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20612,
+            "sha256": "6850392cd11d28c7654a9de43da257b5c50ce243e1e8274cf926d6051b132f01"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 278802,
+            "sha256": "9041bfabb7e18d3770029f82f413e11126bdc3f64302645f9ae4307f4c2ccf07"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/press_stapler_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/press_stapler_joint_v30",
+        "episodes": 50,
+        "frames": 5953,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "94b16347c85b02743f3922c7404b6b55270d375f294181977df0a7dd327ce12f"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3813,
+            "sha256": "9c8f2b94dfb880bf95d949897b64076062ef8570ecb5c8f98f0aab7d46e419b3"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20627,
+            "sha256": "4ae4de58a92156401ef92a0ebe6ae475c1a6913549de416590fe1797a4c1a82f"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 275419,
+            "sha256": "769ed2c425d69ef75dfcfd577735aa05a3ba7cc4d592471d0e86b9be7b4af1d0"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/put_bottles_dustbin_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/put_bottles_dustbin_joint_v30",
+        "episodes": 50,
+        "frames": 31231,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "992d9efd98feb637e9f94a2be63915ac1c8cc797de75e977bfeda537745758c3"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 5603,
+            "sha256": "7c563d1e439d80fd6d3caa886081917182ed6abbe0d1fbbbf80e14d0ebe72cd4"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20790,
+            "sha256": "79b21d6806c4d2b77f5e34f3516d901ad03a9c43bee0dc0ce1318eeed26bcc6f"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 321014,
+            "sha256": "ac675605fb996050ae25bee927a8591d7424a4f7235431769d0fc6ebdb6119a7"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/put_object_cabinet_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/put_object_cabinet_joint_v30",
+        "episodes": 50,
+        "frames": 13460,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "cdf711f02406e397363e9107255cc82ec398ae7b330d46464f30b386c162e861"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4490,
+            "sha256": "be55ca6eaec3093277e27b0f685bc524c25df1f0938af42538974050227c612d"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20605,
+            "sha256": "f055848c9246f1aa0c9f90f8e278efdd11b0c39d276280b6f4fcc954d1206de8"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 314222,
+            "sha256": "c46ea0e76ad141bff2350cdedcdf484c6cfde25f722beb3e88a4ca6030daf8d4"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/rotate_qrcode_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/rotate_qrcode_joint_v30",
+        "episodes": 50,
+        "frames": 7724,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "5cec5be7992c40f4bffe517239a095687fbe20a370c5294798dac79233f1efb8"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4223,
+            "sha256": "e6ac17a1016873ed3b20bb1185d806dd7550477df50bdc4572e55ab63b2834b1"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20650,
+            "sha256": "6935fb37f2ea7a5e8f7762b3eeee45e87cdb628390985ff92881dfd7ff70cc7a"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 280516,
+            "sha256": "aa11e14767cf3204ffb62d533eff606bb33e0e12e78792924fb72b13a355b03c"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/scan_object_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/scan_object_joint_v30",
+        "episodes": 50,
+        "frames": 8463,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "3c67bbec855ee78789e669dfdf79f137121bc6de0b19e52cfb0e2e12568ade5a"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 5472,
+            "sha256": "9177f186232dd6d663d81b3c74717a4f3a483f1459c34d90cd83b677f1b72439"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20712,
+            "sha256": "4f62a79b8fb6a8e2d567e9402f9ebc853bdbc77892a9e8b5cfa42c4d745f914f"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 315779,
+            "sha256": "0096b2a5d386fae5440fb5f8211b1a8d2f178ba425d3e014bd947dcccfca43e4"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/shake_bottle_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/shake_bottle_joint_v30",
+        "episodes": 50,
+        "frames": 12436,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "1ffb040643bc02b9e20db78c782d5234379aa79712a42aa4a5e50015ac5498d1"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3979,
+            "sha256": "1477c6edb048fb0fbc41cd06f770051445918c4d04a88c1639d75384605125bb"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20739,
+            "sha256": "8d7abedea6e3520416648013cdd57cb7e99e63c7a5401b362d2eadfdccbbad76"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 279757,
+            "sha256": "4c12540aa23d38c4e39cf07bda32e34cc45761dc1a7a29aace253b6b06da42a1"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/shake_bottle_horizontally_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/shake_bottle_horizontally_joint_v30",
+        "episodes": 50,
+        "frames": 13911,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "491b2aaea0d56f1d88d5ba93dcb71c43c8d9e7f1e28e5ab90bdd7dfba84625f1"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4060,
+            "sha256": "72b1b68bf0c5a2d6b8e59b269b5a96e1cad8e9be7a6f353e4940b01284e52afa"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20736,
+            "sha256": "114bf2c3cd42fe9333dfbe3e84135b23ad995cfcb2e02140aefb008846618499"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 280351,
+            "sha256": "c3bc2d3e3465ec3a1d7903eea255d6972c514fc5d3e08c84254e390c876868f8"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/stack_blocks_three_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/stack_blocks_three_joint_v30",
+        "episodes": 50,
+        "frames": 23619,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "8a29b684f04150a83443ea84d15dbe80eb6ca986fe14ceb131338cbccb4a4368"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4218,
+            "sha256": "27402ea86b99af0472f01393fb0819af099a0e3167ada49aa8ab4dfeab0e1458"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20850,
+            "sha256": "f9c9db07352cab8f23c73b5935bd13c96c108d975fb5a2019ad7001e29770d45"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 316301,
+            "sha256": "148323da42532f27a9a90bc5363a5270cb6673e7d9dfe897ce90a49f9e9d6b37"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/stack_blocks_two_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/stack_blocks_two_joint_v30",
+        "episodes": 50,
+        "frames": 15647,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "12f68bd07c5f4888524979d7ff385067bf81b4e9a691f53fda3e0902a8ea487d"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3521,
+            "sha256": "0635d482eddd664414dce6a75d536f5df33fcf956e237f4aa3147c3b6bf598dc"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20775,
+            "sha256": "0447e768ec958d41a60aa6bc221f42b8c1def4286bb2528b52ab39f4e8485a05"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 308267,
+            "sha256": "9d506c05ecc81f3bab7f4f5401cf77af79abc9ab56c80b0ebd6703b31bfcf481"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/stack_bowls_three_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/stack_bowls_three_joint_v30",
+        "episodes": 50,
+        "frames": 23550,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "fad15fff78439a8786803630db0299006dcf02b8b52e42bffd6a9d69d9c8f375"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4069,
+            "sha256": "866702a0044e322cba76d689ef928de9c00c9eda5f913f0f1731962146642633"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20907,
+            "sha256": "639e46205b14b6d535ebd5288784c8631e7c3c3d1a09a83aa2d30cd0c3969f76"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 316945,
+            "sha256": "163397db5f15f937e4cdf15a5ad7e8ee99ea3365df51e97029cb9929cdf9eaa8"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/stack_bowls_two_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/stack_bowls_two_joint_v30",
+        "episodes": 50,
+        "frames": 15637,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5248,
+            "sha256": "9bac9bc640808a26ecf3d31821dddec2cdf24d86f5c76bef24fb02ed9d265687"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 4266,
+            "sha256": "427732c3069880e91ccf459d2a1d02e9b690d38cf9a98fbde6806327253ce4e3"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20865,
+            "sha256": "1169ef693afe8e0cf47beb9a2767b99e1a65de0089e23988dcc6455ac0e7d84d"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 307517,
+            "sha256": "af45d18650ca665074686222aa2c13cec68b4bdccf21a53da81e4014b8742927"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/stamp_seal_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/stamp_seal_joint_v30",
+        "episodes": 50,
+        "frames": 7279,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "1b1498e49e44f17c66413b5e0ed9bf46315ed13be684bf7a693cf40460c04a27"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3966,
+            "sha256": "c5aeed6144baa4dc9cd92ff4a350038f17d2170b5dcc5456ae2a71ac3626042f"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20631,
+            "sha256": "f142bdd12fdb3ad1c3d2c006b13e536fe22e7adee254884601b98d2c8fdcc3ae"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 278467,
+            "sha256": "3df72ea6349869b490781a1aab695dadb6beba24a3eba2050ca9df6e6b3fd3f8"
+          }
+        ]
+      },
+      {
+        "format": "robotwin",
+        "original_path": "/RoboTwin/data/lerobot/turn_switch_joint_v30",
+        "resolved_path": "/models/robotwin-persistent/data/lerobot/turn_switch_joint_v30",
+        "episodes": 50,
+        "frames": 4863,
+        "codebase_version": "v3.0",
+        "fps": 15,
+        "metadata_files": [
+          {
+            "relative": "meta/info.json",
+            "size": 5247,
+            "sha256": "411022888e20ba368e1bbb05df9d93cffe36887f9ff260f100f24af8de9bcae8"
+          },
+          {
+            "relative": "meta/tasks.parquet",
+            "size": 3741,
+            "sha256": "2f0c381911960528668a84db65b402ed88fb30a6cf7b5bda7fe8b3bc56ba2f27"
+          },
+          {
+            "relative": "meta/stats.json",
+            "size": 20716,
+            "sha256": "78d37d0e1debc2cf0522ed0b7109bc4be6b886f8ffade4356809f0ad60a6667d"
+          },
+          {
+            "relative": "meta/episodes/chunk-000/file-000.parquet",
+            "size": 272200,
+            "sha256": "f4af446ebed3b02d747a0f6d350c11e8bd26962a1ae299cdb0d32cb729ef2287"
+          }
+        ]
+      }
+    ],
+    "derived_dataset_storage_inventory": {
+      "dedup_by": "stat st_dev/st_ino; os.walk followlinks=True",
+      "task_count": 50,
+      "all_tasks": [
+        {
+          "path": "/RoboTwin/data/lerobot/adjust_bottle_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 873942,
+          "video_bytes": 62775608,
+          "other_bytes": 25938,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/beat_block_hammer_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 745340,
+          "video_bytes": 48634544,
+          "other_bytes": 25776,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/blocks_ranking_rgb_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 2075313,
+          "video_bytes": 201608425,
+          "other_bytes": 26130,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/blocks_ranking_size_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 2082355,
+          "video_bytes": 194337648,
+          "other_bytes": 26164,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/click_alarmclock_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 642631,
+          "video_bytes": 37329020,
+          "other_bytes": 26038,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/click_bell_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 606807,
+          "video_bytes": 30280306,
+          "other_bytes": 25945,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/dump_bin_bigbin_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1277922,
+          "video_bytes": 104382827,
+          "other_bytes": 25996,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/grab_roller_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 926404,
+          "video_bytes": 49842138,
+          "other_bytes": 25864,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/handover_block_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1406140,
+          "video_bytes": 121925974,
+          "other_bytes": 26075,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/handover_mic_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1118109,
+          "video_bytes": 97153714,
+          "other_bytes": 25985,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/hanging_mug_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1667113,
+          "video_bytes": 160846182,
+          "other_bytes": 26061,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/lift_pot_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 915857,
+          "video_bytes": 59483525,
+          "other_bytes": 26047,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/move_can_pot_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 847415,
+          "video_bytes": 72525695,
+          "other_bytes": 25992,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/move_pillbottle_pad_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 829864,
+          "video_bytes": 62839648,
+          "other_bytes": 25907,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/move_playingcard_away_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 720361,
+          "video_bytes": 55121208,
+          "other_bytes": 25935,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/move_stapler_pad_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 862278,
+          "video_bytes": 64303568,
+          "other_bytes": 25845,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/open_laptop_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 885022,
+          "video_bytes": 79055017,
+          "other_bytes": 25834,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/open_microwave_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1451214,
+          "video_bytes": 212589308,
+          "other_bytes": 25223,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/pick_diverse_bottles_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1124603,
+          "video_bytes": 75037016,
+          "other_bytes": 25898,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/pick_dual_bottles_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1133578,
+          "video_bytes": 73112024,
+          "other_bytes": 25921,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_a2b_left_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 839910,
+          "video_bytes": 68102778,
+          "other_bytes": 25883,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_a2b_right_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 832886,
+          "video_bytes": 65752786,
+          "other_bytes": 25904,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_bread_basket_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1346330,
+          "video_bytes": 150721319,
+          "other_bytes": 26020,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_bread_skillet_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1148167,
+          "video_bytes": 88667444,
+          "other_bytes": 25934,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_burger_fries_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1527822,
+          "video_bytes": 173426478,
+          "other_bytes": 26005,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_can_basket_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1307967,
+          "video_bytes": 151710144,
+          "other_bytes": 26187,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_cans_plasticbox_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1745009,
+          "video_bytes": 209920739,
+          "other_bytes": 26189,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_container_plate_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 873009,
+          "video_bytes": 63167379,
+          "other_bytes": 25986,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_dual_shoes_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1625579,
+          "video_bytes": 151135697,
+          "other_bytes": 26029,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_empty_cup_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 876459,
+          "video_bytes": 69221216,
+          "other_bytes": 26079,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_fan_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 832923,
+          "video_bytes": 75859770,
+          "other_bytes": 25825,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_mouse_pad_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 844423,
+          "video_bytes": 56448191,
+          "other_bytes": 25851,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_object_basket_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1353708,
+          "video_bytes": 136564109,
+          "other_bytes": 26117,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_object_scale_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 825191,
+          "video_bytes": 63904859,
+          "other_bytes": 25853,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_object_stand_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 795186,
+          "video_bytes": 59030822,
+          "other_bytes": 25893,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_phone_stand_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 757632,
+          "video_bytes": 54534581,
+          "other_bytes": 25990,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/place_shoe_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 887947,
+          "video_bytes": 81751066,
+          "other_bytes": 25859,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/press_stapler_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 640190,
+          "video_bytes": 45938471,
+          "other_bytes": 25874,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/put_bottles_dustbin_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 2700730,
+          "video_bytes": 409946948,
+          "other_bytes": 26038,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/put_object_cabinet_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1319501,
+          "video_bytes": 168751416,
+          "other_bytes": 25853,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/rotate_qrcode_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 866836,
+          "video_bytes": 67541579,
+          "other_bytes": 25897,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/scan_object_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1244467,
+          "video_bytes": 95799284,
+          "other_bytes": 25959,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/shake_bottle_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1341365,
+          "video_bytes": 95632247,
+          "other_bytes": 25987,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/shake_bottle_horizontally_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1471318,
+          "video_bytes": 107449426,
+          "other_bytes": 25984,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/stack_blocks_three_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 2118161,
+          "video_bytes": 210230081,
+          "other_bytes": 26098,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/stack_blocks_two_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1529643,
+          "video_bytes": 134783308,
+          "other_bytes": 26023,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/stack_bowls_three_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 2119150,
+          "video_bytes": 223520067,
+          "other_bytes": 26155,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/stack_bowls_two_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 1518686,
+          "video_bytes": 136048748,
+          "other_bytes": 26113,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/stamp_seal_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 821448,
+          "video_bytes": 58147480,
+          "other_bytes": 25878,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        },
+        {
+          "path": "/RoboTwin/data/lerobot/turn_switch_joint_v30",
+          "symlink_dirs": [],
+          "parquet_bytes": 620949,
+          "video_bytes": 32911568,
+          "other_bytes": 25963,
+          "parquet_files": 3,
+          "video_files": 3,
+          "other_files": 2
+        }
+      ],
+      "symlink_mappings": [],
+      "unique_file_count": 400,
+      "unique_total_bytes": 5430026256,
+      "unique_parquet_bytes": 58924860,
+      "unique_video_bytes": 5369803396,
+      "unique_other_bytes": 1298000
+    },
+    "full_data_backup_status": "Parent agent preparing complete 50-task converted LeRobot dataset backup after verified 5.43GB inventory; completion requires separate archive checksum audit."
+  },
+  "assets": {
+    "mounted_path": "/models/robotwin-persistent/assets",
+    "repo_id": "TianxingChen/RoboTwin2.0",
+    "repo_type": "dataset",
+    "full_asset_local_backup": false,
+    "hf_download_metadata": [
+      {
+        "metadata_path": "/models/robotwin-persistent/assets/.cache/huggingface/download/objects.zip.metadata",
+        "snapshot_commit": "a967b852afa21a9cbf19a198f7e653109042e87c",
+        "etag_or_lfs_sha256_from_hf_cache": "6aa56b3cf1e1064f7c809308144da36b00815f8b137fef2d7e4de856f8becf27"
+      },
+      {
+        "metadata_path": "/models/robotwin-persistent/assets/.cache/huggingface/download/embodiments.zip.metadata",
+        "snapshot_commit": "a967b852afa21a9cbf19a198f7e653109042e87c",
+        "etag_or_lfs_sha256_from_hf_cache": "6b87d7d55e106d8ff25917e0538eb1e177fc549280e8a742a8cec3cb9f953fc6"
+      },
+      {
+        "metadata_path": "/models/robotwin-persistent/assets/.cache/huggingface/download/background_texture.zip.metadata",
+        "snapshot_commit": "a967b852afa21a9cbf19a198f7e653109042e87c",
+        "etag_or_lfs_sha256_from_hf_cache": "54ede0fb5b783e0faa2bc98720d3affd6ca3bb9280b225b48c1aafaf31473070"
+      }
+    ]
+  },
+  "models": [
+    {
+      "mounted_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b",
+      "repo_id": "robbyant/lingbot-vla-v2-6b",
+      "revisions": [
+        "11c703bf6a5c1f45b3b69168482da11fdbba53d7"
+      ],
+      "hf_download_metadata": [
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/model.safetensors.index.json.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "ecd860c133b9b5c77072202d56e3ab38b8e74326"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/model-00005-of-00006.safetensors.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "8fe36bf1f4f617869954bdfa1ad12e16abd8b0235a5fa99c88d571d4cddf4a17"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/.gitattributes.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "1f652735ddd4e0c09ef277872f717c63c8b58f24"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/model-00006-of-00006.safetensors.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "3cf613d592dad64b1e2a1b1bb34a6f556a7fa05eacdb9972d73e0ea4882555a0"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/model-00003-of-00006.safetensors.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "7dccb068ca66c11fa514476d64661eeead56e2e80e1c0572c9ea82aa0d9ecf27"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/tokenizer_config.json.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "35d32052b3bc1bc9493b6cc3d8b0f22acf33dc83"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/README.md.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "be90760c49c132460b18fed4e9327ef326a697ee"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/preprocessor_config.json.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "2fa6553554f69b4e3a6b742a75264ff9dff90ad0"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/added_tokens.json.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "b54f9135e44c1e81047e8d05cb027af8bc039eed"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/video_preprocessor_config.json.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "e32b1d90356f74457edbfca27aa1e121dab7cdc7"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/model-00002-of-00006.safetensors.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "ec131afa26a340db94c0dba8ec00e990be5f3d842ce6532070f0c8e26a067501"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/special_tokens_map.json.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "ac23c0aaa2434523c494330aeb79c58395378103"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/vocab.json.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "4783fe10ac3adce15ac8f358ef5462739852c569"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/tokenizer.json.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/model-00004-of-00006.safetensors.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "1c2cb78066b69ae11255db851df95071e2cd69a3a4bc5020b3fd3b13b17819fb"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/model-00001-of-00006.safetensors.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "4afb52b06a13df8b738a156ae5c8196d3bfe6b3ca931cecbd701e44cb9674e45"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/config.json.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "69c8d69fb69ea6ef5740c524ade3ffdd1409b4c4"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/assets/lingbot_vla2_framework.png.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "1dbbf05745216032dad897f6f5e59d02153325e1d39cfc01329b85e2ea2e41e7"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/assets/lingbot_vla2_loss_mse_comparison.png.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "95108dee5d57842d18be27bf92424123b823449567f3d60cefbbac59379ffedd"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/assets/lingbot_vla2_vis_distillation.png.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "40ce6810ea47ab944de030551efd7753fb2ed84bd7477d3668ba0fab84c3277e"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/depth/model.pt.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "d70c5191eab853d436763b35d40ff99d13534b4bcd43e4d02823656968159e5b"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/dino_video/teacher_step_10000.pth.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "086285efd8d65bc66e96b363807c4010ee5c790b7452b765edaa23837a63705b"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b/.cache/huggingface/download/dino_video/config.yaml.metadata",
+          "snapshot_commit": "11c703bf6a5c1f45b3b69168482da11fdbba53d7",
+          "etag_or_lfs_sha256_from_hf_cache": "9223ab64a8e0081cd46446381dc4e6dce3a23080"
+        }
+      ],
+      "local_large_weights_backed_up": false,
+      "redownload_required": true
+    },
+    {
+      "mounted_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin",
+      "repo_id": "robbyant/lingbot-vla-v2-6b-robotwin",
+      "revisions": [
+        "0451855729ec904f970600e0aec8b84661423afe"
+      ],
+      "hf_download_metadata": [
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/.gitattributes.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "10cac9caf2fac9d41417be221b8fe9c9eb2de9a0"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/lingbotvla_cli.yaml.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "37a2dabdd1a4ab0d651227a4b8b02bebc64f7045"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/README.md.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "898cb0f4c6e606ea19e926891b8ea0ef607b053f"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/assets/lingbot_vla2_framework.png.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "5e7fccb501606ae27383bbb0c5e6d6824a5cdcaa9a2534488b5af059bb7e13d7"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/model.safetensors.index.json.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "0c2e110c1ca2d3d4d3e97091ace15f8cbfe58b24"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/model-00005-of-00006.safetensors.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "1316d6fe054253650dc65bae416ae6cf9afa283aad82a9712b02b0dd7029394b"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/chat_template.jinja.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "124386803f142761528f710e77ae483f5f8c4fc4"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/model-00006-of-00006.safetensors.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "0e1dfc6a23c43f3c387276e2389799867dfa90dc9727bb8e21250c73bfe7dd23"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/model-00003-of-00006.safetensors.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "ace74f6d5214059b6387b5728c570a452d51b5950dd9904fe29607dbfa41447b"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/tokenizer_config.json.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "35d32052b3bc1bc9493b6cc3d8b0f22acf33dc83"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/preprocessor_config.json.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "2fa6553554f69b4e3a6b742a75264ff9dff90ad0"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/added_tokens.json.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "b54f9135e44c1e81047e8d05cb027af8bc039eed"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/video_preprocessor_config.json.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "e32b1d90356f74457edbfca27aa1e121dab7cdc7"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/model-00002-of-00006.safetensors.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "e7b00cf59b21c2f5e9f76f7687ba423c6fe24bfa9fa8e313ef346bb081e73c9f"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/special_tokens_map.json.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "ac23c0aaa2434523c494330aeb79c58395378103"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/vocab.json.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "4783fe10ac3adce15ac8f358ef5462739852c569"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/tokenizer.json.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/model-00004-of-00006.safetensors.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "1f1cb6b4099e264b202eae0244f3730e1ced910c0b34355fff2a719993d0cbe5"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/model-00001-of-00006.safetensors.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "514801684e0f23aaa4bb64a4fd81e420b97e094331499852d5f2cc567750b360"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/.cache/huggingface/download/checkpoints/global_step_50000/hf_ckpt/config.json.metadata",
+          "snapshot_commit": "0451855729ec904f970600e0aec8b84661423afe",
+          "etag_or_lfs_sha256_from_hf_cache": "69c8d69fb69ea6ef5740c524ade3ffdd1409b4c4"
+        }
+      ],
+      "local_large_weights_backed_up": false,
+      "redownload_required": true
+    },
+    {
+      "mounted_path": "/models/robotwin-persistent/models/moge-2-vitb-normal",
+      "repo_id": "Ruicheng/moge-2-vitb-normal",
+      "revisions": [
+        "ca5f0e07ff01d3e5a364c1d954ed12ee1814b368"
+      ],
+      "hf_download_metadata": [
+        {
+          "metadata_path": "/models/robotwin-persistent/models/moge-2-vitb-normal/.cache/huggingface/download/.gitattributes.metadata",
+          "snapshot_commit": "ca5f0e07ff01d3e5a364c1d954ed12ee1814b368",
+          "etag_or_lfs_sha256_from_hf_cache": "a6344aac8c09253b3b630fb776ae94478aa0275b"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/moge-2-vitb-normal/.cache/huggingface/download/model.pt.metadata",
+          "snapshot_commit": "ca5f0e07ff01d3e5a364c1d954ed12ee1814b368",
+          "etag_or_lfs_sha256_from_hf_cache": "16b8110e86d5dc5a849db120ca96ef3a223fd30b0c9146d1d81db504073da5f6"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/moge-2-vitb-normal/.cache/huggingface/download/README.md.metadata",
+          "snapshot_commit": "ca5f0e07ff01d3e5a364c1d954ed12ee1814b368",
+          "etag_or_lfs_sha256_from_hf_cache": "db96e30be36409dedb912a7bb832e0205b72acf9"
+        }
+      ],
+      "local_large_weights_backed_up": false,
+      "redownload_required": true
+    },
+    {
+      "mounted_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer",
+      "repo_id": "Qwen/Qwen3-VL-4B-Instruct",
+      "revisions": [
+        "ebb281ec70b05090aa6165b016eac8ec08e71b17"
+      ],
+      "hf_download_metadata": [
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/merges.txt.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/model.safetensors.index.json.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "3b52de97496e2f4501dfa92a87642f60db3e22a1"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/generation_config.json.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "e116347d7ef42621c7a5957f82c015c38d939c1f"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/tokenizer_config.json.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "d3d3763207692c78780f4bf42d4dadf49a5c8012"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/chat_template.json.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "e49e75bdda104c8de941eb20e0b3765184fb27bc"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/preprocessor_config.json.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/video_preprocessor_config.json.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "3ba673a5ad7d4d13f54155ecd38b2a94a6dac8fe"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/vocab.json.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "4783fe10ac3adce15ac8f358ef5462739852c569"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/tokenizer.json.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "c6cc1014128b19d1fc46b1d30a23e3b1d35db421"
+        },
+        {
+          "metadata_path": "/models/robotwin-persistent/models/Qwen3-VL-4B-Instruct-config-tokenizer/.cache/huggingface/download/config.json.metadata",
+          "snapshot_commit": "ebb281ec70b05090aa6165b016eac8ec08e71b17",
+          "etag_or_lfs_sha256_from_hf_cache": "22be8bb79043d39840ca5e70d7a2dab80311602c"
+        }
+      ],
+      "local_large_weights_backed_up": false,
+      "redownload_required": false
+    }
+  ],
+  "mounted_inputs_read_only": true,
+  "training_restore": {
+    "entry_point": "python -m torch.distributed.run --standalone --nproc-per-node=8 -m tasks.vla.train_lingbotvla",
+    "load_flag": "--train.load_checkpoint_path",
+    "enable_resume_flag": "--train.enable_resume true",
+    "dataloader_flag": "--train.resume_dataloader_state true",
+    "launcher_warning": "train_full_sft.sh hardcodes --train.enable_resume false and does not forward load_checkpoint_path; invoke module directly with saved output YAML.",
+    "checkpoint_source": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_6000",
+    "extra_state_safe_cpu_load": [
+      {
+        "filename": "extra_state_rank_0.pt",
+        "global_step": 6000,
+        "keys": [
+          "global_step",
+          "lr_scheduler",
+          "train_dataloader",
+          "environ_meter",
+          "torch_rng_state"
+        ],
+        "scheduler": {
+          "base_lrs": [
+            0.0001,
+            0.000282842712474619
+          ],
+          "last_epoch": 6000,
+          "_step_count": 6001,
+          "_is_initial": false,
+          "_get_lr_called_within_step": false,
+          "_last_lr": [
+            5e-05,
+            0.0001414213562373095
+          ],
+          "lr_lambdas": [
+            null,
+            null
+          ]
+        },
+        "dataloader_top_keys": [
+          "_snapshot",
+          "_steps_since_snapshot",
+          "_iterator_finished"
+        ],
+        "torch_rng_bytes": 5056
+      },
+      {
+        "filename": "extra_state_rank_1.pt",
+        "global_step": 6000,
+        "keys": [
+          "global_step",
+          "lr_scheduler",
+          "train_dataloader",
+          "environ_meter",
+          "torch_rng_state"
+        ],
+        "scheduler": {
+          "base_lrs": [
+            0.0001,
+            0.000282842712474619
+          ],
+          "last_epoch": 6000,
+          "_step_count": 6001,
+          "_is_initial": false,
+          "_get_lr_called_within_step": false,
+          "_last_lr": [
+            5e-05,
+            0.0001414213562373095
+          ],
+          "lr_lambdas": [
+            null,
+            null
+          ]
+        },
+        "dataloader_top_keys": [
+          "_snapshot",
+          "_steps_since_snapshot",
+          "_iterator_finished"
+        ],
+        "torch_rng_bytes": 5056
+      },
+      {
+        "filename": "extra_state_rank_2.pt",
+        "global_step": 6000,
+        "keys": [
+          "global_step",
+          "lr_scheduler",
+          "train_dataloader",
+          "environ_meter",
+          "torch_rng_state"
+        ],
+        "scheduler": {
+          "base_lrs": [
+            0.0001,
+            0.000282842712474619
+          ],
+          "last_epoch": 6000,
+          "_step_count": 6001,
+          "_is_initial": false,
+          "_get_lr_called_within_step": false,
+          "_last_lr": [
+            5e-05,
+            0.0001414213562373095
+          ],
+          "lr_lambdas": [
+            null,
+            null
+          ]
+        },
+        "dataloader_top_keys": [
+          "_snapshot",
+          "_steps_since_snapshot",
+          "_iterator_finished"
+        ],
+        "torch_rng_bytes": 5056
+      },
+      {
+        "filename": "extra_state_rank_3.pt",
+        "global_step": 6000,
+        "keys": [
+          "global_step",
+          "lr_scheduler",
+          "train_dataloader",
+          "environ_meter",
+          "torch_rng_state"
+        ],
+        "scheduler": {
+          "base_lrs": [
+            0.0001,
+            0.000282842712474619
+          ],
+          "last_epoch": 6000,
+          "_step_count": 6001,
+          "_is_initial": false,
+          "_get_lr_called_within_step": false,
+          "_last_lr": [
+            5e-05,
+            0.0001414213562373095
+          ],
+          "lr_lambdas": [
+            null,
+            null
+          ]
+        },
+        "dataloader_top_keys": [
+          "_snapshot",
+          "_steps_since_snapshot",
+          "_iterator_finished"
+        ],
+        "torch_rng_bytes": 5056
+      },
+      {
+        "filename": "extra_state_rank_4.pt",
+        "global_step": 6000,
+        "keys": [
+          "global_step",
+          "lr_scheduler",
+          "train_dataloader",
+          "environ_meter",
+          "torch_rng_state"
+        ],
+        "scheduler": {
+          "base_lrs": [
+            0.0001,
+            0.000282842712474619
+          ],
+          "last_epoch": 6000,
+          "_step_count": 6001,
+          "_is_initial": false,
+          "_get_lr_called_within_step": false,
+          "_last_lr": [
+            5e-05,
+            0.0001414213562373095
+          ],
+          "lr_lambdas": [
+            null,
+            null
+          ]
+        },
+        "dataloader_top_keys": [
+          "_snapshot",
+          "_steps_since_snapshot",
+          "_iterator_finished"
+        ],
+        "torch_rng_bytes": 5056
+      },
+      {
+        "filename": "extra_state_rank_5.pt",
+        "global_step": 6000,
+        "keys": [
+          "global_step",
+          "lr_scheduler",
+          "train_dataloader",
+          "environ_meter",
+          "torch_rng_state"
+        ],
+        "scheduler": {
+          "base_lrs": [
+            0.0001,
+            0.000282842712474619
+          ],
+          "last_epoch": 6000,
+          "_step_count": 6001,
+          "_is_initial": false,
+          "_get_lr_called_within_step": false,
+          "_last_lr": [
+            5e-05,
+            0.0001414213562373095
+          ],
+          "lr_lambdas": [
+            null,
+            null
+          ]
+        },
+        "dataloader_top_keys": [
+          "_snapshot",
+          "_steps_since_snapshot",
+          "_iterator_finished"
+        ],
+        "torch_rng_bytes": 5056
+      },
+      {
+        "filename": "extra_state_rank_6.pt",
+        "global_step": 6000,
+        "keys": [
+          "global_step",
+          "lr_scheduler",
+          "train_dataloader",
+          "environ_meter",
+          "torch_rng_state"
+        ],
+        "scheduler": {
+          "base_lrs": [
+            0.0001,
+            0.000282842712474619
+          ],
+          "last_epoch": 6000,
+          "_step_count": 6001,
+          "_is_initial": false,
+          "_get_lr_called_within_step": false,
+          "_last_lr": [
+            5e-05,
+            0.0001414213562373095
+          ],
+          "lr_lambdas": [
+            null,
+            null
+          ]
+        },
+        "dataloader_top_keys": [
+          "_snapshot",
+          "_steps_since_snapshot",
+          "_iterator_finished"
+        ],
+        "torch_rng_bytes": 5056
+      },
+      {
+        "filename": "extra_state_rank_7.pt",
+        "global_step": 6000,
+        "keys": [
+          "global_step",
+          "lr_scheduler",
+          "train_dataloader",
+          "environ_meter",
+          "torch_rng_state"
+        ],
+        "scheduler": {
+          "base_lrs": [
+            0.0001,
+            0.000282842712474619
+          ],
+          "last_epoch": 6000,
+          "_step_count": 6001,
+          "_is_initial": false,
+          "_get_lr_called_within_step": false,
+          "_last_lr": [
+            5e-05,
+            0.0001414213562373095
+          ],
+          "lr_lambdas": [
+            null,
+            null
+          ]
+        },
+        "dataloader_top_keys": [
+          "_snapshot",
+          "_steps_since_snapshot",
+          "_iterator_finished"
+        ],
+        "torch_rng_bytes": 5056
+      }
+    ],
+    "actual_dcp_model_optimizer_resume_smoke_executed": false,
+    "strict_initial_layout": "8 ranks, FSDP2 shard size 8, AdamW, micro batch 16, gradient accumulation 2, global batch 256",
+    "optimizer_skip_warning_source": "lingbotvla/checkpoint/checkpointer.py:436-445",
+    "checkpoint_fallback_warning_source": "tasks/vla/train_lingbotvla.py:714-721",
+    "max_steps_changes_scheduler_horizon_source": "tasks/vla/train_lingbotvla.py:587-589; lingbotvla/optim/lr_scheduler.py:170-183"
+  },
+  "inference_restore": {
+    "hf_source": "/workspace/runtime/models/full_sft_6000",
+    "local_hf_relative": "硬盘/模型/full_sft_6000",
+    "entry_point": "python -m deploy.lingbot_vla_v2_policy",
+    "required_environment": [
+      "LINGBOTVLA_TRAINING_CONFIG",
+      "QWEN3VL_PATH",
+      "AITER_TRITON_ONLY=1",
+      "FLASH_ATTENTION_TRITON_AMD_ENABLE=TRUE"
+    ],
+    "additional_required_paths": [
+      "assets/norm_stats/robotwin.json",
+      "configs/robot_configs",
+      "Qwen3-VL-4B-Instruct-config-tokenizer"
+    ],
+    "actual_fresh_machine_restore_smoke_executed": false
+  },
+  "environment": {
+    "torch_version": "2.9.1+rocm7.2.1.gitff65f5bc",
+    "hip_version": "7.2.53211-e1a6bc5663",
+    "python_packages": [
+      {
+        "name": "absl-py",
+        "version": "2.5.0"
+      },
+      {
+        "name": "accelerate",
+        "version": "1.10.1"
+      },
+      {
+        "name": "addict",
+        "version": "2.4.0"
+      },
+      {
+        "name": "aiohappyeyeballs",
+        "version": "2.7.1"
+      },
+      {
+        "name": "aiohttp",
+        "version": "3.12.15"
+      },
+      {
+        "name": "aiosignal",
+        "version": "1.4.0"
+      },
+      {
+        "name": "amd-aiter",
+        "version": "0.1.1.dev1+g9bab8388c.d20260914"
+      },
+      {
+        "name": "amdsmi",
+        "version": "26.2.2+e1a6bc5663"
+      },
+      {
+        "name": "annotated-types",
+        "version": "0.8.0"
+      },
+      {
+        "name": "antlr4-python3-runtime",
+        "version": "4.9.3"
+      },
+      {
+        "name": "anyio",
+        "version": "4.15.1"
+      },
+      {
+        "name": "apex",
+        "version": "1.9.0+rocm7.2.1.git355db9b8"
+      },
+      {
+        "name": "argcomplete",
+        "version": "3.1.4"
+      },
+      {
+        "name": "argon2-cffi",
+        "version": "25.1.0"
+      },
+      {
+        "name": "argon2-cffi-bindings",
+        "version": "26.1.0"
+      },
+      {
+        "name": "arrow",
+        "version": "1.4.0"
+      },
+      {
+        "name": "asttokens",
+        "version": "3.0.2"
+      },
+      {
+        "name": "asttokens",
+        "version": "3.0.2"
+      },
+      {
+        "name": "async-lru",
+        "version": "2.3.0"
+      },
+      {
+        "name": "attrs",
+        "version": "26.1.0"
+      },
+      {
+        "name": "attrs",
+        "version": "26.1.0"
+      },
+      {
+        "name": "av",
+        "version": "15.0.0"
+      },
+      {
+        "name": "babel",
+        "version": "2.18.0"
+      },
+      {
+        "name": "beautifulsoup4",
+        "version": "4.15.0"
+      },
+      {
+        "name": "bleach",
+        "version": "6.4.0"
+      },
+      {
+        "name": "blinker",
+        "version": "1.9.0"
+      },
+      {
+        "name": "blinker",
+        "version": "1.7.0"
+      },
+      {
+        "name": "blobfile",
+        "version": "3.2.0"
+      },
+      {
+        "name": "build",
+        "version": "1.4.2"
+      },
+      {
+        "name": "certifi",
+        "version": "2026.7.22"
+      },
+      {
+        "name": "certifi",
+        "version": "2026.7.22"
+      },
+      {
+        "name": "cffi",
+        "version": "2.1.1"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.5.1"
+      },
+      {
+        "name": "charset-normalizer",
+        "version": "3.5.1"
+      },
+      {
+        "name": "click",
+        "version": "8.5.0"
+      },
+      {
+        "name": "cloudpickle",
+        "version": "3.1.2"
+      },
+      {
+        "name": "comm",
+        "version": "0.2.3"
+      },
+      {
+        "name": "comm",
+        "version": "0.2.3"
+      },
+      {
+        "name": "ConfigArgParse",
+        "version": "1.7.7"
+      },
+      {
+        "name": "contourpy",
+        "version": "1.3.3"
+      },
+      {
+        "name": "cryptography",
+        "version": "41.0.7"
+      },
+      {
+        "name": "cryptography",
+        "version": "41.0.7"
+      },
+      {
+        "name": "cxxfilt",
+        "version": "0.3.0"
+      },
+      {
+        "name": "cycler",
+        "version": "0.12.1"
+      },
+      {
+        "name": "dash",
+        "version": "4.4.1"
+      },
+      {
+        "name": "datasets",
+        "version": "3.6.0"
+      },
+      {
+        "name": "dbus-python",
+        "version": "1.3.2"
+      },
+      {
+        "name": "debugpy",
+        "version": "1.8.21"
+      },
+      {
+        "name": "defusedxml",
+        "version": "0.7.1"
+      },
+      {
+        "name": "dill",
+        "version": "0.3.8"
+      },
+      {
+        "name": "distro",
+        "version": "1.9.0"
+      },
+      {
+        "name": "distro-info",
+        "version": "1.7+build1"
+      },
+      {
+        "name": "draccus",
+        "version": "0.10.0"
+      },
+      {
+        "name": "einops",
+        "version": "0.8.1"
+      },
+      {
+        "name": "executing",
+        "version": "2.2.1"
+      },
+      {
+        "name": "executing",
+        "version": "2.2.1"
+      },
+      {
+        "name": "Farama-Notifications",
+        "version": "0.0.6"
+      },
+      {
+        "name": "fastjsonschema",
+        "version": "2.22.2"
+      },
+      {
+        "name": "fastjsonschema",
+        "version": "2.22.2"
+      },
+      {
+        "name": "filelock",
+        "version": "3.25.2"
+      },
+      {
+        "name": "flash_attn",
+        "version": "2.8.4"
+      },
+      {
+        "name": "Flask",
+        "version": "3.1.3"
+      },
+      {
+        "name": "fonttools",
+        "version": "4.62.1"
+      },
+      {
+        "name": "fqdn",
+        "version": "1.5.1"
+      },
+      {
+        "name": "frozenlist",
+        "version": "1.8.0"
+      },
+      {
+        "name": "fsspec",
+        "version": "2024.6.1"
+      },
+      {
+        "name": "fsspec",
+        "version": "2026.3.0"
+      },
+      {
+        "name": "gitdb",
+        "version": "4.0.12"
+      },
+      {
+        "name": "GitPython",
+        "version": "3.1.62"
+      },
+      {
+        "name": "grpcio",
+        "version": "1.83.1"
+      },
+      {
+        "name": "gymnasium",
+        "version": "0.29.1"
+      },
+      {
+        "name": "h11",
+        "version": "0.16.0"
+      },
+      {
+        "name": "h5py",
+        "version": "3.14.0"
+      },
+      {
+        "name": "hf-xet",
+        "version": "1.6.0"
+      },
+      {
+        "name": "httpcore",
+        "version": "1.0.9"
+      },
+      {
+        "name": "httplib2",
+        "version": "0.20.4"
+      },
+      {
+        "name": "httpx",
+        "version": "0.28.1"
+      },
+      {
+        "name": "huggingface-hub",
+        "version": "0.34.3"
+      },
+      {
+        "name": "hypothesis",
+        "version": "6.151.10"
+      },
+      {
+        "name": "idna",
+        "version": "3.19"
+      },
+      {
+        "name": "idna",
+        "version": "3.19"
+      },
+      {
+        "name": "imageio",
+        "version": "2.34.2"
+      },
+      {
+        "name": "importlib_metadata",
+        "version": "9.0.1"
+      },
+      {
+        "name": "importlib_resources",
+        "version": "7.1.0"
+      },
+      {
+        "name": "iniconfig",
+        "version": "2.3.0"
+      },
+      {
+        "name": "ipykernel",
+        "version": "7.3.0"
+      },
+      {
+        "name": "ipython",
+        "version": "9.17.1"
+      },
+      {
+        "name": "ipython",
+        "version": "9.17.1"
+      },
+      {
+        "name": "ipython_pygments_lexers",
+        "version": "1.1.1"
+      },
+      {
+        "name": "ipython_pygments_lexers",
+        "version": "1.1.1"
+      },
+      {
+        "name": "ipywidgets",
+        "version": "8.1.9"
+      },
+      {
+        "name": "isoduration",
+        "version": "20.11.0"
+      },
+      {
+        "name": "itsdangerous",
+        "version": "2.2.0"
+      },
+      {
+        "name": "janus",
+        "version": "2.0.0"
+      },
+      {
+        "name": "jedi",
+        "version": "0.20.0"
+      },
+      {
+        "name": "jedi",
+        "version": "0.20.0"
+      },
+      {
+        "name": "Jinja2",
+        "version": "3.1.6"
+      },
+      {
+        "name": "joblib",
+        "version": "1.6.0"
+      },
+      {
+        "name": "json5",
+        "version": "0.15.0"
+      },
+      {
+        "name": "jsonlines",
+        "version": "4.0.0"
+      },
+      {
+        "name": "jsonpointer",
+        "version": "3.1.1"
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.26.0"
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.26.0"
+      },
+      {
+        "name": "jsonschema-specifications",
+        "version": "2025.9.1"
+      },
+      {
+        "name": "jsonschema-specifications",
+        "version": "2025.9.1"
+      },
+      {
+        "name": "jupyter-events",
+        "version": "0.12.1"
+      },
+      {
+        "name": "jupyter-lsp",
+        "version": "2.3.1"
+      },
+      {
+        "name": "jupyter_builder",
+        "version": "1.2.3"
+      },
+      {
+        "name": "jupyter_client",
+        "version": "8.10.0"
+      },
+      {
+        "name": "jupyter_core",
+        "version": "5.9.1"
+      },
+      {
+        "name": "jupyter_core",
+        "version": "5.9.1"
+      },
+      {
+        "name": "jupyter_server",
+        "version": "2.21.0"
+      },
+      {
+        "name": "jupyter_server_terminals",
+        "version": "0.5.4"
+      },
+      {
+        "name": "jupyterlab",
+        "version": "4.6.3"
+      },
+      {
+        "name": "jupyterlab_pygments",
+        "version": "0.3.0"
+      },
+      {
+        "name": "jupyterlab_server",
+        "version": "2.28.0"
+      },
+      {
+        "name": "jupyterlab_widgets",
+        "version": "3.0.17"
+      },
+      {
+        "name": "kiwisolver",
+        "version": "1.5.0"
+      },
+      {
+        "name": "lark",
+        "version": "1.3.1"
+      },
+      {
+        "name": "launchpadlib",
+        "version": "1.11.0"
+      },
+      {
+        "name": "lazr.restfulclient",
+        "version": "0.14.6"
+      },
+      {
+        "name": "lazr.uri",
+        "version": "1.0.6"
+      },
+      {
+        "name": "lerobot",
+        "version": "0.6.0"
+      },
+      {
+        "name": "lingbotvla",
+        "version": "0.0.1"
+      },
+      {
+        "name": "lxml",
+        "version": "6.1.3"
+      },
+      {
+        "name": "Markdown",
+        "version": "3.10.3"
+      },
+      {
+        "name": "markdown-it-py",
+        "version": "4.2.0"
+      },
+      {
+        "name": "MarkupSafe",
+        "version": "3.0.3"
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.10.3"
+      },
+      {
+        "name": "matplotlib",
+        "version": "3.10.8"
+      },
+      {
+        "name": "matplotlib-inline",
+        "version": "0.2.2"
+      },
+      {
+        "name": "matplotlib-inline",
+        "version": "0.2.2"
+      },
+      {
+        "name": "mdurl",
+        "version": "0.1.2"
+      },
+      {
+        "name": "mergedeep",
+        "version": "1.3.4"
+      },
+      {
+        "name": "mistune",
+        "version": "3.3.4"
+      },
+      {
+        "name": "mplib",
+        "version": "0.2.1"
+      },
+      {
+        "name": "mpmath",
+        "version": "1.3.0"
+      },
+      {
+        "name": "msgpack",
+        "version": "1.1.1"
+      },
+      {
+        "name": "msgpack-numpy",
+        "version": "0.4.8"
+      },
+      {
+        "name": "multidict",
+        "version": "6.8.0"
+      },
+      {
+        "name": "multiprocess",
+        "version": "0.70.16"
+      },
+      {
+        "name": "mypy_extensions",
+        "version": "1.1.0"
+      },
+      {
+        "name": "narwhals",
+        "version": "2.26.0"
+      },
+      {
+        "name": "nbclient",
+        "version": "0.11.0"
+      },
+      {
+        "name": "nbconvert",
+        "version": "7.17.1"
+      },
+      {
+        "name": "nbformat",
+        "version": "5.11.1"
+      },
+      {
+        "name": "nbformat",
+        "version": "5.11.1"
+      },
+      {
+        "name": "nest-asyncio",
+        "version": "1.6.0"
+      },
+      {
+        "name": "nest-asyncio2",
+        "version": "1.7.2"
+      },
+      {
+        "name": "networkx",
+        "version": "3.6.1"
+      },
+      {
+        "name": "ninja",
+        "version": "1.11.1.4"
+      },
+      {
+        "name": "ninja",
+        "version": "1.13.0"
+      },
+      {
+        "name": "notebook_shim",
+        "version": "0.2.4"
+      },
+      {
+        "name": "numpy",
+        "version": "1.26.4"
+      },
+      {
+        "name": "numpy",
+        "version": "2.4.4"
+      },
+      {
+        "name": "oauthlib",
+        "version": "3.2.2"
+      },
+      {
+        "name": "omegaconf",
+        "version": "2.3.0"
+      },
+      {
+        "name": "open3d",
+        "version": "0.19.0"
+      },
+      {
+        "name": "opencv-python",
+        "version": "4.11.0.86"
+      },
+      {
+        "name": "opencv-python-headless",
+        "version": "4.11.0.86"
+      },
+      {
+        "name": "packaging",
+        "version": "25.0"
+      },
+      {
+        "name": "packaging",
+        "version": "26.0"
+      },
+      {
+        "name": "pandas",
+        "version": "2.3.1"
+      },
+      {
+        "name": "pandas",
+        "version": "3.0.1"
+      },
+      {
+        "name": "pandocfilters",
+        "version": "1.5.1"
+      },
+      {
+        "name": "parso",
+        "version": "0.8.7"
+      },
+      {
+        "name": "parso",
+        "version": "0.8.7"
+      },
+      {
+        "name": "peft",
+        "version": "0.15.2"
+      },
+      {
+        "name": "pexpect",
+        "version": "4.9.0"
+      },
+      {
+        "name": "pexpect",
+        "version": "4.9.0"
+      },
+      {
+        "name": "pillow",
+        "version": "11.3.0"
+      },
+      {
+        "name": "pillow",
+        "version": "12.1.1"
+      },
+      {
+        "name": "pip",
+        "version": "25.3"
+      },
+      {
+        "name": "pip",
+        "version": "26.0.1"
+      },
+      {
+        "name": "pip",
+        "version": "24.0"
+      },
+      {
+        "name": "pipeline",
+        "version": "1.0.0"
+      },
+      {
+        "name": "platformdirs",
+        "version": "4.11.8"
+      },
+      {
+        "name": "platformdirs",
+        "version": "4.11.8"
+      },
+      {
+        "name": "plotly",
+        "version": "7.0.0"
+      },
+      {
+        "name": "pluggy",
+        "version": "1.6.0"
+      },
+      {
+        "name": "prometheus_client",
+        "version": "0.26.0"
+      },
+      {
+        "name": "prompt_toolkit",
+        "version": "3.0.53"
+      },
+      {
+        "name": "prompt_toolkit",
+        "version": "3.0.53"
+      },
+      {
+        "name": "propcache",
+        "version": "0.5.2"
+      },
+      {
+        "name": "protobuf",
+        "version": "3.20.3"
+      },
+      {
+        "name": "psutil",
+        "version": "7.0.0"
+      },
+      {
+        "name": "psutil",
+        "version": "7.2.2"
+      },
+      {
+        "name": "ptyprocess",
+        "version": "0.7.0"
+      },
+      {
+        "name": "ptyprocess",
+        "version": "0.7.0"
+      },
+      {
+        "name": "pure_eval",
+        "version": "0.2.4"
+      },
+      {
+        "name": "pure_eval",
+        "version": "0.2.4"
+      },
+      {
+        "name": "py-cpuinfo",
+        "version": "9.0.0"
+      },
+      {
+        "name": "pyarrow",
+        "version": "21.0.0"
+      },
+      {
+        "name": "pybind11",
+        "version": "2.13.6"
+      },
+      {
+        "name": "pycparser",
+        "version": "3.0"
+      },
+      {
+        "name": "pycryptodomex",
+        "version": "3.23.0"
+      },
+      {
+        "name": "pydantic",
+        "version": "2.13.5"
+      },
+      {
+        "name": "pydantic_core",
+        "version": "2.46.5"
+      },
+      {
+        "name": "Pygments",
+        "version": "2.20.0"
+      },
+      {
+        "name": "PyGObject",
+        "version": "3.48.2"
+      },
+      {
+        "name": "PyJWT",
+        "version": "2.7.0"
+      },
+      {
+        "name": "pyparsing",
+        "version": "3.3.2"
+      },
+      {
+        "name": "pyparsing",
+        "version": "3.1.1"
+      },
+      {
+        "name": "pyperclip",
+        "version": "1.11.0"
+      },
+      {
+        "name": "pyproject_hooks",
+        "version": "1.2.0"
+      },
+      {
+        "name": "pyquaternion",
+        "version": "0.9.9"
+      },
+      {
+        "name": "pytest",
+        "version": "9.0.2"
+      },
+      {
+        "name": "python-apt",
+        "version": "2.7.7+ubuntu5.2"
+      },
+      {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0"
+      },
+      {
+        "name": "python-json-logger",
+        "version": "4.2.0"
+      },
+      {
+        "name": "pytz",
+        "version": "2026.3.post1"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.2"
+      },
+      {
+        "name": "PyYAML",
+        "version": "6.0.3"
+      },
+      {
+        "name": "pyyaml-include",
+        "version": "2.2"
+      },
+      {
+        "name": "pyzmq",
+        "version": "27.2.0"
+      },
+      {
+        "name": "qwen-vl-utils",
+        "version": "0.0.11"
+      },
+      {
+        "name": "referencing",
+        "version": "0.37.0"
+      },
+      {
+        "name": "referencing",
+        "version": "0.37.0"
+      },
+      {
+        "name": "regex",
+        "version": "2026.9.10"
+      },
+      {
+        "name": "requests",
+        "version": "2.34.2"
+      },
+      {
+        "name": "requests",
+        "version": "2.34.2"
+      },
+      {
+        "name": "retrying",
+        "version": "1.4.2"
+      },
+      {
+        "name": "rfc3339-validator",
+        "version": "0.1.4"
+      },
+      {
+        "name": "rfc3986-validator",
+        "version": "0.1.1"
+      },
+      {
+        "name": "rfc3987-syntax",
+        "version": "1.1.0"
+      },
+      {
+        "name": "rich",
+        "version": "14.1.0"
+      },
+      {
+        "name": "rpds-py",
+        "version": "2026.6.3"
+      },
+      {
+        "name": "rpds-py",
+        "version": "2026.6.3"
+      },
+      {
+        "name": "safetensors",
+        "version": "0.5.3"
+      },
+      {
+        "name": "sapien",
+        "version": "3.0.3"
+      },
+      {
+        "name": "scikit-learn",
+        "version": "1.9.1"
+      },
+      {
+        "name": "scipy",
+        "version": "1.13.1"
+      },
+      {
+        "name": "scipy",
+        "version": "1.17.1"
+      },
+      {
+        "name": "Send2Trash",
+        "version": "2.1.0"
+      },
+      {
+        "name": "sentencepiece",
+        "version": "0.2.0"
+      },
+      {
+        "name": "sentry-sdk",
+        "version": "2.69.1"
+      },
+      {
+        "name": "setuptools",
+        "version": "80.10.2"
+      },
+      {
+        "name": "setuptools",
+        "version": "82.0.1"
+      },
+      {
+        "name": "setuptools",
+        "version": "68.1.2"
+      },
+      {
+        "name": "six",
+        "version": "1.17.0"
+      },
+      {
+        "name": "six",
+        "version": "1.16.0"
+      },
+      {
+        "name": "smmap",
+        "version": "5.0.3"
+      },
+      {
+        "name": "sortedcontainers",
+        "version": "2.4.0"
+      },
+      {
+        "name": "soupsieve",
+        "version": "2.9.2"
+      },
+      {
+        "name": "stack-data",
+        "version": "0.6.3"
+      },
+      {
+        "name": "stack-data",
+        "version": "0.6.3"
+      },
+      {
+        "name": "sympy",
+        "version": "1.14.0"
+      },
+      {
+        "name": "tensorboard",
+        "version": "2.16.2"
+      },
+      {
+        "name": "tensorboard-data-server",
+        "version": "0.7.2"
+      },
+      {
+        "name": "termcolor",
+        "version": "3.3.0"
+      },
+      {
+        "name": "terminado",
+        "version": "0.18.1"
+      },
+      {
+        "name": "threadpoolctl",
+        "version": "3.6.0"
+      },
+      {
+        "name": "tinycss2",
+        "version": "1.5.1"
+      },
+      {
+        "name": "tokenizers",
+        "version": "0.22.2"
+      },
+      {
+        "name": "toml",
+        "version": "0.10.2"
+      },
+      {
+        "name": "toppra",
+        "version": "0.6.10"
+      },
+      {
+        "name": "torch",
+        "version": "2.9.1+rocm7.2.1.lw.gitff65f5bc"
+      },
+      {
+        "name": "torchaudio",
+        "version": "2.9.0+rocm7.2.1.gite3c6ee2b"
+      },
+      {
+        "name": "torchdata",
+        "version": "0.11.0"
+      },
+      {
+        "name": "torchvision",
+        "version": "0.24.0+rocm7.2.1.gitb919bd0c"
+      },
+      {
+        "name": "tornado",
+        "version": "6.4.2"
+      },
+      {
+        "name": "tqdm",
+        "version": "4.67.1"
+      },
+      {
+        "name": "tqdm",
+        "version": "4.67.3"
+      },
+      {
+        "name": "traitlets",
+        "version": "5.16.1"
+      },
+      {
+        "name": "traitlets",
+        "version": "5.16.1"
+      },
+      {
+        "name": "transformers",
+        "version": "4.57.3"
+      },
+      {
+        "name": "transforms3d",
+        "version": "0.4.2"
+      },
+      {
+        "name": "trimesh",
+        "version": "4.4.3"
+      },
+      {
+        "name": "triton",
+        "version": "3.5.1+rocm7.2.1.gita272dfa8"
+      },
+      {
+        "name": "typing-inspect",
+        "version": "0.9.0"
+      },
+      {
+        "name": "typing-inspection",
+        "version": "0.4.4"
+      },
+      {
+        "name": "typing_extensions",
+        "version": "4.16.0"
+      },
+      {
+        "name": "tzdata",
+        "version": "2026.4"
+      },
+      {
+        "name": "tzdata",
+        "version": "2026.4"
+      },
+      {
+        "name": "unattended-upgrades",
+        "version": "0.1"
+      },
+      {
+        "name": "uri-template",
+        "version": "1.3.0"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.7.0"
+      },
+      {
+        "name": "urllib3",
+        "version": "2.7.0"
+      },
+      {
+        "name": "utils3d",
+        "version": "1.3"
+      },
+      {
+        "name": "wadllib",
+        "version": "1.3.6"
+      },
+      {
+        "name": "wandb",
+        "version": "0.21.0"
+      },
+      {
+        "name": "wcwidth",
+        "version": "0.8.3"
+      },
+      {
+        "name": "wcwidth",
+        "version": "0.8.3"
+      },
+      {
+        "name": "webcolors",
+        "version": "25.10.0"
+      },
+      {
+        "name": "webencodings",
+        "version": "0.6.1"
+      },
+      {
+        "name": "websocket-client",
+        "version": "1.9.2"
+      },
+      {
+        "name": "websockets",
+        "version": "15.0.1"
+      },
+      {
+        "name": "Werkzeug",
+        "version": "3.1.8"
+      },
+      {
+        "name": "wheel",
+        "version": "0.48.0"
+      },
+      {
+        "name": "wheel",
+        "version": "0.46.3"
+      },
+      {
+        "name": "wheel",
+        "version": "0.42.0"
+      },
+      {
+        "name": "widgetsnbextension",
+        "version": "4.0.16"
+      },
+      {
+        "name": "xpolicylab",
+        "version": "0.0.1"
+      },
+      {
+        "name": "xxhash",
+        "version": "4.0.1"
+      },
+      {
+        "name": "yarl",
+        "version": "1.24.5"
+      },
+      {
+        "name": "zipp",
+        "version": "4.1.0"
+      },
+      {
+        "name": "zstandard",
+        "version": "0.23.0"
+      }
+    ],
+    "venv_bytes_not_locally_backed_up": true,
+    "host_amd_driver_not_in_python_package_backup": true
+  },
+  "not_backed_up_large_inputs": [
+    "raw clean training episodes",
+    "converted LeRobot parquet/videos",
+    "full RoboTwin object/robot/texture assets",
+    "base LingBot weights",
+    "official RoboTwin posttrained weights",
+    "MoGe teacher weights",
+    "MoRGBD depth teacher weights",
+    "DINO video teacher weights",
+    "entire Python/ROCm installation or container image layers",
+    "global_step_5000 DCP rollback checkpoint"
+  ],
+  "unique_experiment_outputs": "Our 6k HF, our full 6k DCP, logs, configs, patches, two completed evaluation runs and videos are separately audited; public read-only inputs can be reacquired but are not bundled in these outputs.",
+  "supplemental_handoff": {
+    "archive_relative": "硬盘/配置与代码/补充交接_20261004/source_and_handoff.tar.gz",
+    "archive_layout": [
+      "repositories/*.bundle",
+      "repositories/*.working.patch",
+      "metadata/manifest.json",
+      "metadata/system_packages.tsv",
+      "original_paths/<absolute path without leading slash>"
+    ],
+    "recipe_checkout_relative": "硬盘/配置与代码/补充交接_20261004/Robotwin-radeon-cloud",
+    "completion_verified_by_this_agent": false,
+    "status_owner": "root final audit",
+    "verified_by_root": true,
+    "root_reported_verification": {
+      "files": 730,
+      "tasks_metadata": 50,
+      "metadata_files": 200,
+      "git_bundles": 3,
+      "clone_checkout_and_apply_check": "passed",
+      "recipe_head": "27b2f6fcb6c715e2cbb6db4431381f87c94b86ed"
+    }
+  },
+  "historical_models_backup_scope": {
+    "excluded_by_explicit_user_request": [
+      "global_step_5000 model",
+      "early 10k LoRA adapters and historical training states"
+    ],
+    "retained": [
+      "final 6k HF inference model",
+      "full global_step_6000 DCP"
+    ],
+    "historical_small_logs": "Included in source supplement; this does not include their model weights."
+  },
+  "backup_location": {
+    "physical_disk": "Mac internal SSD",
+    "local_directory": "workspace/硬盘",
+    "external_volume_mounted_as_of_hong_kong": "2026-10-04 09:22: no"
+  }
+}

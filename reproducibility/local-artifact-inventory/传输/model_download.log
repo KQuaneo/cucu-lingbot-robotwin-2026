@@ -1,0 +1,230 @@
+2026-10-04 00:33:00 Reused previous partial bytes for model-00001-of-00003.safetensors: 827228160
+2026-10-04 00:33:00 Starting 32 parallel SSH streams, total 12768180523 bytes, initial 827455941 bytes
+2026-10-04 00:33:30 Progress 7.88%, 5.68 MiB/s, ETA 0.55 h
+2026-10-04 00:34:00 Progress 8.87%, 4.00 MiB/s, ETA 0.77 h
+2026-10-04 00:34:30 Progress 9.99%, 4.57 MiB/s, ETA 0.67 h
+2026-10-04 00:35:00 Progress 11.09%, 4.44 MiB/s, ETA 0.68 h
+2026-10-04 00:35:30 Progress 12.03%, 3.80 MiB/s, ETA 0.78 h
+2026-10-04 00:36:00 Progress 12.91%, 3.60 MiB/s, ETA 0.82 h
+2026-10-04 00:36:30 Progress 13.54%, 2.55 MiB/s, ETA 1.15 h
+2026-10-04 00:37:00 Progress 14.32%, 3.18 MiB/s, ETA 0.91 h
+2026-10-04 00:37:30 Progress 15.20%, 3.57 MiB/s, ETA 0.80 h
+2026-10-04 00:38:00 Progress 16.20%, 4.06 MiB/s, ETA 0.70 h
+2026-10-04 00:38:30 Progress 16.82%, 2.51 MiB/s, ETA 1.12 h
+2026-10-04 00:39:00 Progress 17.32%, 2.01 MiB/s, ETA 1.39 h
+2026-10-04 00:39:30 Progress 17.64%, 1.32 MiB/s, ETA 2.12 h
+2026-10-04 00:40:00 Progress 18.09%, 1.83 MiB/s, ETA 1.51 h
+2026-10-04 00:40:30 Progress 18.61%, 2.10 MiB/s, ETA 1.31 h
+2026-10-04 00:41:00 Progress 19.41%, 3.27 MiB/s, ETA 0.83 h
+2026-10-04 00:41:30 Progress 20.19%, 3.16 MiB/s, ETA 0.86 h
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 34 attempt 1 bytes 54591488 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 16 attempt 1 bytes 53510144 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 41 attempt 1 bytes 51740672 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 37 attempt 1 bytes 52920320 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 43 attempt 1 bytes 55738368 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 32 attempt 1 bytes 51380224 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 14 attempt 1 bytes 59572224 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 36 attempt 1 bytes 58130432 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 31 attempt 1 bytes 53739520 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 18 attempt 1 bytes 57966592 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 30 attempt 1 bytes 55377920 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 25 attempt 1 bytes 53444608 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 44 attempt 1 bytes 14778368 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 13 attempt 1 bytes 56098816 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 17 attempt 1 bytes 51970048 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 38 attempt 1 bytes 48529408 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 19 attempt 1 bytes 54788096 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 23 attempt 1 bytes 50266112 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 27 attempt 1 bytes 53936128 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 39 attempt 1 bytes 54460416 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 26 attempt 1 bytes 55640064 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 24 attempt 1 bytes 59539456 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 22 attempt 1 bytes 51707904 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 33 attempt 1 bytes 52428800 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 20 attempt 1 bytes 58556416 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 28 attempt 1 bytes 53772288 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 42 attempt 1 bytes 55607296 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 35 attempt 1 bytes 52854784 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 40 attempt 1 bytes 51478528 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 15 attempt 1 bytes 59506688 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 21 attempt 1 bytes 60260352 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:41:42 Retry model-00001-of-00003.safetensors chunk 29 attempt 1 bytes 49315840 error Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 00:42:00 Progress 20.79%, 2.45 MiB/s, ETA 1.10 h
+2026-10-04 00:42:30 Progress 22.31%, 6.17 MiB/s, ETA 0.43 h
+2026-10-04 00:43:00 Progress 23.55%, 5.01 MiB/s, ETA 0.52 h
+2026-10-04 00:43:30 Progress 24.78%, 5.01 MiB/s, ETA 0.51 h
+2026-10-04 00:44:00 Progress 25.69%, 3.69 MiB/s, ETA 0.68 h
+2026-10-04 00:44:30 Progress 26.39%, 2.85 MiB/s, ETA 0.87 h
+2026-10-04 00:45:00 Progress 27.08%, 2.77 MiB/s, ETA 0.89 h
+2026-10-04 00:45:30 Progress 27.90%, 3.34 MiB/s, ETA 0.73 h
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 60 attempt 1 bytes 21561344 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 64 attempt 1 bytes 20873216 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 54 attempt 1 bytes 23199744 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 57 attempt 1 bytes 22806528 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 67 attempt 1 bytes 22249472 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 48 attempt 1 bytes 30244864 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00002-of-00003.safetensors chunk 0 attempt 1 bytes 12746752 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 46 attempt 1 bytes 26804224 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 49 attempt 1 bytes 22740992 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 44 attempt 2 bytes 46497792 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 50 attempt 1 bytes 25722880 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 58 attempt 1 bytes 20545536 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 45 attempt 1 bytes 29425664 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 53 attempt 1 bytes 20283392 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 73 attempt 1 bytes 15761408 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 63 attempt 1 bytes 18743296 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 59 attempt 1 bytes 22446080 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 72 attempt 1 bytes 16023552 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 61 attempt 1 bytes 17432576 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 74 attempt 1 bytes 12222464 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 62 attempt 1 bytes 20480000 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 52 attempt 1 bytes 23068672 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 56 attempt 1 bytes 21299200 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 69 attempt 1 bytes 18546688 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 71 attempt 1 bytes 16842752 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 66 attempt 1 bytes 18612224 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 68 attempt 1 bytes 16154624 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 47 attempt 1 bytes 25198592 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 51 attempt 1 bytes 23068672 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 55 attempt 1 bytes 23035904 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 65 attempt 1 bytes 21757952 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:45:49 Retry model-00001-of-00003.safetensors chunk 70 attempt 1 bytes 17924096 error Connection to YOUR_SERVER_IP closed by remote host.
+
+2026-10-04 00:46:00 Progress 28.93%, 4.20 MiB/s, ETA 0.57 h
+2026-10-04 00:46:30 Progress 29.68%, 3.03 MiB/s, ETA 0.78 h
+2026-10-04 00:50:15 Reused previous partial bytes for model-00001-of-00003.safetensors: 827228160
+2026-10-04 00:50:15 Starting 64 parallel SSH streams, total 12768180523 bytes, initial 3803746590 bytes
+2026-10-04 00:50:45 Progress 31.11%, 5.33 MiB/s, ETA 0.44 h
+2026-10-04 00:51:15 Progress 33.20%, 8.49 MiB/s, ETA 0.27 h
+2026-10-04 00:51:45 Progress 35.16%, 7.94 MiB/s, ETA 0.28 h
+2026-10-04 00:52:15 Progress 37.37%, 8.97 MiB/s, ETA 0.24 h
+2026-10-04 00:52:45 Progress 39.11%, 7.07 MiB/s, ETA 0.29 h
+2026-10-04 00:53:15 Progress 40.77%, 6.75 MiB/s, ETA 0.30 h
+2026-10-04 00:53:45 Progress 42.49%, 6.98 MiB/s, ETA 0.28 h
+2026-10-04 00:54:15 Progress 44.77%, 9.23 MiB/s, ETA 0.20 h
+2026-10-04 00:54:45 Progress 47.14%, 9.64 MiB/s, ETA 0.19 h
+2026-10-04 00:55:15 Progress 49.98%, 11.51 MiB/s, ETA 0.15 h
+2026-10-04 00:55:45 Progress 52.33%, 9.53 MiB/s, ETA 0.17 h
+2026-10-04 00:56:15 Progress 54.27%, 7.88 MiB/s, ETA 0.20 h
+2026-10-04 00:56:45 Progress 56.60%, 9.44 MiB/s, ETA 0.16 h
+2026-10-04 00:57:15 Progress 60.24%, 14.77 MiB/s, ETA 0.09 h
+2026-10-04 00:57:45 Progress 62.82%, 10.48 MiB/s, ETA 0.12 h
+2026-10-04 00:58:15 Progress 65.34%, 10.20 MiB/s, ETA 0.11 h
+2026-10-04 00:58:45 Progress 69.31%, 16.11 MiB/s, ETA 0.06 h
+2026-10-04 00:59:15 Progress 72.89%, 14.52 MiB/s, ETA 0.06 h
+2026-10-04 00:59:45 Progress 77.13%, 17.24 MiB/s, ETA 0.04 h
+2026-10-04 01:00:15 Progress 81.09%, 16.05 MiB/s, ETA 0.04 h
+2026-10-04 01:00:45 Progress 83.78%, 10.92 MiB/s, ETA 0.05 h
+2026-10-04 01:01:15 Progress 86.33%, 10.33 MiB/s, ETA 0.04 h
+2026-10-04 01:01:45 Progress 88.48%, 8.74 MiB/s, ETA 0.04 h
+2026-10-04 01:02:15 Progress 90.64%, 8.76 MiB/s, ETA 0.04 h
+2026-10-04 01:02:45 Progress 92.30%, 6.72 MiB/s, ETA 0.04 h
+2026-10-04 01:03:15 Progress 93.75%, 5.90 MiB/s, ETA 0.04 h
+2026-10-04 01:03:45 Progress 95.51%, 7.15 MiB/s, ETA 0.02 h
+2026-10-04 01:04:15 Progress 97.00%, 6.02 MiB/s, ETA 0.02 h
+2026-10-04 01:04:45 Progress 98.07%, 4.34 MiB/s, ETA 0.02 h
+2026-10-04 01:05:15 Progress 99.58%, 6.13 MiB/s, ETA 0.00 h
+2026-10-04 01:05:31 Progress 100.00%, 3.23 MiB/s, ETA 0.00 h
+2026-10-04 01:05:31 SHA256 VERIFIED chat_template.jinja
+2026-10-04 01:05:31 SHA256 VERIFIED merges.txt
+2026-10-04 01:05:36 SHA256 VERIFIED model-00001-of-00003.safetensors
+2026-10-04 01:05:40 SHA256 VERIFIED model-00002-of-00003.safetensors
+2026-10-04 01:05:42 SHA256 VERIFIED model-00003-of-00003.safetensors
+2026-10-04 01:05:42 SHA256 VERIFIED tokenizer.json
+2026-10-04 01:05:42 SHA256 VERIFIED vocab.json
+2026-10-04 01:05:42 COMPLETE {"completed_unix": 1791047142.9444292, "path": "/path/to/project/硬盘/模型/full_sft_6000", "verified_files": 15, "total_bytes": 12768180523, "index_weights": 1708, "shards": ["model-00001-of-00003.safetensors", "model-00002-of-00003.safetensors", "model-00003-of-00003.safetensors"], "complete": true, "seconds": 928.7756590843201}

@@ -1,0 +1,8 @@
+{
+  "mirror_put_object_cabinet.py": "3a27fc87585bfaefc91f75ed5ae8c70999416affc6e61f74c27e2424f1a28263",
+  "collect_data.py": "1ac9aa8b585d9ca2241ceba7f654c0774d2e50bafeb9516945e6ce0b19b40b1d",
+  "append_put_object_cabinet_symmetry.py": "a714eabcfc7a1e46161eee1f6f4349c5bc90ebda41f5fdf2fb5729038d385ac3",
+  "README.md": "67f92f18558b56f630d7efb9097f7dc4e54e2c5cc03044f9237b8aa638215d72",
+  "install_augmentation_framework.py": "9ac76150ccb2b5f8c2794a7086d566e80536d0e9c057b1ec0ec5f11cf0af998c",
+  "SHA256SUMS": "abc3d0bfa32a393ed31ddda645bdbad61ad4e65dea1fea858aa5c7254c7d7203"
+}

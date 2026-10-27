@@ -1,0 +1,39 @@
+[
+  {
+    "task": "click_alarmclock",
+    "seed": 100000,
+    "episode": 0,
+    "result": "failure",
+    "action_count": 400,
+    "action_chunks": 16,
+    "source_video": "/workspace/runtime/eval_result/click_alarmclock/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_305566/episode0.mp4",
+    "source_log": "/workspace/runtime/outputs/full_sft_6000_clean50x10_8gpu_video/logs/eval_demo_clean__click_alarmclock.log",
+    "check_success": "Correct-side gripper closed; gripper-actor contact within 0.03m XYZ around alarm contact point 0; latched success.",
+    "observations": [
+      "Left gripper approaches and closes near the alarm.",
+      "Most sampled later frames show closed gripper near top left/back side; no sustained move onto top button area.",
+      "Repeated hovering/small position changes persist to the action limit."
+    ],
+    "inference": "Failure likely occurs at establishing the required button contact rather than failure to produce arm movement.",
+    "limitations": "One 320x240 head camera and eight sampled frames cannot verify 3D contact distance, force, or a brief between-frame contact. Alarm actor is static so lack of object movement is not a failure indicator."
+  },
+  {
+    "task": "adjust_bottle",
+    "seed": 100002,
+    "episode": 1,
+    "result": "failure",
+    "action_count": 400,
+    "action_chunks": 16,
+    "source_video": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_401657/episode1.mp4",
+    "source_log": "/workspace/runtime/outputs/full_sft_6000_clean50x10_8gpu_video/logs/eval_demo_clean__adjust_bottle.log",
+    "check_success": "Bottle functional point 0 must have z>0.9m and x<-0.15m for this left-side bottle.",
+    "observations": [
+      "Bottle initially lies on near side of table.",
+      "Around action40, left gripper approaches/contacts bottle body.",
+      "By action80, bottle lies at back of table and is not held in the gripper.",
+      "Later sampled frames show arm motion around original area while bottle remains lying at back through action396."
+    ],
+    "inference": "Failure primarily at stable grasp establishment: initial contact appears to displace bottle and policy does not recover by re-localizing and grasping it. Not merely a small final target threshold miss.",
+    "limitations": "One head camera and eight sampled frames cannot verify exact 3D positions or forces. Push/collision is inferred from displacement between action40 and80; no continuous sustained lift is evident in sampled frames."
+  }
+]

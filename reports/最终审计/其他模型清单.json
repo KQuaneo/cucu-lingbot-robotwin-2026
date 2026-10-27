@@ -1,0 +1,1040 @@
+{
+  "checked_at_hong_kong": "2026-10-04T09:13:14.083844+08:00",
+  "checks": "read_only_directory_and_size_no_hash_no_model_loading",
+  "roots": [
+    {
+      "root": "/workspace/runtime/outputs/lora_10k_PB_1001",
+      "candidates": [
+        {
+          "path": "/workspace/runtime/outputs/lora_10k_PB_1001/checkpoints/global_step_10000/model",
+          "files": 129,
+          "bytes": 24948551737,
+          "suffix_counts": {
+            ".distcp": 128,
+            "": 1
+          },
+          "metadata": [
+            [
+              ".metadata",
+              3947733
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/workspace/runtime/outputs/lora_10k_PB_1001/checkpoints/global_step_10000/model"
+        },
+        {
+          "path": "/workspace/runtime/outputs/lora_10k_PB_1001/checkpoints/global_step_10000/optimizer",
+          "files": 129,
+          "bytes": 39920304,
+          "suffix_counts": {
+            ".distcp": 128,
+            "": 1
+          },
+          "metadata": [
+            [
+              ".metadata",
+              1483847
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/workspace/runtime/outputs/lora_10k_PB_1001/checkpoints/global_step_10000/optimizer"
+        },
+        {
+          "path": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt",
+          "files": 14,
+          "bytes": 12467433466,
+          "suffix_counts": {
+            ".json": 9,
+            ".md": 1,
+            "": 1,
+            ".safetensors": 3
+          },
+          "metadata": [
+            [
+              "config.json",
+              31
+            ],
+            [
+              "model.safetensors.index.json",
+              199143
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt",
+          "index_weights": 1624,
+          "shards": [
+            {
+              "file": "model-00001-of-00003.safetensors",
+              "present": true,
+              "bytes": 4990513880
+            },
+            {
+              "file": "model-00002-of-00003.safetensors",
+              "present": true,
+              "bytes": 4996217784
+            },
+            {
+              "file": "model-00003-of-00003.safetensors",
+              "present": true,
+              "bytes": 2466290726
+            }
+          ],
+          "config_json": {
+            "vlm_family": "qwen3_vl"
+          }
+        }
+      ]
+    },
+    {
+      "root": "/workspace/runtime/models",
+      "candidates": [
+        {
+          "path": "/workspace/runtime/models/full_sft_6000",
+          "files": 16,
+          "bytes": 12768182882,
+          "suffix_counts": {
+            ".json": 10,
+            ".safetensors": 3,
+            ".jinja": 1,
+            ".txt": 1,
+            ".yaml": 1
+          },
+          "metadata": [
+            [
+              "config.json",
+              4807
+            ],
+            [
+              "model.safetensors.index.json",
+              207389
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/workspace/runtime/models/full_sft_6000",
+          "index_weights": 1708,
+          "shards": [
+            {
+              "file": "model-00001-of-00003.safetensors",
+              "present": true,
+              "bytes": 4995757160
+            },
+            {
+              "file": "model-00002-of-00003.safetensors",
+              "present": true,
+              "bytes": 4992913224
+            },
+            {
+              "file": "model-00003-of-00003.safetensors",
+              "present": true,
+              "bytes": 2763405726
+            }
+          ],
+          "config_json": {
+            "_moe_implementation": "fused",
+            "action_dim": 55,
+            "action_fp32": false,
+            "action_head_dim": 128,
+            "action_num_attention_heads": 32,
+            "action_num_key_value_heads": 8,
+            "adanorm_time": true,
+            "align_params": {
+              "depth": {
+                "block_future_depth_to_action": true,
+                "detach_future_image_feats": true,
+                "dim_head": 32,
+                "dim_out": 1024,
+                "ff_mult": 1,
+                "input_size": 224,
+                "model_type": "MoRGBD",
+                "moge_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/moge-2-vitb-normal/model.pt",
+                "morgbd_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/robbyant_lingbot-vla-v2-6b/depth/model.pt",
+                "num_backbone_tokens": 256,
+                "num_heads": 4,
+                "num_layers": 1,
+                "token_size": 16,
+                "use_future_depth": true
+              },
+              "depth_loss_weight": 0.004,
+              "future_depth_loss_weight": 0.004,
+              "llm": {
+                "dim_out": 2560,
+                "image_input_size": 224,
+                "image_token_size": 8
+              },
+              "mode": "query",
+              "num_task_tokens": 8,
+              "use_future_video": true,
+              "video": {
+                "attention_mode": "flex_block_causal",
+                "block_suffix_to_future_video": true,
+                "block_warmup_gradual": false,
+                "block_warmup_steps": 0,
+                "ckpt_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/robbyant_lingbot-vla-v2-6b/dino_video/teacher_step_10000.pth",
+                "cls_loss_type": "mse",
+                "cls_loss_weight": 0.2,
+                "cls_pool": "last",
+                "config_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/robbyant_lingbot-vla-v2-6b/dino_video/config.yaml",
+                "cosine_loss_weight": 0.2,
+                "detach_image_feats": true,
+                "dim_head": 32,
+                "dim_out": 1024,
+                "effective_fps": 1.0,
+                "ff_mult": 1,
+                "future_video_loss_weight": 0.004,
+                "head_type": "resampler",
+                "input_size": 256,
+                "log_max_samples": 32,
+                "log_scale": 16,
+                "mse_loss_weight": 1.0,
+                "n_blocks": 1,
+                "num_backbone_tokens": 256,
+                "num_future_frames": 1,
+                "num_heads": 4,
+                "num_layers": 1,
+                "share_future_depth_query": true,
+                "shared_query_head_type": "resampler",
+                "target_type": "absolute",
+                "use_cls_loss": false,
+                "use_cosine_loss": false,
+                "use_current_patch_loss": true,
+                "use_current_shared_task_proj": true,
+                "use_mse_loss": true,
+                "use_patch_loss": true,
+                "use_shared_future_task_proj": true,
+                "use_smooth_l1_loss": false,
+                "use_warmup_frame": true
+              },
+              "visual_dir": "/var/tmp/robotwin-full-sft-6k-20261002/output/images",
+              "visual_steps": 5000
+            },
+            "architectures": [
+              "LingbotVlaV2Policy"
+            ],
+            "attention_implementation": "flex_cached",
+            "bias_update_speed": 0.0,
+            "chunk_size": 50,
+            "depth_incremental_training": false,
+            "enable_expert_vision": false,
+            "expert_hidden_size": 768,
+            "expert_intermediate_size": 2752,
+            "expert_vision_path": null,
+            "expert_vision_type": null,
+            "final_norm_adanorm": false,
+            "freeze_vision_encoder": false,
+            "incremental_training": false,
+            "initializer_range": 0.02,
+            "loss_type": "L1_fm",
+            "max_action_dim": 55,
+            "max_state_dim": 55,
+            "model_type": "lingbotvla",
+            "moe_implementation": "fused",
+            "n_action_steps": 50,
+            "n_obs_steps": 1,
+            "norm_qkv": false,
+            "nosplit_gate_liner": false,
+            "num_steps": 10,
+            "post_training": true,
+            "precompute_grid_thw": false,
+            "proj_width": 768,
+            "qwen3vl_use_vision_boundaries": true,
+            "reinit_mismatched_weights": false,
+            "return_image_grid_thw": true,
+            "routed_scaling_factor": 4.0,
+            "router_activation": "sigmoid",
+            "router_z_loss_coeff": 0.0001,
+            "separate_time_proj": false,
+            "sequence_wise_loss_coeff": 0.001,
+            "sequence_wise_mode": "per_sequence",
+            "split_fused_experts_from_decoder_fsdp": false,
+            "split_gate_liner": false,
+            "token_moe_intermediate_size": 512,
+            "token_moe_layers": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "token_num_experts": 32,
+            "token_shared_intermediate_size": 704,
+            "token_top_k": 4,
+            "tokenizer_max_length": 72,
+            "tokenizer_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/Qwen3-VL-4B-Instruct-config-tokenizer",
+            "train_expert_only": false,
+            "train_state_proj": true,
+            "transformers_version": "4.57.3",
+            "use_cache": false,
+            "use_compile": false,
+            "use_lm_head": false,
+            "use_moe": true,
+            "use_qwen3_chat_template": true,
+            "use_qwen3_fixed_grid_cache": true,
+            "use_shared_expert_gate": false,
+            "vit_attn_implementation": "flash_attention_2",
+            "vlm_causal": true,
+            "vlm_family": "qwen3_vl",
+            "vlm_repo_id": null,
+            "vocab_size": 257152
+          }
+        }
+      ]
+    },
+    {
+      "root": "/var/tmp/robotwin-6k-fp32-20261004",
+      "candidates": []
+    },
+    {
+      "root": "/var/tmp/robotwin-full-sft-6k-20261002",
+      "candidates": [
+        {
+          "path": "/var/tmp/robotwin-full-sft-6k-20261002/hf_ckpt_6000",
+          "files": 14,
+          "bytes": 12768173329,
+          "suffix_counts": {
+            ".json": 9,
+            ".safetensors": 3,
+            ".jinja": 1,
+            ".txt": 1
+          },
+          "metadata": [
+            [
+              "config.json",
+              4807
+            ],
+            [
+              "model.safetensors.index.json",
+              207389
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/var/tmp/robotwin-full-sft-6k-20261002/hf_ckpt_6000",
+          "index_weights": 1708,
+          "shards": [
+            {
+              "file": "model-00001-of-00003.safetensors",
+              "present": true,
+              "bytes": 4995757160
+            },
+            {
+              "file": "model-00002-of-00003.safetensors",
+              "present": true,
+              "bytes": 4992913224
+            },
+            {
+              "file": "model-00003-of-00003.safetensors",
+              "present": true,
+              "bytes": 2763405726
+            }
+          ],
+          "config_json": {
+            "_moe_implementation": "fused",
+            "action_dim": 55,
+            "action_fp32": false,
+            "action_head_dim": 128,
+            "action_num_attention_heads": 32,
+            "action_num_key_value_heads": 8,
+            "adanorm_time": true,
+            "align_params": {
+              "depth": {
+                "block_future_depth_to_action": true,
+                "detach_future_image_feats": true,
+                "dim_head": 32,
+                "dim_out": 1024,
+                "ff_mult": 1,
+                "input_size": 224,
+                "model_type": "MoRGBD",
+                "moge_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/moge-2-vitb-normal/model.pt",
+                "morgbd_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/robbyant_lingbot-vla-v2-6b/depth/model.pt",
+                "num_backbone_tokens": 256,
+                "num_heads": 4,
+                "num_layers": 1,
+                "token_size": 16,
+                "use_future_depth": true
+              },
+              "depth_loss_weight": 0.004,
+              "future_depth_loss_weight": 0.004,
+              "llm": {
+                "dim_out": 2560,
+                "image_input_size": 224,
+                "image_token_size": 8
+              },
+              "mode": "query",
+              "num_task_tokens": 8,
+              "use_future_video": true,
+              "video": {
+                "attention_mode": "flex_block_causal",
+                "block_suffix_to_future_video": true,
+                "block_warmup_gradual": false,
+                "block_warmup_steps": 0,
+                "ckpt_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/robbyant_lingbot-vla-v2-6b/dino_video/teacher_step_10000.pth",
+                "cls_loss_type": "mse",
+                "cls_loss_weight": 0.2,
+                "cls_pool": "last",
+                "config_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/robbyant_lingbot-vla-v2-6b/dino_video/config.yaml",
+                "cosine_loss_weight": 0.2,
+                "detach_image_feats": true,
+                "dim_head": 32,
+                "dim_out": 1024,
+                "effective_fps": 1.0,
+                "ff_mult": 1,
+                "future_video_loss_weight": 0.004,
+                "head_type": "resampler",
+                "input_size": 256,
+                "log_max_samples": 32,
+                "log_scale": 16,
+                "mse_loss_weight": 1.0,
+                "n_blocks": 1,
+                "num_backbone_tokens": 256,
+                "num_future_frames": 1,
+                "num_heads": 4,
+                "num_layers": 1,
+                "share_future_depth_query": true,
+                "shared_query_head_type": "resampler",
+                "target_type": "absolute",
+                "use_cls_loss": false,
+                "use_cosine_loss": false,
+                "use_current_patch_loss": true,
+                "use_current_shared_task_proj": true,
+                "use_mse_loss": true,
+                "use_patch_loss": true,
+                "use_shared_future_task_proj": true,
+                "use_smooth_l1_loss": false,
+                "use_warmup_frame": true
+              },
+              "visual_dir": "/var/tmp/robotwin-full-sft-6k-20261002/output/images",
+              "visual_steps": 5000
+            },
+            "architectures": [
+              "LingbotVlaV2Policy"
+            ],
+            "attention_implementation": "flex_cached",
+            "bias_update_speed": 0.0,
+            "chunk_size": 50,
+            "depth_incremental_training": false,
+            "enable_expert_vision": false,
+            "expert_hidden_size": 768,
+            "expert_intermediate_size": 2752,
+            "expert_vision_path": null,
+            "expert_vision_type": null,
+            "final_norm_adanorm": false,
+            "freeze_vision_encoder": false,
+            "incremental_training": false,
+            "initializer_range": 0.02,
+            "loss_type": "L1_fm",
+            "max_action_dim": 55,
+            "max_state_dim": 55,
+            "model_type": "lingbotvla",
+            "moe_implementation": "fused",
+            "n_action_steps": 50,
+            "n_obs_steps": 1,
+            "norm_qkv": false,
+            "nosplit_gate_liner": false,
+            "num_steps": 10,
+            "post_training": true,
+            "precompute_grid_thw": false,
+            "proj_width": 768,
+            "qwen3vl_use_vision_boundaries": true,
+            "reinit_mismatched_weights": false,
+            "return_image_grid_thw": true,
+            "routed_scaling_factor": 4.0,
+            "router_activation": "sigmoid",
+            "router_z_loss_coeff": 0.0001,
+            "separate_time_proj": false,
+            "sequence_wise_loss_coeff": 0.001,
+            "sequence_wise_mode": "per_sequence",
+            "split_fused_experts_from_decoder_fsdp": false,
+            "split_gate_liner": false,
+            "token_moe_intermediate_size": 512,
+            "token_moe_layers": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "token_num_experts": 32,
+            "token_shared_intermediate_size": 704,
+            "token_top_k": 4,
+            "tokenizer_max_length": 72,
+            "tokenizer_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/Qwen3-VL-4B-Instruct-config-tokenizer",
+            "train_expert_only": false,
+            "train_state_proj": true,
+            "transformers_version": "4.57.3",
+            "use_cache": false,
+            "use_compile": false,
+            "use_lm_head": false,
+            "use_moe": true,
+            "use_qwen3_chat_template": true,
+            "use_qwen3_fixed_grid_cache": true,
+            "use_shared_expert_gate": false,
+            "vit_attn_implementation": "flash_attention_2",
+            "vlm_causal": true,
+            "vlm_family": "qwen3_vl",
+            "vlm_repo_id": null,
+            "vocab_size": 257152
+          }
+        },
+        {
+          "path": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_5000/model",
+          "files": 129,
+          "bytes": 25528215886,
+          "suffix_counts": {
+            ".distcp": 128,
+            "": 1
+          },
+          "metadata": [
+            [
+              ".metadata",
+              3435338
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_5000/model"
+        },
+        {
+          "path": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_5000/optimizer",
+          "files": 129,
+          "bytes": 51060309384,
+          "suffix_counts": {
+            ".distcp": 128,
+            "": 1
+          },
+          "metadata": [
+            [
+              ".metadata",
+              8056622
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_5000/optimizer"
+        },
+        {
+          "path": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_6000/model",
+          "files": 129,
+          "bytes": 25528215886,
+          "suffix_counts": {
+            ".distcp": 128,
+            "": 1
+          },
+          "metadata": [
+            [
+              ".metadata",
+              3435338
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_6000/model"
+        },
+        {
+          "path": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_6000/optimizer",
+          "files": 129,
+          "bytes": 51060309384,
+          "suffix_counts": {
+            ".distcp": 128,
+            "": 1
+          },
+          "metadata": [
+            [
+              ".metadata",
+              8056622
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/var/tmp/robotwin-full-sft-6k-20261002/output/checkpoints/global_step_6000/optimizer"
+        }
+      ]
+    },
+    {
+      "root": "/var/tmp/robotwin-full-sft-smoke-20261002",
+      "candidates": [
+        {
+          "path": "/var/tmp/robotwin-full-sft-smoke-20261002/hf_ckpt",
+          "files": 14,
+          "bytes": 12768173332,
+          "suffix_counts": {
+            ".json": 9,
+            ".safetensors": 3,
+            ".jinja": 1,
+            ".txt": 1
+          },
+          "metadata": [
+            [
+              "config.json",
+              4810
+            ],
+            [
+              "model.safetensors.index.json",
+              207389
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/var/tmp/robotwin-full-sft-smoke-20261002/hf_ckpt",
+          "index_weights": 1708,
+          "shards": [
+            {
+              "file": "model-00001-of-00003.safetensors",
+              "present": true,
+              "bytes": 4995757160
+            },
+            {
+              "file": "model-00002-of-00003.safetensors",
+              "present": true,
+              "bytes": 4992913224
+            },
+            {
+              "file": "model-00003-of-00003.safetensors",
+              "present": true,
+              "bytes": 2763405726
+            }
+          ],
+          "config_json": {
+            "_moe_implementation": "fused",
+            "action_dim": 55,
+            "action_fp32": false,
+            "action_head_dim": 128,
+            "action_num_attention_heads": 32,
+            "action_num_key_value_heads": 8,
+            "adanorm_time": true,
+            "align_params": {
+              "depth": {
+                "block_future_depth_to_action": true,
+                "detach_future_image_feats": true,
+                "dim_head": 32,
+                "dim_out": 1024,
+                "ff_mult": 1,
+                "input_size": 224,
+                "model_type": "MoRGBD",
+                "moge_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/moge-2-vitb-normal/model.pt",
+                "morgbd_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/robbyant_lingbot-vla-v2-6b/depth/model.pt",
+                "num_backbone_tokens": 256,
+                "num_heads": 4,
+                "num_layers": 1,
+                "token_size": 16,
+                "use_future_depth": true
+              },
+              "depth_loss_weight": 0.004,
+              "future_depth_loss_weight": 0.004,
+              "llm": {
+                "dim_out": 2560,
+                "image_input_size": 224,
+                "image_token_size": 8
+              },
+              "mode": "query",
+              "num_task_tokens": 8,
+              "use_future_video": true,
+              "video": {
+                "attention_mode": "flex_block_causal",
+                "block_suffix_to_future_video": true,
+                "block_warmup_gradual": false,
+                "block_warmup_steps": 0,
+                "ckpt_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/robbyant_lingbot-vla-v2-6b/dino_video/teacher_step_10000.pth",
+                "cls_loss_type": "mse",
+                "cls_loss_weight": 0.2,
+                "cls_pool": "last",
+                "config_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/robbyant_lingbot-vla-v2-6b/dino_video/config.yaml",
+                "cosine_loss_weight": 0.2,
+                "detach_image_feats": true,
+                "dim_head": 32,
+                "dim_out": 1024,
+                "effective_fps": 1.0,
+                "ff_mult": 1,
+                "future_video_loss_weight": 0.004,
+                "head_type": "resampler",
+                "input_size": 256,
+                "log_max_samples": 32,
+                "log_scale": 16,
+                "mse_loss_weight": 1.0,
+                "n_blocks": 1,
+                "num_backbone_tokens": 256,
+                "num_future_frames": 1,
+                "num_heads": 4,
+                "num_layers": 1,
+                "share_future_depth_query": true,
+                "shared_query_head_type": "resampler",
+                "target_type": "absolute",
+                "use_cls_loss": false,
+                "use_cosine_loss": false,
+                "use_current_patch_loss": true,
+                "use_current_shared_task_proj": true,
+                "use_mse_loss": true,
+                "use_patch_loss": true,
+                "use_shared_future_task_proj": true,
+                "use_smooth_l1_loss": false,
+                "use_warmup_frame": true
+              },
+              "visual_dir": "/var/tmp/robotwin-full-sft-smoke-20261002/output/images",
+              "visual_steps": 5000
+            },
+            "architectures": [
+              "LingbotVlaV2Policy"
+            ],
+            "attention_implementation": "flex_cached",
+            "bias_update_speed": 0.0,
+            "chunk_size": 50,
+            "depth_incremental_training": false,
+            "enable_expert_vision": false,
+            "expert_hidden_size": 768,
+            "expert_intermediate_size": 2752,
+            "expert_vision_path": null,
+            "expert_vision_type": null,
+            "final_norm_adanorm": false,
+            "freeze_vision_encoder": false,
+            "incremental_training": false,
+            "initializer_range": 0.02,
+            "loss_type": "L1_fm",
+            "max_action_dim": 55,
+            "max_state_dim": 55,
+            "model_type": "lingbotvla",
+            "moe_implementation": "fused",
+            "n_action_steps": 50,
+            "n_obs_steps": 1,
+            "norm_qkv": false,
+            "nosplit_gate_liner": false,
+            "num_steps": 10,
+            "post_training": true,
+            "precompute_grid_thw": false,
+            "proj_width": 768,
+            "qwen3vl_use_vision_boundaries": true,
+            "reinit_mismatched_weights": false,
+            "return_image_grid_thw": true,
+            "routed_scaling_factor": 4.0,
+            "router_activation": "sigmoid",
+            "router_z_loss_coeff": 0.0001,
+            "separate_time_proj": false,
+            "sequence_wise_loss_coeff": 0.001,
+            "sequence_wise_mode": "per_sequence",
+            "split_fused_experts_from_decoder_fsdp": false,
+            "split_gate_liner": false,
+            "token_moe_intermediate_size": 512,
+            "token_moe_layers": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "token_num_experts": 32,
+            "token_shared_intermediate_size": 704,
+            "token_top_k": 4,
+            "tokenizer_max_length": 72,
+            "tokenizer_path": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/models/Qwen3-VL-4B-Instruct-config-tokenizer",
+            "train_expert_only": false,
+            "train_state_proj": true,
+            "transformers_version": "4.57.3",
+            "use_cache": false,
+            "use_compile": false,
+            "use_lm_head": false,
+            "use_moe": true,
+            "use_qwen3_chat_template": true,
+            "use_qwen3_fixed_grid_cache": true,
+            "use_shared_expert_gate": false,
+            "vit_attn_implementation": "flash_attention_2",
+            "vlm_causal": true,
+            "vlm_family": "qwen3_vl",
+            "vlm_repo_id": null,
+            "vocab_size": 257152
+          }
+        },
+        {
+          "path": "/var/tmp/robotwin-full-sft-smoke-20261002/output/checkpoints/global_step_10/model",
+          "files": 129,
+          "bytes": 25528215887,
+          "suffix_counts": {
+            ".distcp": 128,
+            "": 1
+          },
+          "metadata": [
+            [
+              ".metadata",
+              3435339
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/var/tmp/robotwin-full-sft-smoke-20261002/output/checkpoints/global_step_10/model"
+        },
+        {
+          "path": "/var/tmp/robotwin-full-sft-smoke-20261002/output/checkpoints/global_step_10/optimizer",
+          "files": 129,
+          "bytes": 51060309385,
+          "suffix_counts": {
+            ".distcp": 128,
+            "": 1
+          },
+          "metadata": [
+            [
+              ".metadata",
+              8056623
+            ]
+          ],
+          "symlink": false,
+          "resolved": "/var/tmp/robotwin-full-sft-smoke-20261002/output/checkpoints/global_step_10/optimizer"
+        }
+      ]
+    },
+    {
+      "root": "/var/tmp/robotwin-lora-100steps",
+      "candidates": []
+    },
+    {
+      "root": "/var/tmp/robotwin-official-weak5-20261004",
+      "candidates": []
+    }
+  ],
+  "standalone_adapter_files": [],
+  "lora_small_context_files": [
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/lingbotvla_cli.yaml",
+      "bytes": 5135
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/config.json",
+      "bytes": 2435
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/preprocessor_config.json",
+      "bytes": 782
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/chat_template.jinja",
+      "bytes": 5292
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/tokenizer_config.json",
+      "bytes": 5472
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/special_tokens_map.json",
+      "bytes": 613
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/added_tokens.json",
+      "bytes": 707
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/vocab.json",
+      "bytes": 2776833
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/merges.txt",
+      "bytes": 1671853
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/tokenizer.json",
+      "bytes": 11422654
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/model_assets/video_preprocessor_config.json",
+      "bytes": 817
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/tokenizer_config.json",
+      "bytes": 5472
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/added_tokens.json",
+      "bytes": 707
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/special_tokens_map.json",
+      "bytes": 613
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/preprocessor_config.json",
+      "bytes": 782
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/README.md",
+      "bytes": 2227
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/video_preprocessor_config.json",
+      "bytes": 817
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/vocab.json",
+      "bytes": 2776833
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/.gitattributes",
+      "bytes": 1797
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/tokenizer.json",
+      "bytes": 11422654
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/config.json",
+      "bytes": 31
+    },
+    {
+      "file": "/workspace/runtime/outputs/lora_10k_PB_1001/merged_checkpoint/global_step_10000/hf_ckpt/model.safetensors.index.json",
+      "bytes": 199143
+    }
+  ],
+  "lora_hf_exact_files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 1797
+    },
+    {
+      "file": "README.md",
+      "bytes": 2227
+    },
+    {
+      "file": "added_tokens.json",
+      "bytes": 707
+    },
+    {
+      "file": "config.json",
+      "bytes": 31
+    },
+    {
+      "file": "model-00001-of-00003.safetensors",
+      "bytes": 4990513880
+    },
+    {
+      "file": "model-00002-of-00003.safetensors",
+      "bytes": 4996217784
+    },
+    {
+      "file": "model-00003-of-00003.safetensors",
+      "bytes": 2466290726
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "bytes": 199143
+    },
+    {
+      "file": "preprocessor_config.json",
+      "bytes": 782
+    },
+    {
+      "file": "special_tokens_map.json",
+      "bytes": 613
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 11422654
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 5472
+    },
+    {
+      "file": "video_preprocessor_config.json",
+      "bytes": 817
+    },
+    {
+      "file": "vocab.json",
+      "bytes": 2776833
+    }
+  ],
+  "summary": {
+    "lora10k_hf_bytes": 12467433466,
+    "lora10k_dcp_bytes": 24988533401,
+    "lora10k_context_yaml": "/workspace/runtime/outputs/lora_10k_PB_1001/lingbotvla_cli.yaml",
+    "lora10k_assets_bytes": 15887458,
+    "full_sft_5k_hf_export_found": false,
+    "full_sft_5k_dcp_bytes": 76588586630,
+    "cpu_export_entry": "/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/scripts/convert_full_sft_dcp.py",
+    "export_executed": false
+  },
+  "user_exclusions": {
+    "full_sft_5000": "用户明确要求不保存，已停止下载并清理本地新增权重/分块",
+    "lora10k": "用户明确要求不保存，由根负责停止对应下载",
+    "remote_original_checkpoints": "均保留未删除"
+  }
+}

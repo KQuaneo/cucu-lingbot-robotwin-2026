@@ -1,0 +1,3631 @@
+{
+  "run_name": "full_sft_6000_randomized50x10_fp32_8gpu_video_20261026",
+  "captured_utc": "2026-10-26T10:37:30.094829+00:00",
+  "team": "cucu",
+  "checkpoint_step": 6000,
+  "precision": "FP32",
+  "task_config": "demo_randomized",
+  "instruction_type": "unseen",
+  "episodes_per_task": 10,
+  "completed_tasks": 50,
+  "completed_task_successes": 177,
+  "completed_task_rollouts": 500,
+  "all_logged_rollouts": 500,
+  "exit_code": 0,
+  "complete": true,
+  "tasks": [
+    {
+      "task": "adjust_bottle",
+      "completed": true,
+      "status": "completed",
+      "successes": 9,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100012,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/adjust_bottle/LingBot-VLA-v2/demo_randomized/default/2026-10-26_05-34-57_391290",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "beat_block_hammer",
+      "completed": true,
+      "status": "completed",
+      "successes": 2,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/beat_block_hammer/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-58-51_193356",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "blocks_ranking_rgb",
+      "completed": true,
+      "status": "completed",
+      "successes": 5,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_randomized/default/2026-10-26_06-05-36_177411",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "blocks_ranking_size",
+      "completed": true,
+      "status": "completed",
+      "successes": 2,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_randomized/default/2026-10-26_05-19-20_328532",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "click_alarmclock",
+      "completed": true,
+      "status": "completed",
+      "successes": 4,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/click_alarmclock/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-55-44_182261",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "click_bell",
+      "completed": true,
+      "status": "completed",
+      "successes": 5,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/click_bell/LingBot-VLA-v2/demo_randomized/default/2026-10-26_09-02-18_892011",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "completed": true,
+      "status": "completed",
+      "successes": 9,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100011,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100012,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100017,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100019,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100020,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100022,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100023,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/dump_bin_bigbin/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-52-06_837454",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "grab_roller",
+      "completed": true,
+      "status": "completed",
+      "successes": 9,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100011,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/grab_roller/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-51-57_671502",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "handover_block",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/handover_block/LingBot-VLA-v2/demo_randomized/default/2026-10-26_05-04-41_653235",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "handover_mic",
+      "completed": true,
+      "status": "completed",
+      "successes": 4,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/handover_mic/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-36-02_648272",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "hanging_mug",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/hanging_mug/LingBot-VLA-v2/demo_randomized/default/2026-10-26_05-08-21_418866",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "lift_pot",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100011,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/lift_pot/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-21-33_213365",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "move_can_pot",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/move_can_pot/LingBot-VLA-v2/demo_randomized/default/2026-10-26_03-59-15_583412",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "move_pillbottle_pad",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_randomized/default/2026-10-26_03-59-15_571313",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "move_playingcard_away",
+      "completed": true,
+      "status": "completed",
+      "successes": 2,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/move_playingcard_away/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-21-11_758082",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "move_stapler_pad",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100011,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/move_stapler_pad/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-13-49_858962",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "open_laptop",
+      "completed": true,
+      "status": "completed",
+      "successes": 2,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/open_laptop/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-58-28_867786",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "open_microwave",
+      "completed": true,
+      "status": "completed",
+      "successes": 2,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100010,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100011,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/open_microwave/LingBot-VLA-v2/demo_randomized/default/2026-10-26_03-59-15_699052",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "pick_diverse_bottles",
+      "completed": true,
+      "status": "completed",
+      "successes": 3,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100010,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100013,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100020,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100024,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_randomized/default/2026-10-26_03-59-15_693522",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "pick_dual_bottles",
+      "completed": true,
+      "status": "completed",
+      "successes": 5,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_randomized/default/2026-10-26_03-59-15_598722",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_a2b_left",
+      "completed": true,
+      "status": "completed",
+      "successes": 6,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "6",
+        "10",
+        "60.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_a2b_left/LingBot-VLA-v2/demo_randomized/default/2026-10-26_06-57-26_234047",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_a2b_right",
+      "completed": true,
+      "status": "completed",
+      "successes": 5,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100011,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_a2b_right/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-09-18_362114",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_bread_basket",
+      "completed": true,
+      "status": "completed",
+      "successes": 6,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "6",
+        "10",
+        "60.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_bread_basket/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-32-23_558685",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_bread_skillet",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_bread_skillet/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-00-37_430948",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_burger_fries",
+      "completed": true,
+      "status": "completed",
+      "successes": 6,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "6",
+        "10",
+        "60.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_burger_fries/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-50-56_930159",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_can_basket",
+      "completed": true,
+      "status": "completed",
+      "successes": 0,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "0",
+        "10",
+        "0.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_can_basket/LingBot-VLA-v2/demo_randomized/default/2026-10-26_03-59-15_498601",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_cans_plasticbox",
+      "completed": true,
+      "status": "completed",
+      "successes": 4,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_randomized/default/2026-10-26_03-59-15_631388",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_container_plate",
+      "completed": true,
+      "status": "completed",
+      "successes": 9,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_container_plate/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-37-46_702382",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_dual_shoes",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100010,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100011,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100012,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_randomized/default/2026-10-26_06-32-39_198550",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_empty_cup",
+      "completed": true,
+      "status": "completed",
+      "successes": 8,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "8",
+        "10",
+        "80.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_empty_cup/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-59-19_329584",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_fan",
+      "completed": true,
+      "status": "completed",
+      "successes": 2,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100011,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100012,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100013,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_fan/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-41-57_353585",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_mouse_pad",
+      "completed": true,
+      "status": "completed",
+      "successes": 0,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "0",
+        "10",
+        "0.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_mouse_pad/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-15-03_547197",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_object_basket",
+      "completed": true,
+      "status": "completed",
+      "successes": 4,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100012,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_object_basket/LingBot-VLA-v2/demo_randomized/default/2026-10-26_06-35-29_312179",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_object_scale",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100011,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_object_scale/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-29-42_616753",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_object_stand",
+      "completed": true,
+      "status": "completed",
+      "successes": 8,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "8",
+        "10",
+        "80.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_object_stand/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-14-14_830860",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_phone_stand",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100010,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100012,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100013,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100014,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100015,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_phone_stand/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-56-58_724169",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "place_shoe",
+      "completed": true,
+      "status": "completed",
+      "successes": 4,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100009,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100010,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100012,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/place_shoe/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-15-57_940528",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "press_stapler",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/press_stapler/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-18-25_765767",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "put_bottles_dustbin",
+      "completed": true,
+      "status": "completed",
+      "successes": 3,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_randomized/default/2026-10-26_03-59-15_702521",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "put_object_cabinet",
+      "completed": true,
+      "status": "completed",
+      "successes": 0,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "0",
+        "10",
+        "0.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_randomized/default/2026-10-26_06-11-29_893375",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "rotate_qrcode",
+      "completed": true,
+      "status": "completed",
+      "successes": 3,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/rotate_qrcode/LingBot-VLA-v2/demo_randomized/default/2026-10-26_08-58-39_630852",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "scan_object",
+      "completed": true,
+      "status": "completed",
+      "successes": 1,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/scan_object/LingBot-VLA-v2/demo_randomized/default/2026-10-26_06-03-06_432145",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "shake_bottle",
+      "completed": true,
+      "status": "completed",
+      "successes": 7,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100011,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100014,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "7",
+        "10",
+        "70.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/shake_bottle/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-25-31_661011",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "shake_bottle_horizontally",
+      "completed": true,
+      "status": "completed",
+      "successes": 9,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100010,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100011,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100013,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100014,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/shake_bottle_horizontally/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-22-25_199567",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "stack_blocks_three",
+      "completed": true,
+      "status": "completed",
+      "successes": 0,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "0",
+        "10",
+        "0.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_randomized/default/2026-10-26_05-11-00_835222",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "stack_blocks_two",
+      "completed": true,
+      "status": "completed",
+      "successes": 6,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": true
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "6",
+        "10",
+        "60.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_randomized/default/2026-10-26_06-25-56_487432",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "stack_bowls_three",
+      "completed": true,
+      "status": "completed",
+      "successes": 2,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100012,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_randomized/default/2026-10-26_05-21-16_493063",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "stack_bowls_two",
+      "completed": true,
+      "status": "completed",
+      "successes": 3,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": true
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100010,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100011,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100013,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100014,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/stack_bowls_two/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-09-54_246468",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "stamp_seal",
+      "completed": true,
+      "status": "completed",
+      "successes": 0,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false
+        },
+        {
+          "index": 1,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 2,
+          "seed": 100003,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100004,
+          "success": false
+        },
+        {
+          "index": 4,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 5,
+          "seed": 100006,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100007,
+          "success": false
+        },
+        {
+          "index": 7,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 8,
+          "seed": 100009,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100010,
+          "success": false
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "0",
+        "10",
+        "0.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/stamp_seal/LingBot-VLA-v2/demo_randomized/default/2026-10-26_06-33-08_048739",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    },
+    {
+      "task": "turn_switch",
+      "completed": true,
+      "status": "completed",
+      "successes": 7,
+      "policy_rollouts": 10,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": true
+        },
+        {
+          "index": 4,
+          "seed": 100004,
+          "success": true
+        },
+        {
+          "index": 5,
+          "seed": 100005,
+          "success": false
+        },
+        {
+          "index": 6,
+          "seed": 100006,
+          "success": true
+        },
+        {
+          "index": 7,
+          "seed": 100007,
+          "success": true
+        },
+        {
+          "index": 8,
+          "seed": 100008,
+          "success": false
+        },
+        {
+          "index": 9,
+          "seed": 100009,
+          "success": true
+        }
+      ],
+      "done_marker": true,
+      "final": [
+        "7",
+        "10",
+        "70.0"
+      ],
+      "video_directory": "/RoboTwin/eval_result/turn_switch/LingBot-VLA-v2/demo_randomized/default/2026-10-26_07-17-43_648981",
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0
+      }
+    }
+  ],
+  "issues": [],
+  "conditions": {
+    "use_length": 25,
+    "compile": false,
+    "expert_check": true,
+    "accept_expert_info_on_failure": true,
+    "valid_retry_patch": true,
+    "seed_argument": 0,
+    "planner": "mplib",
+    "gpu_count": 8,
+    "video": true
+  },
+  "note": "10 episodes/task self-test; never represent as 100 official trials."
+}

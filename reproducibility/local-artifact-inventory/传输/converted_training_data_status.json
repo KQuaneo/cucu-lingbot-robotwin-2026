@@ -1,0 +1,11 @@
+{
+  "checked_hong_kong": "2026-10-04T20:11:12.895000+08:00",
+  "phase": "incomplete_server_unreachable",
+  "complete": false,
+  "bytes_present": 2390556672,
+  "total_bytes": 5430343680,
+  "percent": 44.02,
+  "archive_assembled": false,
+  "whole_archive_sha256_verified": false,
+  "ssh_check": "Connection refused"
+}

@@ -1,0 +1,42 @@
+{
+  "complete": false,
+  "canceled_by_user": true,
+  "canceled_at_hong_kong": "2026-10-04T09:22:11.345175+08:00",
+  "reason": "用户要求5k模型不用存",
+  "download_process_stopped": true,
+  "ssh_child_processes_remaining": 0,
+  "local_weight_and_chunk_directories_removed": true,
+  "bytes_removed": 3971437849,
+  "removed": [
+    {
+      "path": "/path/to/project/硬盘/模型/full_sft_5000",
+      "bytes": 2757
+    },
+    {
+      "path": "/path/to/project/硬盘/传输/full_sft_5000_chunks",
+      "bytes": 3971435092
+    },
+    {
+      "path": "/path/to/project/硬盘/传输/full_sft_5000_download.log",
+      "small_record": true
+    },
+    {
+      "path": "/path/to/project/硬盘/传输/full_sft_5000_export_complete.json",
+      "small_record": true
+    },
+    {
+      "path": "/path/to/project/硬盘/传输/full_sft_5000_remote_manifest.json",
+      "small_record": true
+    },
+    {
+      "path": "/path/to/project/硬盘/传输/full_sft_5000_export.log",
+      "small_record": true
+    },
+    {
+      "path": "/path/to/project/硬盘/传输/download_5000.py",
+      "small_record": true
+    }
+  ],
+  "remote_original_checkpoint_deleted": false,
+  "remote_temporary_hf_retained": true
+}

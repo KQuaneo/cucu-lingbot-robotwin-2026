@@ -1,0 +1,11 @@
+{
+  "checked_hong_kong": "2026-10-26T13:22:47.305956+08:00",
+  "fix": "Resolve final log result/video paths relative to evaluator working directory /RoboTwin",
+  "evaluation_logic_changed": false,
+  "remote_completed_tasks": 5,
+  "all_logged_rollouts": 73,
+  "video_manifest_entries": 73,
+  "issues": [],
+  "verified": true,
+  "note": "Existing local videos retained; next scheduled collector cycle will restore full manifest/count."
+}

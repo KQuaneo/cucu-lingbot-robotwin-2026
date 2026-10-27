@@ -1,0 +1,124 @@
+{
+  "remote_archive": "/var/tmp/lingbotvla_backup_20261004/video_snapshot_03.tar",
+  "archive_bytes": 14725120,
+  "archive_sha256": "33943e71528f654ccff13434a7c9764090dae010bd86cf4f2d4922ac5e2e4daf",
+  "manifest": {
+    "created_utc": "2026-10-03T17:51:03.867891+00:00",
+    "run": "/workspace/runtime/outputs/full_sft_6000_clean50x10_8gpu_video",
+    "source_snapshot_utc": "2026-10-03T17:50:53.787141+00:00",
+    "closed_tasks": 1,
+    "video_count": 10,
+    "files": [
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode0.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode0.mp4",
+        "bytes": 1761249,
+        "sha256": "bed5b35305a99acc820194a3a3355ac2e37f233c433bbeb9617a929823b937b3",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode1.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode1.mp4",
+        "bytes": 2054790,
+        "sha256": "49eabc9c45de0b38f5479612f0ffd5a3b88465bfdde724f0abd955029c29ac65",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode2.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode2.mp4",
+        "bytes": 604133,
+        "sha256": "ebe97781be8b9d9b595a14abed4e9a77b6b58c06d0cd6abc7447eab021c0c87b",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode3.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode3.mp4",
+        "bytes": 1949619,
+        "sha256": "f6a413134ad0a7a27143809e2f8e3f38853eda88c3bba1c1ba1dc19d3781070d",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode4.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode4.mp4",
+        "bytes": 932079,
+        "sha256": "f20ed219292b87f5f1471713aef8b3b751be1486d52def69e7e697c13693ef8f",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode5.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode5.mp4",
+        "bytes": 2034607,
+        "sha256": "ab6c6f3989913a5950df03da4b6277ffa08d88b66fbd4c6d7989de6f4e5055e3",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode6.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode6.mp4",
+        "bytes": 1832506,
+        "sha256": "e20a3a28d278673615c4173a41c1bde0c383877cdabc9adcfdf6f0a3ab1a6c93",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode7.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode7.mp4",
+        "bytes": 776089,
+        "sha256": "bd1c8ed490a61e6602bf26879f45febebd9966966325ff2a8dec355f9fde92b4",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode8.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode8.mp4",
+        "bytes": 1935734,
+        "sha256": "0fdfddebf88381d4c6d87058594052e27e0f9b43b491778ac2252d6cb9631ff6",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "episode9.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/episode9.mp4",
+        "bytes": 817271,
+        "sha256": "11d3e02514b757857a127f1ccd5cb0c93836842d8ae34133f4b089f96e54364d",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_15-56-13_701769",
+        "file": "_result.txt",
+        "archive_path": "put_bottles_dustbin/2026-10-03_15-56-13_701769/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769/_result.txt",
+        "bytes": 66,
+        "sha256": "acf016001b635bf4764df7461be908efdb0524125ed1c0161539e2379c78abec",
+        "kind": "result"
+      }
+    ]
+  }
+}

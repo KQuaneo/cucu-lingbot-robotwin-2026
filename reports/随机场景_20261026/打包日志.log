@@ -1,0 +1,3 @@
+{"created_hong_kong": "2026-10-26T18:35:53.322357+08:00", "team_id": "1382038", "schema_matches_downloaded_official_template": true, "draft": false, "counts": {"clean": {"tasks": 50, "attempts": 500, "successes": 263}, "randomized": {"tasks": 50, "attempts": 500, "successes": 177}}, "path": "/path/to/project/硬盘/提交/cucu_初赛提交材料/01_评测结果/results.json", "all_trials_are_actual_policy_outcomes": true}
+reproduction report updated; complete=True
+{"complete": true, "file": "/path/to/project/硬盘/提交/cucu_初赛提交材料.zip", "bytes": 13295262916, "sha256": "2411196824e39fc2ac473dfe2e589fc16199775abebefa9a10a90f045045d7d2", "files": 9026, "all_member_sha256_verified": true, "zip_crc_verified": true, "team_id": "1382038", "submission_uploaded": false}

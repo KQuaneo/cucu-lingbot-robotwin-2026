@@ -1,0 +1,3 @@
+[aiter] Triton ops only: CK and HIP ops (and their JIT build) are skipped.
+[INFO][lingbotvla.models.module_utils:450] 10/02/2026 04:40:28 >> Model weight splits saved in /var/tmp/robotwin-full-sft-smoke-20261002/hf_ckpt.
+Converted full-SFT checkpoint to /var/tmp/robotwin-full-sft-smoke-20261002/hf_ckpt

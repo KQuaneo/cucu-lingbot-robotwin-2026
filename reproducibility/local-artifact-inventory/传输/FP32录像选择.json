@@ -1,0 +1,176 @@
+{
+  "run_name": "full_sft_6000_clean50x10_fp32_8gpu_video_20261004",
+  "snapshot_utc": "2026-10-03T22:43:29.340109+00:00",
+  "tasks": [
+    {
+      "task": "beat_block_hammer",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/beat_block_hammer/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-31-49_639021"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "click_alarmclock",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/click_alarmclock/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-28-48_279005"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "click_bell",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/click_bell/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-34-07_677909"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "grab_roller",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/grab_roller/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-26-46_629473"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "move_playingcard_away",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/move_playingcard_away/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-18-54_578538"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "open_laptop",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/open_laptop/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-07-40_528175"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "place_bread_skillet",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/place_bread_skillet/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-11-08_001227"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "place_burger_fries",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/place_burger_fries/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-02-53_404857"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "place_container_plate",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/place_container_plate/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-22-18_082673"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "place_empty_cup",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/place_empty_cup/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-33-36_411335"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "place_mouse_pad",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/place_mouse_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-16-32_605745"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "place_object_scale",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/place_object_scale/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-19-50_962692"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "place_object_stand",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/place_object_stand/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-16-09_661415"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "place_phone_stand",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/place_phone_stand/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-30-22_629098"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "place_shoe",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/place_shoe/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-18-09_835570"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "press_stapler",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/press_stapler/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-18-11_613327"
+      ],
+      "ambiguous": false
+    },
+    {
+      "task": "rotate_qrcode",
+      "final_policy_result": {
+        "episodes": 10
+      },
+      "directories": [
+        "/workspace/runtime/eval_result/rotate_qrcode/LingBot-VLA-v2/demo_clean/default/2026-10-03_21-30-26_645505"
+      ],
+      "ambiguous": false
+    }
+  ]
+}

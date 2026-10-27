@@ -1,0 +1,28 @@
+{
+  "run_name": "full_sft_6000_clean50x10_fp32_8gpu_video_20261004",
+  "model": "our_full_sft_6000",
+  "model_path": "/workspace/runtime/models/full_sft_6000",
+  "precision": "FP32",
+  "gpu_count": 8,
+  "episodes_per_task": 10,
+  "task_count": 50,
+  "seed": 0,
+  "task_config": "demo_clean",
+  "seen": true,
+  "expert_check": true,
+  "accept_expert_info_on_failure": true,
+  "video": true,
+  "use_length": 25,
+  "eager": true,
+  "use_compile": false,
+  "gpu_scheduling": "all 8 GPUs start immediately; official BF16 cancelled by user",
+  "task_order": "descending previous BF16 task time",
+  "hard_stop_hong_kong": "2026-10-04T09:35:00+08:00",
+  "prepared_utc": "2026-10-03T18:21:19.357172+00:00",
+  "sha256": {
+    "run_fp32_benchmark.py": "26470c684fa3e197062dbbae0d0f3816f7eabd796edcb2a2e5974e2631cc54aa",
+    "launch_fp32.sh": "c0538d31a42ef147c2ae083183a7f1f7a1b1338daed1918eaabe549992290982",
+    "serve_fp32.py": "fb92a665d71269ee010994a9fb36d45216cfb2c7145985a250662df8b70f94f2",
+    "run.sh": "386ac3bb58283233048dd98bc34cda42143028f14a9286dee5ac276d08e041e9"
+  }
+}

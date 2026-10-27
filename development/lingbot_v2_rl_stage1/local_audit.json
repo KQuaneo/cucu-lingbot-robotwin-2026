@@ -1,0 +1,47 @@
+{
+  "status": "static_checks_passed_runtime_unverified",
+  "checkpoint": "/path/to/project/硬盘/模型/full_sft_6000",
+  "tensor_count": 1708,
+  "numel": 6375907511,
+  "dtypes": [
+    "BF16"
+  ],
+  "state_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    28,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    29
+  ],
+  "action_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    28,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    29
+  ],
+  "predicted_horizon": 50,
+  "model_action_dim": 55,
+  "payload_hash_verified_this_run": false,
+  "model_load_verified": false,
+  "ode_equivalence_verified": false,
+  "rl_update_implemented": false
+}

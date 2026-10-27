@@ -1,0 +1,16 @@
+{
+  "task_name": "click_bell",
+  "seed": 530300,
+  "instruction": "Press the center of the bell shaped like half-circle dome using the left arm.",
+  "phase": "online_round2",
+  "worker": 3,
+  "policy_version": 2,
+  "chunks": 2,
+  "terminal": true,
+  "base_frozen": true,
+  "conditional": true,
+  "std": 0.25,
+  "scale": 0.02,
+  "success": true,
+  "reward": 1.0
+}

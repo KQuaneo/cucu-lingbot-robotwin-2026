@@ -1,0 +1,61 @@
+2026-10-04 09:21:28 HK Creating/read-verifying remote archive of converted training data only.
+2026-10-04 09:21:38 HK {"archive": {"path": "/var/tmp/lingbotvla-final-handoff-20261004/converted_training_data_50tasks.tar", "name": "converted_training_data_50tasks.tar", "bytes": 5430343680, "sha256": "f70620f4a94be40aac95e746096ad96525a73ecd8a17b827328ca552b8055df5"}, "members": 400, "complete": true}
+2026-10-04 09:21:40 HK Download 16 parallel streams: 5430343680 archive bytes.
+2026-10-04 09:22:10 HK Progress 10.39%, 17.93 MiB/s
+2026-10-04 09:22:40 HK Progress 22.08%, 20.17 MiB/s
+2026-10-04 09:23:21 HK Progress 31.55%, 12.09 MiB/s
+2026-10-04 09:32:53 HK Retry chunk 121 attempt 1: kex_exchange_identification: read: Connection reset by peer
+Connection reset by YOUR_SERVER_IP port 31227
+
+2026-10-04 09:33:08 HK Progress 39.97%, 0.74 MiB/s
+2026-10-04 09:44:15 HK Retry chunk 138 attempt 1: Connection closed by YOUR_SERVER_IP port 31227
+
+2026-10-04 09:44:16 HK Retry chunk 101 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 09:44:16 HK Retry chunk 91 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 09:44:16 HK Retry chunk 92 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 09:44:27 HK Retry chunk 96 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 09:44:28 HK Retry chunk 105 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 09:44:28 HK Retry chunk 106 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 09:58:02 HK Retry chunk 146 attempt 1: Connection closed by YOUR_SERVER_IP port 31227
+
+2026-10-04 09:58:02 HK Retry chunk 96 attempt 2: Connection closed by YOUR_SERVER_IP port 31227
+
+2026-10-04 09:58:02 HK Retry chunk 100 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 09:58:02 HK Retry chunk 121 attempt 2: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 09:58:02 HK Retry chunk 136 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 09:58:02 HK Retry chunk 129 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 10:05:21 HK Retry chunk 140 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 10:05:31 HK Retry chunk 143 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 10:05:31 HK Retry chunk 101 attempt 2: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 10:05:31 HK Retry chunk 135 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+
+2026-10-04 10:05:31 HK Retry chunk 144 attempt 1: Read from remote host YOUR_SERVER_IP: Connection reset by peer
+client_loop: send disconnect: Broken pipe
+

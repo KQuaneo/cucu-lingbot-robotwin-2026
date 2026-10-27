@@ -1,0 +1,50 @@
+{
+  "release_tag": "results-2026-10-27",
+  "assets": [
+    {
+      "name": "cucu-clean-evaluation-evidence.zip",
+      "bytes": 462988728,
+      "sha256": "ba4c02f76df2774d7f867cf445e2964e7b51c98beed521f78a657f05ae0c58fc",
+      "files": 1503,
+      "videos": 1000,
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip"
+    },
+    {
+      "name": "cucu-randomized-evaluation-evidence.zip",
+      "bytes": 215319975,
+      "sha256": "8a5f04d1729882c64cb2a86ba3a32670e955719c2b09e0d6d5d7b4a6c130d2df",
+      "files": 698,
+      "videos": 500,
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip"
+    },
+    {
+      "name": "cucu-training-code-reproduction.zip",
+      "bytes": 64089347,
+      "sha256": "3f68d6cf8a29661821d7bc8657361d766bd3cd6e310f5a883872025491982a1f",
+      "files": 8530,
+      "videos": 0,
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-training-code-reproduction.zip"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip",
+      "bytes": 459983170,
+      "sha256": "231689c105f73a2329a393210761bc3c376b40f222123a71bc49d6e8fc3bfe1b",
+      "files": 2074,
+      "videos": 128,
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip"
+    },
+    {
+      "name": "cucu-development-experiments.zip",
+      "bytes": 39934504,
+      "sha256": "c82025a212e76e0d8a2b5d0230360d1fd1fd4920372ea270ab7edfe10fcb5927",
+      "files": 8527,
+      "videos": 0,
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-development-experiments.zip"
+    }
+  ],
+  "total_videos": 1628,
+  "large_model_weights_included": false,
+  "dcp_included": false,
+  "all_archive_members_sha_verified": true,
+  "all_zip_crc_verified": true
+}

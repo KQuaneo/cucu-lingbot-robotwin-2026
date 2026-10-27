@@ -1,0 +1,81 @@
+{
+  "verified_utc": "2026-10-26T11:38:25.974478+00:00",
+  "task_audits": [
+    {
+      "task": "beat_block_hammer",
+      "analytic_gradient_matches": true,
+      "training_rewards": [
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "update_nonzero": true,
+      "status": "COMPLETED",
+      "matched_pairs": 8,
+      "initial_state_exact_matches": 8,
+      "initial_images_exact_matches": 8,
+      "improved_pairs": 1,
+      "regressed_pairs": 1,
+      "heldout_seeds_disjoint": true
+    },
+    {
+      "task": "rotate_qrcode",
+      "analytic_gradient_matches": true,
+      "training_rewards": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "update_nonzero": true,
+      "status": "COMPLETED",
+      "matched_pairs": 8,
+      "initial_state_exact_matches": 8,
+      "initial_images_exact_matches": 8,
+      "improved_pairs": 0,
+      "regressed_pairs": 0,
+      "heldout_seeds_disjoint": true
+    },
+    {
+      "task": "press_stapler",
+      "analytic_gradient_matches": true,
+      "training_rewards": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "update_nonzero": true,
+      "status": "COMPLETED",
+      "matched_pairs": 8,
+      "initial_state_exact_matches": 8,
+      "initial_images_exact_matches": 8,
+      "improved_pairs": 0,
+      "regressed_pairs": 0,
+      "heldout_seeds_disjoint": true
+    }
+  ],
+  "episodes": 72,
+  "chunks": 771,
+  "actual_executed_steps": 18705,
+  "videos": 72,
+  "max_abs_joint_residual_radians": 0.003988862037658691,
+  "all_environment_rewards_match_logs": true,
+  "base_frozen": true,
+  "original_eval_script_unchanged": true,
+  "exit_code": 0,
+  "trial_processes_running": []
+}

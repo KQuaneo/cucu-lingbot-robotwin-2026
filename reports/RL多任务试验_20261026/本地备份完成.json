@@ -1,0 +1,56 @@
+{
+  "complete": true,
+  "archive": "/path/to/project/硬盘/分享/RL多任务闭环试验_20261026.zip",
+  "bytes": 278633939,
+  "sha256": "547c47c733125effcf4b88a9048b76f314902c958e389c755d5cdfb3a415f3a7",
+  "videos": 72,
+  "remote_files_sha_verified": 1166,
+  "zip_crc_verified": true,
+  "task_results": [
+    {
+      "task": "beat_block_hammer",
+      "status": "COMPLETED",
+      "train_rollouts": 8,
+      "train_successes": 6,
+      "validation_rollouts_per_policy": 8,
+      "control_successes": 4,
+      "after_successes": 4,
+      "all_pairs_matched": true,
+      "updates": 1,
+      "parameter_change_norm": 0.11525387997463912,
+      "latent_KL": 0.006641728424604261,
+      "base_model_updated": false,
+      "performance_improvement_claim": false
+    },
+    {
+      "task": "rotate_qrcode",
+      "status": "COMPLETED",
+      "train_rollouts": 8,
+      "train_successes": 3,
+      "validation_rollouts_per_policy": 8,
+      "control_successes": 4,
+      "after_successes": 4,
+      "all_pairs_matched": true,
+      "updates": 1,
+      "parameter_change_norm": 0.17333421309327415,
+      "latent_KL": 0.015022374714332288,
+      "base_model_updated": false,
+      "performance_improvement_claim": false
+    },
+    {
+      "task": "press_stapler",
+      "status": "COMPLETED",
+      "train_rollouts": 8,
+      "train_successes": 4,
+      "validation_rollouts_per_policy": 8,
+      "control_successes": 5,
+      "after_successes": 5,
+      "all_pairs_matched": true,
+      "updates": 1,
+      "parameter_change_norm": 0.09279603190088638,
+      "latent_KL": 0.004305551768275162,
+      "base_model_updated": false,
+      "performance_improvement_claim": false
+    }
+  ]
+}

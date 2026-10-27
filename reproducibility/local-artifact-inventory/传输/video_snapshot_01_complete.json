@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "completed_unix": 1791045758.3929129,
+  "snapshot": "01",
+  "closed_tasks": 44,
+  "video_count": 440,
+  "verified_files": 484,
+  "archive_bytes": 176455680,
+  "archive_sha256": "6434dcbfc5f515166569d56895bf8b1188f2783852b17967845d9b1e43c58785",
+  "archive_path": "/path/to/project/硬盘/录像/压缩包/video_snapshot_01.tar",
+  "extracted_path": "/path/to/project/硬盘/录像/全任务测评",
+  "seconds": 324.5
+}

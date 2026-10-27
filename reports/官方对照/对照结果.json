@@ -1,0 +1,1128 @@
+{
+  "schema_version": 1,
+  "run_name": "official_robotwin_weak5_bf16_10x_20261004",
+  "run_path": "/workspace/runtime/outputs/official_robotwin_weak5_bf16_10x_20261004",
+  "snapshot_utc": "2026-10-03T18:24:18.354258+00:00",
+  "snapshot_hong_kong": "2026-10-04T02:24:18.354258+08:00",
+  "status": "cancelled_by_user",
+  "completed_tasks": 0,
+  "planned_tasks": 5,
+  "planned_episodes_per_task": 10,
+  "completed_task_official_successes": null,
+  "completed_task_official_rollouts": 0,
+  "completed_task_official_rate": null,
+  "ours_on_completed_tasks": {
+    "successes": null,
+    "rollouts": 0,
+    "rate": null
+  },
+  "ours_selected_five": {
+    "successes": 3,
+    "rollouts": 50
+  },
+  "configured_conditions": {
+    "model": "robbyant/lingbot-vla-v2-6b-robotwin",
+    "checkpoint": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/checkpoints/global_step_50000/hf_ckpt",
+    "precision": "BF16",
+    "task_config": "demo_clean",
+    "instruction_type": "seen",
+    "seed_argument": 0,
+    "expected_actual_seeds": [
+      100000,
+      100001,
+      100002,
+      100003,
+      100004,
+      100005,
+      100006,
+      100007,
+      100008,
+      100009
+    ],
+    "expert_check": true,
+    "accept_expert_info_on_failure": true,
+    "valid_episode_retry_patch": true,
+    "eval_batch": false,
+    "use_length": 25,
+    "use_compile": false,
+    "video": true
+  },
+  "reference": {
+    "model": "robbyant/lingbot-vla-v2-6b-robotwin",
+    "source_checked_date": "2026-10-04",
+    "published_clean_percent": {
+      "put_object_cabinet": 92,
+      "stack_blocks_three": 100,
+      "handover_block": 99,
+      "move_stapler_pad": 84,
+      "pick_dual_bottles": 96
+    },
+    "published_validation_precision": "FP32",
+    "official_deployment_evaluation_episodes_per_task": 100,
+    "official_deployment_robotwin_revision": "13c3c47ff4312dd62484bcd51be034af55c062d1",
+    "sources": {
+      "scores": "https://huggingface.co/robbyant/lingbot-vla-v2-6b-robotwin",
+      "precision": "https://github.com/Robbyant/lingbot-vla-v2#robotwin-deployment",
+      "episode_count_and_pinned_revision": "https://github.com/Robbyant/lingbot-vla-v2/blob/main/experiment/robotwin/README.md"
+    },
+    "comparison_limits": [
+      "Official deployment documentation specifies 100 episodes per task; local diagnostic uses 10 episodes, so each local success changes the rate by 10 percentage points.",
+      "BF16 may produce materially different success rates from the published FP32 release validation.",
+      "The local RoboTwin checkout revision 266f3aadf505a4f7fe9af0faa41a20f5f47cd123 differs from the revision pinned in the official deployment guide.",
+      "Use matched local seeds, episode admission, instructions and inference settings for the official checkpoint versus the 6k checkpoint.",
+      "Strong local official-checkpoint scores would support prioritizing training changes, but would not prove that all environment effects are absent."
+    ]
+  },
+  "tasks": [
+    {
+      "task": "put_object_cabinet",
+      "status": "running_or_partial",
+      "completed": false,
+      "successes": 2,
+      "policy_rollouts": 4,
+      "success_rate": 0.5,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 1
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": false,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 2
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 3
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": true,
+          "cumulative_successes": 2,
+          "cumulative_rollouts": 4
+        }
+      ],
+      "logged_rollout_segments": 1,
+      "final_log_result": null,
+      "done_marker": false,
+      "actual_seeds": [
+        100000,
+        100001,
+        100002,
+        100003
+      ],
+      "task_time": null,
+      "remote_log_file": "/workspace/runtime/outputs/official_robotwin_weak5_bf16_10x_20261004/logs/eval_demo_clean__put_object_cabinet.log",
+      "expert_prechecks": [
+        {
+          "task_name": "put_object_cabinet",
+          "task_config": "demo_clean",
+          "seed": 100000,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "112_tea-box/base0",
+            "{B}": "036_cabinet/base0",
+            "{a}": "right",
+            "{b}": "left"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "112_tea-box/base0",
+              "{B}": "036_cabinet/base0",
+              "{a}": "right",
+              "{b}": "left"
+            }
+          }
+        },
+        {
+          "task_name": "put_object_cabinet",
+          "task_config": "demo_clean",
+          "seed": 100002,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "081_playingcards/base2",
+            "{B}": "036_cabinet/base0",
+            "{a}": "right",
+            "{b}": "left"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "081_playingcards/base2",
+              "{B}": "036_cabinet/base0",
+              "{a}": "right",
+              "{b}": "left"
+            }
+          }
+        },
+        {
+          "task_name": "put_object_cabinet",
+          "task_config": "demo_clean",
+          "seed": 100003,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "048_stapler/base0",
+            "{B}": "036_cabinet/base0",
+            "{a}": "left",
+            "{b}": "right"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "048_stapler/base0",
+              "{B}": "036_cabinet/base0",
+              "{a}": "left",
+              "{b}": "right"
+            }
+          }
+        },
+        {
+          "task_name": "put_object_cabinet",
+          "task_config": "demo_clean",
+          "seed": 100004,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "107_soap/base3",
+            "{B}": "036_cabinet/base0",
+            "{a}": "right",
+            "{b}": "left"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "107_soap/base3",
+              "{B}": "036_cabinet/base0",
+              "{a}": "right",
+              "{b}": "left"
+            }
+          }
+        }
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "CUDA out of memory": 0,
+        "No space left on device": 0
+      },
+      "anomalies": [],
+      "ours": {
+        "successes": 0,
+        "policy_rollouts": 10,
+        "success_rate": 0.0,
+        "episodes": [
+          {
+            "index": 0,
+            "seed": 100000,
+            "success": false
+          },
+          {
+            "index": 1,
+            "seed": 100001,
+            "success": false
+          },
+          {
+            "index": 2,
+            "seed": 100002,
+            "success": false
+          },
+          {
+            "index": 3,
+            "seed": 100003,
+            "success": false
+          },
+          {
+            "index": 4,
+            "seed": 100004,
+            "success": false
+          },
+          {
+            "index": 5,
+            "seed": 100005,
+            "success": false
+          },
+          {
+            "index": 6,
+            "seed": 100006,
+            "success": false
+          },
+          {
+            "index": 7,
+            "seed": 100007,
+            "success": false
+          },
+          {
+            "index": 8,
+            "seed": 100008,
+            "success": false
+          },
+          {
+            "index": 9,
+            "seed": 100009,
+            "success": false
+          }
+        ],
+        "source_run": "full_sft_6000_clean50x10_8gpu_video"
+      },
+      "official_published_clean_percent": 92,
+      "matched_seed_records": [
+        {
+          "seed": 100000,
+          "ours_success": false,
+          "official_success": true
+        },
+        {
+          "seed": 100001,
+          "ours_success": false,
+          "official_success": false
+        },
+        {
+          "seed": 100002,
+          "ours_success": false,
+          "official_success": false
+        },
+        {
+          "seed": 100003,
+          "ours_success": false,
+          "official_success": true
+        }
+      ],
+      "paired_counts": {
+        "both_success": 0,
+        "both_failure": 2,
+        "ours_failure_official_success": 2,
+        "ours_success_official_failure": 0
+      },
+      "same_seed_sequence_as_ours": null,
+      "final_difference_percentage_points": null
+    },
+    {
+      "task": "stack_blocks_three",
+      "status": "running_or_partial",
+      "completed": false,
+      "successes": 1,
+      "policy_rollouts": 4,
+      "success_rate": 0.25,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false,
+          "cumulative_successes": 0,
+          "cumulative_rollouts": 1
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 2
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 3
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 4
+        }
+      ],
+      "logged_rollout_segments": 1,
+      "final_log_result": null,
+      "done_marker": false,
+      "actual_seeds": [
+        100000,
+        100001,
+        100002,
+        100003
+      ],
+      "task_time": null,
+      "remote_log_file": "/workspace/runtime/outputs/official_robotwin_weak5_bf16_10x_20261004/logs/eval_demo_clean__stack_blocks_three.log",
+      "expert_prechecks": [
+        {
+          "task_name": "stack_blocks_three",
+          "task_config": "demo_clean",
+          "seed": 100000,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "red block",
+            "{B}": "green block",
+            "{C}": "blue block",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "left"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "red block",
+              "{B}": "green block",
+              "{C}": "blue block",
+              "{a}": "left",
+              "{b}": "right",
+              "{c}": "left"
+            }
+          }
+        },
+        {
+          "task_name": "stack_blocks_three",
+          "task_config": "demo_clean",
+          "seed": 100001,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "red block",
+            "{B}": "green block",
+            "{C}": "blue block",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "right"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "red block",
+              "{B}": "green block",
+              "{C}": "blue block",
+              "{a}": "left",
+              "{b}": "right",
+              "{c}": "right"
+            }
+          }
+        },
+        {
+          "task_name": "stack_blocks_three",
+          "task_config": "demo_clean",
+          "seed": 100002,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "red block",
+            "{B}": "green block",
+            "{C}": "blue block",
+            "{a}": "left",
+            "{b}": "left",
+            "{c}": "right"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "red block",
+              "{B}": "green block",
+              "{C}": "blue block",
+              "{a}": "left",
+              "{b}": "left",
+              "{c}": "right"
+            }
+          }
+        },
+        {
+          "task_name": "stack_blocks_three",
+          "task_config": "demo_clean",
+          "seed": 100003,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "red block",
+            "{B}": "green block",
+            "{C}": "blue block",
+            "{a}": "right",
+            "{b}": "left",
+            "{c}": "left"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "red block",
+              "{B}": "green block",
+              "{C}": "blue block",
+              "{a}": "right",
+              "{b}": "left",
+              "{c}": "left"
+            }
+          }
+        },
+        {
+          "task_name": "stack_blocks_three",
+          "task_config": "demo_clean",
+          "seed": 100004,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "red block",
+            "{B}": "green block",
+            "{C}": "blue block",
+            "{a}": "left",
+            "{b}": "right",
+            "{c}": "right"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "red block",
+              "{B}": "green block",
+              "{C}": "blue block",
+              "{a}": "left",
+              "{b}": "right",
+              "{c}": "right"
+            }
+          }
+        }
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "CUDA out of memory": 0,
+        "No space left on device": 0
+      },
+      "anomalies": [],
+      "ours": {
+        "successes": 0,
+        "policy_rollouts": 10,
+        "success_rate": 0.0,
+        "episodes": [
+          {
+            "index": 0,
+            "seed": 100000,
+            "success": false
+          },
+          {
+            "index": 1,
+            "seed": 100001,
+            "success": false
+          },
+          {
+            "index": 2,
+            "seed": 100002,
+            "success": false
+          },
+          {
+            "index": 3,
+            "seed": 100003,
+            "success": false
+          },
+          {
+            "index": 4,
+            "seed": 100004,
+            "success": false
+          },
+          {
+            "index": 5,
+            "seed": 100005,
+            "success": false
+          },
+          {
+            "index": 6,
+            "seed": 100006,
+            "success": false
+          },
+          {
+            "index": 7,
+            "seed": 100007,
+            "success": false
+          },
+          {
+            "index": 8,
+            "seed": 100008,
+            "success": false
+          },
+          {
+            "index": 9,
+            "seed": 100009,
+            "success": false
+          }
+        ],
+        "source_run": "full_sft_6000_clean50x10_8gpu_video"
+      },
+      "official_published_clean_percent": 100,
+      "matched_seed_records": [
+        {
+          "seed": 100000,
+          "ours_success": false,
+          "official_success": false
+        },
+        {
+          "seed": 100001,
+          "ours_success": false,
+          "official_success": true
+        },
+        {
+          "seed": 100002,
+          "ours_success": false,
+          "official_success": false
+        },
+        {
+          "seed": 100003,
+          "ours_success": false,
+          "official_success": false
+        }
+      ],
+      "paired_counts": {
+        "both_success": 0,
+        "both_failure": 3,
+        "ours_failure_official_success": 1,
+        "ours_success_official_failure": 0
+      },
+      "same_seed_sequence_as_ours": null,
+      "final_difference_percentage_points": null
+    },
+    {
+      "task": "handover_block",
+      "status": "running_or_partial",
+      "completed": false,
+      "successes": 2,
+      "policy_rollouts": 2,
+      "success_rate": 1.0,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": true,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 1
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true,
+          "cumulative_successes": 2,
+          "cumulative_rollouts": 2
+        }
+      ],
+      "logged_rollout_segments": 1,
+      "final_log_result": null,
+      "done_marker": false,
+      "actual_seeds": [
+        100000,
+        100001
+      ],
+      "task_time": null,
+      "remote_log_file": "/workspace/runtime/outputs/official_robotwin_weak5_bf16_10x_20261004/logs/eval_demo_clean__handover_block.log",
+      "expert_prechecks": [
+        {
+          "task_name": "handover_block",
+          "task_config": "demo_clean",
+          "seed": 100000,
+          "plan_success": false,
+          "task_success": false,
+          "info": {},
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {}
+          }
+        },
+        {
+          "task_name": "handover_block",
+          "task_config": "demo_clean",
+          "seed": 100001,
+          "plan_success": false,
+          "task_success": false,
+          "info": {},
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {}
+          }
+        }
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "CUDA out of memory": 0,
+        "No space left on device": 0
+      },
+      "anomalies": [],
+      "ours": {
+        "successes": 1,
+        "policy_rollouts": 10,
+        "success_rate": 0.1,
+        "episodes": [
+          {
+            "index": 0,
+            "seed": 100000,
+            "success": false
+          },
+          {
+            "index": 1,
+            "seed": 100001,
+            "success": false
+          },
+          {
+            "index": 2,
+            "seed": 100002,
+            "success": false
+          },
+          {
+            "index": 3,
+            "seed": 100003,
+            "success": true
+          },
+          {
+            "index": 4,
+            "seed": 100004,
+            "success": false
+          },
+          {
+            "index": 5,
+            "seed": 100005,
+            "success": false
+          },
+          {
+            "index": 6,
+            "seed": 100006,
+            "success": false
+          },
+          {
+            "index": 7,
+            "seed": 100007,
+            "success": false
+          },
+          {
+            "index": 8,
+            "seed": 100008,
+            "success": false
+          },
+          {
+            "index": 9,
+            "seed": 100009,
+            "success": false
+          }
+        ],
+        "source_run": "full_sft_6000_clean50x10_8gpu_video"
+      },
+      "official_published_clean_percent": 99,
+      "matched_seed_records": [
+        {
+          "seed": 100000,
+          "ours_success": false,
+          "official_success": true
+        },
+        {
+          "seed": 100001,
+          "ours_success": false,
+          "official_success": true
+        }
+      ],
+      "paired_counts": {
+        "both_success": 0,
+        "both_failure": 0,
+        "ours_failure_official_success": 2,
+        "ours_success_official_failure": 0
+      },
+      "same_seed_sequence_as_ours": null,
+      "final_difference_percentage_points": null
+    },
+    {
+      "task": "move_stapler_pad",
+      "status": "running_or_partial",
+      "completed": false,
+      "successes": 1,
+      "policy_rollouts": 4,
+      "success_rate": 0.25,
+      "episodes": [
+        {
+          "index": 0,
+          "seed": 100000,
+          "success": false,
+          "cumulative_successes": 0,
+          "cumulative_rollouts": 1
+        },
+        {
+          "index": 1,
+          "seed": 100001,
+          "success": true,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 2
+        },
+        {
+          "index": 2,
+          "seed": 100002,
+          "success": false,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 3
+        },
+        {
+          "index": 3,
+          "seed": 100003,
+          "success": false,
+          "cumulative_successes": 1,
+          "cumulative_rollouts": 4
+        }
+      ],
+      "logged_rollout_segments": 1,
+      "final_log_result": null,
+      "done_marker": false,
+      "actual_seeds": [
+        100000,
+        100001,
+        100002,
+        100003
+      ],
+      "task_time": null,
+      "remote_log_file": "/workspace/runtime/outputs/official_robotwin_weak5_bf16_10x_20261004/logs/eval_demo_clean__move_stapler_pad.log",
+      "expert_prechecks": [
+        {
+          "task_name": "move_stapler_pad",
+          "task_config": "demo_clean",
+          "seed": 100000,
+          "plan_success": true,
+          "task_success": true,
+          "info": {
+            "{A}": "048_stapler/base6",
+            "{B}": "Cyan",
+            "{a}": "left"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "048_stapler/base6",
+              "{B}": "Cyan",
+              "{a}": "left"
+            }
+          }
+        },
+        {
+          "task_name": "move_stapler_pad",
+          "task_config": "demo_clean",
+          "seed": 100001,
+          "plan_success": true,
+          "task_success": true,
+          "info": {
+            "{A}": "048_stapler/base3",
+            "{B}": "Magenta",
+            "{a}": "right"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "048_stapler/base3",
+              "{B}": "Magenta",
+              "{a}": "right"
+            }
+          }
+        },
+        {
+          "task_name": "move_stapler_pad",
+          "task_config": "demo_clean",
+          "seed": 100002,
+          "plan_success": true,
+          "task_success": true,
+          "info": {
+            "{A}": "048_stapler/base4",
+            "{B}": "Black",
+            "{a}": "left"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "048_stapler/base4",
+              "{B}": "Black",
+              "{a}": "left"
+            }
+          }
+        },
+        {
+          "task_name": "move_stapler_pad",
+          "task_config": "demo_clean",
+          "seed": 100003,
+          "plan_success": false,
+          "task_success": false,
+          "info": {
+            "{A}": "048_stapler/base2",
+            "{B}": "Cyan",
+            "{a}": "right"
+          },
+          "episode_info": {
+            "cluttered_table_info": [],
+            "texture_info": {
+              "wall_texture": null,
+              "table_texture": null
+            },
+            "info": {
+              "{A}": "048_stapler/base2",
+              "{B}": "Cyan",
+              "{a}": "right"
+            }
+          }
+        }
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "CUDA out of memory": 0,
+        "No space left on device": 0
+      },
+      "anomalies": [],
+      "ours": {
+        "successes": 1,
+        "policy_rollouts": 10,
+        "success_rate": 0.1,
+        "episodes": [
+          {
+            "index": 0,
+            "seed": 100000,
+            "success": true
+          },
+          {
+            "index": 1,
+            "seed": 100001,
+            "success": false
+          },
+          {
+            "index": 2,
+            "seed": 100002,
+            "success": false
+          },
+          {
+            "index": 3,
+            "seed": 100003,
+            "success": false
+          },
+          {
+            "index": 4,
+            "seed": 100004,
+            "success": false
+          },
+          {
+            "index": 5,
+            "seed": 100005,
+            "success": false
+          },
+          {
+            "index": 6,
+            "seed": 100006,
+            "success": false
+          },
+          {
+            "index": 7,
+            "seed": 100007,
+            "success": false
+          },
+          {
+            "index": 8,
+            "seed": 100008,
+            "success": false
+          },
+          {
+            "index": 9,
+            "seed": 100009,
+            "success": false
+          }
+        ],
+        "source_run": "full_sft_6000_clean50x10_8gpu_video"
+      },
+      "official_published_clean_percent": 84,
+      "matched_seed_records": [
+        {
+          "seed": 100000,
+          "ours_success": true,
+          "official_success": false
+        },
+        {
+          "seed": 100001,
+          "ours_success": false,
+          "official_success": true
+        },
+        {
+          "seed": 100002,
+          "ours_success": false,
+          "official_success": false
+        },
+        {
+          "seed": 100003,
+          "ours_success": false,
+          "official_success": false
+        }
+      ],
+      "paired_counts": {
+        "both_success": 0,
+        "both_failure": 2,
+        "ours_failure_official_success": 1,
+        "ours_success_official_failure": 1
+      },
+      "same_seed_sequence_as_ours": null,
+      "final_difference_percentage_points": null
+    },
+    {
+      "task": "pick_dual_bottles",
+      "status": "running_or_partial",
+      "completed": false,
+      "successes": null,
+      "policy_rollouts": 0,
+      "success_rate": null,
+      "episodes": [],
+      "logged_rollout_segments": 0,
+      "final_log_result": null,
+      "done_marker": false,
+      "actual_seeds": [],
+      "task_time": null,
+      "remote_log_file": "/workspace/runtime/outputs/official_robotwin_weak5_bf16_10x_20261004/logs/eval_demo_clean__pick_dual_bottles.log",
+      "expert_prechecks": [],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "CUDA out of memory": 0,
+        "No space left on device": 0
+      },
+      "anomalies": [],
+      "ours": {
+        "successes": 1,
+        "policy_rollouts": 10,
+        "success_rate": 0.1,
+        "episodes": [
+          {
+            "index": 0,
+            "seed": 100000,
+            "success": false
+          },
+          {
+            "index": 1,
+            "seed": 100001,
+            "success": false
+          },
+          {
+            "index": 2,
+            "seed": 100002,
+            "success": false
+          },
+          {
+            "index": 3,
+            "seed": 100003,
+            "success": true
+          },
+          {
+            "index": 4,
+            "seed": 100004,
+            "success": false
+          },
+          {
+            "index": 5,
+            "seed": 100005,
+            "success": false
+          },
+          {
+            "index": 6,
+            "seed": 100006,
+            "success": false
+          },
+          {
+            "index": 7,
+            "seed": 100007,
+            "success": false
+          },
+          {
+            "index": 8,
+            "seed": 100008,
+            "success": false
+          },
+          {
+            "index": 9,
+            "seed": 100009,
+            "success": false
+          }
+        ],
+        "source_run": "full_sft_6000_clean50x10_8gpu_video"
+      },
+      "official_published_clean_percent": 96,
+      "matched_seed_records": [],
+      "paired_counts": {
+        "both_success": 0,
+        "both_failure": 0,
+        "ours_failure_official_success": 0,
+        "ours_success_official_failure": 0
+      },
+      "same_seed_sequence_as_ours": null,
+      "final_difference_percentage_points": null
+    }
+  ],
+  "remote_processes": "    PID    PPID     ELAPSED %CPU %MEM COMMAND\n2968240 2966543       00:49  132  0.2 /opt/robotwin-env/bin/python /RoboTwin/scripts/eval_policy_xpolicylab.py --task_name pick_dual_bottles --task_config demo_clean --policy_name LingBot-VLA-v2 --protocol lingbot_vla_v2 --host 127.0.0.1 --port 13624 --device_id 0 --seed 0 --test_num 10 --expert_check true --accept_expert_info_on_failure true --episode_info_output /workspace/runtime/outputs/full_sft_6000_clean50x10_fp32_8gpu_video_20261004/episode_info/demo_clean__pick_dual_bottles.jsonl --eval_batch false --additional_info eval_video_log=true",
+  "snapshot_warnings": [],
+  "comparison_limits": [
+    "Same scenario seed does not guarantee identical instruction sampling, policy noise or simulator/planner trajectories.",
+    "Ten episodes per task is a diagnostic sample; no significance test or causal claim is made.",
+    "Published reference uses FP32 and 100 episodes per task; local BF16/10 results are not a direct reproduction.",
+    "Selected tasks were chosen for low performance of our model, so results cannot estimate all-task performance."
+  ],
+  "complete": false,
+  "cancellation_note": "用户要求停止官方BF16对照，部分回合不能作为五任务最终结果。"
+}

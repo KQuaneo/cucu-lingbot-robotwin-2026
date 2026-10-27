@@ -1,0 +1,53 @@
+{
+  "status": "COMPLETED",
+  "task_results": [
+    {
+      "task": "beat_block_hammer",
+      "status": "COMPLETED",
+      "train_rollouts": 8,
+      "train_successes": 6,
+      "validation_rollouts_per_policy": 8,
+      "control_successes": 4,
+      "after_successes": 4,
+      "all_pairs_matched": true,
+      "updates": 1,
+      "parameter_change_norm": 0.11525387997463912,
+      "latent_KL": 0.006641728424604261,
+      "base_model_updated": false,
+      "performance_improvement_claim": false
+    },
+    {
+      "task": "rotate_qrcode",
+      "status": "COMPLETED",
+      "train_rollouts": 8,
+      "train_successes": 3,
+      "validation_rollouts_per_policy": 8,
+      "control_successes": 4,
+      "after_successes": 4,
+      "all_pairs_matched": true,
+      "updates": 1,
+      "parameter_change_norm": 0.17333421309327415,
+      "latent_KL": 0.015022374714332288,
+      "base_model_updated": false,
+      "performance_improvement_claim": false
+    },
+    {
+      "task": "press_stapler",
+      "status": "COMPLETED",
+      "train_rollouts": 8,
+      "train_successes": 4,
+      "validation_rollouts_per_policy": 8,
+      "control_successes": 5,
+      "after_successes": 5,
+      "all_pairs_matched": true,
+      "updates": 1,
+      "parameter_change_norm": 0.09279603190088638,
+      "latent_KL": 0.004305551768275162,
+      "base_model_updated": false,
+      "performance_improvement_claim": false
+    }
+  ],
+  "base_model_updated": false,
+  "performance_improvement_claim": false,
+  "finished_utc": "2026-10-26T11:37:18.154876+00:00"
+}

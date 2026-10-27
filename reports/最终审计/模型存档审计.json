@@ -1,0 +1,2896 @@
+{
+  "status": "PASS",
+  "audit_time_hong_kong": "2026-10-04T09:05:40.230025+08:00",
+  "elapsed_seconds": 13.161201000213623,
+  "hf": {
+    "root": "/path/to/project/硬盘/模型/full_sft_6000",
+    "files_expected": 15,
+    "files_present": 15,
+    "size_verified": 15,
+    "sha256_verified": 15,
+    "expected_bytes": 12768180523,
+    "seconds": 2.21040415763855,
+    "files": [
+      {
+        "file": "added_tokens.json",
+        "expected_bytes": 707,
+        "expected_sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+        "present": true,
+        "actual_bytes": 707,
+        "actual_sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "chat_template.jinja",
+        "expected_bytes": 5292,
+        "expected_sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+        "present": true,
+        "actual_bytes": 5292,
+        "actual_sha256": "3636d0f0bd6bef02654cdffdc447b79cb2cef8ab02cc75267345946291a489e4",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "config.json",
+        "expected_bytes": 4807,
+        "expected_sha256": "f3fd4a0e24015dd7d5e9d7c199cb159eb933574e19f0437ba5de7ff405da5c47",
+        "present": true,
+        "actual_bytes": 4807,
+        "actual_sha256": "f3fd4a0e24015dd7d5e9d7c199cb159eb933574e19f0437ba5de7ff405da5c47",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "lingbotvla_cli.yaml",
+        "expected_bytes": 7194,
+        "expected_sha256": "7ecedf8161602875096ed8f13322636123a7aa44567abf0bd3e0b5e55ab7e103",
+        "present": true,
+        "actual_bytes": 7194,
+        "actual_sha256": "7ecedf8161602875096ed8f13322636123a7aa44567abf0bd3e0b5e55ab7e103",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "merges.txt",
+        "expected_bytes": 1671853,
+        "expected_sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "present": true,
+        "actual_bytes": 1671853,
+        "actual_sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model-00001-of-00003.safetensors",
+        "expected_bytes": 4995757160,
+        "expected_sha256": "6150d9c519ee88cd80dd25dfe371ebcc28a5de999b2f880071e01b9fc42cd406",
+        "present": true,
+        "actual_bytes": 4995757160,
+        "actual_sha256": "6150d9c519ee88cd80dd25dfe371ebcc28a5de999b2f880071e01b9fc42cd406",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model-00002-of-00003.safetensors",
+        "expected_bytes": 4992913224,
+        "expected_sha256": "13f1d240bf2e06e95937f2b8be19a353a808eb82b89a2bdf9e0d3d005a1eebe0",
+        "present": true,
+        "actual_bytes": 4992913224,
+        "actual_sha256": "13f1d240bf2e06e95937f2b8be19a353a808eb82b89a2bdf9e0d3d005a1eebe0",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model-00003-of-00003.safetensors",
+        "expected_bytes": 2763405726,
+        "expected_sha256": "923ba7058cd0905d1efa2067669fafab83cc20bd8f4fcbed7d61db0a21459a3b",
+        "present": true,
+        "actual_bytes": 2763405726,
+        "actual_sha256": "923ba7058cd0905d1efa2067669fafab83cc20bd8f4fcbed7d61db0a21459a3b",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model.safetensors.index.json",
+        "expected_bytes": 207389,
+        "expected_sha256": "fa4c88fb1dc8e08a7fdae3c7fdc72fa174f8441bed25d4bd1cc3955be21413da",
+        "present": true,
+        "actual_bytes": 207389,
+        "actual_sha256": "fa4c88fb1dc8e08a7fdae3c7fdc72fa174f8441bed25d4bd1cc3955be21413da",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "preprocessor_config.json",
+        "expected_bytes": 782,
+        "expected_sha256": "93585062a80db5e8ca038efc7726a3e6411d9db948472d81d63c6303993be8c5",
+        "present": true,
+        "actual_bytes": 782,
+        "actual_sha256": "93585062a80db5e8ca038efc7726a3e6411d9db948472d81d63c6303993be8c5",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "special_tokens_map.json",
+        "expected_bytes": 613,
+        "expected_sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+        "present": true,
+        "actual_bytes": 613,
+        "actual_sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "tokenizer.json",
+        "expected_bytes": 11422654,
+        "expected_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "present": true,
+        "actual_bytes": 11422654,
+        "actual_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "tokenizer_config.json",
+        "expected_bytes": 5472,
+        "expected_sha256": "cf43a5bf1a49ee69ecced02f419b169e72559034dcf15af47cf775bd253830f0",
+        "present": true,
+        "actual_bytes": 5472,
+        "actual_sha256": "cf43a5bf1a49ee69ecced02f419b169e72559034dcf15af47cf775bd253830f0",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "video_preprocessor_config.json",
+        "expected_bytes": 817,
+        "expected_sha256": "59c5c9eb52182eb14c06ffb10ca9effd29adce5f238a95de23ca14a38dbd2cb1",
+        "present": true,
+        "actual_bytes": 817,
+        "actual_sha256": "59c5c9eb52182eb14c06ffb10ca9effd29adce5f238a95de23ca14a38dbd2cb1",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "vocab.json",
+        "expected_bytes": 2776833,
+        "expected_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "present": true,
+        "actual_bytes": 2776833,
+        "actual_sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+        "size_ok": true,
+        "sha256_ok": true
+      }
+    ]
+  },
+  "hf_remote_manifest_count": 14,
+  "hf_transfer_manifest_count": 15,
+  "hf_manifest_conflicts": [],
+  "hf_index": {
+    "weight_entries": 1708,
+    "referenced_shards": [
+      "model-00001-of-00003.safetensors",
+      "model-00002-of-00003.safetensors",
+      "model-00003-of-00003.safetensors"
+    ],
+    "missing_shards": []
+  },
+  "dcp": {
+    "root": "/path/to/project/硬盘/训练存档/global_step_6000",
+    "files_expected": 266,
+    "files_present": 266,
+    "size_verified": 266,
+    "sha256_verified": 266,
+    "expected_bytes": 76588586630,
+    "seconds": 10.946692705154419,
+    "files": [
+      {
+        "file": "extra_state/extra_state_rank_0.pt",
+        "expected_bytes": 7670,
+        "expected_sha256": "3839a9b35dae0c87b27d829cd4d6484750833eeb5c3ab833c4791707ab76a4ec",
+        "present": true,
+        "actual_bytes": 7670,
+        "actual_sha256": "3839a9b35dae0c87b27d829cd4d6484750833eeb5c3ab833c4791707ab76a4ec",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "extra_state/extra_state_rank_1.pt",
+        "expected_bytes": 7670,
+        "expected_sha256": "578f6e19416b439dfe4361507f9d3d8de7ee3ebe09ac2fa3102b773531021338",
+        "present": true,
+        "actual_bytes": 7670,
+        "actual_sha256": "578f6e19416b439dfe4361507f9d3d8de7ee3ebe09ac2fa3102b773531021338",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "extra_state/extra_state_rank_2.pt",
+        "expected_bytes": 7670,
+        "expected_sha256": "e909d44d8b958df78d12b27f49f9d4966c6e217419ba7ab71600df23717c9e30",
+        "present": true,
+        "actual_bytes": 7670,
+        "actual_sha256": "e909d44d8b958df78d12b27f49f9d4966c6e217419ba7ab71600df23717c9e30",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "extra_state/extra_state_rank_3.pt",
+        "expected_bytes": 7670,
+        "expected_sha256": "30c8a8fe658b7e0bcdeb1e187d185b16096cb3112a0a48431c3c62e2af76472b",
+        "present": true,
+        "actual_bytes": 7670,
+        "actual_sha256": "30c8a8fe658b7e0bcdeb1e187d185b16096cb3112a0a48431c3c62e2af76472b",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "extra_state/extra_state_rank_4.pt",
+        "expected_bytes": 7670,
+        "expected_sha256": "7a2fff5ab0c37208b32587127e53a0c7bdd3df8109bcc5a10e0bfe30fd597ba0",
+        "present": true,
+        "actual_bytes": 7670,
+        "actual_sha256": "7a2fff5ab0c37208b32587127e53a0c7bdd3df8109bcc5a10e0bfe30fd597ba0",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "extra_state/extra_state_rank_5.pt",
+        "expected_bytes": 7670,
+        "expected_sha256": "459fbef3cb96d2a04e7abcb11c56daf5cb11f1bd678f14eef954ab3b320f9c04",
+        "present": true,
+        "actual_bytes": 7670,
+        "actual_sha256": "459fbef3cb96d2a04e7abcb11c56daf5cb11f1bd678f14eef954ab3b320f9c04",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "extra_state/extra_state_rank_6.pt",
+        "expected_bytes": 7670,
+        "expected_sha256": "985e830ece3e07a6ab3de918e4c89b643dfaa1988a24be1bbe8ce6f667353efc",
+        "present": true,
+        "actual_bytes": 7670,
+        "actual_sha256": "985e830ece3e07a6ab3de918e4c89b643dfaa1988a24be1bbe8ce6f667353efc",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "extra_state/extra_state_rank_7.pt",
+        "expected_bytes": 7670,
+        "expected_sha256": "d1d3b5acdffa1d3fd75488c7c0cf2d0a068502e81ee45e459de73719b3f37078",
+        "present": true,
+        "actual_bytes": 7670,
+        "actual_sha256": "d1d3b5acdffa1d3fd75488c7c0cf2d0a068502e81ee45e459de73719b3f37078",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/.metadata",
+        "expected_bytes": 3435338,
+        "expected_sha256": "df0cb2c957add76e01303636ab572f59b3378aefb2dc5a4a296969d6eb77381c",
+        "present": true,
+        "actual_bytes": 3435338,
+        "actual_sha256": "df0cb2c957add76e01303636ab572f59b3378aefb2dc5a4a296969d6eb77381c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_0.distcp",
+        "expected_bytes": 199380422,
+        "expected_sha256": "976be11061336eed9e967a0affd42923ee6119aec7149aa8e5a238c307d87ac8",
+        "present": true,
+        "actual_bytes": 199380422,
+        "actual_sha256": "976be11061336eed9e967a0affd42923ee6119aec7149aa8e5a238c307d87ac8",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_1.distcp",
+        "expected_bytes": 199405654,
+        "expected_sha256": "6e94c2fc10b519a21c528044610a7dd7c2c4b98ee44f208817316a972e25759e",
+        "present": true,
+        "actual_bytes": 199405654,
+        "actual_sha256": "6e94c2fc10b519a21c528044610a7dd7c2c4b98ee44f208817316a972e25759e",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_10.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "746eb97f9edbaae138abdd37197bd504ea28fb258bb83c29ff2a98442fd0a9b1",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "746eb97f9edbaae138abdd37197bd504ea28fb258bb83c29ff2a98442fd0a9b1",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_11.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "c5bc0e3cc52061d6a1e42654077b0683b3ee66897bca44a845b08cc1ff47733a",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "c5bc0e3cc52061d6a1e42654077b0683b3ee66897bca44a845b08cc1ff47733a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_12.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "c66805fe07f339e40cdf990de08e2ffe02b4024155aa05c5cbe6bb15c638f729",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "c66805fe07f339e40cdf990de08e2ffe02b4024155aa05c5cbe6bb15c638f729",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_13.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "b883ca00c048fcf524b7b43d7268123a498cc7fe65a2dc22dd2e3b5779258e28",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "b883ca00c048fcf524b7b43d7268123a498cc7fe65a2dc22dd2e3b5779258e28",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_14.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "073294b0a517c1a2164dae2475f38bc0de3fc61c6b477fe1b5bda5164623ea8f",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "073294b0a517c1a2164dae2475f38bc0de3fc61c6b477fe1b5bda5164623ea8f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_15.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "9cfe4a9574bfae8b0f20e67468a28ec19cb233249a5716a6b8371eaed4ebc3d8",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "9cfe4a9574bfae8b0f20e67468a28ec19cb233249a5716a6b8371eaed4ebc3d8",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_2.distcp",
+        "expected_bytes": 199450194,
+        "expected_sha256": "277ca64d37c0f99526c4ec6f0fb066bdb737b55864c99342bd8f325167371212",
+        "present": true,
+        "actual_bytes": 199450194,
+        "actual_sha256": "277ca64d37c0f99526c4ec6f0fb066bdb737b55864c99342bd8f325167371212",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_3.distcp",
+        "expected_bytes": 199454541,
+        "expected_sha256": "bd7bee44b0549a7fbed000a505d6ff16bd26dd7a9c7f259fbd2b77c0a8b95149",
+        "present": true,
+        "actual_bytes": 199454541,
+        "actual_sha256": "bd7bee44b0549a7fbed000a505d6ff16bd26dd7a9c7f259fbd2b77c0a8b95149",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_4.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "2bdc05f09470d47ba2078bb343b077352ac67f2ad80cbffa961cfe85c355ffee",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "2bdc05f09470d47ba2078bb343b077352ac67f2ad80cbffa961cfe85c355ffee",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_5.distcp",
+        "expected_bytes": 199445015,
+        "expected_sha256": "8259c7fd819d87bc709a0bd732d23fc9bdf7a535b2a593b4a30f22d966983312",
+        "present": true,
+        "actual_bytes": 199445015,
+        "actual_sha256": "8259c7fd819d87bc709a0bd732d23fc9bdf7a535b2a593b4a30f22d966983312",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_6.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "ddbf6e9cb850b7cde186401a312da2768e218e8be4d94f2e6a5b002811bcca6c",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "ddbf6e9cb850b7cde186401a312da2768e218e8be4d94f2e6a5b002811bcca6c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_7.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "f0b891f40af0f41f9087b552826445f5eb504980971f2757d5449346d45afa5a",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "f0b891f40af0f41f9087b552826445f5eb504980971f2757d5449346d45afa5a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_8.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "8fbce0f198664492ce211a6c6ca7b9faa445030e29ef71fe8d869b9cf31bba4e",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "8fbce0f198664492ce211a6c6ca7b9faa445030e29ef71fe8d869b9cf31bba4e",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__0_9.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "8d9dcdbde6813a7010ec50aaa134fb34d65f6c3ab76811ed431caf02823a9fa3",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "8d9dcdbde6813a7010ec50aaa134fb34d65f6c3ab76811ed431caf02823a9fa3",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_0.distcp",
+        "expected_bytes": 199380422,
+        "expected_sha256": "3bdf69dc69bb610c0fe4473196741b785bd7e396de640e1a4664d185ac16d079",
+        "present": true,
+        "actual_bytes": 199380422,
+        "actual_sha256": "3bdf69dc69bb610c0fe4473196741b785bd7e396de640e1a4664d185ac16d079",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_1.distcp",
+        "expected_bytes": 199405654,
+        "expected_sha256": "bba699d4fc3002a84609ce6bc0170862c435188590ef0ae85ea2ee07ce6c3303",
+        "present": true,
+        "actual_bytes": 199405654,
+        "actual_sha256": "bba699d4fc3002a84609ce6bc0170862c435188590ef0ae85ea2ee07ce6c3303",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_10.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "45b063fa6aeb9d9158561ab9e8b4fbaed367cf9599c98ec0eef7fdc02139cb3a",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "45b063fa6aeb9d9158561ab9e8b4fbaed367cf9599c98ec0eef7fdc02139cb3a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_11.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "a667173880e7fe5db0bfa9c35ce1cecb38bc9a598f256fe76f9dfca2d743135c",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "a667173880e7fe5db0bfa9c35ce1cecb38bc9a598f256fe76f9dfca2d743135c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_12.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "e544522b3c7824248218041bc0479628664913996f1096288ad46c1ea82cb0de",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "e544522b3c7824248218041bc0479628664913996f1096288ad46c1ea82cb0de",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_13.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "161e7040b2934d8048ae44d72dd920a95a7c3896b3e572e097a833dcfb7e052a",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "161e7040b2934d8048ae44d72dd920a95a7c3896b3e572e097a833dcfb7e052a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_14.distcp",
+        "expected_bytes": 199418334,
+        "expected_sha256": "29c265e8344738d74992cc2d8f483df3b490dccd7eca2b8ae770724e2567d531",
+        "present": true,
+        "actual_bytes": 199418334,
+        "actual_sha256": "29c265e8344738d74992cc2d8f483df3b490dccd7eca2b8ae770724e2567d531",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_15.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "724cb6ae960651a72c2a1160294c76a7b8924367ff4665d394f3aef5d55a1b98",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "724cb6ae960651a72c2a1160294c76a7b8924367ff4665d394f3aef5d55a1b98",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_2.distcp",
+        "expected_bytes": 199450194,
+        "expected_sha256": "41afea070526d7b3da30be927f590e932793426eb6ec7a9fc4ccfd9cf29dbfd0",
+        "present": true,
+        "actual_bytes": 199450194,
+        "actual_sha256": "41afea070526d7b3da30be927f590e932793426eb6ec7a9fc4ccfd9cf29dbfd0",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_3.distcp",
+        "expected_bytes": 199454541,
+        "expected_sha256": "3f1daa585c0f9e88555b9528d954e04d384b7403f37769dad6e26d41d78adc25",
+        "present": true,
+        "actual_bytes": 199454541,
+        "actual_sha256": "3f1daa585c0f9e88555b9528d954e04d384b7403f37769dad6e26d41d78adc25",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_4.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "8bb1a7014797cbe26cf2abce4128f679f928b9c3fe42a70f9e16f576907bfb0d",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "8bb1a7014797cbe26cf2abce4128f679f928b9c3fe42a70f9e16f576907bfb0d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_5.distcp",
+        "expected_bytes": 199446720,
+        "expected_sha256": "d84eefc1764326cd7473641e5d95cbea65fa7b7b05d2a4cc77827e662eee4ddc",
+        "present": true,
+        "actual_bytes": 199446720,
+        "actual_sha256": "d84eefc1764326cd7473641e5d95cbea65fa7b7b05d2a4cc77827e662eee4ddc",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_6.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "1482dd541538dc733c87ae7a6bfc93f85e016a5552da706014fcbd1a1a4c4ed7",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "1482dd541538dc733c87ae7a6bfc93f85e016a5552da706014fcbd1a1a4c4ed7",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_7.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "f10c5a21aeebbce308f09ccd2e7bd79fa8c096d98ac228eee28447b5feb5d2ed",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "f10c5a21aeebbce308f09ccd2e7bd79fa8c096d98ac228eee28447b5feb5d2ed",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_8.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "150c03655ee35918d35cffaced79284ab2defa280abfe9fcf104ea61a1c6a437",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "150c03655ee35918d35cffaced79284ab2defa280abfe9fcf104ea61a1c6a437",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__1_9.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "142a2675f7778a77c842ac622938775c3feb8d41461aa7cb8f5fb5ee28f67aef",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "142a2675f7778a77c842ac622938775c3feb8d41461aa7cb8f5fb5ee28f67aef",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_0.distcp",
+        "expected_bytes": 199380422,
+        "expected_sha256": "2b2ae370b995867c3ad0c7c16169213ffee8b083ff2790b11e9a6f930908db65",
+        "present": true,
+        "actual_bytes": 199380422,
+        "actual_sha256": "2b2ae370b995867c3ad0c7c16169213ffee8b083ff2790b11e9a6f930908db65",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_1.distcp",
+        "expected_bytes": 199405654,
+        "expected_sha256": "4e0a4f16debb510c481c3b304cdb38a3d7ef3b6c0fe8bc7e3d7b5ecb7861535e",
+        "present": true,
+        "actual_bytes": 199405654,
+        "actual_sha256": "4e0a4f16debb510c481c3b304cdb38a3d7ef3b6c0fe8bc7e3d7b5ecb7861535e",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_10.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "27a948f1fa9098b35bf848b350c376367ec79ec2c71aba8f5f3f9bb91a6a410a",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "27a948f1fa9098b35bf848b350c376367ec79ec2c71aba8f5f3f9bb91a6a410a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_11.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "24c7e56d006e5087f01dfa386217dc47042960cecf5a50f9caee73e8728fe6ff",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "24c7e56d006e5087f01dfa386217dc47042960cecf5a50f9caee73e8728fe6ff",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_12.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "e9e65673df4b31ff9929bfe99d8ea7dca917f1078ebba9b94fdbafcf2ac68a7d",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "e9e65673df4b31ff9929bfe99d8ea7dca917f1078ebba9b94fdbafcf2ac68a7d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_13.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "a2b87a49a4043f10f7ea9b4ecae21da995e0913a9321fe04b53af5d4cb7ce402",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "a2b87a49a4043f10f7ea9b4ecae21da995e0913a9321fe04b53af5d4cb7ce402",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_14.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "4cecc02120d8f3e1804012d1eb029615844490c8173b52d87b97d04976c45e97",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "4cecc02120d8f3e1804012d1eb029615844490c8173b52d87b97d04976c45e97",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_15.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "055071a26d1a935a0e87fe76220c4c508eb08cdfb4fbeafd094aacf274ee7605",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "055071a26d1a935a0e87fe76220c4c508eb08cdfb4fbeafd094aacf274ee7605",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_2.distcp",
+        "expected_bytes": 199450194,
+        "expected_sha256": "d7eb7e2622291aa52859f3e5cce2bff533675aea50a24ad792fcf58a91af3de6",
+        "present": true,
+        "actual_bytes": 199450194,
+        "actual_sha256": "d7eb7e2622291aa52859f3e5cce2bff533675aea50a24ad792fcf58a91af3de6",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_3.distcp",
+        "expected_bytes": 199454541,
+        "expected_sha256": "9e9f7c7eaa9cd13c84bc8fbc0e55beb1bc84d9c438237a1315bfa0fb528c8417",
+        "present": true,
+        "actual_bytes": 199454541,
+        "actual_sha256": "9e9f7c7eaa9cd13c84bc8fbc0e55beb1bc84d9c438237a1315bfa0fb528c8417",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_4.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "5fbf8c72dcabaa4b627a28927075a079d6ef8a99b25a33a80f192896fde995a9",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "5fbf8c72dcabaa4b627a28927075a079d6ef8a99b25a33a80f192896fde995a9",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_5.distcp",
+        "expected_bytes": 199446720,
+        "expected_sha256": "5491c59c27f0017de8322e4354ce25ea18d35f1a64252b969752ea7a4764a835",
+        "present": true,
+        "actual_bytes": 199446720,
+        "actual_sha256": "5491c59c27f0017de8322e4354ce25ea18d35f1a64252b969752ea7a4764a835",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_6.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "774815dff0ffdbe1f5622f3e51b38a408a9e1c226d8f93efcd9beabcaee83e44",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "774815dff0ffdbe1f5622f3e51b38a408a9e1c226d8f93efcd9beabcaee83e44",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_7.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "7a2ad3d9664f7354c149cfd0bcc472233a0c0357161a7da580440d348912f30c",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "7a2ad3d9664f7354c149cfd0bcc472233a0c0357161a7da580440d348912f30c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_8.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "b80ac106eb9df59cdb3a972bf82067982de488e9ffba196044fdc3d3f9317724",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "b80ac106eb9df59cdb3a972bf82067982de488e9ffba196044fdc3d3f9317724",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__2_9.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "555a795c47e85729ce62ef7a3ed038d6a8de9337d9c15d3bbd358e52c2b935f1",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "555a795c47e85729ce62ef7a3ed038d6a8de9337d9c15d3bbd358e52c2b935f1",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_0.distcp",
+        "expected_bytes": 199380422,
+        "expected_sha256": "3e5c91d1b47abe42e69a1194ed2da67600395a6b6c8fe21adce0307ce6d8ec68",
+        "present": true,
+        "actual_bytes": 199380422,
+        "actual_sha256": "3e5c91d1b47abe42e69a1194ed2da67600395a6b6c8fe21adce0307ce6d8ec68",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_1.distcp",
+        "expected_bytes": 199405654,
+        "expected_sha256": "05eaaafa205ab205272c78b8f752d9ba64808c446788c5ddb75fc0737014198b",
+        "present": true,
+        "actual_bytes": 199405654,
+        "actual_sha256": "05eaaafa205ab205272c78b8f752d9ba64808c446788c5ddb75fc0737014198b",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_10.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "0429a81a5163e6c63d52fff535558e4a7fbc52eecb991e42e18adf9237f992f6",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "0429a81a5163e6c63d52fff535558e4a7fbc52eecb991e42e18adf9237f992f6",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_11.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "772958b7af02747eb4b804e58e8be5538be17ae1a0dd85ad90f21e89d98d2a08",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "772958b7af02747eb4b804e58e8be5538be17ae1a0dd85ad90f21e89d98d2a08",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_12.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "0e27b633d4b48b3113c9ef2d7cd96ecca036e1a3bed5d0571e6d06798d825394",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "0e27b633d4b48b3113c9ef2d7cd96ecca036e1a3bed5d0571e6d06798d825394",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_13.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "f83719a5f26ea93b7338235b7a40800e1fc5d2ec07d0e6e267bcf29a2a47a672",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "f83719a5f26ea93b7338235b7a40800e1fc5d2ec07d0e6e267bcf29a2a47a672",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_14.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "dd4d4530f16f78896a53a2507f9fcaaea43828d1222444a1350ee415f0cc6026",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "dd4d4530f16f78896a53a2507f9fcaaea43828d1222444a1350ee415f0cc6026",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_15.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "510958e616ef083db43f16fe1139e450161b9c632033278bbb18cc1450f23e37",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "510958e616ef083db43f16fe1139e450161b9c632033278bbb18cc1450f23e37",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_2.distcp",
+        "expected_bytes": 199450194,
+        "expected_sha256": "8747c38e58bc79d49b05caf37d484ef265e0d0d4ce5a1d468ef6a4e4ff24a722",
+        "present": true,
+        "actual_bytes": 199450194,
+        "actual_sha256": "8747c38e58bc79d49b05caf37d484ef265e0d0d4ce5a1d468ef6a4e4ff24a722",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_3.distcp",
+        "expected_bytes": 199454541,
+        "expected_sha256": "9c99227e272cd03b82c4b7e81f9fcb2ba87f5f7aa4e46dc077e7250149eaf590",
+        "present": true,
+        "actual_bytes": 199454541,
+        "actual_sha256": "9c99227e272cd03b82c4b7e81f9fcb2ba87f5f7aa4e46dc077e7250149eaf590",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_4.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "89934e67d74eb70649c4a67654364db00449aa2145769606d77d2f880004865d",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "89934e67d74eb70649c4a67654364db00449aa2145769606d77d2f880004865d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_5.distcp",
+        "expected_bytes": 199446720,
+        "expected_sha256": "f593c504d31f7d79428cc0560c33e959d6dc6cd15cebfa5908a1e5ce2623f20a",
+        "present": true,
+        "actual_bytes": 199446720,
+        "actual_sha256": "f593c504d31f7d79428cc0560c33e959d6dc6cd15cebfa5908a1e5ce2623f20a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_6.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "b474626d88f4175998fa8e52ea9f8ca3118c9497b0709340ef1dfce07f0306f4",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "b474626d88f4175998fa8e52ea9f8ca3118c9497b0709340ef1dfce07f0306f4",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_7.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "a63903105e6e31e66102b5b9de7018d753c5dc5130cf1799474de5be8a608622",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "a63903105e6e31e66102b5b9de7018d753c5dc5130cf1799474de5be8a608622",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_8.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "b139c91a9e60fbf9828c62b7283770dcc936f93aeb026af4e065f20730b5c8f3",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "b139c91a9e60fbf9828c62b7283770dcc936f93aeb026af4e065f20730b5c8f3",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__3_9.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "d59fa1ce7231700dc2cb6c3c06a65639738de0805de5082d3b050edc94490abc",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "d59fa1ce7231700dc2cb6c3c06a65639738de0805de5082d3b050edc94490abc",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_0.distcp",
+        "expected_bytes": 199380422,
+        "expected_sha256": "f5c9f04ebb5a308ff07a41d39a5636c3517015568252ade17148d754c4ab482d",
+        "present": true,
+        "actual_bytes": 199380422,
+        "actual_sha256": "f5c9f04ebb5a308ff07a41d39a5636c3517015568252ade17148d754c4ab482d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_1.distcp",
+        "expected_bytes": 199405654,
+        "expected_sha256": "9247a90ae9963001d151bba45125c71d0acd2ebe93878283bb646c59dba7b560",
+        "present": true,
+        "actual_bytes": 199405654,
+        "actual_sha256": "9247a90ae9963001d151bba45125c71d0acd2ebe93878283bb646c59dba7b560",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_10.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "cde3b685b15017216c80c050de11d7f8f34c4cda6b39527085107e8b2dcbd1c1",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "cde3b685b15017216c80c050de11d7f8f34c4cda6b39527085107e8b2dcbd1c1",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_11.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "944f69529f214a927ab24903b2e8e5c0ab1d19b59faf3d2888a0ceb7f5136b56",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "944f69529f214a927ab24903b2e8e5c0ab1d19b59faf3d2888a0ceb7f5136b56",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_12.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "f602ea667df015da9a7d6b6268dc85259aa9f163860a05557c6ba3e85565218b",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "f602ea667df015da9a7d6b6268dc85259aa9f163860a05557c6ba3e85565218b",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_13.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "4cbbe2d5643c527bd00e514b843cecf4efd8b6e3c13fe7c3ce781e97ee84f2df",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "4cbbe2d5643c527bd00e514b843cecf4efd8b6e3c13fe7c3ce781e97ee84f2df",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_14.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "bcdc099b1d68f3cccaef2426d351487e2c088b2144b6656c675b711784c781a7",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "bcdc099b1d68f3cccaef2426d351487e2c088b2144b6656c675b711784c781a7",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_15.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "ed44b5251a797e53c351532eb0ccf259d474592a7ceb52acc1aceda3265a2d75",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "ed44b5251a797e53c351532eb0ccf259d474592a7ceb52acc1aceda3265a2d75",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_2.distcp",
+        "expected_bytes": 199450194,
+        "expected_sha256": "08190dde7eb6b59e2ce2a34cc2ff255ebe82784fcea1e1ab26b500f069a04f9e",
+        "present": true,
+        "actual_bytes": 199450194,
+        "actual_sha256": "08190dde7eb6b59e2ce2a34cc2ff255ebe82784fcea1e1ab26b500f069a04f9e",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_3.distcp",
+        "expected_bytes": 199454541,
+        "expected_sha256": "0ba84c4609d8a260d182e6a0dd0475f99ac41b050866cd9f578f4706a6d799cd",
+        "present": true,
+        "actual_bytes": 199454541,
+        "actual_sha256": "0ba84c4609d8a260d182e6a0dd0475f99ac41b050866cd9f578f4706a6d799cd",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_4.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "baa26794a2f5849634f669e40142404b81570442ab35aac11b2b9ddd4fb4da07",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "baa26794a2f5849634f669e40142404b81570442ab35aac11b2b9ddd4fb4da07",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_5.distcp",
+        "expected_bytes": 199446720,
+        "expected_sha256": "72d5e023b39c680bc45a170c003c572c9d23842d75f42f3b71cafd9562957913",
+        "present": true,
+        "actual_bytes": 199446720,
+        "actual_sha256": "72d5e023b39c680bc45a170c003c572c9d23842d75f42f3b71cafd9562957913",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_6.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "8ab9f8433a7faf174155a0c83012a16c20f72aad6c760ce13ad7b7968189f80e",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "8ab9f8433a7faf174155a0c83012a16c20f72aad6c760ce13ad7b7968189f80e",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_7.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "7e9b5b5353cb402d91fdbc07c6ffe907e2af98a0d7d32acdb599baa9950c7bce",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "7e9b5b5353cb402d91fdbc07c6ffe907e2af98a0d7d32acdb599baa9950c7bce",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_8.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "418b8984f0465e4433c367c90446301622b5171e477eff753e608f967e36c66a",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "418b8984f0465e4433c367c90446301622b5171e477eff753e608f967e36c66a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__4_9.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "6f6dfee4b81691ca3550622d90da71e4d3f8a73675743b793d2311f917657d55",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "6f6dfee4b81691ca3550622d90da71e4d3f8a73675743b793d2311f917657d55",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_0.distcp",
+        "expected_bytes": 199380422,
+        "expected_sha256": "cb912d486dd7a212c8bc057a612ee7e8b32a38307b7be957a66bae35a97fc1de",
+        "present": true,
+        "actual_bytes": 199380422,
+        "actual_sha256": "cb912d486dd7a212c8bc057a612ee7e8b32a38307b7be957a66bae35a97fc1de",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_1.distcp",
+        "expected_bytes": 199405654,
+        "expected_sha256": "a472d004240bf3d4ae15109b2e968eb6cb31e66e8cf896fa80f6bde39e0733fd",
+        "present": true,
+        "actual_bytes": 199405654,
+        "actual_sha256": "a472d004240bf3d4ae15109b2e968eb6cb31e66e8cf896fa80f6bde39e0733fd",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_10.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "da0c5dd38135e7c79ab5a0344c9ed4e32bc288c28a20ae76376cccf48b180b7c",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "da0c5dd38135e7c79ab5a0344c9ed4e32bc288c28a20ae76376cccf48b180b7c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_11.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "b4ba8be9aed30c28cc644579e5bc0d2094dfefc7eabbba4493bc6862fd2539a2",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "b4ba8be9aed30c28cc644579e5bc0d2094dfefc7eabbba4493bc6862fd2539a2",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_12.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "6bb4db772b35ec87bf79b5425ce53a39c63f0dba15c385e1a3ba245c7f2cb501",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "6bb4db772b35ec87bf79b5425ce53a39c63f0dba15c385e1a3ba245c7f2cb501",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_13.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "9ff65da1797e4c4869b6deca17777ea18c1f645cf62a0d83b76928948fb390e5",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "9ff65da1797e4c4869b6deca17777ea18c1f645cf62a0d83b76928948fb390e5",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_14.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "efaecf8b52070eb7f04561bd1a6e4d064807613b27f5e0986b5f8dfd0b351ca2",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "efaecf8b52070eb7f04561bd1a6e4d064807613b27f5e0986b5f8dfd0b351ca2",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_15.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "de63dbb96328ee7d91765a355d6123cd8f6295f69af6effdd7c6d4e2a4cfbcc3",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "de63dbb96328ee7d91765a355d6123cd8f6295f69af6effdd7c6d4e2a4cfbcc3",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_2.distcp",
+        "expected_bytes": 199450194,
+        "expected_sha256": "6aac826ae9a43359341db935893c491db395420a1788fece257b63a768e8aef0",
+        "present": true,
+        "actual_bytes": 199450194,
+        "actual_sha256": "6aac826ae9a43359341db935893c491db395420a1788fece257b63a768e8aef0",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_3.distcp",
+        "expected_bytes": 199454541,
+        "expected_sha256": "8eaed65a09de1aa809d0be4d604c4588ef3f6962536541d9000072b10ed598e4",
+        "present": true,
+        "actual_bytes": 199454541,
+        "actual_sha256": "8eaed65a09de1aa809d0be4d604c4588ef3f6962536541d9000072b10ed598e4",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_4.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "614d7e172d00d58b24cbf639c194600eefe4881b1d2a57c1633a31d2dff1cd1f",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "614d7e172d00d58b24cbf639c194600eefe4881b1d2a57c1633a31d2dff1cd1f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_5.distcp",
+        "expected_bytes": 199446720,
+        "expected_sha256": "9f1684758a9b88b1f72f8c9f03737562294545ce2fce5c6a9e22a2ba8c0166fa",
+        "present": true,
+        "actual_bytes": 199446720,
+        "actual_sha256": "9f1684758a9b88b1f72f8c9f03737562294545ce2fce5c6a9e22a2ba8c0166fa",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_6.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "d926c91dcaa58f499742b035362adb480a79cdef82fe521d0ab71e2df4339afe",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "d926c91dcaa58f499742b035362adb480a79cdef82fe521d0ab71e2df4339afe",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_7.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "30d55f2a749ad9164af60f1aaf322a73e056b73d697fa8363dd425332773e9b2",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "30d55f2a749ad9164af60f1aaf322a73e056b73d697fa8363dd425332773e9b2",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_8.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "8e3bc5e2a9c0e9d7f8b1223a68b03ba75ffc5368512d948a96f2d6842262f962",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "8e3bc5e2a9c0e9d7f8b1223a68b03ba75ffc5368512d948a96f2d6842262f962",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__5_9.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "eccdee3c29c52f6fd3aa242bb180b947237dd868feb130ffb7a25f5de5370b0c",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "eccdee3c29c52f6fd3aa242bb180b947237dd868feb130ffb7a25f5de5370b0c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_0.distcp",
+        "expected_bytes": 199380422,
+        "expected_sha256": "95273452b1f8de36a881182e23851a5acab1302f7ac4edac11deb495481f9ddf",
+        "present": true,
+        "actual_bytes": 199380422,
+        "actual_sha256": "95273452b1f8de36a881182e23851a5acab1302f7ac4edac11deb495481f9ddf",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_1.distcp",
+        "expected_bytes": 199405654,
+        "expected_sha256": "f065719eae77ede19099a2de91524cefad2ca9ca0995fe612dbc0498f9667029",
+        "present": true,
+        "actual_bytes": 199405654,
+        "actual_sha256": "f065719eae77ede19099a2de91524cefad2ca9ca0995fe612dbc0498f9667029",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_10.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "ba57bc0401f6744da3b26a94bceb6cf0389171f332ad1db28b621c5c98e9464f",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "ba57bc0401f6744da3b26a94bceb6cf0389171f332ad1db28b621c5c98e9464f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_11.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "5a0563893c6177dff26c463384c7d677fc513d8f388efdaf80c050b42d998f0d",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "5a0563893c6177dff26c463384c7d677fc513d8f388efdaf80c050b42d998f0d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_12.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "f6851f519bdb263fe1f8af5e3d5b680d8b8152def9d96f6f7e5722b70f24f377",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "f6851f519bdb263fe1f8af5e3d5b680d8b8152def9d96f6f7e5722b70f24f377",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_13.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "84021af4e54d28b274f794db1d8944535c1640cfbe8f322c1d7cabcdc3fa0605",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "84021af4e54d28b274f794db1d8944535c1640cfbe8f322c1d7cabcdc3fa0605",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_14.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "63d8d53940b500eaf216fa56953e8ae7a8e822ca5a758c09aa41ec6e6f28270c",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "63d8d53940b500eaf216fa56953e8ae7a8e822ca5a758c09aa41ec6e6f28270c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_15.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "848590dc0cbd7d873586d9a74c228fb2572cdf790478ded6815b41a34289e154",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "848590dc0cbd7d873586d9a74c228fb2572cdf790478ded6815b41a34289e154",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_2.distcp",
+        "expected_bytes": 199450194,
+        "expected_sha256": "07a2dfaa7223603ce60b1fdc8cb846cd73f469c1c6d07c4ebc3a0258973575d7",
+        "present": true,
+        "actual_bytes": 199450194,
+        "actual_sha256": "07a2dfaa7223603ce60b1fdc8cb846cd73f469c1c6d07c4ebc3a0258973575d7",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_3.distcp",
+        "expected_bytes": 199454541,
+        "expected_sha256": "155c7977b759ac4d7c4f3c50949761dc36b5f871182e785fde26cb8e48e6e4ee",
+        "present": true,
+        "actual_bytes": 199454541,
+        "actual_sha256": "155c7977b759ac4d7c4f3c50949761dc36b5f871182e785fde26cb8e48e6e4ee",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_4.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "1e8bc7752ac2af6a7266aa58602ee93ecf6c2533feb0c7485ce347a1c8144b70",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "1e8bc7752ac2af6a7266aa58602ee93ecf6c2533feb0c7485ce347a1c8144b70",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_5.distcp",
+        "expected_bytes": 199446720,
+        "expected_sha256": "67f8a6eb0d2273147da33831b4fe5ae0a6b0015a78d9f7ad2ba5da9ecf602f8c",
+        "present": true,
+        "actual_bytes": 199446720,
+        "actual_sha256": "67f8a6eb0d2273147da33831b4fe5ae0a6b0015a78d9f7ad2ba5da9ecf602f8c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_6.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "3973f3b9d2a7f804005d5d27e07cca4fb4cb5dff2cf4034e531fbd78028b8859",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "3973f3b9d2a7f804005d5d27e07cca4fb4cb5dff2cf4034e531fbd78028b8859",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_7.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "46871286039a82b6256a1305c28a84f2b8dc8a577a1afa3b5f6aa1d6e8c88283",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "46871286039a82b6256a1305c28a84f2b8dc8a577a1afa3b5f6aa1d6e8c88283",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_8.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "8d2023557e70a22d880d9683e38ae7a2231d5808d4e3724cf4797f08bb1fa68f",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "8d2023557e70a22d880d9683e38ae7a2231d5808d4e3724cf4797f08bb1fa68f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__6_9.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "cc5cab7649f9d978817f0414a247d3227eb88afda72c712456edfcb92969f8fb",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "cc5cab7649f9d978817f0414a247d3227eb88afda72c712456edfcb92969f8fb",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_0.distcp",
+        "expected_bytes": 199380422,
+        "expected_sha256": "29771c52597dac2eeb3fba03825bbd9f44cc4e5e2ddaf9a93a0977b06e6df9ee",
+        "present": true,
+        "actual_bytes": 199380422,
+        "actual_sha256": "29771c52597dac2eeb3fba03825bbd9f44cc4e5e2ddaf9a93a0977b06e6df9ee",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_1.distcp",
+        "expected_bytes": 199405654,
+        "expected_sha256": "88c2fbe24b5540e3a06c7027c1aaa9e6be021685f51f9860666c3e36dde10574",
+        "present": true,
+        "actual_bytes": 199405654,
+        "actual_sha256": "88c2fbe24b5540e3a06c7027c1aaa9e6be021685f51f9860666c3e36dde10574",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_10.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "e99e1a9894277ce0a6d127d8e3086e475b91d01c74189e93677dfb9af413ba77",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "e99e1a9894277ce0a6d127d8e3086e475b91d01c74189e93677dfb9af413ba77",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_11.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "0aef58bf4f60ce3e80d7ee54b049b193637b8cc9a14ed2938b0b5ff6e417d482",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "0aef58bf4f60ce3e80d7ee54b049b193637b8cc9a14ed2938b0b5ff6e417d482",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_12.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "b36a37d29e473f368fe66dfa34c5db6d492fb6f6bb74b81493a70802937cb47f",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "b36a37d29e473f368fe66dfa34c5db6d492fb6f6bb74b81493a70802937cb47f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_13.distcp",
+        "expected_bytes": 199448297,
+        "expected_sha256": "79e6c5477a874a7f9cc8c8595e98b30806811fca2b1df05f7fc88187250eeb59",
+        "present": true,
+        "actual_bytes": 199448297,
+        "actual_sha256": "79e6c5477a874a7f9cc8c8595e98b30806811fca2b1df05f7fc88187250eeb59",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_14.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "686e568d32c8dc34f28e9e6e625490bdcee8b7379fac87de240ac7edb4b7ea77",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "686e568d32c8dc34f28e9e6e625490bdcee8b7379fac87de240ac7edb4b7ea77",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_15.distcp",
+        "expected_bytes": 199416629,
+        "expected_sha256": "d041c6468cf6d93778c4e492b1ba2d2e90fbcbb6bfe11239a314a3ea9bf89965",
+        "present": true,
+        "actual_bytes": 199416629,
+        "actual_sha256": "d041c6468cf6d93778c4e492b1ba2d2e90fbcbb6bfe11239a314a3ea9bf89965",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_2.distcp",
+        "expected_bytes": 199447122,
+        "expected_sha256": "78ecdc2240262b674f42209c50e6d1c69d102c9f524b150e82c34791720455c4",
+        "present": true,
+        "actual_bytes": 199447122,
+        "actual_sha256": "78ecdc2240262b674f42209c50e6d1c69d102c9f524b150e82c34791720455c4",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_3.distcp",
+        "expected_bytes": 199454541,
+        "expected_sha256": "5b412ede76ecc0efd7990720f2bc0cf3df3156c0cc4fd226fdc1827bea9333e7",
+        "present": true,
+        "actual_bytes": 199454541,
+        "actual_sha256": "5b412ede76ecc0efd7990720f2bc0cf3df3156c0cc4fd226fdc1827bea9333e7",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_4.distcp",
+        "expected_bytes": 199446592,
+        "expected_sha256": "9d720d74768028972eb0b9a647aba2c11bb620445b52aa6653d1c021a3284d1c",
+        "present": true,
+        "actual_bytes": 199446592,
+        "actual_sha256": "9d720d74768028972eb0b9a647aba2c11bb620445b52aa6653d1c021a3284d1c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_5.distcp",
+        "expected_bytes": 199446720,
+        "expected_sha256": "af09cd01ff4c1b4634f0bcb9d20d9d3a3f13935f58872fba8b247acc53f07250",
+        "present": true,
+        "actual_bytes": 199446720,
+        "actual_sha256": "af09cd01ff4c1b4634f0bcb9d20d9d3a3f13935f58872fba8b247acc53f07250",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_6.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "ad406285c3aad61515aa0726f1d1cb5a21946a8c92098c378f5f6696070e0ac7",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "ad406285c3aad61515aa0726f1d1cb5a21946a8c92098c378f5f6696070e0ac7",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_7.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "abe9f31d73ba8e8071b5d56f450eba5e41b1d36ce55f7ff923080b7cd27ed21f",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "abe9f31d73ba8e8071b5d56f450eba5e41b1d36ce55f7ff923080b7cd27ed21f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_8.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "549a6b7f48bec26b2848358020e9945f9186fdeb46778d17a71e393f568fdfa5",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "549a6b7f48bec26b2848358020e9945f9186fdeb46778d17a71e393f568fdfa5",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "model/__7_9.distcp",
+        "expected_bytes": 199347059,
+        "expected_sha256": "df9c27a6982616d90de56d3cc7ed17e970aaefda43df3a07d8a98a2f5eb7e391",
+        "present": true,
+        "actual_bytes": 199347059,
+        "actual_sha256": "df9c27a6982616d90de56d3cc7ed17e970aaefda43df3a07d8a98a2f5eb7e391",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/.metadata",
+        "expected_bytes": 8056622,
+        "expected_sha256": "7cb015145a05618e857960120cc7e2290b2ac64f84bd268b35f9aa035fc36fd7",
+        "present": true,
+        "actual_bytes": 8056622,
+        "actual_sha256": "7cb015145a05618e857960120cc7e2290b2ac64f84bd268b35f9aa035fc36fd7",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_0.distcp",
+        "expected_bytes": 398814275,
+        "expected_sha256": "7e175ceca083950611f36d21d17654e0092b7b21791c36290990c46c257f0ac2",
+        "present": true,
+        "actual_bytes": 398814275,
+        "actual_sha256": "7e175ceca083950611f36d21d17654e0092b7b21791c36290990c46c257f0ac2",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_1.distcp",
+        "expected_bytes": 398814275,
+        "expected_sha256": "52bef9f3a92f50ea86aaf388f9ec40dae6e4cbac7c763809dd96472ae0f20397",
+        "present": true,
+        "actual_bytes": 398814275,
+        "actual_sha256": "52bef9f3a92f50ea86aaf388f9ec40dae6e4cbac7c763809dd96472ae0f20397",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_10.distcp",
+        "expected_bytes": 398817429,
+        "expected_sha256": "3fdfe264574cd9945b1cabe0e68f5c02f28bfd267227acd168e074317a9db572",
+        "present": true,
+        "actual_bytes": 398817429,
+        "actual_sha256": "3fdfe264574cd9945b1cabe0e68f5c02f28bfd267227acd168e074317a9db572",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_11.distcp",
+        "expected_bytes": 398817429,
+        "expected_sha256": "38d37bc45123afd49f870baf296d8e422742cd737a69cd309fc1cc4b750df8e1",
+        "present": true,
+        "actual_bytes": 398817429,
+        "actual_sha256": "38d37bc45123afd49f870baf296d8e422742cd737a69cd309fc1cc4b750df8e1",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_12.distcp",
+        "expected_bytes": 398843045,
+        "expected_sha256": "a19575e1b195c9538f2d61daf843744a62e9421a133865746ce550c720f496d0",
+        "present": true,
+        "actual_bytes": 398843045,
+        "actual_sha256": "a19575e1b195c9538f2d61daf843744a62e9421a133865746ce550c720f496d0",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_13.distcp",
+        "expected_bytes": 398843045,
+        "expected_sha256": "d5ba1be60a0382648c89518a07a43e0e7c105aceabce4ddc2fd0353ec5d477d2",
+        "present": true,
+        "actual_bytes": 398843045,
+        "actual_sha256": "d5ba1be60a0382648c89518a07a43e0e7c105aceabce4ddc2fd0353ec5d477d2",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_14.distcp",
+        "expected_bytes": 398834776,
+        "expected_sha256": "515d2b8ea75187e06de80f52565844ccfcb02e0b0bf80d6428ca5289a856f701",
+        "present": true,
+        "actual_bytes": 398834776,
+        "actual_sha256": "515d2b8ea75187e06de80f52565844ccfcb02e0b0bf80d6428ca5289a856f701",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_15.distcp",
+        "expected_bytes": 398834776,
+        "expected_sha256": "a747c2c3011b77f06fa92f0a772a85a6a310c90e77ee1d35efce9bb3d8aa9453",
+        "present": true,
+        "actual_bytes": 398834776,
+        "actual_sha256": "a747c2c3011b77f06fa92f0a772a85a6a310c90e77ee1d35efce9bb3d8aa9453",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_2.distcp",
+        "expected_bytes": 398831622,
+        "expected_sha256": "2d82b9c99e7c36fa69e64102d8d31c5420f89e47b37500de6270de8946a4166b",
+        "present": true,
+        "actual_bytes": 398831622,
+        "actual_sha256": "2d82b9c99e7c36fa69e64102d8d31c5420f89e47b37500de6270de8946a4166b",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_3.distcp",
+        "expected_bytes": 398830045,
+        "expected_sha256": "0775ee2580ea4252aeb8ee6f7d4463eaed083d4087124e737202292c23d4b53c",
+        "present": true,
+        "actual_bytes": 398830045,
+        "actual_sha256": "0775ee2580ea4252aeb8ee6f7d4463eaed083d4087124e737202292c23d4b53c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_4.distcp",
+        "expected_bytes": 398806390,
+        "expected_sha256": "80ab9047fddd86402aa8df137e8b6c1456a626f4078439902ccdf99f04567405",
+        "present": true,
+        "actual_bytes": 398806390,
+        "actual_sha256": "80ab9047fddd86402aa8df137e8b6c1456a626f4078439902ccdf99f04567405",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_5.distcp",
+        "expected_bytes": 398806390,
+        "expected_sha256": "cf5735c77cee1fb63c9da5a38ced0acd92b2e174dd48e576bd08166d7b5ba89f",
+        "present": true,
+        "actual_bytes": 398806390,
+        "actual_sha256": "cf5735c77cee1fb63c9da5a38ced0acd92b2e174dd48e576bd08166d7b5ba89f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_6.distcp",
+        "expected_bytes": 398825314,
+        "expected_sha256": "1b2abc48064b62981c0ac66f495d7d9bb064c1912270595a02a1f69817423d24",
+        "present": true,
+        "actual_bytes": 398825314,
+        "actual_sha256": "1b2abc48064b62981c0ac66f495d7d9bb064c1912270595a02a1f69817423d24",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_7.distcp",
+        "expected_bytes": 398825314,
+        "expected_sha256": "f501abdbd5f39ecc3ba9a4c63b01d9afb8f96b9e51cbd5cd050734f1f239a193",
+        "present": true,
+        "actual_bytes": 398825314,
+        "actual_sha256": "f501abdbd5f39ecc3ba9a4c63b01d9afb8f96b9e51cbd5cd050734f1f239a193",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_8.distcp",
+        "expected_bytes": 398819006,
+        "expected_sha256": "5a169a13093500265db4dc72024682ea9d8010b1806b363dc035e022e2ac1574",
+        "present": true,
+        "actual_bytes": 398819006,
+        "actual_sha256": "5a169a13093500265db4dc72024682ea9d8010b1806b363dc035e022e2ac1574",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__0_9.distcp",
+        "expected_bytes": 398819006,
+        "expected_sha256": "e0a6b780f76428da11d64dcee87d12e9b0e3107cbcd87b90da0466f1b5f5537d",
+        "present": true,
+        "actual_bytes": 398819006,
+        "actual_sha256": "e0a6b780f76428da11d64dcee87d12e9b0e3107cbcd87b90da0466f1b5f5537d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_0.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "b5957e21ae7ab51b2c380a1524df6f60ebd13186676bf1331d28f86024c3e5ab",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "b5957e21ae7ab51b2c380a1524df6f60ebd13186676bf1331d28f86024c3e5ab",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_1.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "f646025ea211166141236c17a5e500b7f0f18ed658a31066732df0ceaa19d3f4",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "f646025ea211166141236c17a5e500b7f0f18ed658a31066732df0ceaa19d3f4",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_10.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "f504161272fb3c10b9d9f4f298ca363727bfd9417d0559da47bf04f5fad561ee",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "f504161272fb3c10b9d9f4f298ca363727bfd9417d0559da47bf04f5fad561ee",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_11.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "49358c0f40083b0a9cb630a6e9c64a02ca993d9a85ecdf87348533c3040dacbb",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "49358c0f40083b0a9cb630a6e9c64a02ca993d9a85ecdf87348533c3040dacbb",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_12.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "1bfccbd89f7386c5901d68bd5ec5eb7bc7e48edf878ce0ffc27026c736721990",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "1bfccbd89f7386c5901d68bd5ec5eb7bc7e48edf878ce0ffc27026c736721990",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_13.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "233f01dcc57b362ffaaa05593d0c618b76b13f4724e376dd0bfe2ba408db6f27",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "233f01dcc57b362ffaaa05593d0c618b76b13f4724e376dd0bfe2ba408db6f27",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_14.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "df36b530e6ac5d04e758ead9b7f37146f1db372d17f6b8be7ed01dfa6c782c01",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "df36b530e6ac5d04e758ead9b7f37146f1db372d17f6b8be7ed01dfa6c782c01",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_15.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "31bebb0ae2c24c8fa32666d27b100998ab85fb4fc6b6abb2f4702d11838190fd",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "31bebb0ae2c24c8fa32666d27b100998ab85fb4fc6b6abb2f4702d11838190fd",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_2.distcp",
+        "expected_bytes": 398859692,
+        "expected_sha256": "9ec6be16e67b6c3ddee603fa0a4340b8ee34986c2b06512af07b2a23a77e8d06",
+        "present": true,
+        "actual_bytes": 398859692,
+        "actual_sha256": "9ec6be16e67b6c3ddee603fa0a4340b8ee34986c2b06512af07b2a23a77e8d06",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_3.distcp",
+        "expected_bytes": 398856854,
+        "expected_sha256": "536eccf42d54324f7e0ac7c5924cf6cbfe62c7c287c6f06a0b70f9a7c13e17e1",
+        "present": true,
+        "actual_bytes": 398856854,
+        "actual_sha256": "536eccf42d54324f7e0ac7c5924cf6cbfe62c7c287c6f06a0b70f9a7c13e17e1",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_4.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "5b4abd53ed4d2c2ac3521f974a5926b94f41f7762b780e2a3b579cf24316436c",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "5b4abd53ed4d2c2ac3521f974a5926b94f41f7762b780e2a3b579cf24316436c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_5.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "f59a2f3d32df7566669f2f725efb5370aab5d15d9245b9a9538d6f61ddc9134c",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "f59a2f3d32df7566669f2f725efb5370aab5d15d9245b9a9538d6f61ddc9134c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_6.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "4ecaf42c0fea622176508a6f61b52540ac64aa00074fddb41c4fef22fe2c91bb",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "4ecaf42c0fea622176508a6f61b52540ac64aa00074fddb41c4fef22fe2c91bb",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_7.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "70d8b49764db5d6fbd9098ed530151e64fc27eac1e08cd87b9b2b46730985424",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "70d8b49764db5d6fbd9098ed530151e64fc27eac1e08cd87b9b2b46730985424",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_8.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "2fc858cb7daede26c6c705361a0e4b2da26500bf78c76ade5a1d2a5b46b4c80e",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "2fc858cb7daede26c6c705361a0e4b2da26500bf78c76ade5a1d2a5b46b4c80e",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__1_9.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "dfed7168f6dd4e4c9efb1d48ea360cd9a5d2bcd9d2f6e3f8c2b8a9522e1be83f",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "dfed7168f6dd4e4c9efb1d48ea360cd9a5d2bcd9d2f6e3f8c2b8a9522e1be83f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_0.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "d1d37e2ab9a92bba543e5e894e692dd9e7277dd8763c0b954e229b5c67432b9a",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "d1d37e2ab9a92bba543e5e894e692dd9e7277dd8763c0b954e229b5c67432b9a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_1.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "feee7ac88995e6313325e604b1234f0bbd7eda514d7cfbc3f1d82fd5128c0192",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "feee7ac88995e6313325e604b1234f0bbd7eda514d7cfbc3f1d82fd5128c0192",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_10.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "978c2dad37b2c7053d74eb55944cfa78e3aef61fda1f573ec6b10fa1ee23a1f7",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "978c2dad37b2c7053d74eb55944cfa78e3aef61fda1f573ec6b10fa1ee23a1f7",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_11.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "83388514001d35ed91c2c79bcc1e2c03e44cb9f085eec75306fe7f5d7265984c",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "83388514001d35ed91c2c79bcc1e2c03e44cb9f085eec75306fe7f5d7265984c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_12.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "1373e3e2c01231cba8023cac2001630811a287564773c4c3abde5a346e68acb0",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "1373e3e2c01231cba8023cac2001630811a287564773c4c3abde5a346e68acb0",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_13.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "4dfd157775c3ef9ef7284e75cfe128d96b95b70837091784f5746aac1f180168",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "4dfd157775c3ef9ef7284e75cfe128d96b95b70837091784f5746aac1f180168",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_14.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "db478fde3d44c3964b49928fce0e9d2981377a66065f5ba3d42f520b80c3f966",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "db478fde3d44c3964b49928fce0e9d2981377a66065f5ba3d42f520b80c3f966",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_15.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "3594791d8f502349dcd627e9078746e104fe0308e614115fc7e77e79edcaa876",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "3594791d8f502349dcd627e9078746e104fe0308e614115fc7e77e79edcaa876",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_2.distcp",
+        "expected_bytes": 398859692,
+        "expected_sha256": "2db5233ce54d51aef20fcd0a16e0a998022deac4d8278b7eb6d3bc1353c23a93",
+        "present": true,
+        "actual_bytes": 398859692,
+        "actual_sha256": "2db5233ce54d51aef20fcd0a16e0a998022deac4d8278b7eb6d3bc1353c23a93",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_3.distcp",
+        "expected_bytes": 398856854,
+        "expected_sha256": "4e5c50290c44fbfcd36455770e18f63ee75d258708331078833f46e68ce05f72",
+        "present": true,
+        "actual_bytes": 398856854,
+        "actual_sha256": "4e5c50290c44fbfcd36455770e18f63ee75d258708331078833f46e68ce05f72",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_4.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "7cd2f88ebc333830a2fc0a10ff3e8da7060444f2e2181f5064e479a323ecc946",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "7cd2f88ebc333830a2fc0a10ff3e8da7060444f2e2181f5064e479a323ecc946",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_5.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "6f534f6d90d02ee7409ad98733fc52515fd543e3175764dc22a11f67b125154d",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "6f534f6d90d02ee7409ad98733fc52515fd543e3175764dc22a11f67b125154d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_6.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "ff6c9ad647bf15a989ac6e45eeab77f109924e08c86a701fd5e750fb82272fd8",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "ff6c9ad647bf15a989ac6e45eeab77f109924e08c86a701fd5e750fb82272fd8",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_7.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "a8131b426291ed8eed8b728fcee01fd9c0fc1ef39beb07cb9b9a6f291fa9228c",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "a8131b426291ed8eed8b728fcee01fd9c0fc1ef39beb07cb9b9a6f291fa9228c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_8.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "e0c5c4e1eedcc5a3b3e7bf740be7e611ad5f7632e30add0cc3394d121c44c747",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "e0c5c4e1eedcc5a3b3e7bf740be7e611ad5f7632e30add0cc3394d121c44c747",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__2_9.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "549ae195d8beeef2b125aa8d34cc0d961cae67365306ca1be2446f2a0944520d",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "549ae195d8beeef2b125aa8d34cc0d961cae67365306ca1be2446f2a0944520d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_0.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "dec3686e26fac666910c1c9e4b75384ff040fba8a77a553ddf80bc98ea5b0620",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "dec3686e26fac666910c1c9e4b75384ff040fba8a77a553ddf80bc98ea5b0620",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_1.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "0b2cc187584f8e35a5471a822ae8367e769f5b7f272cac9e5f74ab00501c1dd4",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "0b2cc187584f8e35a5471a822ae8367e769f5b7f272cac9e5f74ab00501c1dd4",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_10.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "60e42dbb51ee5912866f5879d948f848076e821b62f196ad6379cdf0abd3eb6b",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "60e42dbb51ee5912866f5879d948f848076e821b62f196ad6379cdf0abd3eb6b",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_11.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "9c86bd0e9a6436fd4f4a51d37c6acde483f3199cc8d04e42216d6f2eca533aa6",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "9c86bd0e9a6436fd4f4a51d37c6acde483f3199cc8d04e42216d6f2eca533aa6",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_12.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "89bfa4b6c0eb4adf90bead57ffde8a59eb6c1bde9499c49c1496220e1e4e7eb3",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "89bfa4b6c0eb4adf90bead57ffde8a59eb6c1bde9499c49c1496220e1e4e7eb3",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_13.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "84348b40a6424dc24552fa9c23e5bc348c857490f4cb69425d86b7f5570d4733",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "84348b40a6424dc24552fa9c23e5bc348c857490f4cb69425d86b7f5570d4733",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_14.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "c9493679e907430c5d5960bd5523fdc014631c4754bbe9496aef7016e9e17731",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "c9493679e907430c5d5960bd5523fdc014631c4754bbe9496aef7016e9e17731",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_15.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "eedfbdf9e94abb8f8ac9b2f76303c81f9a0d4d64b8eced29e0e89fa303a03787",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "eedfbdf9e94abb8f8ac9b2f76303c81f9a0d4d64b8eced29e0e89fa303a03787",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_2.distcp",
+        "expected_bytes": 398859692,
+        "expected_sha256": "c32941da2602f476a4de4b10cd842b04d96769ca289e7cd946fc45d17e895e75",
+        "present": true,
+        "actual_bytes": 398859692,
+        "actual_sha256": "c32941da2602f476a4de4b10cd842b04d96769ca289e7cd946fc45d17e895e75",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_3.distcp",
+        "expected_bytes": 398856854,
+        "expected_sha256": "e7d9849ce9ca134373b99a27cd01bd43ad1eafc52c8714644d097d8cd9e24112",
+        "present": true,
+        "actual_bytes": 398856854,
+        "actual_sha256": "e7d9849ce9ca134373b99a27cd01bd43ad1eafc52c8714644d097d8cd9e24112",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_4.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "d3a77e994eb84d9613e88edde467048d8414eccba9a21b7a9fbd375b61415c79",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "d3a77e994eb84d9613e88edde467048d8414eccba9a21b7a9fbd375b61415c79",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_5.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "88664d127c25c25c2cb04fe96210bcdc0c6b887d2e0345f8961fbe61923c2e52",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "88664d127c25c25c2cb04fe96210bcdc0c6b887d2e0345f8961fbe61923c2e52",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_6.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "926d98931c688092147d3705db76f69524a16d67e98df184349784dd54f1b038",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "926d98931c688092147d3705db76f69524a16d67e98df184349784dd54f1b038",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_7.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "bb67e85dee230f87d07f5635176ceea4f760b678b9a51bbee5b8f0298e1d4943",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "bb67e85dee230f87d07f5635176ceea4f760b678b9a51bbee5b8f0298e1d4943",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_8.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "3127dabd13fe79744cbd17d59abc0961ed12b7df7b8b5ccac94dd2cabd41db63",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "3127dabd13fe79744cbd17d59abc0961ed12b7df7b8b5ccac94dd2cabd41db63",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__3_9.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "b829fd750ff52724242a9509168cf2e0eaf2cbf5395c764dec762ec8abf70f71",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "b829fd750ff52724242a9509168cf2e0eaf2cbf5395c764dec762ec8abf70f71",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_0.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "faecd684e0cf4fe796a3293fc860c25d249a32e5c64850e0d00410bb7de18664",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "faecd684e0cf4fe796a3293fc860c25d249a32e5c64850e0d00410bb7de18664",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_1.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "326f8cc521058f776d3c249f545afd889545630d5a0fb3b8613df7b411ab2117",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "326f8cc521058f776d3c249f545afd889545630d5a0fb3b8613df7b411ab2117",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_10.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "2586280c44134515112c6ca99552d2e2d6bd60cfebbca4be85fa4f19e515330d",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "2586280c44134515112c6ca99552d2e2d6bd60cfebbca4be85fa4f19e515330d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_11.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "2267c792f6f5ee45e74e670a68c7b0c9d3a56be8899372bdb4721b06161894cb",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "2267c792f6f5ee45e74e670a68c7b0c9d3a56be8899372bdb4721b06161894cb",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_12.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "23fcbc0771b72d69f1c18684cb6ebebea809c1d57750ff6d7eca343f1e662991",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "23fcbc0771b72d69f1c18684cb6ebebea809c1d57750ff6d7eca343f1e662991",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_13.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "267c3543da8abd285bf413f670b1998f244adca8a0f5d51d3bca0c872f2c610c",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "267c3543da8abd285bf413f670b1998f244adca8a0f5d51d3bca0c872f2c610c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_14.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "de5b309a187fbca6125520059ec2f6d56079bfaf9888545f2bd903986eb0768c",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "de5b309a187fbca6125520059ec2f6d56079bfaf9888545f2bd903986eb0768c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_15.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "c140f8603dcc9aada02744d85d3a694766fd1559aa4a173fc085ce8d5f4753ce",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "c140f8603dcc9aada02744d85d3a694766fd1559aa4a173fc085ce8d5f4753ce",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_2.distcp",
+        "expected_bytes": 398868332,
+        "expected_sha256": "7828cb7a5a5feff1b2c27e5619581e50ca450b45e6d1d780157bc835f905c988",
+        "present": true,
+        "actual_bytes": 398868332,
+        "actual_sha256": "7828cb7a5a5feff1b2c27e5619581e50ca450b45e6d1d780157bc835f905c988",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_3.distcp",
+        "expected_bytes": 398856854,
+        "expected_sha256": "88ce0c15a867f066a6b55c547cd31ecb999d416ac402c4da240e0eb581bded2d",
+        "present": true,
+        "actual_bytes": 398856854,
+        "actual_sha256": "88ce0c15a867f066a6b55c547cd31ecb999d416ac402c4da240e0eb581bded2d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_4.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "c78c47e010b13b5a5cf6a058884e634dcad85129a0154ba8e16801f03d56e63a",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "c78c47e010b13b5a5cf6a058884e634dcad85129a0154ba8e16801f03d56e63a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_5.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "40997db6a51693f3aed5a2c6c35b4fc642bb88f76a559b1d44a4bd246643bb26",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "40997db6a51693f3aed5a2c6c35b4fc642bb88f76a559b1d44a4bd246643bb26",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_6.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "71a57b20aa5499baeb0b2c36ca314caa8c2f816c5a857aff7e3aa125e1484d92",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "71a57b20aa5499baeb0b2c36ca314caa8c2f816c5a857aff7e3aa125e1484d92",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_7.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "d67d6a64098a82ac8d2f712047af385ac45eed8931809e1a6c619d5ee375285a",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "d67d6a64098a82ac8d2f712047af385ac45eed8931809e1a6c619d5ee375285a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_8.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "6554abd8aeb43b4212567a1f5261d0110d951257566295453d757434c45c90a3",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "6554abd8aeb43b4212567a1f5261d0110d951257566295453d757434c45c90a3",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__4_9.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "caa8e8499a7c1f1301015d85cf11d1552d602a8c27489263bc10c6a12a731469",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "caa8e8499a7c1f1301015d85cf11d1552d602a8c27489263bc10c6a12a731469",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_0.distcp",
+        "expected_bytes": 398951792,
+        "expected_sha256": "8b39b693bf055c2eff56dc7101bf77d5c4a0dc648b897e5e26bb836dd368c88f",
+        "present": true,
+        "actual_bytes": 398951792,
+        "actual_sha256": "8b39b693bf055c2eff56dc7101bf77d5c4a0dc648b897e5e26bb836dd368c88f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_1.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "f20fd554b764a12cdff7a77e87e87941e9c5cbb2f537e217a944ce7992287744",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "f20fd554b764a12cdff7a77e87e87941e9c5cbb2f537e217a944ce7992287744",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_10.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "4e3c5de1a5b9eb7a983a60b07847cc2a498a336e686fb018dabbf2c2cd8ed822",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "4e3c5de1a5b9eb7a983a60b07847cc2a498a336e686fb018dabbf2c2cd8ed822",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_11.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "171d8b5e0a925cd166f64ec46738c9db4cde1f14cdfb01446f34cb9abfda3c9c",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "171d8b5e0a925cd166f64ec46738c9db4cde1f14cdfb01446f34cb9abfda3c9c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_12.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "ea48b269dfa08cdfd5eb641d07fdbbff129c35b07751d7416c6c3508f863cffe",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "ea48b269dfa08cdfd5eb641d07fdbbff129c35b07751d7416c6c3508f863cffe",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_13.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "d8043ff62ee69c524c0f00e8c0202429722d301f959fe0af22642b7060938f36",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "d8043ff62ee69c524c0f00e8c0202429722d301f959fe0af22642b7060938f36",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_14.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "a1a2a3a63595a671a32b593779985c50c1c7a181bf950e6ad8b01023c40a6a0a",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "a1a2a3a63595a671a32b593779985c50c1c7a181bf950e6ad8b01023c40a6a0a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_15.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "33176b943c8b9030c799211198501d1d1a134f7b29bf5be67b665372a6b2bae2",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "33176b943c8b9030c799211198501d1d1a134f7b29bf5be67b665372a6b2bae2",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_2.distcp",
+        "expected_bytes": 398858431,
+        "expected_sha256": "42d4abce16d993aaa6e24620966543237770918320413a68fae4afcf3798d7bd",
+        "present": true,
+        "actual_bytes": 398858431,
+        "actual_sha256": "42d4abce16d993aaa6e24620966543237770918320413a68fae4afcf3798d7bd",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_3.distcp",
+        "expected_bytes": 398856854,
+        "expected_sha256": "f18f61b188c336289b582b0e68c25b950d305bdf921e438a0231067a7ce7468e",
+        "present": true,
+        "actual_bytes": 398856854,
+        "actual_sha256": "f18f61b188c336289b582b0e68c25b950d305bdf921e438a0231067a7ce7468e",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_4.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "48d91f166fcae3e3f56f648afc3ec2f12a483657acf1bb1b061eb67b657530bd",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "48d91f166fcae3e3f56f648afc3ec2f12a483657acf1bb1b061eb67b657530bd",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_5.distcp",
+        "expected_bytes": 398833199,
+        "expected_sha256": "6243dc6e60b9f4b8ae374fd8c0e832e5f38bfdc47495ccc34f7f57553f004793",
+        "present": true,
+        "actual_bytes": 398833199,
+        "actual_sha256": "6243dc6e60b9f4b8ae374fd8c0e832e5f38bfdc47495ccc34f7f57553f004793",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_6.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "49fa2735b872d0e50abe2b6e9c6b6cc8feef2e53b5dea3f97b821c4b8921598c",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "49fa2735b872d0e50abe2b6e9c6b6cc8feef2e53b5dea3f97b821c4b8921598c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_7.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "211e320a63d6fbd551ccc1393df5144e14f324c1e35b394c52f3f1fe9f33f4bc",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "211e320a63d6fbd551ccc1393df5144e14f324c1e35b394c52f3f1fe9f33f4bc",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_8.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "b60d33605f2e365b4acdb3919d937c519e1215387b29555cc996db1276e133e0",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "b60d33605f2e365b4acdb3919d937c519e1215387b29555cc996db1276e133e0",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__5_9.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "431eec9711c365b1494e04783807f7cdab1d2a4ea9b15f19fb26414ba6eed57c",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "431eec9711c365b1494e04783807f7cdab1d2a4ea9b15f19fb26414ba6eed57c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_0.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "5d4edbcc67be801f733a6873d3dec2e06ae11abe8c415c562092d1d5bf6c4382",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "5d4edbcc67be801f733a6873d3dec2e06ae11abe8c415c562092d1d5bf6c4382",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_1.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "315c81407694be3685b080460f27eb0751f7a4d8fabeaa3f0f67ab7e53fd82fb",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "315c81407694be3685b080460f27eb0751f7a4d8fabeaa3f0f67ab7e53fd82fb",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_10.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "9403df4fd6048ac063c0e84712ce8be926dff9262f208a4fb453a97e77974d15",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "9403df4fd6048ac063c0e84712ce8be926dff9262f208a4fb453a97e77974d15",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_11.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "45ce8bc83dc1b3955b241b3662fb881298162f4f7ff638726ad08499f6904dd0",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "45ce8bc83dc1b3955b241b3662fb881298162f4f7ff638726ad08499f6904dd0",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_12.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "12ea24cb2abb612f778d7d9cee323153f7040d4bdc4ffd93feacc5ea3345b213",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "12ea24cb2abb612f778d7d9cee323153f7040d4bdc4ffd93feacc5ea3345b213",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_13.distcp",
+        "expected_bytes": 398869854,
+        "expected_sha256": "70ac7eeb7d7e75a6be18ca70eff80a5a6cd1a079f5da1502c26ae1a8a9128718",
+        "present": true,
+        "actual_bytes": 398869854,
+        "actual_sha256": "70ac7eeb7d7e75a6be18ca70eff80a5a6cd1a079f5da1502c26ae1a8a9128718",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_14.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "41d624e88402a5b8cd01a78a943337fb41e3f1587b41453cda20a96c16f91589",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "41d624e88402a5b8cd01a78a943337fb41e3f1587b41453cda20a96c16f91589",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_15.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "a08bfa7a21d232c03f069cfb711180f0a51ed30ac2e06dd75cd6be3b95154e2b",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "a08bfa7a21d232c03f069cfb711180f0a51ed30ac2e06dd75cd6be3b95154e2b",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_2.distcp",
+        "expected_bytes": 398858115,
+        "expected_sha256": "86065e984411a76ae5ae653726b8924e71561fb2e3160767e9070fe222cc21f4",
+        "present": true,
+        "actual_bytes": 398858115,
+        "actual_sha256": "86065e984411a76ae5ae653726b8924e71561fb2e3160767e9070fe222cc21f4",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_3.distcp",
+        "expected_bytes": 398858115,
+        "expected_sha256": "0dc7988cc9456f46f8fbcfdeea8609ac49f5df548f3bcfe240baf4774ca7123d",
+        "present": true,
+        "actual_bytes": 398858115,
+        "actual_sha256": "0dc7988cc9456f46f8fbcfdeea8609ac49f5df548f3bcfe240baf4774ca7123d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_4.distcp",
+        "expected_bytes": 398834460,
+        "expected_sha256": "add28d4fe3114baa1ee2ae18dea2e2cbc266bfd71e49d91d8056da57e89fa2c5",
+        "present": true,
+        "actual_bytes": 398834460,
+        "actual_sha256": "add28d4fe3114baa1ee2ae18dea2e2cbc266bfd71e49d91d8056da57e89fa2c5",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_5.distcp",
+        "expected_bytes": 398834460,
+        "expected_sha256": "d00d6299bb1401e7c8dc4c7c247d217cdf35e8ca358f608dab76df79f507293a",
+        "present": true,
+        "actual_bytes": 398834460,
+        "actual_sha256": "d00d6299bb1401e7c8dc4c7c247d217cdf35e8ca358f608dab76df79f507293a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_6.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "349cc96306ee7e3981d2c700e8002260338cd54673e9a7924ce9b0033dd8af13",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "349cc96306ee7e3981d2c700e8002260338cd54673e9a7924ce9b0033dd8af13",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_7.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "7d042229f40a30c371ec3a52fc5d3f02d1fe579076d1b9d4f0bcefe8f67eb33d",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "7d042229f40a30c371ec3a52fc5d3f02d1fe579076d1b9d4f0bcefe8f67eb33d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_8.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "9fec539383c53f8f17620feff23779981c3b0c715a14d92a18de61b3dfcdd5c5",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "9fec539383c53f8f17620feff23779981c3b0c715a14d92a18de61b3dfcdd5c5",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__6_9.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "3c765f086bba9a940cc3b8075c6636f7a655c19df9aaa9e5f1d686186814574f",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "3c765f086bba9a940cc3b8075c6636f7a655c19df9aaa9e5f1d686186814574f",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_0.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "e5fa9da643721fcab772c9e56549d1b46d719b8b5bcfb34f2726e22dc4a16e9b",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "e5fa9da643721fcab772c9e56549d1b46d719b8b5bcfb34f2726e22dc4a16e9b",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_1.distcp",
+        "expected_bytes": 398815536,
+        "expected_sha256": "00a0eef5f9e16d9cfe9118f8c1b36241da87685f8424f5a03d85a1f630ea16b7",
+        "present": true,
+        "actual_bytes": 398815536,
+        "actual_sha256": "00a0eef5f9e16d9cfe9118f8c1b36241da87685f8424f5a03d85a1f630ea16b7",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_10.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "c1f7149761062aad65bd587f1b0ff55dc78d52801d0a94cf27012349d2596876",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "c1f7149761062aad65bd587f1b0ff55dc78d52801d0a94cf27012349d2596876",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_11.distcp",
+        "expected_bytes": 398844238,
+        "expected_sha256": "2c15a6c7a56e7c71efcee2748c582fa9aeea4de2f193e0f5889e6b923f4ccb33",
+        "present": true,
+        "actual_bytes": 398844238,
+        "actual_sha256": "2c15a6c7a56e7c71efcee2748c582fa9aeea4de2f193e0f5889e6b923f4ccb33",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_12.distcp",
+        "expected_bytes": 398866782,
+        "expected_sha256": "a6ac43313b71a441c86813a9cadb26019b53d02ba12be1240e3a10802cc3cd29",
+        "present": true,
+        "actual_bytes": 398866782,
+        "actual_sha256": "a6ac43313b71a441c86813a9cadb26019b53d02ba12be1240e3a10802cc3cd29",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_13.distcp",
+        "expected_bytes": 398866782,
+        "expected_sha256": "55b258a49f2773090473f1c0bd6794d207269a7558f76fcde6559fbeb4c84487",
+        "present": true,
+        "actual_bytes": 398866782,
+        "actual_sha256": "55b258a49f2773090473f1c0bd6794d207269a7558f76fcde6559fbeb4c84487",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_14.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "13d0aef7c2484e9e1a661961f2ded8e4347aa8d7f8e2a8ccd9ffcc54106bb89a",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "13d0aef7c2484e9e1a661961f2ded8e4347aa8d7f8e2a8ccd9ffcc54106bb89a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_15.distcp",
+        "expected_bytes": 398861585,
+        "expected_sha256": "c1c1de4d34a46b97e39567389d3df2a0649d62afd173d79339d922d6212cb9dc",
+        "present": true,
+        "actual_bytes": 398861585,
+        "actual_sha256": "c1c1de4d34a46b97e39567389d3df2a0649d62afd173d79339d922d6212cb9dc",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_2.distcp",
+        "expected_bytes": 398858115,
+        "expected_sha256": "62570b01f59785b630063bf268b29c7fba613a9842856b209665b32f302d253d",
+        "present": true,
+        "actual_bytes": 398858115,
+        "actual_sha256": "62570b01f59785b630063bf268b29c7fba613a9842856b209665b32f302d253d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_3.distcp",
+        "expected_bytes": 398858115,
+        "expected_sha256": "361b37bf88265e02a852cb285c6cd32e23578272ec86ea6544742861a607d90d",
+        "present": true,
+        "actual_bytes": 398858115,
+        "actual_sha256": "361b37bf88265e02a852cb285c6cd32e23578272ec86ea6544742861a607d90d",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_4.distcp",
+        "expected_bytes": 398834460,
+        "expected_sha256": "9380c98d1c4280e4e45bb594e41f154412c3a89f47dc8545359de60b4a0d446b",
+        "present": true,
+        "actual_bytes": 398834460,
+        "actual_sha256": "9380c98d1c4280e4e45bb594e41f154412c3a89f47dc8545359de60b4a0d446b",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_5.distcp",
+        "expected_bytes": 398834460,
+        "expected_sha256": "563cf26e0a2d7b610c2c318ab40c1208116f751d88828696e4006ffe7d6edc29",
+        "present": true,
+        "actual_bytes": 398834460,
+        "actual_sha256": "563cf26e0a2d7b610c2c318ab40c1208116f751d88828696e4006ffe7d6edc29",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_6.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "85ae9326e24b114eb849a52e7c7652d633045d037a8d5e63da8dfb10bcf2c65a",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "85ae9326e24b114eb849a52e7c7652d633045d037a8d5e63da8dfb10bcf2c65a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_7.distcp",
+        "expected_bytes": 398852123,
+        "expected_sha256": "ee537175262c351b94915adc10bbae98e810fe40356065b24ec16aa67094344c",
+        "present": true,
+        "actual_bytes": 398852123,
+        "actual_sha256": "ee537175262c351b94915adc10bbae98e810fe40356065b24ec16aa67094344c",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_8.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "ab5e4476ee21983c7830cd68f31743cd75500b8220474ad48e04f370583ecc6a",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "ab5e4476ee21983c7830cd68f31743cd75500b8220474ad48e04f370583ecc6a",
+        "size_ok": true,
+        "sha256_ok": true
+      },
+      {
+        "file": "optimizer/__7_9.distcp",
+        "expected_bytes": 398845815,
+        "expected_sha256": "babd680806d2f37b59d198f7594b9ceb3231377d0116d1c7ee3fcdb06e3c4a2d",
+        "present": true,
+        "actual_bytes": 398845815,
+        "actual_sha256": "babd680806d2f37b59d198f7594b9ceb3231377d0116d1c7ee3fcdb06e3c4a2d",
+        "size_ok": true,
+        "sha256_ok": true
+      }
+    ]
+  },
+  "dcp_parts": {
+    "model": {
+      "files": 129,
+      "bytes": 25528215886,
+      "sha256_verified": 129
+    },
+    "optimizer": {
+      "files": 129,
+      "bytes": 51060309384,
+      "sha256_verified": 129
+    },
+    "extra_state": {
+      "files": 8,
+      "bytes": 61360,
+      "sha256_verified": 8
+    }
+  },
+  "dcp_metadata": {
+    "model": {
+      "present": true,
+      "bytes": 3435338,
+      "deserialized": false
+    },
+    "optimizer": {
+      "present": true,
+      "bytes": 8056622,
+      "deserialized": false
+    }
+  },
+  "training_config_inside_dcp": [],
+  "training_config_external_copy": {
+    "path": "/path/to/project/硬盘/配置与代码/原路径/var/tmp/robotwin-full-sft-6k-20261002/output/lingbotvla_cli.yaml",
+    "present": true,
+    "sha256": "7ecedf8161602875096ed8f13322636123a7aa44567abf0bd3e0b5e55ab7e103",
+    "matches_hf_yaml": true
+  },
+  "disk": {
+    "total": 494332366848,
+    "used": 384969166848,
+    "free": 109363200000
+  },
+  "limits": [
+    "本审计验证文件存在、大小和SHA256，与下载时远端清单一致。",
+    "未加载PyTorch DCP元数据，未在新服务器实际恢复训练或运行推理。",
+    "DCP之外的代码、配置、归一化文件、运行依赖、训练数据、teacher/base资源仍需要独立保留或按固定版本重新获取。",
+    "DCP目录没有训练YAML，但HF目录和配置归档中都有相同YAML副本。"
+  ]
+}

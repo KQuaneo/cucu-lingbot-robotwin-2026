@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "completed_unix": 1791067517.024545,
+  "snapshot": "fp32_04",
+  "closed_tasks": 17,
+  "video_count": 170,
+  "verified_files": 187,
+  "archive_bytes": 45875200,
+  "archive_sha256": "30475ac66d4664a88b1571b978e9b9022a3351614ef5bb1cd26b73bcd210cec2",
+  "archive_path": "/path/to/project/硬盘/录像/FP32全任务/压缩包/video_snapshot_fp32_04.tar",
+  "extracted_path": "/path/to/project/硬盘/录像/FP32全任务/任务录像",
+  "seconds": 7.26
+}

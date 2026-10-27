@@ -1,0 +1,16 @@
+{
+  "task_name": "click_bell",
+  "seed": 530000,
+  "instruction": "Ask the right arm to interact with the white bell with black bottom's top.",
+  "phase": "online_round2",
+  "worker": 0,
+  "policy_version": 2,
+  "chunks": 16,
+  "terminal": true,
+  "base_frozen": true,
+  "conditional": true,
+  "std": 0.25,
+  "scale": 0.02,
+  "success": false,
+  "reward": 0.0
+}

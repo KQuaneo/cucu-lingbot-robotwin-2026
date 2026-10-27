@@ -1,0 +1,23 @@
+[
+  {
+    "task": "beat_block_hammer",
+    "source": "/workspace/runtime/experiments/residual_rl_multitask_20261026/beat_block_hammer_train0_outcomes.json",
+    "sha256": "abf8525a595925bcc1115184b6e47133eb60ed8e37457c64eff8b02c4a573023",
+    "episodes": 8,
+    "validation_not_used_for_update": true
+  },
+  {
+    "task": "rotate_qrcode",
+    "source": "/workspace/runtime/experiments/residual_rl_multitask_20261026/rotate_qrcode_train0_outcomes.json",
+    "sha256": "a2291b6e9986ea700023ee8196cd3c4f7e6823a9720c07eab752418a643a7290",
+    "episodes": 8,
+    "validation_not_used_for_update": true
+  },
+  {
+    "task": "press_stapler",
+    "source": "/workspace/runtime/experiments/residual_rl_multitask_20261026/press_stapler_train0_outcomes.json",
+    "sha256": "4e7beaa9e9b44b0723893dfa1549638e3d4146cd77f72578a9eedab97203d923",
+    "episodes": 8,
+    "validation_not_used_for_update": true
+  }
+]

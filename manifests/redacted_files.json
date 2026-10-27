@@ -1,0 +1,242 @@
+[
+  {
+    "source": "硬盘/报告/更新报告.py",
+    "published_path": "reports/更新报告.py"
+  },
+  {
+    "source": "硬盘/报告/RL首次试验_20261026/collect_trial.py",
+    "published_path": "reports/RL首次试验_20261026/collect_trial.py"
+  },
+  {
+    "source": "硬盘/报告/FP32全任务/collector_core.txt",
+    "published_path": "reports/FP32全任务/collector_core.txt"
+  },
+  {
+    "source": "硬盘/报告/FP32全任务/更新结果.py",
+    "published_path": "reports/FP32全任务/更新结果.py"
+  },
+  {
+    "source": "硬盘/报告/RL多任务试验_20261026/collect_trial.py",
+    "published_path": "reports/RL多任务试验_20261026/collect_trial.py"
+  },
+  {
+    "source": "硬盘/报告/RL多任务试验_20261026/本地备份完成.json",
+    "published_path": "reports/RL多任务试验_20261026/本地备份完成.json"
+  },
+  {
+    "source": "硬盘/报告/最终审计/LoRA适配器审计.json",
+    "published_path": "reports/最终审计/LoRA适配器审计.json"
+  },
+  {
+    "source": "硬盘/报告/最终审计/校验模型存档.py",
+    "published_path": "reports/最终审计/校验模型存档.py"
+  },
+  {
+    "source": "硬盘/报告/最终审计/模型存档审计.json",
+    "published_path": "reports/最终审计/模型存档审计.json"
+  },
+  {
+    "source": "硬盘/报告/最终审计/评测录像审计.json",
+    "published_path": "reports/最终审计/评测录像审计.json"
+  },
+  {
+    "source": "硬盘/报告/最终审计/评测录像审计.md",
+    "published_path": "reports/最终审计/评测录像审计.md"
+  },
+  {
+    "source": "硬盘/报告/官方对照/更新对照.py",
+    "published_path": "reports/官方对照/更新对照.py"
+  },
+  {
+    "source": "硬盘/报告/RL观测条件多轮_20261026/collect_trial.py",
+    "published_path": "reports/RL观测条件多轮_20261026/collect_trial.py"
+  },
+  {
+    "source": "硬盘/报告/RL_PPO试验_20261026/collect_trial.py",
+    "published_path": "reports/RL_PPO试验_20261026/collect_trial.py"
+  },
+  {
+    "source": "硬盘/报告/RL_PPO试验_20261026/本地备份完成.json",
+    "published_path": "reports/RL_PPO试验_20261026/本地备份完成.json"
+  },
+  {
+    "source": "硬盘/报告/随机场景_20261026/preparation/prepare_submission.py",
+    "published_path": "reports/随机场景_20261026/preparation/prepare_submission.py"
+  },
+  {
+    "source": "硬盘/报告/随机场景_20261026/preparation/upload_and_launch.py",
+    "published_path": "reports/随机场景_20261026/preparation/upload_and_launch.py"
+  },
+  {
+    "source": "硬盘/报告/随机场景_20261026/官方结果格式校验.json",
+    "published_path": "reports/随机场景_20261026/官方结果格式校验.json"
+  },
+  {
+    "source": "硬盘/报告/随机场景_20261026/官方结果格式草稿校验.json",
+    "published_path": "reports/随机场景_20261026/官方结果格式草稿校验.json"
+  },
+  {
+    "source": "硬盘/报告/随机场景_20261026/打包日志.log",
+    "published_path": "reports/随机场景_20261026/打包日志.log"
+  },
+  {
+    "source": "硬盘/报告/随机场景_20261026/持续采集.py",
+    "published_path": "reports/随机场景_20261026/持续采集.py"
+  },
+  {
+    "source": "硬盘/报告/随机场景_20261026/采集日志.log",
+    "published_path": "reports/随机场景_20261026/采集日志.log"
+  },
+  {
+    "source": "硬盘/结果/FP32全任务/已结束.json",
+    "published_path": "results/FP32全任务/已结束.json"
+  },
+  {
+    "source": "硬盘/结果/更新原始日志.py",
+    "published_path": "results/更新原始日志.py"
+  },
+  {
+    "source": "硬盘/提交/cucu_初赛提交材料/02_代码材料/src/RoboTwin/XPolicyLab/policy/Abot_M0/abot_m0/data_process/lerobot/README.md",
+    "published_path": "submission/code/src/RoboTwin/XPolicyLab/policy/Abot_M0/abot_m0/data_process/lerobot/README.md"
+  },
+  {
+    "source": "outputs/lingbot_v2_rl_stage1/adjust_bottle_observations.provenance.json",
+    "published_path": "development/lingbot_v2_rl_stage1/adjust_bottle_observations.provenance.json"
+  },
+  {
+    "source": "outputs/lingbot_v2_rl_stage1/local_audit.json",
+    "published_path": "development/lingbot_v2_rl_stage1/local_audit.json"
+  },
+  {
+    "source": "outputs/colab-migration/full_sft_6000_dcp_local_audit.json",
+    "published_path": "development/colab-migration/full_sft_6000_dcp_local_audit.json"
+  },
+  {
+    "source": "outputs/colab-migration/migration_status.json",
+    "published_path": "development/colab-migration/migration_status.json"
+  },
+  {
+    "source": "outputs/colab-migration/XPolicyLab/policy/Abot_M0/abot_m0/data_process/lerobot/README.md",
+    "published_path": "development/colab-migration/XPolicyLab/policy/Abot_M0/abot_m0/data_process/lerobot/README.md"
+  },
+  {
+    "source": "硬盘/传输/FP32录像备份.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/FP32录像备份.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_03_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_03_status.json"
+  },
+  {
+    "source": "硬盘/传输/继续备份.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/继续备份.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_01_complete.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_01_complete.json"
+  },
+  {
+    "source": "硬盘/传输/model_download_complete.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/model_download_complete.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_02_complete.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_02_complete.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_02_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_02_status.json"
+  },
+  {
+    "source": "硬盘/传输/global_step_6000_dcp_complete.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/global_step_6000_dcp_complete.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_01_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_01_status.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_02_complete.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_02_complete.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_01_complete.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_01_complete.json"
+  },
+  {
+    "source": "硬盘/传输/dcp_download_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/dcp_download_status.json"
+  },
+  {
+    "source": "硬盘/传输/model_download.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/model_download.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_02.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_02.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_03_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_03_status.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_03.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_03.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_01.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_01.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_04.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_04.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_02_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_02_status.json"
+  },
+  {
+    "source": "硬盘/传输/full_sft_5000_download_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/full_sft_5000_download_status.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_03_complete.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_03_complete.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_02.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_02.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_03_complete.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_03_complete.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_01_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_01_status.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_03.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_03.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_01.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_01.log"
+  },
+  {
+    "source": "硬盘/传输/model_download_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/model_download_status.json"
+  },
+  {
+    "source": "硬盘/传输/converted_training_data_backup.log",
+    "published_path": "reproducibility/local-artifact-inventory/传输/converted_training_data_backup.log"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_04_status.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_04_status.json"
+  },
+  {
+    "source": "硬盘/传输/video_snapshot_fp32_04_complete.json",
+    "published_path": "reproducibility/local-artifact-inventory/传输/video_snapshot_fp32_04_complete.json"
+  }
+]

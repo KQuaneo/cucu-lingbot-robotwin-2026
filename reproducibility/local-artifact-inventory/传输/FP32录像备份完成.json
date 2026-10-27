@@ -1,0 +1,7 @@
+{
+  "run_name": "full_sft_6000_clean50x10_fp32_8gpu_video_20261004",
+  "verified_tasks": 50,
+  "verified_videos": 500,
+  "complete": true,
+  "time_utc": "2026-10-03T22:45:17.071894+00:00"
+}

@@ -1,0 +1,5 @@
+Timestamp: 2026-10-03_20-10-08_950203
+
+Instruction Type: seen
+
+0.4

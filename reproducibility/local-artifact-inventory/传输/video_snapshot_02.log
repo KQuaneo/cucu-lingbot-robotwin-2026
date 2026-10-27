@@ -1,0 +1,9 @@
+2026-10-04 00:52:30 Preparing closed videos for 5 tasks
+2026-10-04 00:52:32 Remote archive ready: 35307520 bytes, 50 videos
+2026-10-04 00:53:02 Progress 26.5%, 0.30 MiB/s
+2026-10-04 00:53:32 Progress 43.0%, 0.19 MiB/s
+2026-10-04 00:54:02 Progress 66.3%, 0.26 MiB/s
+2026-10-04 00:54:32 Progress 88.3%, 0.25 MiB/s
+2026-10-04 00:54:48 Progress 100.0%, 0.25 MiB/s
+2026-10-04 00:54:48 SHA256 VERIFIED archive
+2026-10-04 00:54:48 COMPLETE {"complete": true, "completed_unix": 1791046488.405151, "snapshot": "02", "closed_tasks": 5, "video_count": 50, "verified_files": 55, "archive_bytes": 35307520, "archive_sha256": "7830a7f1ba7220f18703ab8ae11c587b642bdd1306e43123686471bdcdbcdb7c", "archive_path": "/path/to/project/硬盘/录像/压缩包/video_snapshot_02.tar", "extracted_path": "/path/to/project/硬盘/录像/全任务测评", "seconds": 136.0}

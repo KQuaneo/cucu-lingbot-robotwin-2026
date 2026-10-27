@@ -1,0 +1,138 @@
+[aiter] Triton ops only: CK and HIP ops (and their JIT build) are skipped.
+Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+WARNING:datasets.features.features:Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+[INFO][lingbotvla.models.vla.lingbot_vla.qwen3vl_in_vla:114] 10/03/2026 18:08:12 >> apply Qwen3-VL Lingbot patch
+loading model from: /models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/checkpoints/global_step_50000/hf_ckpt
+✅ Merged Qwen3-VL text: intermediate_size = 9728
+✅ Merged Qwen3-VL text: vocab_size = 151936
+✅ Merged Qwen3-VL text: rms_norm_eps = 1e-06
+✅ Merged Qwen3-VL text: hidden_size = 2560
+✅ Merged Qwen3-VL text: num_key_value_heads = 8
+✅ Merged Qwen3-VL text: max_position_embeddings = 262144
+✅ Merged Qwen3-VL text: num_hidden_layers = 36
+✅ Merged Qwen3-VL text: num_attention_heads = 32
+✅ Merged Qwen3-VL text: tie_word_embeddings = True
+✅ Merged Qwen3-VL text: hidden_act = silu
+✅ Merged Qwen3-VL text: rope_theta = 5000000
+Initializing model ... 
+=====Action Expert V2 init 36 Layers, hidden=768, q_heads=32, kv_heads=8, head_dim=128.=====
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+=====Using Eager Attn=====
+  0%|          | 0/6 [00:00<?, ?it/s]100%|██████████| 6/6 [00:00<00:00, 201.79it/s]
+Model initialized ... 
+INFO:websockets.server:server listening on 0.0.0.0:13523
+INFO:websockets.server:connection rejected (200 OK)
+INFO:websockets.server:connection open
+INFO:websockets.server:connection rejected (200 OK)
+/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/source/lingbot-vla-v2/deploy/lingbot_vla_v2_policy.py:419: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:206.)
+  image = torch.as_tensor(observation[image_feature]).permute(2, 0, 1).contiguous()
+Denoise 10 steps
+sample_actions batch=1 cost 2.1945910453796387 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8996362686157227 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9093642234802246 s
+Denoise 10 steps
+sample_actions batch=1 cost 7.75792932510376 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7887568473815918 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7836761474609375 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7846407890319824 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7748022079467773 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7693588733673096 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7682127952575684 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7661187648773193 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7721221446990967 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7737925052642822 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7707116603851318 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8016221523284912 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8919682502746582 s
+Denoise 10 steps
+sample_actions batch=1 cost 8.322532892227173 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7894821166992188 s
+Denoise 10 steps
+sample_actions batch=1 cost 22.999724864959717 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8100571632385254 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9906787872314453 s
+Denoise 10 steps
+sample_actions batch=1 cost 22.04787278175354 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8290450572967529 s
+Denoise 10 steps
+sample_actions batch=1 cost 22.16323733329773 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7851676940917969 s
+Denoise 10 steps
+sample_actions batch=1 cost 10.924161195755005 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7776288986206055 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7598938941955566 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7563192844390869 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7963066101074219 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8347513675689697 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8691186904907227 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8542158603668213 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.810715913772583 s
+Denoise 10 steps
+sample_actions batch=1 cost 11.348837614059448 s
+Denoise 10 steps
+sample_actions batch=1 cost 9.900110721588135 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7565131187438965 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.755237340927124 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7559347152709961 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7547852993011475 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7553722858428955 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7544994354248047 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7619423866271973 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7291569709777832 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8134057521820068 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7529323101043701 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8241267204284668 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8040435314178467 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7982075214385986 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.419936180114746 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8431565761566162 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.769744873046875 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8111357688903809 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.3716840744018555 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7942397594451904 s

@@ -1,0 +1,9 @@
+beat_block_hammer_train0 reward 6.0 / 8
+beat_block_hammer_control reward 4.0 / 8
+beat_block_hammer_after reward 4.0 / 8
+rotate_qrcode_train0 reward 3.0 / 8
+rotate_qrcode_control reward 4.0 / 8
+rotate_qrcode_after reward 4.0 / 8
+press_stapler_train0 reward 4.0 / 8
+press_stapler_control reward 5.0 / 8
+press_stapler_after reward 5.0 / 8

@@ -1,0 +1,52 @@
+dinov3:
+  student:
+    arch: vit_large
+    patch_size: 16
+    drop_path_rate: 0.3
+    layerscale: 1.0e-05
+    ffn_layer: mlp
+    ffn_bias: true
+    proj_bias: true
+    qkv_bias: true
+    norm_layer: layernormbf16
+    n_storage_tokens: 4
+    mask_k_bias: false
+    untie_cls_and_patch_norms: false
+    untie_global_and_local_cls_norm: false
+    pos_embed_rope_base: 100.0
+    pos_embed_rope_min_period: null
+    pos_embed_rope_max_period: null
+    pos_embed_rope_normalize_coords: separate
+    pos_embed_rope_shift_coords: null
+    pos_embed_rope_jitter_coords: null
+    pos_embed_rope_rescale_coords: null
+    pos_embed_rope_dtype: fp32
+    pos_embed_rope_3d: true
+    pos_embed_rope_base_fps: 30
+    pos_embed_rope_prefix_temporal: true
+  dino:
+    loss_weight: 1.0
+    head_n_prototypes: 65536
+    head_bottleneck_dim: 256
+    head_hidden_dim: 2048
+    head_nlayers: 3
+    head_norm_last_layer: false
+    global_ignore_diagonal: true
+    koleo_loss_weight: 0.1
+    koleo_loss_distributed: false
+    koleo_topk: 1
+    reweight_dino_local_loss: false
+  ibot:
+    loss_weight: 1.0
+    mask_sample_probability: 0.5
+    mask_ratio_min_max:
+    - 0.1
+    - 0.5
+    mask_random_circular_shift: false
+    separate_head: true
+    head_n_prototypes: 65536
+    head_bottleneck_dim: 256
+    head_hidden_dim: 2048
+    head_nlayers: 3
+    head_norm_last_layer: false
+attention_mode: flex_block_causal

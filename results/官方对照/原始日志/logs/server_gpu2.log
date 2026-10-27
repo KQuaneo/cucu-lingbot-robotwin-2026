@@ -1,0 +1,80 @@
+[aiter] Triton ops only: CK and HIP ops (and their JIT build) are skipped.
+Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+WARNING:datasets.features.features:Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+[INFO][lingbotvla.models.vla.lingbot_vla.qwen3vl_in_vla:114] 10/03/2026 18:08:11 >> apply Qwen3-VL Lingbot patch
+loading model from: /models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/checkpoints/global_step_50000/hf_ckpt
+✅ Merged Qwen3-VL text: num_hidden_layers = 36
+✅ Merged Qwen3-VL text: rms_norm_eps = 1e-06
+✅ Merged Qwen3-VL text: hidden_size = 2560
+✅ Merged Qwen3-VL text: tie_word_embeddings = True
+✅ Merged Qwen3-VL text: vocab_size = 151936
+✅ Merged Qwen3-VL text: num_key_value_heads = 8
+✅ Merged Qwen3-VL text: hidden_act = silu
+✅ Merged Qwen3-VL text: intermediate_size = 9728
+✅ Merged Qwen3-VL text: rope_theta = 5000000
+✅ Merged Qwen3-VL text: num_attention_heads = 32
+✅ Merged Qwen3-VL text: max_position_embeddings = 262144
+Initializing model ... 
+=====Action Expert V2 init 36 Layers, hidden=768, q_heads=32, kv_heads=8, head_dim=128.=====
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+=====Using Eager Attn=====
+
+  0%|          | 0/6 [00:00<?, ?it/s]
+100%|██████████| 6/6 [00:00<00:00, 165.88it/s]
+Model initialized ... 
+INFO:websockets.server:server listening on 0.0.0.0:13522
+INFO:websockets.server:connection rejected (200 OK)
+INFO:websockets.server:connection open
+INFO:websockets.server:connection rejected (200 OK)
+/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/source/lingbot-vla-v2/deploy/lingbot_vla_v2_policy.py:419: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:206.)
+  image = torch.as_tensor(observation[image_feature]).permute(2, 0, 1).contiguous()
+Denoise 10 steps
+sample_actions batch=1 cost 2.788788080215454 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8611898422241211 s
+Denoise 10 steps
+sample_actions batch=1 cost 11.473575830459595 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7339110374450684 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1609833240509033 s
+Denoise 10 steps
+sample_actions batch=1 cost 12.267205238342285 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7608306407928467 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9129855632781982 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.061492919921875 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7302608489990234 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9205052852630615 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8537189960479736 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9159719944000244 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.9506747722625732 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.0149335861206055 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7551205158233643 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.793175220489502 s
+Denoise 10 steps
+sample_actions batch=1 cost 8.397283792495728 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.8219056129455566 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.760967493057251 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7789900302886963 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.1195414066314697 s
+Denoise 10 steps
+sample_actions batch=1 cost 7.664735794067383 s
+Denoise 10 steps
+sample_actions batch=1 cost 0.7600762844085693 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.55745530128479 s

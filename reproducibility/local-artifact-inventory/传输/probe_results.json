@@ -1,0 +1,98 @@
+[
+  {
+    "name": "ssh_single",
+    "bytes": 2883584,
+    "seconds": 45.00300625,
+    "bytes_per_second": 64075,
+    "status": 255,
+    "error": ""
+  },
+  {
+    "name": "sftp_large_window",
+    "bytes": 2873344,
+    "seconds": 45.006073625,
+    "bytes_per_second": 63843,
+    "status": 1,
+    "error": ""
+  },
+  {
+    "name": "scp_legacy",
+    "bytes": 2785280,
+    "seconds": 45.008191499999995,
+    "bytes_per_second": 61884,
+    "status": 1,
+    "error": ""
+  },
+  {
+    "name": "ssh_parallel8",
+    "bytes": 16777216,
+    "seconds": 33.82586929199999,
+    "bytes_per_second": 495988,
+    "streams": [
+      {
+        "name": "parallel_0",
+        "bytes": 2097152,
+        "seconds": 24.283642749999984,
+        "bytes_per_second": 86361,
+        "status": 0,
+        "error": ""
+      },
+      {
+        "name": "parallel_1",
+        "bytes": 2097152,
+        "seconds": 33.56639633399999,
+        "bytes_per_second": 62478,
+        "status": 0,
+        "error": ""
+      },
+      {
+        "name": "parallel_2",
+        "bytes": 2097152,
+        "seconds": 24.198571625,
+        "bytes_per_second": 86664,
+        "status": 0,
+        "error": ""
+      },
+      {
+        "name": "parallel_3",
+        "bytes": 2097152,
+        "seconds": 33.81925995899999,
+        "bytes_per_second": 62011,
+        "status": 0,
+        "error": ""
+      },
+      {
+        "name": "parallel_4",
+        "bytes": 2097152,
+        "seconds": 26.138038875000007,
+        "bytes_per_second": 80234,
+        "status": 0,
+        "error": ""
+      },
+      {
+        "name": "parallel_5",
+        "bytes": 2097152,
+        "seconds": 29.373515959000002,
+        "bytes_per_second": 71396,
+        "status": 0,
+        "error": ""
+      },
+      {
+        "name": "parallel_6",
+        "bytes": 2097152,
+        "seconds": 30.95326804199999,
+        "bytes_per_second": 67752,
+        "status": 0,
+        "error": ""
+      },
+      {
+        "name": "parallel_7",
+        "bytes": 2097152,
+        "seconds": 23.785849791999993,
+        "bytes_per_second": 88168,
+        "status": 0,
+        "error": ""
+      }
+    ]
+  }
+]

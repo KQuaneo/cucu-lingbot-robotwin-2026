@@ -1,0 +1,11 @@
+{
+  "run_name": "official_robotwin_weak5_bf16_10x_20261004",
+  "pid": 2960470,
+  "started_utc": "2026-10-03T18:08:05.539399+00:00",
+  "model_path": "/models/robotwin-persistent/models/robbyant_lingbot-vla-v2-6b-robotwin/checkpoints/global_step_50000/hf_ckpt",
+  "precision": "BF16",
+  "task_count": 5,
+  "episodes_per_task": 10,
+  "launch_log": "/workspace/runtime/outputs/logs/official_robotwin_weak5_bf16_10x_20261004.launch.log",
+  "output_dir": "/workspace/runtime/outputs/official_robotwin_weak5_bf16_10x_20261004"
+}

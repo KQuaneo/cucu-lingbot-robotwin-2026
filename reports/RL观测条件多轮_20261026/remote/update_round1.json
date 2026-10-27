@@ -1,0 +1,41 @@
+{
+  "version_before": 1,
+  "version_after": 2,
+  "rewards": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "advantages": [
+    0.33333333333333337,
+    -1.0,
+    0.33333333333333337,
+    0.33333333333333337
+  ],
+  "episodes": 4,
+  "chunks": 25,
+  "parameter_change_norm": 0.05137837955016401,
+  "nonzero_update": true,
+  "conditional_feature_probe_difference": 2.4924877848496105e-05,
+  "metrics": [
+    {
+      "epoch": 1,
+      "loss": 3.249999999999999,
+      "gradient_norm": 15.0743437208883,
+      "proposed_KL": 0.0012090448186831734,
+      "rolled_back": false
+    },
+    {
+      "epoch": 2,
+      "loss": 3.1208955785400985,
+      "gradient_norm": 13.831590388177785,
+      "proposed_KL": 0.007468792041286762,
+      "rolled_back": false
+    }
+  ],
+  "trainable_parameters": 5900,
+  "optimizer_reset_each_round": false,
+  "std": 0.25,
+  "algorithm": "per-chunk clipped PPO actor with episode Monte Carlo LOO advantages; no critic"
+}

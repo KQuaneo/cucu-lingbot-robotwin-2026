@@ -1,0 +1,5 @@
+demo_clean	stack_blocks_three	1	646	-15
+demo_clean	move_stapler_pad	3	647	-15
+demo_clean	put_object_cabinet	0	647	-15
+demo_clean	handover_block	2	647	-15
+demo_clean	pick_dual_bottles	4	647	-15

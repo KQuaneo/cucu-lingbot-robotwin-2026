@@ -1,0 +1,17 @@
+[32mRender Well[0m
+============= Config =============
+
+[95mMessy Table:[0m False
+[95mRandom Background:[0m False
+[95mRandom Light:[0m False
+[95mRandom Table Height:[0m 0
+[95mRandom Head Camera Distance:[0m 0
+[94mHead Camera Config:[0m D435, True
+[94mWrist Camera Config:[0m D435, True
+[94mEmbodiment Config:[0m aloha-agilex
+[96mEval Instruction:[0m seen
+
+==================================
+missing pytorch3d
+[34mTask Name: pick_dual_bottles[0m
+[34mPolicy Name: LingBot-VLA-v2[0m

@@ -1,0 +1,30 @@
+{
+  "audit_hong_kong": "2026-10-04T09:22:12.709947+08:00",
+  "complete": false,
+  "canceled_by_user": true,
+  "reason": "用户明确 5k 模型和早期 10k LoRA 适配器不用存",
+  "scope": "不备份 LoRA 权重、optimizer 或 extra_state；本次新建本地下载目录已删除；旧历史日志及原服务器实验不动",
+  "local_backup_directory": "/path/to/project/硬盘/模型/lora_10000_adapter_backup",
+  "local_directory_exists": false,
+  "removed_new_files": [
+    {
+      "name": "lora_10000_adapter_README.md",
+      "bytes": 1290
+    },
+    {
+      "name": "lora_context.tar.gz.downloading",
+      "bytes": 33030144
+    },
+    {
+      "name": "lora_10000_adapter_manifest.json",
+      "bytes": 159491
+    },
+    {
+      "name": "lora_10000_adapter_tensors.pt",
+      "bytes": 15451281
+    }
+  ],
+  "child_processes_terminated": [],
+  "download_session": 60547,
+  "download_exit_code": 130
+}

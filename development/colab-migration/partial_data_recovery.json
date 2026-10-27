@@ -1,0 +1,24 @@
+{
+  "archive_complete": false,
+  "verified_prefix_members": 141,
+  "complete_tasks_in_prefix": [
+    "adjust_bottle_joint_v30",
+    "beat_block_hammer_joint_v30",
+    "blocks_ranking_rgb_joint_v30",
+    "blocks_ranking_size_joint_v30",
+    "click_alarmclock_joint_v30",
+    "click_bell_joint_v30",
+    "dump_bin_bigbin_joint_v30",
+    "grab_roller_joint_v30",
+    "handover_block_joint_v30",
+    "handover_mic_joint_v30",
+    "hanging_mug_joint_v30",
+    "lift_pot_joint_v30",
+    "move_can_pot_joint_v30",
+    "move_pillbottle_pad_joint_v30",
+    "move_playingcard_away_joint_v30",
+    "move_stapler_pad_joint_v30",
+    "open_laptop_joint_v30"
+  ],
+  "smoke_dataset_recovered": "adjust_bottle_joint_v30"
+}

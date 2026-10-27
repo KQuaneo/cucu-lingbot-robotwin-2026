@@ -1,0 +1,219 @@
+[aiter] Triton ops only: CK and HIP ops (and their JIT build) are skipped.
+Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+WARNING:datasets.features.features:Overwriting feature type 'VideoFrame' (VideoFrame -> VideoFrame)
+[INFO][lingbotvla.models.vla.lingbot_vla.qwen3vl_in_vla:114] 10/26/2026 11:19:23 >> apply Qwen3-VL Lingbot patch
+loading model from: /workspace/runtime/models/full_sft_6000
+✅ Merged Qwen3-VL text: intermediate_size = 9728
+✅ Merged Qwen3-VL text: num_hidden_layers = 36
+✅ Merged Qwen3-VL text: num_attention_heads = 32
+✅ Merged Qwen3-VL text: tie_word_embeddings = True
+✅ Merged Qwen3-VL text: hidden_size = 2560
+✅ Merged Qwen3-VL text: hidden_act = silu
+✅ Merged Qwen3-VL text: num_key_value_heads = 8
+✅ Merged Qwen3-VL text: vocab_size = 151936
+✅ Merged Qwen3-VL text: max_position_embeddings = 262144
+✅ Merged Qwen3-VL text: rms_norm_eps = 1e-06
+✅ Merged Qwen3-VL text: rope_theta = 5000000
+Initializing model ... 
+=====Action Expert V2 init 36 Layers, hidden=768, q_heads=32, kv_heads=8, head_dim=128.=====
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+=====Using Eager Attn=====
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 50.74it/s]
+Model initialized ... 
+BASE_FROZEN_FP32_READY
+INFO:websockets.server:server listening on 127.0.0.1:13921
+INFO:websockets.server:connection open
+/RoboTwin/experiments/lingbot_vla_v2_6b_robotwin/source/lingbot-vla-v2/deploy/lingbot_vla_v2_policy.py:419: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:206.)
+  image = torch.as_tensor(observation[image_feature]).permute(2, 0, 1).contiguous()
+Denoise 10 steps
+sample_actions batch=1 cost 2.9397337436676025 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.066274881362915 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.7845094203948975 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.1056251525878906 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.0721306800842285 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 1.4350450038909912 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.3039748668670654 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.290135145187378 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.9332501888275146 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.232104539871216 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.8919744491577148 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.338486433029175 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 1.4385380744934082 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4393460750579834 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4461455345153809 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.563154458999634 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.0198168754577637 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4519102573394775 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.789689779281616 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 3.164433717727661 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.595942735671997 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.437108039855957 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4585459232330322 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.0345027446746826 s
+Denoise 10 steps
+sample_actions batch=1 cost 4.640083074569702 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.957214593887329 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.1874639987945557 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.456939935684204 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4339632987976074 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.6099603176116943 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.9513607025146484 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.457812786102295 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5957279205322266 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.5614495277404785 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4744606018066406 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 1.6132409572601318 s
+Denoise 10 steps
+sample_actions batch=1 cost 3.6605401039123535 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4399538040161133 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4418859481811523 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4302268028259277 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4470608234405518 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 1.4499011039733887 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.539372205734253 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4427947998046875 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4404406547546387 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4410090446472168 s
+Denoise 10 steps
+sample_actions batch=1 cost 5.609785318374634 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 1.6473972797393799 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.474215030670166 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4407920837402344 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.629359483718872 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.6049811840057373 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4811007976531982 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5499823093414307 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4293532371520996 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.6470086574554443 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.8365132808685303 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5828146934509277 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4303879737854004 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.1384286880493164 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 1.5474839210510254 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.444514513015747 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5254123210906982 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.170853614807129 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4560284614562988 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4368672370910645 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4481375217437744 s
+Denoise 10 steps
+sample_actions batch=1 cost 2.6072781085968018 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.6746306419372559 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4438235759735107 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4394445419311523 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5835461616516113 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.6082677841186523 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.87736177444458 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4357752799987793 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4489476680755615 s
+INFO:websockets.server:connection open
+Denoise 10 steps
+sample_actions batch=1 cost 1.5488059520721436 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.5672802925109863 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.9312407970428467 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.443774700164795 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4414520263671875 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4414803981781006 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4387397766113281 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4377660751342773 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4404683113098145 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4404997825622559 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4362730979919434 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4395670890808105 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.4410231113433838 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.437793254852295 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.605567216873169 s
+Denoise 10 steps
+sample_actions batch=1 cost 1.6341626644134521 s

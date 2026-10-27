@@ -1,0 +1,17 @@
+{
+  "verified_utc": "2026-10-26T11:14:35.031438+00:00",
+  "episodes": 16,
+  "chunks": 118,
+  "actual_executed_steps": 2770,
+  "videos": 16,
+  "analytic_gradient_matches_autograd": true,
+  "after_policy_mean_matches_checkpoint": true,
+  "all_rewards_match_environment_final_logs": true,
+  "gripper_unchanged": true,
+  "max_abs_joint_residual_radians": 0.0039659589529037476,
+  "exit_code": 0,
+  "trial_processes_running": [],
+  "original_evaluation_script_unchanged": true,
+  "base_frozen": true,
+  "update_nonzero": true
+}

@@ -1,0 +1,28 @@
+{
+  "dataset": "/path/to/project/outputs/colab-migration/recovered_data/adjust_bottle_joint_v30",
+  "episode": 0,
+  "frame_indices": [
+    0,
+    30
+  ],
+  "row_timestamps": [
+    0.0,
+    2.0
+  ],
+  "decoded_video_timestamps": {
+    "observation.images.cam_high": [
+      0.0,
+      2.0
+    ],
+    "observation.images.cam_left_wrist": [
+      0.0,
+      2.0
+    ],
+    "observation.images.cam_right_wrist": [
+      0.0,
+      2.0
+    ]
+  },
+  "rgb_uint8": true,
+  "purpose": "input parity fixture only; not RL rollout data"
+}

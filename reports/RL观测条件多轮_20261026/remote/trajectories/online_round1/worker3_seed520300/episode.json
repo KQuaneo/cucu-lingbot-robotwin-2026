@@ -1,0 +1,16 @@
+{
+  "task_name": "click_bell",
+  "seed": 520300,
+  "instruction": "Locate the blue dome-shaped bell and click its top center.",
+  "phase": "online_round1",
+  "worker": 3,
+  "policy_version": 1,
+  "chunks": 4,
+  "terminal": true,
+  "base_frozen": true,
+  "conditional": true,
+  "std": 0.25,
+  "scale": 0.02,
+  "success": true,
+  "reward": 1.0
+}

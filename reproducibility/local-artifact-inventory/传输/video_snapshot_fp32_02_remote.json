@@ -1,0 +1,2324 @@
+{
+  "remote_archive": "/var/tmp/robotwin-6k-fp32-20261004/video_backup/video_snapshot_fp32_02.tar",
+  "archive_bytes": 153763840,
+  "archive_sha256": "3b5f4c606089f069e4567337041fd382e045f7c68ea368977e1d959bfd390cde",
+  "manifest": {
+    "created_utc": "2026-10-03T21:03:02.905949+00:00",
+    "run": "/workspace/runtime/outputs/full_sft_6000_clean50x10_fp32_8gpu_video_20261004",
+    "source_snapshot_utc": "2026-10-03T21:01:45.613985+00:00",
+    "closed_tasks": 21,
+    "video_count": 210,
+    "files": [
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode0.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode0.mp4",
+        "bytes": 162174,
+        "sha256": "c46c0351ce2577e4864da5b91357369f599239ef2d4d6cbbb3132f5b6adf02f9",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode1.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode1.mp4",
+        "bytes": 155331,
+        "sha256": "ca02b87b083b3e8032987ed3e62feebb688238903752d9910dd963a2c17a7374",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode2.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode2.mp4",
+        "bytes": 474226,
+        "sha256": "69987c09595469780c85b41b0f69bcfac77e7e9cf50e12f8af731612d9fe817d",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode3.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode3.mp4",
+        "bytes": 165579,
+        "sha256": "4610722cc6efadf8e1ef5c3889d3c377680a9ca56ec2170d821e676f3728778d",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode4.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode4.mp4",
+        "bytes": 147901,
+        "sha256": "4e208777182909841873af3475442bfda867f791e4c255af7cba0fd4be09188d",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode5.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode5.mp4",
+        "bytes": 144958,
+        "sha256": "79a9a8096ee087f6d3f89f3fd5a7bbc8fe59df921a03e8cc4d9e8a09bd113c43",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode6.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode6.mp4",
+        "bytes": 151427,
+        "sha256": "defa5163951dc4c58d9767409e71b00c0bcea9fc7eccfa7047838ac0adeed2fa",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode7.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode7.mp4",
+        "bytes": 146913,
+        "sha256": "f5a84c5b86b804d258520ff3169fb139f420bfa7943bbdc86bb3e61a1aae0354",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode8.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode8.mp4",
+        "bytes": 145364,
+        "sha256": "978c4c8eda4a0825a55a7c693481637aa5f0264d51708a0a5aa2761f183333e2",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "episode9.mp4",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/episode9.mp4",
+        "bytes": 147640,
+        "sha256": "bff7363a39994a14c14664976b377e30afbc93e8ef47761fd70b5403ada71c40",
+        "kind": "video"
+      },
+      {
+        "task": "adjust_bottle",
+        "timestamp": "2026-10-03_19-57-21_377065",
+        "file": "_result.txt",
+        "archive_path": "adjust_bottle/2026-10-03_19-57-21_377065/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-57-21_377065/_result.txt",
+        "bytes": 66,
+        "sha256": "942498b8a46b213cc5f6be5899f9f55d24299774de69515c17e5dd67f624630a",
+        "kind": "result"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode0.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode0.mp4",
+        "bytes": 495642,
+        "sha256": "848414f939f284e9e23eb0476ede3bc9fcaf85ac2dc4f045e8fdecfedcad222c",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode1.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode1.mp4",
+        "bytes": 1289205,
+        "sha256": "2ff48c74fc38264389b528cc1235c97e1387cd1bb312a0bd9d8e01c76aa22bfd",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode2.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode2.mp4",
+        "bytes": 492790,
+        "sha256": "be53ee36a00db8f42d63aae6bc253db70bfeba0e1227a38a75ff000fbcebf09a",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode3.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode3.mp4",
+        "bytes": 535752,
+        "sha256": "f4d10944c6fd49f2d0d76e5f9ef9dda1c260fbedea1194b169ecff9f93e66371",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode4.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode4.mp4",
+        "bytes": 501456,
+        "sha256": "57ba15000c974cda2f15ce30e0bd9911db26037f1ef13d3b281c9795d324bf7b",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode5.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode5.mp4",
+        "bytes": 1338416,
+        "sha256": "895406949bb0322d59147e9d3df9bc7bd93e5220cd6ca9f69768512ce3349087",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode6.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode6.mp4",
+        "bytes": 1367138,
+        "sha256": "e844438ba90cf659a51ffe58decfd1a856679a66be6c3db0f8f9b1841cab302f",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode7.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode7.mp4",
+        "bytes": 484491,
+        "sha256": "43309eb0c435d720e0f39f7a12324ed63eda9aba5e759947e8bc89b8c068bc49",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode8.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode8.mp4",
+        "bytes": 497258,
+        "sha256": "0c704f3bf5c65411f6bfdf089cc44c4a0590afa1d0da303b1614c3d674dc95ee",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "episode9.mp4",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/episode9.mp4",
+        "bytes": 1383013,
+        "sha256": "91832ca04420dbc8287541fba8280289d6288748f21e152e69c044564bc9b07c",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_rgb",
+        "timestamp": "2026-10-03_20-13-31_915971",
+        "file": "_result.txt",
+        "archive_path": "blocks_ranking_rgb/2026-10-03_20-13-31_915971/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-13-31_915971/_result.txt",
+        "bytes": 66,
+        "sha256": "dc402ce089594d36df9b1ccddf47ef70ed29f0394c5621a7b914af10fcc27cf0",
+        "kind": "result"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode0.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode0.mp4",
+        "bytes": 1288164,
+        "sha256": "29c4d9e655e7be048376f35c770ded7eeba9eddc6f438c116fc92d618c7ebe2f",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode1.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode1.mp4",
+        "bytes": 1301614,
+        "sha256": "9ca109503a19abbeb07a87678ee370a3e9763da9e7257e6d2bd5f7380520caf0",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode2.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode2.mp4",
+        "bytes": 1381697,
+        "sha256": "7471be14676153cf87e22d416735b35f054b2952e62fe4858e798cc2c895c690",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode3.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode3.mp4",
+        "bytes": 1416294,
+        "sha256": "1d474982bb6109aa53a261cccb05e441ca1258751b2ff53beae0296a4adbb32a",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode4.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode4.mp4",
+        "bytes": 1279994,
+        "sha256": "078b952b10b3eab6645348f4670fafed0362c5cea46723532262d3b8ac470f50",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode5.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode5.mp4",
+        "bytes": 1269531,
+        "sha256": "88fda1b2a1a211a0eb1f75bffe86e8bd15ba26dd73375296bdfc39dcdf36affb",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode6.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode6.mp4",
+        "bytes": 1317045,
+        "sha256": "401a63e70bb78db467bb544e93108ffe8292e68ffa27c77ebb12f35530f6b5a7",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode7.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode7.mp4",
+        "bytes": 740120,
+        "sha256": "ca4e355b1631c8dfe6ce5b88468e2d2e164b3f9d5bc7b0c06b016314530d447a",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode8.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode8.mp4",
+        "bytes": 1234921,
+        "sha256": "7675b402a5aef003f68014dcf5415d226d52356c83f3d6bc8770e5580791f910",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "episode9.mp4",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/episode9.mp4",
+        "bytes": 534540,
+        "sha256": "7580771e104d279f0a7364bc4b5718da2d872e3be07b200c0f94aada3d4646fb",
+        "kind": "video"
+      },
+      {
+        "task": "blocks_ranking_size",
+        "timestamp": "2026-10-03_19-39-10_910918",
+        "file": "_result.txt",
+        "archive_path": "blocks_ranking_size/2026-10-03_19-39-10_910918/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-39-10_910918/_result.txt",
+        "bytes": 66,
+        "sha256": "2d74d333f6547237ba20a2eba40a7df5deb059698f5082dda1a3d93a3acb23a4",
+        "kind": "result"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode0.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode0.mp4",
+        "bytes": 857346,
+        "sha256": "c2ed1c0a126ee05f56262e941d5ea51364e1185e30385f7068eab6bb4ac4a8b3",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode1.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode1.mp4",
+        "bytes": 863595,
+        "sha256": "36651937c89036adb97d7a3ca35da61aa5022963682ade57c3a59d10e4ee2222",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode2.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode2.mp4",
+        "bytes": 868196,
+        "sha256": "28382df5b48c6e7f1b0f9a96b4efeab7852b27cc994a4ff11831ed513de679d8",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode3.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode3.mp4",
+        "bytes": 864728,
+        "sha256": "1e93d7a342b6f47f8d48d0a8cea0401dc8d1ed1058c4a79d3518a166b20638a0",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode4.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode4.mp4",
+        "bytes": 843434,
+        "sha256": "d49b43394b419c13b339b8ae85104604d5079dce8ec4d23fb7c58622ec1d5683",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode5.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode5.mp4",
+        "bytes": 872560,
+        "sha256": "f00c114714df316aaa1c2cbe9b78fec2df5b3ee6c9960999a876d4bae725abe0",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode6.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode6.mp4",
+        "bytes": 859263,
+        "sha256": "fa0b4fef4a353630385e65e5f46e0d23518cd0cab8644b1d813d5a6a9ec06d3c",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode7.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode7.mp4",
+        "bytes": 819702,
+        "sha256": "c3c0e81864315609d6980347280789932599a57df78a47b4c486e9815520b585",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode8.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode8.mp4",
+        "bytes": 852583,
+        "sha256": "845a2e2e06f47d62c9098c5110cbb51a4ef267048b0ff9c58a088c01cc0ebb6a",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "episode9.mp4",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/episode9.mp4",
+        "bytes": 836397,
+        "sha256": "2399456768e6429176b8b0d54d60e0e3fa7d25e2d2bb5984b0ec03d078d95bf8",
+        "kind": "video"
+      },
+      {
+        "task": "handover_block",
+        "timestamp": "2026-10-03_19-25-58_726268",
+        "file": "_result.txt",
+        "archive_path": "handover_block/2026-10-03_19-25-58_726268/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-25-58_726268/_result.txt",
+        "bytes": 66,
+        "sha256": "67076a9814af085c4d01498753f0b4a265a6fde57f43b0d60d99437560cffc24",
+        "kind": "result"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode0.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode0.mp4",
+        "bytes": 394022,
+        "sha256": "99c746bf80dcd51684660e236e7742ffd40a0757b3f36d43419be1084717aa86",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode1.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode1.mp4",
+        "bytes": 421664,
+        "sha256": "2fad8754d4c43093d2aebd2838645794af8fc4708e978d9c0833eebe8f115a78",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode2.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode2.mp4",
+        "bytes": 961275,
+        "sha256": "cf5397a88e634346e00f749ffe801599f1c30b21660898ff4041ea865ea61209",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode3.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode3.mp4",
+        "bytes": 386760,
+        "sha256": "1883907dd978546edd18a86bb61039705e100ab35d1ba4dfc0f79a32c045167b",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode4.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode4.mp4",
+        "bytes": 953876,
+        "sha256": "1e0c01925bb95f99a2c077a91702d12979c08cfea7f537e71f2aa6cbfcb3464b",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode5.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode5.mp4",
+        "bytes": 954167,
+        "sha256": "d24b9f26c67a3f4ba05434b1df935b3635e0e5528f616437306484646bebf20b",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode6.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode6.mp4",
+        "bytes": 971595,
+        "sha256": "102ae588fd0723a677c337d36071281ad4e0f415d7f2453508274e7576277668",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode7.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode7.mp4",
+        "bytes": 387696,
+        "sha256": "0716549f5b66ae558cca6c8eb729910f6067d5cdb9bf95aa51e04d1bef3ff411",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode8.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode8.mp4",
+        "bytes": 948993,
+        "sha256": "486210f7f6b868750cd2f5ff4240d331cfad7726281b19d23bca2201fc85fa3a",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "episode9.mp4",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/episode9.mp4",
+        "bytes": 969302,
+        "sha256": "bf378b2041ef354f7759034ca53820df5e8702e6854c015d1d6abd449ec070d7",
+        "kind": "video"
+      },
+      {
+        "task": "hanging_mug",
+        "timestamp": "2026-10-03_19-31-28_238430",
+        "file": "_result.txt",
+        "archive_path": "hanging_mug/2026-10-03_19-31-28_238430/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-31-28_238430/_result.txt",
+        "bytes": 66,
+        "sha256": "2cdf58f95df648a675d218497241d5253ed995acbde729002ba70bc33add7d8d",
+        "kind": "result"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode0.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode0.mp4",
+        "bytes": 436629,
+        "sha256": "bf92842966024e65fe8cab11edcd05994873b869ec870b37e11ea8176579d5e7",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode1.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode1.mp4",
+        "bytes": 433960,
+        "sha256": "13931f7f93083b1c8c5789bcf9574c02bb64bc71645aacaad52d5ce280d23d67",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode2.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode2.mp4",
+        "bytes": 441009,
+        "sha256": "cc79b4b4ccf8cb7c3e3ce80ab0f1858191838baa7506f3ac106b05e17e690ede",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode3.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode3.mp4",
+        "bytes": 435360,
+        "sha256": "70aff35cf3a75b98bcd3e972a7b1e10971636649e54001b3ac7d9f3939becc4c",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode4.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode4.mp4",
+        "bytes": 430049,
+        "sha256": "f2753c1a1252da654df897f7fd8ce36e4cc460b3cad1ffc55505520d796626c7",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode5.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode5.mp4",
+        "bytes": 468738,
+        "sha256": "bbed0c94227e483e2b8d48bb42e1ea64ff93d3877c4673e37ca92ee2f53afeef",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode6.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode6.mp4",
+        "bytes": 432131,
+        "sha256": "d1cceb39d811925f0e0fc7f28c39d5b7dab25df0eee3bf19c1704fa1991cb3c0",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode7.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode7.mp4",
+        "bytes": 452288,
+        "sha256": "0adfd30d00f40694c0968575b315a6312185e458fa7a2f76dfc03c6fdfaa7e8d",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode8.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode8.mp4",
+        "bytes": 455159,
+        "sha256": "81113e268024b22b46067fd2d3503a671834ede8870f2e64dc13aed9718519ff",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "episode9.mp4",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/episode9.mp4",
+        "bytes": 187568,
+        "sha256": "3af417b6e1cdb6ba8ea47c603f8884158b75dde207266a89c151e029ff96c609",
+        "kind": "video"
+      },
+      {
+        "task": "move_can_pot",
+        "timestamp": "2026-10-03_18-23-32_436348",
+        "file": "_result.txt",
+        "archive_path": "move_can_pot/2026-10-03_18-23-32_436348/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_436348/_result.txt",
+        "bytes": 66,
+        "sha256": "c6da4978d2a4daaa3e9c388b51a44cfba4ece9419457c1e6891c31343efcc289",
+        "kind": "result"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode0.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode0.mp4",
+        "bytes": 198193,
+        "sha256": "80e25cd71e8549fee00ba7f9fd58a6b31c9179d18cc27c46eb1ceddae97a8904",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode1.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode1.mp4",
+        "bytes": 436311,
+        "sha256": "bb300c6376760a8d01229d3c9d0d79c9e8804fcd41a507666e343a24f5192b21",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode2.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode2.mp4",
+        "bytes": 429522,
+        "sha256": "d5c2bd6cc89bf568b72ac13e735c837317acfad692e2babbb9fa41298a9a7314",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode3.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode3.mp4",
+        "bytes": 446780,
+        "sha256": "581853eb57e468bec1329da590b7a1d1cd38c85c415bceb29bff500bf8620523",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode4.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode4.mp4",
+        "bytes": 429223,
+        "sha256": "8f9af9714874f0136623bf1cc1494ae351b1682c2b06f7a3f4af9e8ccbf20c69",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode5.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode5.mp4",
+        "bytes": 433547,
+        "sha256": "634c58882fd6c32825d08fdfdfdf77d16ba521b07feb948e677e4fe8cfa536aa",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode6.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode6.mp4",
+        "bytes": 416429,
+        "sha256": "8e937b517433e8bf4cf7a80e53dd857a85d2ed7e113242d3bca6999c298dcd10",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode7.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode7.mp4",
+        "bytes": 444399,
+        "sha256": "5c2b454878a4aa70ef2dbd0dc360e418fe3c2f42a0f511ff01a6bd17bdf65c07",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode8.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode8.mp4",
+        "bytes": 157507,
+        "sha256": "66b09038f20914226d3a27ac00bc2eef0af77b51e65b8e70584808c1126fd7f2",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "episode9.mp4",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/episode9.mp4",
+        "bytes": 213240,
+        "sha256": "00a44589e310c639e9dae0e2346670a3a76681e36c7fc1ad0d1f931954ba219e",
+        "kind": "video"
+      },
+      {
+        "task": "move_pillbottle_pad",
+        "timestamp": "2026-10-03_18-23-32_263114",
+        "file": "_result.txt",
+        "archive_path": "move_pillbottle_pad/2026-10-03_18-23-32_263114/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_263114/_result.txt",
+        "bytes": 66,
+        "sha256": "6e1d358afd9cdff9bf63599acda2af2e1418a5dfc115ee2c51676c62936e3306",
+        "kind": "result"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode0.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode0.mp4",
+        "bytes": 732707,
+        "sha256": "abd0ab6603c93e2494fe038b5ccb90ff27f63c8945daf14211db93477e3162fd",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode1.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode1.mp4",
+        "bytes": 1735453,
+        "sha256": "c77e34d35b01594368d3b552919fa9f091db90a4181d857ccd73982b9b17b5cb",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode2.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode2.mp4",
+        "bytes": 1670082,
+        "sha256": "842dda412574a57abfc782fc62f20ff906853ef879d6a5af46edce779b0d7bd3",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode3.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode3.mp4",
+        "bytes": 1721444,
+        "sha256": "970ecdbb673f8ec1d878f8f1fbd9863ed53e41885f580ea5eda80403c0053f5c",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode4.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode4.mp4",
+        "bytes": 1631659,
+        "sha256": "6dbdc786fd7d6406bda0cbc630b3795b21acae5fe9264c46c82b105c0c0e766f",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode5.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode5.mp4",
+        "bytes": 1646460,
+        "sha256": "d7b6793df6e250b3f5dbdf41501d168562db5018bb4747a523ce29686ea54108",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode6.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode6.mp4",
+        "bytes": 1630659,
+        "sha256": "b8824b8c3dcb66b6be197b812275b7360234b6f8b19022f81c07b25696339098",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode7.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode7.mp4",
+        "bytes": 1624860,
+        "sha256": "0da999bbd49af611f81041080c2af1f6eaf4cdfa49b5908b6b6b7b08d348c5f5",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode8.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode8.mp4",
+        "bytes": 1682080,
+        "sha256": "058d390f50d59a8840dc258bfec6c5a8517af77448d0e889ea2677cea589e5b9",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "episode9.mp4",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/episode9.mp4",
+        "bytes": 1663708,
+        "sha256": "cdba7e2c6d4b637de99ba8f912875ef5a6864db5394cbf0f7d48f9c7f1b0e4a3",
+        "kind": "video"
+      },
+      {
+        "task": "open_microwave",
+        "timestamp": "2026-10-03_18-23-32_447161",
+        "file": "_result.txt",
+        "archive_path": "open_microwave/2026-10-03_18-23-32_447161/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_447161/_result.txt",
+        "bytes": 66,
+        "sha256": "2a9061b42752ade5dd5fca2b564da67a82080229489884ef15a31ae8a4a33198",
+        "kind": "result"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode0.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode0.mp4",
+        "bytes": 167974,
+        "sha256": "82981cbae1a37c587bc711ff146cd2444125d335a4fd6b4fd01d5202e82be57d",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode1.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode1.mp4",
+        "bytes": 453801,
+        "sha256": "cacd803da10be35247ec7c50d0414ee3097b3e4305de088dc6c63c98fef79f1c",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode2.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode2.mp4",
+        "bytes": 463911,
+        "sha256": "53501bc5cd63b12d5dff33697b2d02bd308bbe82f862b405ec78f08cd692bf9e",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode3.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode3.mp4",
+        "bytes": 456530,
+        "sha256": "e197a93928cf19785f4c321aa34b8c9e85bc2c0b42e7962053dfc71f24b4d13e",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode4.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode4.mp4",
+        "bytes": 156427,
+        "sha256": "3057f17b51f5f6828c9bad05ae9be7d73bf483399ae5644aae1baba737e6c410",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode5.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode5.mp4",
+        "bytes": 460445,
+        "sha256": "100213029e98e696409f43715fb637f14b9c266bd5ac1330f683fd1ebfd6aeed",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode6.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode6.mp4",
+        "bytes": 168340,
+        "sha256": "d52ec9ec1c24252484f4e4ddcc6725f13e8b726ceb30ba4759e5defebbc98960",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode7.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode7.mp4",
+        "bytes": 458781,
+        "sha256": "92b511f849678177755d62282f47d79841b65b63ffe7ae4ebf609bc29934fd2d",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode8.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode8.mp4",
+        "bytes": 163859,
+        "sha256": "05e3dc0709d57ba5844fa73b52b6f4e0fb6c0ee48abadac81cea22c1f64498d2",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "episode9.mp4",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/episode9.mp4",
+        "bytes": 463220,
+        "sha256": "418e9b745ad38c421adc929c4a73d810df0c850c49b76f06eaea9a4479eaee05",
+        "kind": "video"
+      },
+      {
+        "task": "pick_dual_bottles",
+        "timestamp": "2026-10-03_18-23-32_527645",
+        "file": "_result.txt",
+        "archive_path": "pick_dual_bottles/2026-10-03_18-23-32_527645/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_527645/_result.txt",
+        "bytes": 66,
+        "sha256": "52150553964440c88f775e570b9123ab7e6053a5984d068f4c98680b43c785d0",
+        "kind": "result"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode0.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode0.mp4",
+        "bytes": 480016,
+        "sha256": "ad055dd0fc5409702f1bc29fb1f8239a38bc3e049983af6f13eb4ba3c7c4c89c",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode1.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode1.mp4",
+        "bytes": 449826,
+        "sha256": "2d70feeb0f218818ee5bdc6f9b61b7f469f82f293537efaeae091d8c2db193b9",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode2.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode2.mp4",
+        "bytes": 429048,
+        "sha256": "1308ba2931445b3d5cf5c8938db3b17019017b1d54fe62763c0caa12cfb9832d",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode3.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode3.mp4",
+        "bytes": 170798,
+        "sha256": "1a95e3024d8b5aad0843537fa2ee3efffda27751366e53599e2f61a643e62ec7",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode4.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode4.mp4",
+        "bytes": 170171,
+        "sha256": "3c4b06bfd42264feb6f91cfa42c5c0262816239c1aa5af52d1ac9329993e551c",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode5.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode5.mp4",
+        "bytes": 163913,
+        "sha256": "e66694c38ce0eb680abc57f0991d7a48b295b88fa8f6f3d42a6b9a12c57f0768",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode6.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode6.mp4",
+        "bytes": 456337,
+        "sha256": "578ecdd2ec21a594f84efc4c41e5ed28177c8a80559703e07ecb9008947cd47a",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode7.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode7.mp4",
+        "bytes": 482406,
+        "sha256": "797a3168c9004af87105adc5a15ff3055957f50868035f0a4ead916fe928c5f8",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode8.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode8.mp4",
+        "bytes": 169042,
+        "sha256": "35bba9d4faa019c9f3758ccf717fbcd7dd06938da2ff9f59dfdd9bf09f625dd7",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "episode9.mp4",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/episode9.mp4",
+        "bytes": 177169,
+        "sha256": "b05f05818b3cf709538cc46665ea49e8d4c4a0ff0fdab8a235ba99160b51a313",
+        "kind": "video"
+      },
+      {
+        "task": "place_a2b_left",
+        "timestamp": "2026-10-03_20-38-16_269234",
+        "file": "_result.txt",
+        "archive_path": "place_a2b_left/2026-10-03_20-38-16_269234/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-38-16_269234/_result.txt",
+        "bytes": 66,
+        "sha256": "938ce7f7c9e2f18a6eaf4595866d27e8f66d12123e0cd24d98f6ebc880b9462f",
+        "kind": "result"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode0.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode0.mp4",
+        "bytes": 271635,
+        "sha256": "d54f445e1c23997f0942b84b9506f234bca2d6b7ffdb1888a546c23976762feb",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode1.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode1.mp4",
+        "bytes": 241983,
+        "sha256": "4a32bbaecf5672caebb5ea2a487b7cbfdaa9f7c482f372f8797553f2064295f9",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode2.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode2.mp4",
+        "bytes": 273288,
+        "sha256": "94b97ef548f12a5cb7cb70517de79521ff6f32d630d751aef5145f4f885974d1",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode3.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode3.mp4",
+        "bytes": 829646,
+        "sha256": "94542e2ba99cdec6bce1abeb98b1e868d37a247662ac0cc79b0a600e198a6b36",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode4.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode4.mp4",
+        "bytes": 315222,
+        "sha256": "3b5822a5565bc2d0b81167cabccda0880cc79b48b727e4566251b80b5e3058c7",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode5.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode5.mp4",
+        "bytes": 274658,
+        "sha256": "5ef23cf5029150c035508e97040e39ee124191e22411ce900f8ad7f864e7f85c",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode6.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode6.mp4",
+        "bytes": 822944,
+        "sha256": "14b5f1320074e1d6f72d000de0cc903092d9e81d60713049526a0b28b40b03d3",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode7.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode7.mp4",
+        "bytes": 310441,
+        "sha256": "94f6d85651dab85670accb5652c5dab9847935a44a9c03aaf3a0777ddd763011",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode8.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode8.mp4",
+        "bytes": 820841,
+        "sha256": "22c5d7265e5cfebb9d8dc542a00645ebae88123dcfaf208ef9070442ddfaf717",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "episode9.mp4",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/episode9.mp4",
+        "bytes": 264118,
+        "sha256": "cde031ae34b4ca28d2dda246378a61efaf193b2240e098cfc1929a105d697ec1",
+        "kind": "video"
+      },
+      {
+        "task": "place_can_basket",
+        "timestamp": "2026-10-03_18-23-32_420690",
+        "file": "_result.txt",
+        "archive_path": "place_can_basket/2026-10-03_18-23-32_420690/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_420690/_result.txt",
+        "bytes": 66,
+        "sha256": "f374e5c79365a13fa9019c8eddd039c9c2058092b2187abde3c598c9c8f66e97",
+        "kind": "result"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode0.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode0.mp4",
+        "bytes": 316006,
+        "sha256": "edc805b5b31d86f0b145565bde92070b8465021bce4e57442ca04cca13f8879d",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode1.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode1.mp4",
+        "bytes": 313333,
+        "sha256": "1eb3927502d91c31e86e7026d69f66d48ce5634dbcefc363c3907f373f9a0a90",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode2.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode2.mp4",
+        "bytes": 763192,
+        "sha256": "5267e9697375793cdd96a21787b8144dc8ff6ee82eb5fd82b7783d4d96ab03b8",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode3.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode3.mp4",
+        "bytes": 781146,
+        "sha256": "546b3642f8a5ba867d74ef9b03a2c609050948e6ac5f5755dba06492c5f4289f",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode4.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode4.mp4",
+        "bytes": 314114,
+        "sha256": "0c4fe020f3559f6156fa69f71dd6ad0dbb862524d179127bab96943d51064555",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode5.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode5.mp4",
+        "bytes": 776368,
+        "sha256": "db1bd731c25e2b9c77e08072a20cfc0272b4574a2f27ffaaa2464f6e1a706862",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode6.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode6.mp4",
+        "bytes": 882506,
+        "sha256": "742d14e7918ebb899f3bae83484a82fcd2e5045c7bc22309dd97b9eceaf2d862",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode7.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode7.mp4",
+        "bytes": 782193,
+        "sha256": "b1e5cb05ae9f29cf96cc116c20fc06f9cd82dee4ebf552e064597df828d60007",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode8.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode8.mp4",
+        "bytes": 920759,
+        "sha256": "c0e1fcc2c47f00d9431e464cb14db471d465563fe0d124a171da2760588a1390",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "episode9.mp4",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/episode9.mp4",
+        "bytes": 966630,
+        "sha256": "655c87e95f37bd5c41656f934bdaeb2b0347cc8af93017d61e80a78b49910a02",
+        "kind": "video"
+      },
+      {
+        "task": "place_cans_plasticbox",
+        "timestamp": "2026-10-03_18-23-32_417257",
+        "file": "_result.txt",
+        "archive_path": "place_cans_plasticbox/2026-10-03_18-23-32_417257/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_417257/_result.txt",
+        "bytes": 66,
+        "sha256": "bfc4e2e17db8a3915420fb461791b4885c70e4635a3e1676189bc57c3d1110d2",
+        "kind": "result"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode0.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode0.mp4",
+        "bytes": 738432,
+        "sha256": "52a385415146bd8fb8a44d1c032f5f92877a07dd68ab700ce895698816d1934a",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode1.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode1.mp4",
+        "bytes": 695915,
+        "sha256": "b37019741ced67d7dcc66d58fafe3f9b410a4f268553f4672d868efb5f2db1c0",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode2.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode2.mp4",
+        "bytes": 695956,
+        "sha256": "75586e823d0bfbcf201e732426aa9894919597fbdd23827c593eaceabce82011",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode3.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode3.mp4",
+        "bytes": 775249,
+        "sha256": "8ff3870b66ce1111911c3e9d9bf9617405e28972903c03267717894901b930cd",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode4.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode4.mp4",
+        "bytes": 689727,
+        "sha256": "566eb3e23c4e86e4c4e9ad8c9cdd2fedb6f68965fd566db35def189f03f97b6b",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode5.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode5.mp4",
+        "bytes": 691717,
+        "sha256": "ca1d85329b976cdfd63e5e6310510ee839fac39011d25086a417737137cb9364",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode6.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode6.mp4",
+        "bytes": 784212,
+        "sha256": "0bf0a06cd2d76c6abe2230ae903d1257229c7a5e75d76b95b066b3139918db8e",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode7.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode7.mp4",
+        "bytes": 695830,
+        "sha256": "85041179a17e8257bbd21a4f9d6443ea2c48a633811ca433b97d7a27c165dea5",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode8.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode8.mp4",
+        "bytes": 683805,
+        "sha256": "255475869106bf2b4b55b9b02a80091750d51a74a68e2ddbd410260fd452978c",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "episode9.mp4",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/episode9.mp4",
+        "bytes": 705553,
+        "sha256": "c949154f8053d6179c085d3f42282d611c4508d8ed5f244dba4a0b0bce69992f",
+        "kind": "video"
+      },
+      {
+        "task": "place_dual_shoes",
+        "timestamp": "2026-10-03_20-20-47_198210",
+        "file": "_result.txt",
+        "archive_path": "place_dual_shoes/2026-10-03_20-20-47_198210/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-47_198210/_result.txt",
+        "bytes": 66,
+        "sha256": "ddd8a51b1a72996cc794503420e78de216e48036ddf4b851a4db02bc938d0c2c",
+        "kind": "result"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode0.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode0.mp4",
+        "bytes": 301785,
+        "sha256": "03225ae970edd113d197a45f658b66754ba3ae2e21854a23a0c09832567707e1",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode1.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode1.mp4",
+        "bytes": 317129,
+        "sha256": "59a0c09a3628d4c87f5cf46d019b9bb8220b4abb252d007c8c5f2c0768da1497",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode2.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode2.mp4",
+        "bytes": 298034,
+        "sha256": "20ff67d4212292b391423ab99bc378351a6b11b47f6282023ad3c41751e697f0",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode3.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode3.mp4",
+        "bytes": 275144,
+        "sha256": "b2e8ea25f912a82659076542bc64396e08f29ace16b7656597445e856042f13b",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode4.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode4.mp4",
+        "bytes": 293213,
+        "sha256": "005c786ab4059a521c2f3cdbf462e8d3a670d8737b7ca9c34a4abce27c5f7122",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode5.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode5.mp4",
+        "bytes": 286938,
+        "sha256": "cdfb7fbf339356cb2044fd4826410189d0ab72dae289c570c44da5bc0950fadb",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode6.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode6.mp4",
+        "bytes": 803281,
+        "sha256": "9ba3bff82fe71bd9639719beda247dda4677b077f6f8e7f6216a168b4e3d86c5",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode7.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode7.mp4",
+        "bytes": 264006,
+        "sha256": "5724b4f29b44349a688f33fd84ccdcb6197ac0a09363700cb619010c3a340021",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode8.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode8.mp4",
+        "bytes": 294620,
+        "sha256": "912f3069bf5617e35c4bba820e8bbfaec46085402e1a1a41408c1e61e0cfa8e7",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "episode9.mp4",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/episode9.mp4",
+        "bytes": 298355,
+        "sha256": "787ccda33e11b7b767a64c3256bf8905b36aaf207723ef1b16a0f2c97c023f39",
+        "kind": "video"
+      },
+      {
+        "task": "place_object_basket",
+        "timestamp": "2026-10-03_20-30-12_192099",
+        "file": "_result.txt",
+        "archive_path": "place_object_basket/2026-10-03_20-30-12_192099/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-30-12_192099/_result.txt",
+        "bytes": 66,
+        "sha256": "d2617702bfe67f61743f3b6efb97a0e3f85c56cb3caf76dbcaf95d0c80017667",
+        "kind": "result"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode0.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode0.mp4",
+        "bytes": 2063713,
+        "sha256": "b8f7cf86a2c451c5c6939de1fc11f9b16fcb04375e17dbc670918ac6e6b8373c",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode1.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode1.mp4",
+        "bytes": 1967356,
+        "sha256": "6b2665b14b36f96a2ee4b7691e60541eddf1795f018a858dc5020b9e47670047",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode2.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode2.mp4",
+        "bytes": 1848692,
+        "sha256": "85716ba8b52c8ede6d94b1116753dd38c3c35a3955eac6b2aa5b10096a7fa171",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode3.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode3.mp4",
+        "bytes": 2009911,
+        "sha256": "4c23af76fdb38bd4194c0d9f4b485fbd55f396626f0be217fa97d390ace8f003",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode4.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode4.mp4",
+        "bytes": 1921272,
+        "sha256": "4306f95a680a04b126a54b73de60e5c05b1161d9840e399ea58c89c3d5261957",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode5.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode5.mp4",
+        "bytes": 1934754,
+        "sha256": "014ddf7932e8cc12fbf57ba77b1913cbc1ebb9c3767856d4e5620a13c130664c",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode6.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode6.mp4",
+        "bytes": 2032718,
+        "sha256": "5a114d0f77898d85101482c64b52b799640fb758d9cb710927695118ffb29449",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode7.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode7.mp4",
+        "bytes": 1823977,
+        "sha256": "f0873db590edb86cee46b95783b089ceca39171383c7afa767e7907ea6af06bd",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode8.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode8.mp4",
+        "bytes": 1779801,
+        "sha256": "92ab5e28b2b224e1e6066450a8c2197059477bf28c7edd991e817fdb4de205b7",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "episode9.mp4",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/episode9.mp4",
+        "bytes": 2049673,
+        "sha256": "0bde2aa7b223563861c5313dadc0ae55e8e5975778fd77e3b37ed98ddb5ac2c8",
+        "kind": "video"
+      },
+      {
+        "task": "put_bottles_dustbin",
+        "timestamp": "2026-10-03_18-23-32_524050",
+        "file": "_result.txt",
+        "archive_path": "put_bottles_dustbin/2026-10-03_18-23-32_524050/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_18-23-32_524050/_result.txt",
+        "bytes": 66,
+        "sha256": "b9b137f84f1a65b34ae35cdbccdd8d81ab69dea6c67a2c16aa0d2717c1d14cc8",
+        "kind": "result"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode0.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode0.mp4",
+        "bytes": 787313,
+        "sha256": "2142e097ba0d6965875fd042fe45eb738e668e9585b928a70ac05d64516f64f1",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode1.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode1.mp4",
+        "bytes": 847917,
+        "sha256": "f8f6fd4bd3094fee0ec2492f4e0d0d69dacc35d4e6c104ece287204acfb24958",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode2.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode2.mp4",
+        "bytes": 804949,
+        "sha256": "d46eb51c5a1c38b77312930467955abe8de9b1653448b308596361327217111d",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode3.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode3.mp4",
+        "bytes": 371310,
+        "sha256": "7746336a8ba16c4572f94fc6ec74781241e4b1a049097256f7b09dde888fca03",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode4.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode4.mp4",
+        "bytes": 781777,
+        "sha256": "194634a5427f0ee509ffd27a3ef08be94de1e943413e49bee552034a021cffba",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode5.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode5.mp4",
+        "bytes": 845092,
+        "sha256": "1bdf7f952710d8e3b9ef858af2b671fc3282a36979e2c033ea9cae5620c1192b",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode6.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode6.mp4",
+        "bytes": 787529,
+        "sha256": "7e75934711ea76daad5a8adc4d2cbe32bc27054ef146569caee5bd411d3f8c56",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode7.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode7.mp4",
+        "bytes": 783869,
+        "sha256": "dde3194ee43521dccabdcef7e16a2356c0f3017be121ae5276be7a084329985c",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode8.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode8.mp4",
+        "bytes": 837291,
+        "sha256": "c598cd96311779adc213fb3ce4378aeeb31a790559d2b7d0d158b272468d5e45",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "episode9.mp4",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/episode9.mp4",
+        "bytes": 792357,
+        "sha256": "c4aced0587e41ac583e0ec0ac838411420fb4febce537a633fe3dbb9d4c5193d",
+        "kind": "video"
+      },
+      {
+        "task": "put_object_cabinet",
+        "timestamp": "2026-10-03_20-17-23_750317",
+        "file": "_result.txt",
+        "archive_path": "put_object_cabinet/2026-10-03_20-17-23_750317/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-17-23_750317/_result.txt",
+        "bytes": 66,
+        "sha256": "4aed5819fdcddc441a616fb608bdfd5c2be0568e9a29ab3cf1ce44041ca0d666",
+        "kind": "result"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode0.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode0.mp4",
+        "bytes": 592513,
+        "sha256": "2f175c09a818cba76bb782ff93112697c2f6914dcb6cdb73adf93b74ac64d427",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode1.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode1.mp4",
+        "bytes": 592560,
+        "sha256": "d01f45e0cf2440444668c9924d2eb18ea3235e785e5eebc39cf4d28c8bd2d087",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode2.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode2.mp4",
+        "bytes": 300204,
+        "sha256": "19f5d0918d4f3cc70ced1346b5825e1d5df602a0babe169a285a05e0af607daa",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode3.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode3.mp4",
+        "bytes": 577529,
+        "sha256": "eae47b602550e756f058f4449d97507381aaad2b507da63e03497e0eb65c991f",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode4.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode4.mp4",
+        "bytes": 593878,
+        "sha256": "54530213b848539ad30649414d96f4f1f7ae947be3617263201cf7f10249a9d3",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode5.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode5.mp4",
+        "bytes": 582747,
+        "sha256": "c8f1eaa8c2ab46a4d934db2b8ba6f98b891687044be120e5a8eb1dfb4e1e95f8",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode6.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode6.mp4",
+        "bytes": 191389,
+        "sha256": "b119c13c40e6db69ef2eec92a4db1ccdb501001bdfd699d1703280c1c89b0470",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode7.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode7.mp4",
+        "bytes": 575267,
+        "sha256": "abeb91f0832ae117c32196b759aee0df15c9452ed35858e1f34eb29d33115dc9",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode8.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode8.mp4",
+        "bytes": 245383,
+        "sha256": "0baddc30244db67a5f80011514bd3a2a3738f6a17b59aa32148f15b0b5eee7ec",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "episode9.mp4",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/episode9.mp4",
+        "bytes": 237196,
+        "sha256": "dde82c29c92a68319e08dcded9f2d00228e97c0e46e8ff7ca6eb1f451fdbf264",
+        "kind": "video"
+      },
+      {
+        "task": "scan_object",
+        "timestamp": "2026-10-03_20-10-08_950203",
+        "file": "_result.txt",
+        "archive_path": "scan_object/2026-10-03_20-10-08_950203/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-10-08_950203/_result.txt",
+        "bytes": 66,
+        "sha256": "7eb84e80ddf267a62291cfb19a42c8ea0c7d066d5cc848e12da79e3aba3f2bd5",
+        "kind": "result"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode0.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode0.mp4",
+        "bytes": 1329141,
+        "sha256": "e048901899fc1438599a335ad0af713b931fc7d4f584672a4eac43c6d848aa11",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode1.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode1.mp4",
+        "bytes": 1349028,
+        "sha256": "b4ff028cbb0258c17e105c4d44731d0a18599f738e01810ce01349269d5ffd44",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode2.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode2.mp4",
+        "bytes": 1369048,
+        "sha256": "0c84201c353a239e0f4083e4314539033ba706caeacbf52bbc815aea25d1a006",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode3.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode3.mp4",
+        "bytes": 1339634,
+        "sha256": "a1d54823c94f2d55c9ad461b5483accf9b73eef8098dbd035824c00cd481ba8e",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode4.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode4.mp4",
+        "bytes": 1403346,
+        "sha256": "6652507415ec751a1dfaa54a6b69839f4f0009e1e5f6a6dfd4c4bf2a60d6f0f3",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode5.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode5.mp4",
+        "bytes": 1293027,
+        "sha256": "80b613099038986d0c150ca7b0dc249ffa80a0870576f29452be696253fec8a6",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode6.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode6.mp4",
+        "bytes": 1324131,
+        "sha256": "91b2785fa00c19100d1a0c777b07ed942e6e2af73940a802976bb6286f0822ad",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode7.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode7.mp4",
+        "bytes": 1276565,
+        "sha256": "30284aafea718071bbf7d9570519bf12e95ed5a74d7df0701da1e688cdfae6b8",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode8.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode8.mp4",
+        "bytes": 1385016,
+        "sha256": "a2de8f02908adcf6bbbbca30aa2c35b5107563c1ab2c5248d59b01069b576ab1",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "episode9.mp4",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/episode9.mp4",
+        "bytes": 1281268,
+        "sha256": "2aaf36ec7cc7f4f3e3e6cd4ff1f24b8ac8a16744978de9a54dd391ca5c856073",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_three",
+        "timestamp": "2026-10-03_19-37-02_667190",
+        "file": "_result.txt",
+        "archive_path": "stack_blocks_three/2026-10-03_19-37-02_667190/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-37-02_667190/_result.txt",
+        "bytes": 66,
+        "sha256": "ae6e424b5cc0ad14d968c609f53027ac11fe2f8c17118cc6055123dbe642f010",
+        "kind": "result"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode0.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode0.mp4",
+        "bytes": 858368,
+        "sha256": "2ab97dcc758a458d213866a15a06288b8f3146fbe7ea9c42a215fe039affba52",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode1.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode1.mp4",
+        "bytes": 350931,
+        "sha256": "9ea1e90360c5ba12cb18e82bd69b2783f9dffa43c49606c2234761a84ba99af0",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode2.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode2.mp4",
+        "bytes": 906173,
+        "sha256": "8b5b28d9ecd50fdd0706a403c9e346c8ec8d7fcafaebef7e948b627821e67557",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode3.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode3.mp4",
+        "bytes": 879667,
+        "sha256": "f64e2e00b8dac37249ad4ba6b345729c5ebbc15d4cefa0be46a9a4576c213bd3",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode4.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode4.mp4",
+        "bytes": 359683,
+        "sha256": "e8e1e590b04f9b2a3a31584af3a3fd1def53b1de0e7cf39a64b766f366be9148",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode5.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode5.mp4",
+        "bytes": 954134,
+        "sha256": "79854014186ea88cba79a31e958897b22c3959e5d01cbac4a4663cb57ea6a8f4",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode6.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode6.mp4",
+        "bytes": 335150,
+        "sha256": "c75aedce911815ca26731c0f6f04eb2c9cba8582d20eb8bb4c71a5af5baf25ce",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode7.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode7.mp4",
+        "bytes": 336260,
+        "sha256": "3ca9f9fa7e58d66b104b614de1f825dd77a252707011603d0d4573423d539415",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode8.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode8.mp4",
+        "bytes": 330667,
+        "sha256": "2fa323ce128915b979bb8269918037b46e9d8b11ff07b39dc969f0e19f10f7b2",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "episode9.mp4",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/episode9.mp4",
+        "bytes": 903702,
+        "sha256": "f5beb890c2385e69418355e78cf213d2596247d43a74f8bc2627ca1a9978e2fb",
+        "kind": "video"
+      },
+      {
+        "task": "stack_blocks_two",
+        "timestamp": "2026-10-03_20-20-19_453346",
+        "file": "_result.txt",
+        "archive_path": "stack_blocks_two/2026-10-03_20-20-19_453346/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-20-19_453346/_result.txt",
+        "bytes": 66,
+        "sha256": "6a3d58eceed2cfd6a175cd3c6381c5850d509f31b3e39b92bf94a0afd6caa923",
+        "kind": "result"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode0.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode0.mp4",
+        "bytes": 1325193,
+        "sha256": "7f5b914ab875c761bf9a0ff13ab913f8a1e582e231ca7b58466299e42ae05dda",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode1.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode1.mp4",
+        "bytes": 494283,
+        "sha256": "5e67c476c0e0b57a3a37427000cdf9da954e33a80b198b94efc6882b387bc758",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode2.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode2.mp4",
+        "bytes": 491436,
+        "sha256": "b8e669c69bcfe57afd73d56f7bc46d62cc4f76aa282dd67dc562077f54718db6",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode3.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode3.mp4",
+        "bytes": 1285639,
+        "sha256": "5ee965eb7a23d842abadf2094f7618e4f929017d98f7be8e12deda7db521e978",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode4.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode4.mp4",
+        "bytes": 1316154,
+        "sha256": "4cfb1884b1212bbe4c8dc60b335e1dfd53514253e74bcdc57bf9ce03e782d5ae",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode5.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode5.mp4",
+        "bytes": 529649,
+        "sha256": "915b95a2b00c17af949bcb1800533886b53933e18f9693006a345c6b4abe8868",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode6.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode6.mp4",
+        "bytes": 1317058,
+        "sha256": "39b714ae271a0f2a5e315a81be81adce2337e47e8101586e8892c452fe9c4eaf",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode7.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode7.mp4",
+        "bytes": 516915,
+        "sha256": "736317040a3066ce2bb0f6ba6f28152a408d52b84cffba6c760b6965302e0372",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode8.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode8.mp4",
+        "bytes": 558164,
+        "sha256": "18e3bc85171735edeb7633ffc574a2ffe47247d6be04acb21163a4cc21b1b66f",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "episode9.mp4",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/episode9.mp4",
+        "bytes": 521575,
+        "sha256": "564214841198531f12f1f00f35986718e74d323da34fb603a3c27d2498f356d1",
+        "kind": "video"
+      },
+      {
+        "task": "stack_bowls_three",
+        "timestamp": "2026-10-03_19-53-33_341396",
+        "file": "_result.txt",
+        "archive_path": "stack_bowls_three/2026-10-03_19-53-33_341396/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_19-53-33_341396/_result.txt",
+        "bytes": 66,
+        "sha256": "b624c4abf76bf3f3c19bc418b9dc43fa38985de3f04ed785852f41a3d889d669",
+        "kind": "result"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode0.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode0.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode0.mp4",
+        "bytes": 201951,
+        "sha256": "8f9e175ab14a4f6003b0624db1377c680c05ec23b5b2072d3e0058ae077ddb33",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode1.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode1.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode1.mp4",
+        "bytes": 451556,
+        "sha256": "5718af3a05ada86875328ff0159d7944800db53cfddd6bfb6bf93b5cb6236de5",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode2.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode2.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode2.mp4",
+        "bytes": 470938,
+        "sha256": "9af362216dcc769df7615572e45632e78aa7ea6933e244183950f509e2c8e2f4",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode3.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode3.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode3.mp4",
+        "bytes": 443208,
+        "sha256": "341aaae2a195e0f60f286d609ed88efa98457d42042c8047ba1bfe95e2d9015d",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode4.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode4.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode4.mp4",
+        "bytes": 440803,
+        "sha256": "c81241dfdd77e45c7365a8724c5e6997e04db302cbb073f0f6d3fd413a085aab",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode5.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode5.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode5.mp4",
+        "bytes": 179664,
+        "sha256": "b45719faba2a685556e3da807784ec29884730fed9fe0ad1b26557cd013c3259",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode6.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode6.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode6.mp4",
+        "bytes": 435665,
+        "sha256": "ef97e0bd5533d8700b5c936fd7f744a7097088435aa7e2a1e56e096eef4d720b",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode7.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode7.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode7.mp4",
+        "bytes": 462551,
+        "sha256": "b5e756660481a610933660bb50b466d350127658331c01ccb46634192f5c7662",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode8.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode8.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode8.mp4",
+        "bytes": 430926,
+        "sha256": "8d1411ef9b0a4b9bef35cc3f662eab86d463a872adb543b4da62cefe9266d763",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "episode9.mp4",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/episode9.mp4",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/episode9.mp4",
+        "bytes": 435226,
+        "sha256": "7a105827f4d4513ee666ebe55057e6ce619715b809383c8e9484f79456f4d61b",
+        "kind": "video"
+      },
+      {
+        "task": "stamp_seal",
+        "timestamp": "2026-10-03_20-27-09_904828",
+        "file": "_result.txt",
+        "archive_path": "stamp_seal/2026-10-03_20-27-09_904828/_result.txt",
+        "original_path": "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_20-27-09_904828/_result.txt",
+        "bytes": 66,
+        "sha256": "a0b602403f0daab6c191e4d92a393f365ef978a9cc57579485c7d6033492b3dd",
+        "kind": "result"
+      }
+    ]
+  }
+}

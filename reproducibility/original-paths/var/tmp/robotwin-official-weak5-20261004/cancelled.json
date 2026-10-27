@@ -1,0 +1,8 @@
+{
+  "status": "cancelled_by_user",
+  "cancelled_utc": "2026-10-03T18:20:17.791311+00:00",
+  "interrupted_benchmark_pids": [
+    2960472
+  ],
+  "remaining_processes_signalled": []
+}

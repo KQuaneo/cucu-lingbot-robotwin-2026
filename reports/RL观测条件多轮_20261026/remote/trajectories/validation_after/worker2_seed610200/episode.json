@@ -1,0 +1,16 @@
+{
+  "task_name": "click_bell",
+  "seed": 610200,
+  "instruction": "Press the center of the bell with metallic top and plastic base using the right arm.",
+  "phase": "validation_after",
+  "worker": 2,
+  "policy_version": 3,
+  "chunks": 16,
+  "terminal": true,
+  "base_frozen": true,
+  "conditional": true,
+  "std": 0.25,
+  "scale": 0.02,
+  "success": false,
+  "reward": 0.0
+}

@@ -1,0 +1,1 @@
+{"task_name": "beat_block_hammer", "task_config": "demo_clean", "seed": 310600, "plan_success": true, "task_success": true, "info": {"{A}": "020_hammer/base0", "{a}": "left"}, "episode_info": {"cluttered_table_info": [], "texture_info": {"wall_texture": null, "table_texture": null}, "info": {"{A}": "020_hammer/base0", "{a}": "left"}}}

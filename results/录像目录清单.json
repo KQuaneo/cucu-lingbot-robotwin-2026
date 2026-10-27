@@ -1,0 +1,1157 @@
+{
+  "snapshot_utc": "2026-10-03T17:50:53.787141+00:00",
+  "run": "/workspace/runtime/outputs/full_sft_6000_clean50x10_8gpu_video",
+  "notes": "Completed task exact directories from final result log; unfinished task directory must be unique and timestamp >= current task start. In-progress MP4 may still be writing.",
+  "tasks": [
+    {
+      "task": "adjust_bottle",
+      "start_utc": "2026-10-03T14:00:24.202203+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/adjust_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_401657"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 1808657,
+      "final_policy_result": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "beat_block_hammer",
+      "start_utc": "2026-10-03T14:00:24.202616+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/beat_block_hammer/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_408659"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 2167243,
+      "final_policy_result": [
+        "8",
+        "10",
+        "80.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "blocks_ranking_rgb",
+      "start_utc": "2026-10-03T14:00:24.202877+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/blocks_ranking_rgb/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_302777"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 9166363,
+      "final_policy_result": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "blocks_ranking_size",
+      "start_utc": "2026-10-03T14:00:24.203246+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/blocks_ranking_size/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_251119"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 11488573,
+      "final_policy_result": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "click_alarmclock",
+      "start_utc": "2026-10-03T14:00:24.203450+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/click_alarmclock/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_305566"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 2303399,
+      "final_policy_result": [
+        "6",
+        "10",
+        "60.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "click_bell",
+      "start_utc": "2026-10-03T14:00:24.203615+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/click_bell/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_085815"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 1538821,
+      "final_policy_result": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "dump_bin_bigbin",
+      "start_utc": "2026-10-03T14:00:24.203762+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/dump_bin_bigbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_379369"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 4632478,
+      "final_policy_result": [
+        "6",
+        "10",
+        "60.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "grab_roller",
+      "start_utc": "2026-10-03T14:00:24.203890+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/grab_roller/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-00-28_140881"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 1291650,
+      "final_policy_result": [
+        "10",
+        "10",
+        "100.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "handover_block",
+      "start_utc": "2026-10-03T14:05:33.020030+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/handover_block/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-05-36_031757"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 7942688,
+      "final_policy_result": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "handover_mic",
+      "start_utc": "2026-10-03T14:07:44.304214+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/handover_mic/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-07-47_386874"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3195548,
+      "final_policy_result": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "hanging_mug",
+      "start_utc": "2026-10-03T14:08:51.990900+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/hanging_mug/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-08-55_174272"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 7334737,
+      "final_policy_result": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "lift_pot",
+      "start_utc": "2026-10-03T14:08:54.632857+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/lift_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-08-57_717003"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3932458,
+      "final_policy_result": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "move_can_pot",
+      "start_utc": "2026-10-03T14:13:04.629775+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/move_can_pot/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-13-07_781211"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 4104611,
+      "final_policy_result": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "move_pillbottle_pad",
+      "start_utc": "2026-10-03T14:21:41.484452+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/move_pillbottle_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-21-44_523934"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3798893,
+      "final_policy_result": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "move_playingcard_away",
+      "start_utc": "2026-10-03T14:24:32.261886+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/move_playingcard_away/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-24-35_449216"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 1673251,
+      "final_policy_result": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "move_stapler_pad",
+      "start_utc": "2026-10-03T14:25:48.451968+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/move_stapler_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-25-51_492742"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 4162756,
+      "final_policy_result": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "open_laptop",
+      "start_utc": "2026-10-03T14:26:34.589429+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/open_laptop/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-26-37_787827"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 1834056,
+      "final_policy_result": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "open_microwave",
+      "start_utc": "2026-10-03T14:29:44.145450+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/open_microwave/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-29-47_193921"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 10084912,
+      "final_policy_result": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "pick_diverse_bottles",
+      "start_utc": "2026-10-03T14:34:19.725351+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/pick_diverse_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-34-22_795737"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3125793,
+      "final_policy_result": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "pick_dual_bottles",
+      "start_utc": "2026-10-03T14:39:05.289242+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/pick_dual_bottles/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-39-08_441131"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 4264355,
+      "final_policy_result": [
+        "1",
+        "10",
+        "10.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_a2b_left",
+      "start_utc": "2026-10-03T14:43:08.704917+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_a2b_left/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-43-11_876189"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3230312,
+      "final_policy_result": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_a2b_right",
+      "start_utc": "2026-10-03T14:46:01.694050+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_a2b_right/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-46-04_901715"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 2322387,
+      "final_policy_result": [
+        "8",
+        "10",
+        "80.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_bread_basket",
+      "start_utc": "2026-10-03T14:48:24.683631+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_bread_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_14-48-27_819050"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3632077,
+      "final_policy_result": [
+        "8",
+        "10",
+        "80.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_bread_skillet",
+      "start_utc": "2026-10-03T15:01:31.601001+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_bread_skillet/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-01-35_038341"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3050517,
+      "final_policy_result": [
+        "7",
+        "10",
+        "70.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_burger_fries",
+      "start_utc": "2026-10-03T15:03:44.098372+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_burger_fries/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-03-47_244996"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3022928,
+      "final_policy_result": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_can_basket",
+      "start_utc": "2026-10-03T15:04:10.996639+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_can_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-04-14_159246"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 5163510,
+      "final_policy_result": [
+        "6",
+        "10",
+        "60.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_cans_plasticbox",
+      "start_utc": "2026-10-03T15:13:04.980179+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_cans_plasticbox/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-13-08_156460"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 6123540,
+      "final_policy_result": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_container_plate",
+      "start_utc": "2026-10-03T15:13:43.384363+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_container_plate/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-13-46_596243"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 2267602,
+      "final_policy_result": [
+        "8",
+        "10",
+        "80.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_dual_shoes",
+      "start_utc": "2026-10-03T15:17:15.805454+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_dual_shoes/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-17-18_951146"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 5856073,
+      "final_policy_result": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_empty_cup",
+      "start_utc": "2026-10-03T15:22:44.946293+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_empty_cup/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-22-48_146074"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 2062302,
+      "final_policy_result": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_fan",
+      "start_utc": "2026-10-03T15:28:44.674315+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_fan/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-28-47_871435"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3535049,
+      "final_policy_result": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_mouse_pad",
+      "start_utc": "2026-10-03T15:32:33.723844+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_mouse_pad/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-32-36_912294"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3434186,
+      "final_policy_result": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_object_basket",
+      "start_utc": "2026-10-03T15:39:05.968680+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_object_basket/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-39-09_134873"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3976486,
+      "final_policy_result": [
+        "8",
+        "10",
+        "80.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_object_scale",
+      "start_utc": "2026-10-03T15:42:20.658968+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_object_scale/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-42-23_822011"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 2193629,
+      "final_policy_result": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_object_stand",
+      "start_utc": "2026-10-03T15:44:09.088912+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_object_stand/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-44-12_253143"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 2290550,
+      "final_policy_result": [
+        "7",
+        "10",
+        "70.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_phone_stand",
+      "start_utc": "2026-10-03T15:50:55.671488+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_phone_stand/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-50-58_813148"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 2996406,
+      "final_policy_result": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "place_shoe",
+      "start_utc": "2026-10-03T15:51:20.690602+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/place_shoe/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-51-23_833716"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 4243151,
+      "final_policy_result": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "press_stapler",
+      "start_utc": "2026-10-03T15:51:59.983629+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/press_stapler/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-52-03_091234"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 3237009,
+      "final_policy_result": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "put_bottles_dustbin",
+      "start_utc": "2026-10-03T15:56:10.463677+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/put_bottles_dustbin/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-13_701769"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 14698077,
+      "final_policy_result": [
+        "4",
+        "10",
+        "40.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "put_object_cabinet",
+      "start_utc": "2026-10-03T15:56:10.997042+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/put_object_cabinet/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-56-14_232491"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 8251363,
+      "final_policy_result": [
+        "0",
+        "10",
+        "0.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "rotate_qrcode",
+      "start_utc": "2026-10-03T15:57:57.668025+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/rotate_qrcode/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-58-00_703168"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 2995658,
+      "final_policy_result": [
+        "5",
+        "10",
+        "50.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "scan_object",
+      "start_utc": "2026-10-03T15:59:12.483594+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/scan_object/LingBot-VLA-v2/demo_clean/default/2026-10-03_15-59-15_578472"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 5176812,
+      "final_policy_result": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "shake_bottle",
+      "start_utc": "2026-10-03T16:02:15.518524+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/shake_bottle/LingBot-VLA-v2/demo_clean/default/2026-10-03_16-02-18_549567"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 1166761,
+      "final_policy_result": [
+        "10",
+        "10",
+        "100.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "shake_bottle_horizontally",
+      "start_utc": "2026-10-03T16:02:25.599073+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/shake_bottle_horizontally/LingBot-VLA-v2/demo_clean/default/2026-10-03_16-02-28_775247"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 1236494,
+      "final_policy_result": [
+        "10",
+        "10",
+        "100.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "stack_blocks_three",
+      "start_utc": "2026-10-03T16:06:14.552965+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/stack_blocks_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_16-06-17_680907"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 13271008,
+      "final_policy_result": [
+        "0",
+        "10",
+        "0.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "stack_blocks_two",
+      "start_utc": "2026-10-03T16:18:28.522021+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/stack_blocks_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_16-18-31_605411"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 5713348,
+      "final_policy_result": [
+        "6",
+        "10",
+        "60.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "stack_bowls_three",
+      "start_utc": "2026-10-03T16:18:41.447421+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/stack_bowls_three/LingBot-VLA-v2/demo_clean/default/2026-10-03_16-18-44_640831"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 10508960,
+      "final_policy_result": [
+        "3",
+        "10",
+        "30.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "stack_bowls_two",
+      "start_utc": "2026-10-03T16:18:49.093933+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/stack_bowls_two/LingBot-VLA-v2/demo_clean/default/2026-10-03_16-18-52_265124"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 4020200,
+      "final_policy_result": [
+        "9",
+        "10",
+        "90.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "stamp_seal",
+      "start_utc": "2026-10-03T16:19:16.910903+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/stamp_seal/LingBot-VLA-v2/demo_clean/default/2026-10-03_16-19-20_084176"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 4093468,
+      "final_policy_result": [
+        "2",
+        "10",
+        "20.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    },
+    {
+      "task": "turn_switch",
+      "start_utc": "2026-10-03T16:23:54.792420+00:00",
+      "selection_method": "final_result_path",
+      "ambiguous": false,
+      "directories": [
+        "/workspace/runtime/eval_result/turn_switch/LingBot-VLA-v2/demo_clean/default/2026-10-03_16-23-57_860384"
+      ],
+      "mp4_count": 10,
+      "mp4_bytes": 1582291,
+      "final_policy_result": [
+        "8",
+        "10",
+        "80.0"
+      ],
+      "errors": {
+        "Policy rollout error": 0,
+        "Traceback (most recent call last)": 0,
+        "OutOfMemoryError": 0,
+        "No space left on device": 0,
+        "CUDA out of memory": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "prepared_at_hong_kong": "2026-10-26T19:01:22.959542+08:00",
+  "user_instruction": "只准备增强/RL方案，暂不启动训练",
+  "training_started": false,
+  "rl_started": false,
+  "new_evaluation_started": false,
+  "submitted_package_modified": false,
+  "yaml_configs": 4,
+  "validation": "YAML parsing and selected fields/data metadata only; runtime training untested"
+}

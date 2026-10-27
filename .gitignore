@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.safetensors
+*.distcp
+*.mp4
+*.npz
+*.pt
+*.pth
+*.zip
+*.tar.gz
+.env

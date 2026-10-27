@@ -1,0 +1,62 @@
+[
+  {
+    "repository": "RoboTwin",
+    "path": "envs/_base_task.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "RoboTwin",
+    "path": "envs/robot/planner.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "RoboTwin",
+    "path": "envs/robot/robot.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "RoboTwin",
+    "path": "scripts/eval_policy_xpolicylab.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "XPolicyLab",
+    "path": "scripts/transform_lerobot_v30_format.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "lingbot-vla-v2",
+    "path": "deploy/lingbot_vla_v2_policy.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "lingbot-vla-v2",
+    "path": "lingbotvla/data/vla_data/base_dataset.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "lingbot-vla-v2",
+    "path": "lingbotvla/data/vla_data/multi_vla_dataset.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "lingbot-vla-v2",
+    "path": "lingbotvla/data/vla_data/utils.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "lingbot-vla-v2",
+    "path": "lingbotvla/utils/arguments.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "lingbot-vla-v2",
+    "path": "lingbotvla/utils/lora_utils.py",
+    "matches_actual_randomized_source": true
+  },
+  {
+    "repository": "lingbot-vla-v2",
+    "path": "tasks/vla/train_lingbotvla.py",
+    "matches_actual_randomized_source": true
+  }
+]

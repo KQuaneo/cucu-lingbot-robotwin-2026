@@ -1,0 +1,78 @@
+MODEL_FILE_VERIFIED added_tokens.json
+MODEL_FILE_VERIFIED chat_template.jinja
+MODEL_FILE_VERIFIED config.json
+MODEL_FILE_VERIFIED merges.txt
+MODEL_FILE_VERIFIED model-00001-of-00003.safetensors
+MODEL_FILE_VERIFIED model-00002-of-00003.safetensors
+MODEL_FILE_VERIFIED model-00003-of-00003.safetensors
+MODEL_FILE_VERIFIED model.safetensors.index.json
+MODEL_FILE_VERIFIED preprocessor_config.json
+MODEL_FILE_VERIFIED special_tokens_map.json
+MODEL_FILE_VERIFIED tokenizer.json
+MODEL_FILE_VERIFIED tokenizer_config.json
+MODEL_FILE_VERIFIED video_preprocessor_config.json
+MODEL_FILE_VERIFIED vocab.json
+MODEL_FILE_VERIFIED lingbotvla_cli.yaml
+MODEL_VERIFICATION_COMPLETE 15
+run=full_sft_6000_randomized50x10_fp32_8gpu_video_20261026 completed=0 pending=50
+GPU 0 server ready on port 13820
+GPU 1 server ready on port 13821
+GPU 2 server ready on port 13822
+GPU 3 server ready on port 13823
+GPU 4 server ready on port 13824
+GPU 5 server ready on port 13825
+GPU 6 server ready on port 13826
+GPU 7 server ready on port 13827
+[1/50] demo_randomized/pick_diverse_bottles: 3927s on GPU 6
+[2/50] demo_randomized/open_microwave: 4146s on GPU 7
+[3/50] demo_randomized/pick_dual_bottles: 4306s on GPU 4
+[4/50] demo_randomized/move_pillbottle_pad: 4805s on GPU 2
+[5/50] demo_randomized/place_cans_plasticbox: 4921s on GPU 5
+[6/50] demo_randomized/place_can_basket: 5742s on GPU 3
+[7/50] demo_randomized/hanging_mug: 3284s on GPU 7
+[8/50] demo_randomized/handover_block: 3654s on GPU 6
+[9/50] demo_randomized/adjust_bottle: 2192s on GPU 3
+[10/50] demo_randomized/move_can_pot: 8801s on GPU 1
+[11/50] demo_randomized/stack_bowls_three: 4282s on GPU 5
+[12/50] demo_randomized/blocks_ranking_size: 4427s on GPU 2
+[13/50] demo_randomized/stack_blocks_three: 5068s on GPU 4
+[14/50] demo_randomized/scan_object: 3259s on GPU 7
+[15/50] demo_randomized/stamp_seal: 2170s on GPU 2
+[16/50] demo_randomized/put_object_cabinet: 3504s on GPU 3
+[17/50] demo_randomized/blocks_ranking_rgb: 4093s on GPU 6
+[18/50] demo_randomized/stack_blocks_two: 3107s on GPU 1
+[19/50] demo_randomized/place_object_basket: 2763s on GPU 4
+[20/50] demo_randomized/put_bottles_dustbin: 12190s on GPU 0
+[21/50] demo_randomized/place_a2b_left: 1685s on GPU 7
+[22/50] demo_randomized/place_dual_shoes: 3584s on GPU 5
+[23/50] demo_randomized/place_a2b_right: 1604s on GPU 2
+[24/50] demo_randomized/turn_switch: 1453s on GPU 1
+[25/50] demo_randomized/move_stapler_pad: 2227s on GPU 6
+[26/50] demo_randomized/shake_bottle_horizontally: 1781s on GPU 0
+[27/50] demo_randomized/lift_pot: 2215s on GPU 4
+[28/50] demo_randomized/shake_bottle: 2106s on GPU 7
+[29/50] demo_randomized/stack_bowls_two: 3860s on GPU 3
+[30/50] demo_randomized/dump_bin_bigbin: 1376s on GPU 0
+[31/50] demo_randomized/place_fan: 2040s on GPU 1
+[32/50] demo_randomized/handover_mic: 2543s on GPU 2
+[33/50] demo_randomized/place_bread_basket: 2928s on GPU 5
+[34/50] demo_randomized/place_burger_fries: 2325s on GPU 6
+[35/50] demo_randomized/place_object_stand: 1411s on GPU 3
+[36/50] demo_randomized/place_bread_skillet: 3080s on GPU 7
+[37/50] demo_randomized/place_shoe: 2386s on GPU 1
+[38/50] demo_randomized/press_stapler: 2311s on GPU 2
+[39/50] demo_randomized/place_mouse_pad: 2615s on GPU 0
+[40/50] demo_randomized/move_playingcard_away: 2259s on GPU 5
+[41/50] demo_randomized/open_laptop: 3650s on GPU 4
+[42/50] demo_randomized/place_container_plate: 1472s on GPU 3
+[43/50] demo_randomized/place_object_scale: 2407s on GPU 6
+[44/50] demo_randomized/grab_roller: 1096s on GPU 7
+[45/50] demo_randomized/place_empty_cup: 1125s on GPU 4
+[46/50] demo_randomized/click_alarmclock: 1343s on GPU 1
+[47/50] demo_randomized/click_bell: 977s on GPU 3
+[48/50] demo_randomized/beat_block_hammer: 1259s on GPU 5
+[49/50] demo_randomized/rotate_qrcode: 1325s on GPU 0
+[50/50] demo_randomized/place_phone_stand: 1486s on GPU 2
+benchmark invocation: 5.41 h
+overall success: 177/500 = 35.40%
+results: /workspace/runtime/outputs/full_sft_6000_randomized50x10_fp32_8gpu_video_20261026

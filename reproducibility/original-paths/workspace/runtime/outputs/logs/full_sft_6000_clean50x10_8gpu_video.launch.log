@@ -1,0 +1,62 @@
+run=full_sft_6000_clean50x10_8gpu_video completed=0 pending=50
+GPU 0 server ready on port 13420
+GPU 1 server ready on port 13421
+GPU 2 server ready on port 13422
+GPU 3 server ready on port 13423
+GPU 4 server ready on port 13424
+GPU 5 server ready on port 13425
+GPU 6 server ready on port 13426
+GPU 7 server ready on port 13427
+[1/50] demo_clean/click_bell: 308s on GPU 5
+[2/50] demo_clean/beat_block_hammer: 440s on GPU 1
+[3/50] demo_clean/click_alarmclock: 507s on GPU 4
+[4/50] demo_clean/grab_roller: 510s on GPU 7
+[5/50] demo_clean/dump_bin_bigbin: 760s on GPU 6
+[6/50] demo_clean/handover_mic: 837s on GPU 1
+[7/50] demo_clean/blocks_ranking_rgb: 1448s on GPU 2
+[8/50] demo_clean/lift_pot: 1013s on GPU 7
+[9/50] demo_clean/adjust_bottle: 1570s on GPU 0
+[10/50] demo_clean/blocks_ranking_size: 1759s on GPU 3
+[11/50] demo_clean/move_playingcard_away: 587s on GPU 2
+[12/50] demo_clean/open_laptop: 750s on GPU 0
+[13/50] demo_clean/move_stapler_pad: 1040s on GPU 7
+[14/50] demo_clean/hanging_mug: 2229s on GPU 4
+[15/50] demo_clean/handover_block: 2571s on GPU 5
+[16/50] demo_clean/place_a2b_left: 1102s on GPU 7
+[17/50] demo_clean/place_bread_basket: 919s on GPU 5
+[18/50] demo_clean/place_a2b_right: 1089s on GPU 4
+[19/50] demo_clean/open_microwave: 2600s on GPU 3
+[20/50] demo_clean/place_bread_skillet: 731s on GPU 7
+[21/50] demo_clean/place_burger_fries: 811s on GPU 5
+[22/50] demo_clean/place_container_plate: 541s on GPU 7
+[23/50] demo_clean/place_empty_cup: 359s on GPU 7
+[24/50] demo_clean/pick_diverse_bottles: 3493s on GPU 2
+[25/50] demo_clean/place_dual_shoes: 1310s on GPU 5
+[26/50] demo_clean/place_fan: 815s on GPU 7
+[27/50] demo_clean/place_mouse_pad: 695s on GPU 2
+[28/50] demo_clean/pick_dual_bottles: 4310s on GPU 0
+[29/50] demo_clean/move_pillbottle_pad: 5379s on GPU 1
+[30/50] demo_clean/place_object_scale: 579s on GPU 7
+[31/50] demo_clean/place_object_stand: 721s on GPU 2
+[32/50] demo_clean/move_can_pot: 6186s on GPU 6
+[33/50] demo_clean/place_object_basket: 1131s on GPU 5
+[34/50] demo_clean/place_phone_stand: 496s on GPU 0
+[35/50] demo_clean/place_shoe: 654s on GPU 1
+[36/50] demo_clean/press_stapler: 625s on GPU 7
+[37/50] demo_clean/rotate_qrcode: 496s on GPU 5
+[38/50] demo_clean/place_cans_plasticbox: 3923s on GPU 3
+[39/50] demo_clean/shake_bottle: 985s on GPU 1
+[40/50] demo_clean/put_object_cabinet: 1358s on GPU 6
+[41/50] demo_clean/shake_bottle_horizontally: 1011s on GPU 7
+[42/50] demo_clean/scan_object: 1482s on GPU 0
+[43/50] demo_clean/place_can_basket: 5183s on GPU 4
+[44/50] demo_clean/stack_bowls_two: 1055s on GPU 6
+[45/50] demo_clean/stack_blocks_three: 1882s on GPU 5
+[46/50] demo_clean/stamp_seal: 1212s on GPU 7
+[47/50] demo_clean/stack_blocks_two: 1345s on GPU 3
+[48/50] demo_clean/turn_switch: 1037s on GPU 0
+[49/50] demo_clean/stack_bowls_three: 1714s on GPU 1
+[50/50] demo_clean/put_bottles_dustbin: 6796s on GPU 2
+benchmark invocation: 3.85 h
+overall success: 276/500 = 55.20%
+results: /workspace/runtime/outputs/full_sft_6000_clean50x10_8gpu_video

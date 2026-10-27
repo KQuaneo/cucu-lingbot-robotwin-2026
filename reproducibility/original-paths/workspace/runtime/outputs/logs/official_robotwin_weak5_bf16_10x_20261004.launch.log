@@ -1,0 +1,17 @@
+run=official_robotwin_weak5_bf16_10x_20261004 completed=0 pending=5
+GPU 0 server ready on port 13520
+GPU 1 server ready on port 13521
+GPU 2 server ready on port 13522
+GPU 3 server ready on port 13523
+GPU 4 server ready on port 13524
+Interrupted; completed tasks can be resumed with --resume
+Traceback (most recent call last):
+  File "/var/tmp/robotwin-official-weak5-20261004/run_selected_benchmark.py", line 387, in <module>
+    main()
+  File "/var/tmp/robotwin-official-weak5-20261004/run_selected_benchmark.py", line 356, in main
+    future.result()
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt
