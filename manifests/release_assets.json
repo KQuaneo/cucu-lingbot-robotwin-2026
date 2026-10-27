@@ -1,13 +1,99 @@
 {
   "release_tag": "results-2026-10-27",
-  "assets": [
+  "archives": [
     {
       "name": "cucu-clean-evaluation-evidence.zip",
       "bytes": 462988728,
       "sha256": "ba4c02f76df2774d7f867cf445e2964e7b51c98beed521f78a657f05ae0c58fc",
       "files": 1503,
       "videos": 1000,
-      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip"
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip",
+      "parts": [
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part001",
+          "bytes": 33554432,
+          "sha256": "8461b2140d9c3fd337db949c1933d41dc9425556dabaede4b64eebc6899c167d",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part001"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part002",
+          "bytes": 33554432,
+          "sha256": "f862910e2d536fd0e247610d7982b22cdc74dcc27ce1d48dd9c44aa2367766a2",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part002"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part003",
+          "bytes": 33554432,
+          "sha256": "795aad2eadba5d18c6df7c99e64ca7b3cfada7a1901de3760c485c23aff1e54d",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part003"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part004",
+          "bytes": 33554432,
+          "sha256": "2adb27ffc9d8a3582a54d8f37069df9b12e32777697bbecb67d42aa8aacdf37c",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part004"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part005",
+          "bytes": 33554432,
+          "sha256": "25ea656cd948e7b94212b82ec74fc5cf6e913c25f04b50a2f77d6f0a88bf9fee",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part005"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part006",
+          "bytes": 33554432,
+          "sha256": "d695d239a099073c75ef726ea244e06498fda4da3cbac648d08b41cdcc6fbfd7",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part006"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part007",
+          "bytes": 33554432,
+          "sha256": "7fa48868b4bcd0d4bf86ffdb393e54adec21bbc97063d4b7a36b351ec99a4830",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part007"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part008",
+          "bytes": 33554432,
+          "sha256": "4bad1039ec55df868eac066042726c7f5e890eb486e023b428c901d453b6da09",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part008"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part009",
+          "bytes": 33554432,
+          "sha256": "0563fafd22b5e71befc690e8f3388dfe706d006073c32db8505141758e96fd48",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part009"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part010",
+          "bytes": 33554432,
+          "sha256": "1430a2e856abafe522361c8cb29400da0560f849fb3378dcaa3f064015785953",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part010"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part011",
+          "bytes": 33554432,
+          "sha256": "30bbe1d5b71d67bf4053c3750710a4b9ba245a1b5f2a36db0777c7c2dba8dcb3",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part011"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part012",
+          "bytes": 33554432,
+          "sha256": "b52e40111afe1468b8e12fee8dc7ffc4012df1f1fe97ffab8bf25ed4caa38454",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part012"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part013",
+          "bytes": 33554432,
+          "sha256": "08ef44b4f2cabddaf83787916464821e9177eb179b045de206ecc5c1a67cda8f",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part013"
+        },
+        {
+          "name": "cucu-clean-evaluation-evidence.zip.part014",
+          "bytes": 26781112,
+          "sha256": "37b3f07491d1aec9af40376a5dd1ce7ef926151cfe20a9ca7c945bad6f6c767c",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part014"
+        }
+      ]
     },
     {
       "name": "cucu-randomized-evaluation-evidence.zip",
@@ -15,7 +101,291 @@
       "sha256": "8a5f04d1729882c64cb2a86ba3a32670e955719c2b09e0d6d5d7b4a6c130d2df",
       "files": 698,
       "videos": 500,
-      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip"
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip",
+      "parts": [
+        {
+          "name": "cucu-randomized-evaluation-evidence.zip.part001",
+          "bytes": 33554432,
+          "sha256": "961f96ffa0fa7368dd5bb93bbb44d9542fcf7f4a4b7bbd70cf7ebb9fa4150f11",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part001"
+        },
+        {
+          "name": "cucu-randomized-evaluation-evidence.zip.part002",
+          "bytes": 33554432,
+          "sha256": "a69d0966368c053d2f49102d9e74d94f56a82e917619023e2a997e4627438725",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part002"
+        },
+        {
+          "name": "cucu-randomized-evaluation-evidence.zip.part003",
+          "bytes": 33554432,
+          "sha256": "b39674dfd11dfd6be9edfe120886829f4af6bc8e93eccaedd6185ad9506e5379",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part003"
+        },
+        {
+          "name": "cucu-randomized-evaluation-evidence.zip.part004",
+          "bytes": 33554432,
+          "sha256": "82f9483e187aa128e797d7d3ac7e64c96c23d638208d615927f007a472823384",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part004"
+        },
+        {
+          "name": "cucu-randomized-evaluation-evidence.zip.part005",
+          "bytes": 33554432,
+          "sha256": "af7ab00b13ca4930b731c41acc24a9686f7bc2b3d607ed54401d4e18cbaa1171",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part005"
+        },
+        {
+          "name": "cucu-randomized-evaluation-evidence.zip.part006",
+          "bytes": 33554432,
+          "sha256": "b78008514c7c73ba2fa529fd9f8432e07908cf415e3568d2e4bf1ed5d601b6dd",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part006"
+        },
+        {
+          "name": "cucu-randomized-evaluation-evidence.zip.part007",
+          "bytes": 13993383,
+          "sha256": "f50bac308226d8275dbc38ec92857416c77623cb47df10ae56eba7059ec1c378",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part007"
+        }
+      ]
+    },
+    {
+      "name": "cucu-training-code-reproduction.zip",
+      "bytes": 64089347,
+      "sha256": "3f68d6cf8a29661821d7bc8657361d766bd3cd6e310f5a883872025491982a1f",
+      "files": 8530,
+      "videos": 0,
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-training-code-reproduction.zip",
+      "parts": []
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip",
+      "bytes": 459983170,
+      "sha256": "231689c105f73a2329a393210761bc3c376b40f222123a71bc49d6e8fc3bfe1b",
+      "files": 2074,
+      "videos": 128,
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip",
+      "parts": [
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part001",
+          "bytes": 33554432,
+          "sha256": "b27ba2ef4a6a6805f636a9a216b2bc258e4637e997ba65ed3b53cbc224d28e59",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part001"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part002",
+          "bytes": 33554432,
+          "sha256": "dc77c35ba11f6190158ea2733da2965c5011db81c7312dfda7ac20ecc3b3d67b",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part002"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part003",
+          "bytes": 33554432,
+          "sha256": "41a68195a4022f32c901c280bc2e7c5e258a0c9d0e16936258dded8db01f2c7a",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part003"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part004",
+          "bytes": 33554432,
+          "sha256": "4ea35ea4f0e33e43d709b9ee5f9d22a290cdfbc9be642ce4357e242784c672ef",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part004"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part005",
+          "bytes": 33554432,
+          "sha256": "72b8398119dd13141dc11d54c189658829e764204082631cc7b9492be70fd6d7",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part005"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part006",
+          "bytes": 33554432,
+          "sha256": "e797ce471046237e6443fa011a86d69738821a5a23dac1615b2e0337d315157b",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part006"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part007",
+          "bytes": 33554432,
+          "sha256": "2f3c40d45403e620da715943877a6739309b4ce1e9ca08e5f51b9d73aa6e96bb",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part007"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part008",
+          "bytes": 33554432,
+          "sha256": "e1170344e05fe64b273260dfe77df3ee15d732839dc4042ceff55c988c307174",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part008"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part009",
+          "bytes": 33554432,
+          "sha256": "4fc025a21b6ff823c7ac0c20027ac101a29e88765dd0d19ab25707e176c83766",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part009"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part010",
+          "bytes": 33554432,
+          "sha256": "d08b726e1e2939fdb21e1d74bd97cd57436520301ca945481014f25692997cc6",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part010"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part011",
+          "bytes": 33554432,
+          "sha256": "3ede2a404a622bd9b15717a81542130acae3263c58afe44503fd86e241d2b5f3",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part011"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part012",
+          "bytes": 33554432,
+          "sha256": "5a22b424918a0aed4c506e929598c57302123c97ddecb4b7ef9cf82a5a6df0f9",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part012"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part013",
+          "bytes": 33554432,
+          "sha256": "d47e304ed60c1af0ea5b4e0d48dd9fb6cc18f52e6bc56a2c2a18874aa9fc4e95",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part013"
+        },
+        {
+          "name": "cucu-rl-experiments-evidence.zip.part014",
+          "bytes": 23775554,
+          "sha256": "9f0722fe7e201d3acb3306e4979fb02fd151b45e34e70622d37f1ca89ce42589",
+          "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part014"
+        }
+      ]
+    },
+    {
+      "name": "cucu-development-experiments.zip",
+      "bytes": 39934504,
+      "sha256": "c82025a212e76e0d8a2b5d0230360d1fd1fd4920372ea270ab7edfe10fcb5927",
+      "files": 8527,
+      "videos": 0,
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-development-experiments.zip",
+      "parts": []
+    }
+  ],
+  "assets": [
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part001",
+      "bytes": 33554432,
+      "sha256": "8461b2140d9c3fd337db949c1933d41dc9425556dabaede4b64eebc6899c167d",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part001"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part002",
+      "bytes": 33554432,
+      "sha256": "f862910e2d536fd0e247610d7982b22cdc74dcc27ce1d48dd9c44aa2367766a2",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part002"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part003",
+      "bytes": 33554432,
+      "sha256": "795aad2eadba5d18c6df7c99e64ca7b3cfada7a1901de3760c485c23aff1e54d",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part003"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part004",
+      "bytes": 33554432,
+      "sha256": "2adb27ffc9d8a3582a54d8f37069df9b12e32777697bbecb67d42aa8aacdf37c",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part004"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part005",
+      "bytes": 33554432,
+      "sha256": "25ea656cd948e7b94212b82ec74fc5cf6e913c25f04b50a2f77d6f0a88bf9fee",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part005"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part006",
+      "bytes": 33554432,
+      "sha256": "d695d239a099073c75ef726ea244e06498fda4da3cbac648d08b41cdcc6fbfd7",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part006"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part007",
+      "bytes": 33554432,
+      "sha256": "7fa48868b4bcd0d4bf86ffdb393e54adec21bbc97063d4b7a36b351ec99a4830",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part007"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part008",
+      "bytes": 33554432,
+      "sha256": "4bad1039ec55df868eac066042726c7f5e890eb486e023b428c901d453b6da09",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part008"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part009",
+      "bytes": 33554432,
+      "sha256": "0563fafd22b5e71befc690e8f3388dfe706d006073c32db8505141758e96fd48",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part009"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part010",
+      "bytes": 33554432,
+      "sha256": "1430a2e856abafe522361c8cb29400da0560f849fb3378dcaa3f064015785953",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part010"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part011",
+      "bytes": 33554432,
+      "sha256": "30bbe1d5b71d67bf4053c3750710a4b9ba245a1b5f2a36db0777c7c2dba8dcb3",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part011"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part012",
+      "bytes": 33554432,
+      "sha256": "b52e40111afe1468b8e12fee8dc7ffc4012df1f1fe97ffab8bf25ed4caa38454",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part012"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part013",
+      "bytes": 33554432,
+      "sha256": "08ef44b4f2cabddaf83787916464821e9177eb179b045de206ecc5c1a67cda8f",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part013"
+    },
+    {
+      "name": "cucu-clean-evaluation-evidence.zip.part014",
+      "bytes": 26781112,
+      "sha256": "37b3f07491d1aec9af40376a5dd1ce7ef926151cfe20a9ca7c945bad6f6c767c",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part014"
+    },
+    {
+      "name": "cucu-randomized-evaluation-evidence.zip.part001",
+      "bytes": 33554432,
+      "sha256": "961f96ffa0fa7368dd5bb93bbb44d9542fcf7f4a4b7bbd70cf7ebb9fa4150f11",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part001"
+    },
+    {
+      "name": "cucu-randomized-evaluation-evidence.zip.part002",
+      "bytes": 33554432,
+      "sha256": "a69d0966368c053d2f49102d9e74d94f56a82e917619023e2a997e4627438725",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part002"
+    },
+    {
+      "name": "cucu-randomized-evaluation-evidence.zip.part003",
+      "bytes": 33554432,
+      "sha256": "b39674dfd11dfd6be9edfe120886829f4af6bc8e93eccaedd6185ad9506e5379",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part003"
+    },
+    {
+      "name": "cucu-randomized-evaluation-evidence.zip.part004",
+      "bytes": 33554432,
+      "sha256": "82f9483e187aa128e797d7d3ac7e64c96c23d638208d615927f007a472823384",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part004"
+    },
+    {
+      "name": "cucu-randomized-evaluation-evidence.zip.part005",
+      "bytes": 33554432,
+      "sha256": "af7ab00b13ca4930b731c41acc24a9686f7bc2b3d607ed54401d4e18cbaa1171",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part005"
+    },
+    {
+      "name": "cucu-randomized-evaluation-evidence.zip.part006",
+      "bytes": 33554432,
+      "sha256": "b78008514c7c73ba2fa529fd9f8432e07908cf415e3568d2e4bf1ed5d601b6dd",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part006"
+    },
+    {
+      "name": "cucu-randomized-evaluation-evidence.zip.part007",
+      "bytes": 13993383,
+      "sha256": "f50bac308226d8275dbc38ec92857416c77623cb47df10ae56eba7059ec1c378",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part007"
     },
     {
       "name": "cucu-training-code-reproduction.zip",
@@ -26,12 +396,88 @@
       "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-training-code-reproduction.zip"
     },
     {
-      "name": "cucu-rl-experiments-evidence.zip",
-      "bytes": 459983170,
-      "sha256": "231689c105f73a2329a393210761bc3c376b40f222123a71bc49d6e8fc3bfe1b",
-      "files": 2074,
-      "videos": 128,
-      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip"
+      "name": "cucu-rl-experiments-evidence.zip.part001",
+      "bytes": 33554432,
+      "sha256": "b27ba2ef4a6a6805f636a9a216b2bc258e4637e997ba65ed3b53cbc224d28e59",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part001"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part002",
+      "bytes": 33554432,
+      "sha256": "dc77c35ba11f6190158ea2733da2965c5011db81c7312dfda7ac20ecc3b3d67b",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part002"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part003",
+      "bytes": 33554432,
+      "sha256": "41a68195a4022f32c901c280bc2e7c5e258a0c9d0e16936258dded8db01f2c7a",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part003"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part004",
+      "bytes": 33554432,
+      "sha256": "4ea35ea4f0e33e43d709b9ee5f9d22a290cdfbc9be642ce4357e242784c672ef",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part004"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part005",
+      "bytes": 33554432,
+      "sha256": "72b8398119dd13141dc11d54c189658829e764204082631cc7b9492be70fd6d7",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part005"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part006",
+      "bytes": 33554432,
+      "sha256": "e797ce471046237e6443fa011a86d69738821a5a23dac1615b2e0337d315157b",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part006"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part007",
+      "bytes": 33554432,
+      "sha256": "2f3c40d45403e620da715943877a6739309b4ce1e9ca08e5f51b9d73aa6e96bb",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part007"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part008",
+      "bytes": 33554432,
+      "sha256": "e1170344e05fe64b273260dfe77df3ee15d732839dc4042ceff55c988c307174",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part008"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part009",
+      "bytes": 33554432,
+      "sha256": "4fc025a21b6ff823c7ac0c20027ac101a29e88765dd0d19ab25707e176c83766",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part009"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part010",
+      "bytes": 33554432,
+      "sha256": "d08b726e1e2939fdb21e1d74bd97cd57436520301ca945481014f25692997cc6",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part010"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part011",
+      "bytes": 33554432,
+      "sha256": "3ede2a404a622bd9b15717a81542130acae3263c58afe44503fd86e241d2b5f3",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part011"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part012",
+      "bytes": 33554432,
+      "sha256": "5a22b424918a0aed4c506e929598c57302123c97ddecb4b7ef9cf82a5a6df0f9",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part012"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part013",
+      "bytes": 33554432,
+      "sha256": "d47e304ed60c1af0ea5b4e0d48dd9fb6cc18f52e6bc56a2c2a18874aa9fc4e95",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part013"
+    },
+    {
+      "name": "cucu-rl-experiments-evidence.zip.part014",
+      "bytes": 23775554,
+      "sha256": "9f0722fe7e201d3acb3306e4979fb02fd151b45e34e70622d37f1ca89ce42589",
+      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part014"
     },
     {
       "name": "cucu-development-experiments.zip",
@@ -46,5 +492,6 @@
   "large_model_weights_included": false,
   "dcp_included": false,
   "all_archive_members_sha_verified": true,
-  "all_zip_crc_verified": true
+  "all_zip_crc_verified": true,
+  "transport": "32MiB byte-exact chunks for three video-heavy ZIPs; two ZIPs direct"
 }

@@ -41,7 +41,7 @@ cucu队在蚂蚁灵波具身大模型挑战赛中的训练、评测、失败分�
 | [`development/`](development/) | 数据增强审计、Colab迁移、RL适配检查代码和结果 |
 | [`docs/`](docs/) | 实验索引、公开范围与下载/核验说明 |
 
-**[全部录像、逐chunk轨迹和小型RL参数下载](https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/tag/results-2026-10-27)**。Release分为clean、randomized、训练复现、RL和开发实验五个证据包。下载和SHA256校验见 [ARTIFACTS.md](docs/ARTIFACTS.md)。
+**[全部录像、逐chunk轨迹和小型RL参数下载](https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/tag/results-2026-10-27)**。Release分为clean、randomized、训练复现、RL和开发实验五个证据包；其中三个以32MiB分块上传，提供一键重组校验脚本。下载和SHA256校验见 [ARTIFACTS.md](docs/ARTIFACTS.md)。
 
 ## 复现入口
 
