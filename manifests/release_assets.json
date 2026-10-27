@@ -7,7 +7,6 @@
       "sha256": "ba4c02f76df2774d7f867cf445e2964e7b51c98beed521f78a657f05ae0c58fc",
       "files": 1503,
       "videos": 1000,
-      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip",
       "parts": [
         {
           "name": "cucu-clean-evaluation-evidence.zip.part001",
@@ -93,7 +92,8 @@
           "sha256": "37b3f07491d1aec9af40376a5dd1ce7ef926151cfe20a9ca7c945bad6f6c767c",
           "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-clean-evaluation-evidence.zip.part014"
         }
-      ]
+      ],
+      "reconstruction_required": true
     },
     {
       "name": "cucu-randomized-evaluation-evidence.zip",
@@ -101,7 +101,6 @@
       "sha256": "8a5f04d1729882c64cb2a86ba3a32670e955719c2b09e0d6d5d7b4a6c130d2df",
       "files": 698,
       "videos": 500,
-      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip",
       "parts": [
         {
           "name": "cucu-randomized-evaluation-evidence.zip.part001",
@@ -145,7 +144,8 @@
           "sha256": "f50bac308226d8275dbc38ec92857416c77623cb47df10ae56eba7059ec1c378",
           "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-randomized-evaluation-evidence.zip.part007"
         }
-      ]
+      ],
+      "reconstruction_required": true
     },
     {
       "name": "cucu-training-code-reproduction.zip",
@@ -154,7 +154,8 @@
       "files": 8530,
       "videos": 0,
       "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-training-code-reproduction.zip",
-      "parts": []
+      "parts": [],
+      "reconstruction_required": false
     },
     {
       "name": "cucu-rl-experiments-evidence.zip",
@@ -162,7 +163,6 @@
       "sha256": "231689c105f73a2329a393210761bc3c376b40f222123a71bc49d6e8fc3bfe1b",
       "files": 2074,
       "videos": 128,
-      "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip",
       "parts": [
         {
           "name": "cucu-rl-experiments-evidence.zip.part001",
@@ -248,7 +248,8 @@
           "sha256": "9f0722fe7e201d3acb3306e4979fb02fd151b45e34e70622d37f1ca89ce42589",
           "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-rl-experiments-evidence.zip.part014"
         }
-      ]
+      ],
+      "reconstruction_required": true
     },
     {
       "name": "cucu-development-experiments.zip",
@@ -257,7 +258,8 @@
       "files": 8527,
       "videos": 0,
       "url": "https://github.com/KQuaneo/cucu-lingbot-robotwin-2026/releases/download/results-2026-10-27/cucu-development-experiments.zip",
-      "parts": []
+      "parts": [],
+      "reconstruction_required": false
     }
   ],
   "assets": [
